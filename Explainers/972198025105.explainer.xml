@@ -1,0 +1,413 @@
+﻿<explainer id="972198025105" country="zz" currency="none" calendar="none" unit_system="si usc" language="en"  dialect="british" publication_date="2020-10-22T10:00:00">
+  <title>Measurement Tools</title>
+  <seo_meta_description>In this explainer, we will learn how to identify different
+    tools for the measurement of fundamental physical quantities.</seo_meta_description>
+  <developer_name>Simeon Every</developer_name>
+  <developer_email>simeon.every@nagwa.com</developer_email>
+  <dictionary>
+    <item symbol = "false"><from>@Anvil</from><to>Anvil</to></item>
+    <item symbol = "false"><from>@Spindle</from><to>Spindle</to></item>
+    <item symbol = "false"><from>@Sleeve</from><to>Sleeve</to></item>
+    <item symbol = "false"><from>@Thimble</from><to>Thimble</to></item>
+    <item symbol = "false"><from>@Panbalance</from><to>Pan balance</to></item>
+    <item symbol = "false"><from>@Springbalance</from><to>Spring balance</to></item>
+    <item symbol = "false"><from>@Slidingjaw</from><to>Sliding jaw</to></item>
+    <item symbol = "false"><from>@Fixedjaw</from><to>Fixed jaw</to></item>
+  </dictionary>
+  <body>
+    <p>In this explainer, we will learn how to identify different tools for the measurement of 
+      fundamental physical quantities.</p>
+    <p>Fundamental physical quantities (also called base quantities) are 
+      those that cannot be obtained by combinations of other fundamental 
+      quantities.</p>
+      <p>The following is a list of the SI base quantities:
+      <ul>
+        <li>Length</li>
+        <li>Time</li>
+        <li>Mass</li>
+        <li>Amount of substance</li>
+        <li>Absolute temperature</li>
+        <li>Electric current</li>
+        <li>Luminous intensity</li>
+      </ul>
+      </p>
+      <p>In this explainer, we will only be considering length, time, and mass.</p>
+      <p>The explainer is specifically concerned with how length, time, and mass 
+        can be measured using different tools and devices.</p>
+      <p>Length is measured using an instrument that is graduated with markings 
+        that correspond to submultiples of a unit of length, the SI base unit 
+        of which is the 
+        <quantity type="long" count="singular"><value></value><unit>meter</unit></quantity>.</p>
+      <p>A ruler is a straight-edged stick with graduated marks. An object for
+        which the length is to be measured is placed along the straight edge 
+        and the number of marks between the ends of the object are counted.</p> 
+    <p>The marks on a ruler are usually 
+      <quantity type="long"><value>1</value><unit>millimeter</unit></quantity> 
+      (<quantity ><value>1</value><unit>millimeter</unit></quantity>) apart. 
+      Usually, every <quantity><value>5</value><unit>millimeter</unit></quantity>,
+      the mark is larger to make it easier for a user to keep track of how many 
+      marks have been counted. Also, an even larger mark is usually made every 
+      <quantity><value>10</value><unit>millimeter</unit></quantity>; these even
+      larger marks are 
+      <quantity type="long"><value>1</value><unit>centimeter</unit></quantity>  
+      (<quantity><value>1</value><unit>centimeter</unit></quantity>) apart. 
+      The following figure shows an enlarged section of a ruler on which the 
+      marks can be seen.</p>
+    <tikz src="1.tex" scale="200"> <svg src="Ruler"/></tikz>
+    <p>The maximum length that can be measured by a ruler in a single measurement
+      is the length of the ruler. The minimum length that can be measured by a 
+      ruler is the smallest graduation of the marks on the ruler, usually 
+      <quantity ><value>1</value><unit>millimeter</unit></quantity>.</p>
+    <p>To measure lengths of less than 
+      <quantity ><value>1</value><unit>millimeter</unit></quantity>, different
+      measuring devices are required. One such device is a vernier caliper, 
+      which is shown in the following figure.</p>
+    <tikz src="2.tex" scale="500"> <svg src="Two"/></tikz>
+      <p>The length measured by a vernier caliper is the distance between the
+        jaws of the caliper. One jaw of the caliper, called the sliding jaw, 
+        can be moved away from and toward the fixed jaw so that the distance 
+        between the jaws equals the length of an object. The following figure
+        shows the jaws of the caliper with an object between them.</p>
+    <tikz src="3.tex" scale="400"> <svg src="Three"/></tikz>
+      <p>The red arrow between the jaws of the caliper is equal to the length
+        of the object between the jaws. A green arrow of the same length as 
+        the red arrow is shown on a graduated length of the caliper that is 
+        called the main scale.</p>
+      <p>The main scale of the caliper is the same as the scale of a ruler. 
+        The marks are <quantity><value>1</value><unit>millimeter</unit></quantity>
+        apart and every 10 marks a 
+        <quantity type="long" count="singular"><value></value><unit>centimeter</unit></quantity>
+        mark shows the length in 
+        <quantity type="long"><value></value><unit>centimeter</unit></quantity>.</p>
+      <p>Close inspection of the main scale of the caliper shown reveals that the 
+        length is somewhere between 
+        <quantity><value>34</value><unit>millimeter</unit></quantity> and 
+        <quantity><value>35</value><unit>millimeter</unit></quantity>. The main 
+        scale cannot measure a shorter length than this. There is, however, 
+        another scale on the caliper that moves with the sliding jaw. 
+        This scale is called the vernier scale.</p>
+      <p>The following figure shows where the main scale and the vernier scale
+        meet. The vernier scale is outlined in a dashed orange box.</p>
+         <tikz src="4.tex" scale="300"> <svg src="Four"/></tikz>
+      <p>The vernier scale consists of 10 marks. Each mark on the vernier scale
+        is some horizontal distance from the nearest mark to it on the main 
+        scale. One mark on the vernier scale has a smaller value for this 
+        distance than any of the other marks. This mark is the best aligned 
+        mark.</p>
+      <p>The best aligned mark corresponds to a value between 0 and 9 on
+        the vernier scale. This value corresponds to a length expressed in
+        tenths of a 
+        <quantity type="long" count="singular"><value></value><unit>millimeter</unit></quantity>;
+        if the best aligned mark is the mark labeled 3 on the vernier scale,
+        the vernier scale reads a length of 
+        <latex>$<quantity><value>\frac{3}{10}</value><unit>millimeter</unit></quantity>$</latex>.
+        The vernier scale shown here can therefore measure lengths as small as one tenth of a 
+        <quantity type="long" count="singular"><value></value><unit>millimeter</unit></quantity>.</p>
+      <p>Let us now look at an example in which a vernier caliper is used to measure a length.</p>
+    
+    <example>
+      <title>Measuring a Length Using a Vernier Caliper</title>
+      <question id="916168989531" instance_number="1">
+        <mcq>
+          <stem>
+            <p>What is the length of the object being measured
+              by the vernier caliper in the diagram?</p>
+            <tikz src="5.tex" scale="440"> <svg src="Five"/></tikz>
+           </stem>
+        </mcq>
+      </question>
+      <answer>
+        <p>To obtain the reading on the vernier caliper, we 
+          need to record the reading on the main scale and 
+          on the vernier scale.</p>
+          <p>In the following figure, the main scale reading
+            is shown within a dashed red box.</p>
+        <tikz src="6.tex" scale="350"> <svg src="Six"/></tikz>
+        <p>We can see from the main scale that there are more
+          than 27 marks between the start and the end of the 
+          reading, but less than 28 marks. The reading is 
+          closer to 28 marks than to 27 marks. The reading 
+          on the main scale is 
+          <quantity><value>27</value><unit>millimeter</unit></quantity>,
+          or 
+          <quantity><value>2.7</value><unit>centimeter</unit></quantity>.</p>
+          <p>In the following figure, the entire vernier 
+            scale is shown within a dashed blue box.</p>
+        <tikz src="7.tex" scale="290"> <svg src="Seven"/></tikz>
+          <p>The vernier scale consists of the graduated 
+            marks that range from 0 to 10. The reading on
+            this scale corresponds to the mark for which 
+            there is the least horizontal distance between
+            it and the closest mark to it on the main scale.
+            The appropriate mark is indicated in the following
+            figure.</p>
+        <tikz src="8.tex" scale="220"> <svg src="Eight"/></tikz>
+          <p>This mark is the 9th on the vernier scale. Marks
+            on the vernier scale correspond to lengths of a 
+            tenth of a <quantity type="long" count="singular"><value></value><unit>millimeter</unit></quantity>, so this reading is 
+            <quantity><value>0.9</value><unit>millimeter</unit></quantity>,
+            or 
+            <quantity><value>0.09</value><unit>centimeter</unit></quantity>.</p>
+          <p>The full reading on the caliper, in <quantity type="long"><value></value><unit>centimeter</unit></quantity>, is given by
+            <latex>\begin{align*}2.7 + 0.09 
+              = <quantity><value>2.79</value><unit>centimeter</unit></quantity>.\end{align*}</latex>
+        </p>
+      </answer>
+    </example>
+    <p>Another length-measuring device that can measure distances of less than
+      <quantity><value>1</value><unit>millimeter</unit></quantity> is an 
+      instrument called a micrometer.</p>
+      <p>Perhaps unhelpfully, the name of this instrument is the same as 
+        the name for one-millionth of a 
+        <quantity type="long" count="singular"><value></value><unit>meter</unit></quantity>,
+        as &#x201c;micro&#x201d; means &#x201c;one-millionth.&#x201d; Less helpfully still, the 
+        instrument called a micrometer cannot measure lengths as small as
+        one-millionth of a 
+        <quantity type="long" count="singular"><value></value><unit>meter</unit></quantity>!</p>
+      <p>The following figure shows a micrometer and the names of its 
+        most relevant parts when using it to measure a length.</p>
+    <tikz src="9.tex" scale="350"> <svg src="micrometer"/></tikz>
+      <p>The object that the length of is to be measured is placed
+        between the anvil and the spindle. The thimble is then 
+        turned until the gap between the anvil and spindle equals 
+        the length of the object.</p>
+      <p>When the thimble is turned, it moves along the sleeve. 
+        The main scale of the 
+        micrometer
+        is on the sleeve. The rotating scale of the 
+         micrometer
+        is on the thimble. As with vernier calipers, one mark 
+        on the rotating scale will most closely align to the 
+        end of the main scale, and this mark will give the 
+        reading of the rotating scale.</p>
+      <p>Let us now look at an example in which a 
+         micrometer 
+        is used to measure a length.</p>
+    
+    <example>
+      <title>Measuring a Length Using a Micrometer</title>
+      <question id="958145836454" instance_number="1">
+        <mcq>
+          <stem>
+            <p>What is the reading on the 
+              micrometer
+              shown in the diagram?</p>
+            <tikz src="10.tex" scale="250"> <svg src="Ten"/></tikz>
+          </stem>
+        </mcq>
+      </question>
+      <answer>
+        <p>The diagram shows the main scale and rotating scale of the 
+          micrometer.
+          To obtain the reading on the 
+           micrometer,
+          we need to record the reading on the main scale and on the rotating scale.</p> 
+          <p>The main scale is the horizontal line. We can see that this consists of large 
+            numbered marks separated by small unnumbered marks. The large marks are 
+            <quantity><value>1</value><unit>millimeter</unit></quantity> apart and the 
+            small marks are 
+            <quantity><value>0.5</value><unit>millimeter</unit></quantity> apart from
+            the large marks on either side of them.</p>
+          <p>We can see that the main scale reading is between 
+            <quantity><value>2.5</value><unit>millimeter</unit></quantity> and 
+            <quantity><value>3</value><unit>millimeter</unit></quantity>.</p>
+          <p>The rotating scale is the vertical line. It is not possible to 
+            see the entire rotating scale when looking at a 
+            micrometer 
+            in profile, as the scale is actually a circle rather than a 
+            vertical line, and half of the scale covers the unseen side
+            of the thimble.</p>
+          <p>The full number of marks on the rotating scale is in fact 50.
+            Turning the thimble sufficiently to change the main scale 
+            reading by <quantity><value>0.5</value><unit>millimeter</unit></quantity>
+            rotates the thimble through a complete revolution, leaving
+            the reading on the rotating scale the same before and after
+            the rotation.</p> 
+          <p>The length corresponding to one mark on the rotating scale
+            is given by
+            <latex>\begin{align*}\frac{<quantity><value>0.5</value><unit>millimeter</unit></quantity>}
+              {50} = <quantity><value>0.01</value><unit>millimeter</unit></quantity>.\end{align*}</latex>
+          </p>
+          <p>This is the smallest length that a 
+            micrometer 
+            can measure. It is important to understand that this is not
+            a length equal to 
+            <quantity type="long"><value>1</value><unit>micrometer</unit></quantity>
+            (<quantity><value>1</value><unit>micrometer</unit></quantity>); rather,
+            it is equal to 
+            <quantity><value>10</value><unit>micrometer</unit></quantity>.</p>
+          <p>We can see that the mark on the rotating scale that most closely 
+            aligns to the main scale is the 25th mark.</p>
+          <p>The full reading on the micrometer is given by
+            <latex>\begin{gather*}2.5 + <quantity><value>25 \left(0.01\right)</value><unit>millimeter</unit></quantity>\\
+              2.5 + <quantity><value>0.25</value><unit>millimeter</unit></quantity>\\
+              <quantity><value>2.75</value><unit>millimeter</unit></quantity>.\end{gather*}</latex>
+          </p>
+      </answer>
+    </example>
+    <p>Let us now look at an example involving comparing the accuracy of
+      measurement tools for measuring length.</p>
+    
+    <example>
+      <title>Comparing Tools for Measuring Length</title>
+      <question id="842127405645" instance_number="1">
+        <mcq>
+          <stem>
+            <p>Which of the following tools is the most accurate tool for measuring length?</p>
+            <tikz src="11.tex" scale="250"> <svg src="Eleven"/></tikz>
+            <tikz src="12.tex" scale="250"> <svg src="Twelve"/></tikz>
+            <tikz src="13.tex" scale="250"> <svg src="Thirteen"/></tikz>
+            <tikz src="14.tex" scale="250"> <svg src="Fourteen"/></tikz>
+          </stem>
+        </mcq>
+      </question>
+      <answer>
+        <p>The tools shown are a 
+          micrometer,
+          a tape measure, a ruler, and a vernier caliper.</p>
+          <p>The accuracy of a measurement corresponds to how close the measured value is to the 
+            real value of the quantity measured.</p>
+        <p>An important difference between the tools shown is the smallest length that each can 
+          measure.</p>
+          <p>Consider a length measured using a ruler as shown in the following figure.</p>
+        <tikz src="15.tex" scale="200"> <svg src="Fifteen"/></tikz>
+        <p>The measured value of the length is 
+          <quantity><value>1.1</value><unit>centimeter</unit></quantity> or 
+          <quantity><value>11</value><unit>millimeter</unit></quantity>. We can see, however,
+          that the length of the object is greater than the measured length. A measuring tool
+          that could measure the fraction of a 
+          <quantity type="long" count="singular"><value></value><unit>millimeter</unit></quantity>
+          by which the length of the object exceeds 
+          <quantity><value>11</value><unit>millimeter</unit></quantity> would have a
+          value closer to the length of the object. The tool that can measure the smallest 
+          length is therefore the most accurate tool for measuring length.</p>
+        <p>Rulers and tape measures both measure minimum lengths of 
+          <quantity><value>1</value><unit>millimeter</unit></quantity>, while vernier 
+          calipers and 
+          micrometer
+          can measure lengths of less than 
+          <quantity><value>1</value><unit>millimeter</unit></quantity>.</p>
+          <p>Vernier calipers can measure a minimum length of 
+            <quantity><value>0.1</value><unit>millimeter</unit></quantity>. 
+            Micrometers can measure a minimum length of 
+            <quantity><value>0.01</value><unit>millimeter</unit></quantity>.</p>
+          <p>The most accurate length measuring tool is therefore a 
+            micrometer.</p>
+      </answer>
+    </example>
+    <p>Let us now look at an example that involves other measuring tools than rulers,
+      vernier calipers, and 
+      micrometer.</p>
+    
+    <example>
+      <title>Identifying the Quantity Measured by Different Tools</title>
+      <question id="647124934797" instance_number="1">
+        <mcq>
+          <stem>
+            <p>Which of the following physical quantities can be measured by an hourglass,
+              a pendulum clock, and a digital stopwatch?
+              <ul>
+                <li>Time</li>
+                <li>Length</li>
+                <li>Mass</li>
+              </ul>
+            </p>
+          </stem>
+        </mcq>
+      </question>
+      <answer>
+        <p>The terms &#x201c;clock&#x201d; and &#x201c;watch&#x201d; applied to objects are 
+          familiar to most people, who would recognize that these refer to objects that give
+          readings of time. The term &#x201c;hourglass&#x201d; contains the word 
+          &#x201c;<quantity type="long" count="singular"><value></value>
+            <unit>hour</unit></quantity>&#x201d; which is a unit of time. Time is a physical
+          quantity.</p>
+          <p>An object that gives a reading of time can be read at two different instances 
+            to measure the time that passes between the instances.</p>
+      </answer>
+    </example>
+    <p>Mass is an SI base quantity. Mass is often confused with the SI-derived quantity 
+      &#x201c;weight.&#x201d;</p>
+    <p>Measuring devices that give readings in 
+      <quantity type="long"><value></value><unit>gram</unit></quantity> or 
+      <quantity type="long"><value></value><unit>kilogram</unit></quantity>, and so seem
+      to be measuring mass, are in fact measuring weight.</p>
+      <p>Supposing that such a device was taken to the moon and used to measure the mass
+        of the same object on the moon as on Earth, the result of the measurement would 
+        be different, but the mass of the object would actually be the same either on 
+        Earth or on the moon.</p>
+      <p>Tools that measure weight can be calibrated to give readings of mass, and then
+        they will correctly read the mass of an object on Earth.</p>
+      <p>A tool that can measure weight is shown in the following figure. The arrow 
+        shows the direction of the weight that acts.</p>
+    <tikz src="16.tex" scale="100"> <svg src="Sixteen"/></tikz>
+      <p>The action of the weight of a measured object extends the spring in the 
+        balance. The length of the spring is used to give a reading of weight.</p>
+      <p>Another such tool is shown in the following figure.</p> 
+    <tikz src="17.tex" scale="300"> <svg src="Seventeen"/></tikz>
+      <p>For a pan balance, two weights act, one on each pan. The pan balance 
+        compares these weights. The weight on one pan is produced by an object 
+        of a known mass.</p> 
+      <p>Let us now look at an example involving such tools.</p>
+    
+    <example>
+      <title>Comparing Tools for Measuring Related Quantities</title>
+      <question id="259178637140" instance_number="1">
+        <mcq>
+          <stem>
+            <p>A beam balance, a spring balance, and a digital scale are types
+              of measurement tools.</p>
+              <p>Which of the following physical quantities is typically measured
+                by a beam balance and by a digital scale?
+              <ul>
+                <li>Mass</li>
+                <li>Length</li>
+                <li>Time</li>
+                <li>Weight</li>
+              </ul>
+              </p>
+              <p>Which of the following physical quantities is typically measured
+                by a spring balance?
+              <ul>
+                <li>Weight</li>
+                <li>Mass</li>
+                <li>Length</li>
+                <li>Time</li>
+              </ul>
+            </p>
+          </stem>
+        </mcq>
+      </question>
+      <answer>
+        <p>Balances and scales do not measure length or time, so the answer to 
+          each part of the question is either mass or weight. All these tools 
+          actually measure weight but can be calibrated to give readings of 
+          mass or of weight.</p>
+         <p>Beam balances compare the weight of an object to that of another
+           object, often a standard mass. Beam balances are usually calibrated
+           to read mass measurements. Digital scales are also usually calibrated
+           to read mass measurements. Spring balances measure the extension of 
+           a spring by an object suspended from the spring. This extension is 
+           more intuitively obvious as being due to the weight of an object, 
+           and spring balances are usually calibrated to read weight measurements.</p>
+      </answer>
+    </example>
+    <p>Let us now summarize what has been learned in this explainer.</p>
+    <sidebar type="definition">
+      <title>Key Points</title>
+      <p>
+        <ol type="1">
+          <li>Different tools are used to measure different physical quantities.</li> 
+          <li>Lengths of less than 
+            <quantity type="long"><value>1</value><unit>millimeter</unit></quantity> 
+            can be measured by vernier calipers and by 
+            micrometer.</li>
+          <li>A tool that gives a reading of time can be read at two different instances
+            to measure the time that passes between the instances.</li>
+          <li>Tools for measuring mass actually measure weight but can be calibrated 
+            so that if used on Earth they read the mass of objects.</li>
+        </ol> 
+      </p>
+      </sidebar>
+  </body>
+</explainer>

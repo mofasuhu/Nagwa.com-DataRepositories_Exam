@@ -1,0 +1,394 @@
+<explainer id="985161036067" country="zz" currency="none" calendar="none" unit_system="none" language="en"  dialect="american" publication_date="2020-09-27T10:00:00">
+  <title>Probability of Simple Events</title>
+  <seo_meta_description>In this explainer, we will learn how to find the probability of a simple event.</seo_meta_description>
+  <source_id>853160946083</source_id>
+  <developer_name>Anita Piatek</developer_name>
+  <developer_email>anita.piatek@nagwa.com</developer_email>
+  <dictionary>
+    <item>
+      <from>@P</from>
+      <to>P</to>
+    </item>
+    <item symbol="false"><from>@Impossible</from><to>Impossible</to></item>
+    <item symbol="false"><from>@Unlikely</from><to>Unlikely</to></item>
+    <item symbol="false"><from>@Equally</from><to>Equally</to></item>
+    <item symbol="false"><from>@likely</from><to>likely</to></item>
+    <item symbol="false"><from>@Likely</from><to>Likely</to></item>
+    <item symbol="false"><from>@Certain</from><to>Certain</to></item>
+    <item symbol="false"><from>@Even</from><to>Even</to></item>
+    <item symbol="false">
+<from>@girl</from>
+<to>girl</to>
+</item>
+<item symbol="false">
+<from>@numberofgirls</from>
+<to>number of girls</to>
+</item>
+<item symbol="false">
+<from>@totalnumberofstudents</from>
+<to>total number of students</to>
+</item>
+<item symbol="false">
+<from>@probabilityofanevent</from>
+<to>probability of an event</to>
+</item>
+<item symbol="false">
+<from>@numberofoutcomeswheretheeventoccurs</from>
+<to>number of outcomes where the event occurs</to>
+</item>
+<item symbol="false">
+<from>@totalnumberofpossibleoutcomes</from>
+<to>total number of possible outcomes</to>
+</item>
+<item symbol="false">
+<from>@event</from>
+<to>event</to>
+</item>
+<item symbol="false">
+<from>@green</from>
+<to>green</to>
+</item>
+<item symbol="false">
+<from>@even</from>
+<to>even</to>
+</item>
+<item symbol="false">
+<from>@numberofevenvaluesonthespinner</from>
+<to>number of even values on the spinner</to>
+</item>
+<item symbol="false">
+<from>@totalnumberofsectionsonthespinner</from>
+<to>total number of sections on the spinner</to>
+</item>
+<item symbol="false">
+<from>@divisibleby</from>
+<to>divisible by</to>
+</item>
+<item symbol="false">
+<from>@numberofcardvaluesdivisibleby</from>
+<to>number of card values divisible by</to>
+</item>
+<item symbol="false">
+<from>@totalnumberofcards</from>
+<to>total number of cards</to>
+</item>
+<item symbol="false">
+<from>@and</from>
+<to>and</to>
+</item>
+<item symbol="false">
+<from>@man</from>
+<to>man</to>
+</item>
+<item symbol="false">
+<from>@numberofmeninthemeeting</from>
+<to>number of men in the meeting</to>
+</item>
+<item symbol="false">
+<from>@totalnumberofpeopleinthemeeting</from>
+<to>total number of people in the meeting</to>
+</item>
+<item symbol="false">
+<from>@numberofmen</from>
+<to>number of men</to>
+</item>
+<item symbol="false">
+<from>@evendigit</from>
+<to>even digit</to>
+</item>
+<item symbol="false">
+<from>@numberofevendigits</from>
+<to>number of even digits</to>
+</item>
+<item symbol="false">
+<from>@totalnumberofdigits</from>
+<to>total number of digits</to>
+</item>
+<item symbol="false">
+<from>@white</from>
+<to>white</to>
+</item>
+<item symbol="false">
+<from>@red</from>
+<to>red</to>
+</item>
+<item symbol="false">
+<from>@numberofwhiteballs</from>
+<to>number of white balls</to>
+</item>
+<item symbol="false">
+<from>@totalnumberofballs</from>
+<to>total number of balls</to>
+</item>
+<item symbol="false">
+<from>@numberofredballs</from>
+<to>number of red balls</to>
+</item>
+
+
+      </dictionary>
+  <body>
+    <p>In this explainer, we will learn how to find the probability of a simple event.</p>
+ 
+	
+    <p>The probability of an event is the likelihood of it occurring.</p>
+	<p>When we discuss the likelihood of an event happening in everyday life, we may use some common words to describe this likelihood, for example, &#x201c;certain&#x201d;, &#x201c;likely&#x201d;, &#x201c;very unlikely&#x201d;, or &#x201c;impossible&#x201d;. In mathematics, we can assign a numerical value to a probability. Impossible events have a probability of 0, and events that are certain to happen have a probability of 1. Events that are equally likely can be written with a probability of 0.5, or <latex>$\frac{1}{2}$</latex>.</p>
+    <tikz src="1.tex" scale="400"/>
+   
+    <p>The sum of the probabilities of all possible outcomes must equal 1. For example, when flipping a coin, the probability of getting &#x201c;heads&#x201d; plus the probability of getting &#x201c;tails&#x201d; is 1. This is because the probability of getting either one of heads or tails is certain, that is, a probability of 1.</p>
+    
+    <p>In probability terms, a simple event refers to an event with a single outcome, for example, getting &#x201c;heads&#x201d; with a single toss of a coin, or rolling a 4 on a die.</p>
+    
+    <p>We also need to consider &#x201c;fairness&#x201d; when discussing probability.</p>
+    
+    <sidebar type="definition">
+      <title>Definition: Fair Experiments</title>
+      <p>A probability experiment is considered as fair if all outcomes are equally likely.</p>
+      
+      <p>An experiment where the outcomes are not equally likely is unfair or biased.</p>
+      </sidebar>
+    
+ 
+	<p>Consider the situation of flipping a fair coin. It can be described as fair as the outcomes are equally likely. If the coin has sides &#x201c;heads&#x201d; and &#x201c;tails&#x201d;, then the outcome of getting &#x201c;tails&#x201d; would be 1 outcome out of a possible 2 outcomes. We could write this as a fraction, <latex>$\frac{1}{2}$</latex>.</p>
+	
+	<sidebar type="definition">
+      <title>Definition: Probability of a Simple Event</title>
+      <p>The probability of a simple event is
+		<latex>\begin{align*} \text{@probabilityofanevent } = \frac{\text{@numberofoutcomeswheretheeventoccurs}}{\text{@totalnumberofpossibleoutcomes}}. \end{align*}</latex></p>
+      </sidebar>
+	
+	<p>Commonly in probability, we may use the notation <latex>$@P \left( \text{@event} \right)$</latex> to represent the probability of an event occurring. For example, when selecting a green or blue ball from a bag, <latex>$@P \left( \text{@green} \right)$</latex> can be used to represent the probability of selecting a green ball.</p>
+	
+	<p>We can now see how this information can be applied in a number of different examples.</p>
+
+	<example>
+      <title>Determining the Theoretical Probability of an Event</title>
+      <question id="562132059219" instance_number="1">
+        <mcq>
+          <stem>
+          <p>A class has 18 boys and 9 girls. What is the probability that a randomly selected student is a girl?</p>
+   </stem>
+        </mcq>
+      </question>
+      <answer>
+        <p>We can recall that the probability of a simple event can be written as
+        <latex>\begin{align*} \text{@probabilityofanevent } = \frac{\text{@numberofoutcomeswheretheeventoccurs}}{\text{@totalnumberofpossibleoutcomes}}. \end{align*}</latex> 
+		In this case, we need to calculate the probability of selecting a girl, which we can write as <latex>$@P \left( \text{@girl} \right)$</latex>.</p>
+		
+		<p>We can write the statement
+		<latex>\begin{align*} @P \left( \text{@girl} \right) = \frac{\text{@numberofgirls}}{\text{@totalnumberofstudents}}. \end{align*}</latex></p>
+		
+		<p>As there are 18 boys and 9 girls in the class, then the total number of students must be <latex>$18 + 9 = 27$</latex>. Substituting the information that the number of girls = 9 and the total number of students = 27 gives us
+	<latex>\begin{align*} @P \left( \text{@girl} \right) = \frac{9}{27}. \end{align*}</latex></p>
+		
+		<p>Simplifying this fraction, we have 
+		<latex>\begin{align*} @P \left( \text{@girl} \right) = \frac{1}{3}. \end{align*}</latex></p>
+		
+		<p>Thus, the probability that a randomly selected student is a girl is <latex>$\frac{1}{3}$</latex>.</p>
+      </answer>
+    </example>
+	
+
+	
+	<p>In the following example, we will see how we may often need to use physical information about an object to obtain the likelihood of an event happening, for example, by examining the sections of a spinner.</p>
+	
+<example>
+      <title>Determining the Probability of an Event Involving a Spinner</title>
+      <question id="932193585945" instance_number="1">
+        <mcq>
+          <stem>
+          <p>What is the probability of the pointer landing on an even number when the given spinner is spun?</p>
+            <tikz src="2.tex" scale="200"/>
+   </stem>
+        </mcq>
+      </question>
+      <answer>
+        <p>We consider that in this spinner, as the sections are of equal size, then there is an equal probability of the spinner landing in each section, assuming that the spinner is fair.</p>
+        
+        <p>We recall that the probability of a simple event is given by
+        <latex>\begin{align*} \text{@probabilityofanevent } = \frac{\text{@numberofoutcomeswheretheeventoccurs}}{\text{@totalnumberofpossibleoutcomes}}. \end{align*}</latex> </p>
+		
+		<p>To find the probability of landing on an even number, <latex>$@P \left( \text{@even} \right)$</latex>, we can write
+		<latex>\begin{align*} @P \left( \text{@even} \right) = \frac{\text{@numberofevenvaluesonthespinner}}{\text{@totalnumberofsectionsonthespinner}}. \end{align*}</latex></p>
+		
+		<p>We consider the even and odd values on the spinner. Even numbers are integers that are divisible by 2. Odd numbers are integers that are not divisible by 2. As 12 and 14 are the only even numbers on the spinner, then the number of possible outcomes that are even is 2. The total number of outcomes is the total number of sections on the spinner, 8. We can substitute these values into our equation, giving
+		
+		<latex>\begin{align*} @P \left( \text{@even} \right) = \frac{2}{8}.\end{align*}</latex></p>
+		
+		<p>Simplifying the fraction, we have
+		<latex>\begin{align*} @P \left( \text{@even} \right) = \frac{1}{4}.\end{align*}</latex></p>
+		
+		<p>Therefore, the probability of the pointer landing on an even number when the spinner is spun is <latex>$\frac{1}{4}$</latex>.</p>
+        
+      </answer>
+    </example>	
+	
+	
+	<p>We consider another example.</p>
+	
+	 <example>
+      <title>Determining the Probability of an Event</title>
+      <question id="739182437321" instance_number="1">
+        <mcq>
+          <stem>
+          <p>A deck of cards contains cards numbered from 1 to 81. If a card is picked at random, what is the probability of picking a card with a number that is divisible by 5?</p>
+   </stem>
+        </mcq>
+      </question>
+      <answer>
+        <p>We can consider the deck of cards as follows.</p>
+        <tikz src="3.tex" scale="250"/>
+        <p>In order to find the probability of picking a particular card or type of card, we recall that the probability of a simple event can be given as 
+        <latex>\begin{align*} \text{@probabilityofanevent } = \frac{\text{@numberofoutcomeswheretheeventoccurs}}{\text{@totalnumberofpossibleoutcomes}}. \end{align*}</latex></p>
+	    
+	    <p>For the event of picking a card that is divisible by 5, <latex>$@P \left( \text{@divisibleby }5 \right)$</latex>, we could write the equation that
+	    <latex>\begin{align*}@P \left( \text{@divisibleby }5 \right) = \frac{\text{@numberofcardvaluesdivisibleby }5}{\text{@totalnumberofcards}}.\end{align*}</latex></p>
+	    
+	    <p>We recall that divisible means to be able to divide by a number and get an integer answer. Numbers that are divisible by 5 are also multiples of 5. We can list the numbers that are divisible by 5, between 1 and 81, as 
+	    
+	    <latex>\begin{align*}5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, \text{@and }80. \end{align*}</latex>
+	    
+	     As the highest card value is 81, then there are no higher possible values. Counting these values, we see that there are 16.</p>
+	    
+	    <p>Next, as there are 81 cards, then the total number of cards is 81.</p>
+	    
+	    <p>Filling these values into the equation above gives
+	    <latex>\begin{align*}@P \left( \text{@divisibleby }5 \right) = \frac{16}{81}.\end{align*}</latex></p>
+	     
+	     <p>We cannot simplify this fraction any further. Therefore, the probability of of picking a card with a number divisible by 5 from this deck of cards is <latex>$\frac{16}{81}$</latex>.</p>
+      </answer>
+    </example>
+
+	
+	
+	<p>We will now look at an example where we are given information about the total number of outcomes and the probability of an event to work out the number of outcomes of a specific event.</p>
+	
+<example>
+      <title>Using Theoretical Probability to Solve a Problem</title>
+      <question id="975156913021" instance_number="1">
+        <mcq>
+          <stem>
+          <p>There are 28 people in a meeting. The probability that a person chosen at random is a man is <latex>$\frac{1}{2}$</latex>. Calculate the number of women in the meeting.</p>
+   </stem>
+        </mcq>
+      </question>
+      <answer>
+        <p>The question gives us the value that the probability of choosing a man from the total number of people in the room is <latex>$\frac{1}{2}$</latex>. We can use this information, along with the information about the total number of people, to find the number of men in the room.</p>
+        
+        <p>Recall that the probability of a simple event can be given as
+        <latex>\begin{align*} \text{@probabilityofanevent } = \frac{\text{@numberofoutcomeswheretheeventoccurs}}{\text{@totalnumberofpossibleoutcomes}}. \end{align*}</latex></p>
+		
+		<p>For this scenario, we can write the probability of picking a man, <latex>$@P \left( \text{@man} \right)$</latex>, as
+		<latex>\begin{align*}@P \left( \text{@man} \right) = \frac{\text{@numberofmeninthemeeting}}{\text{@totalnumberofpeopleinthemeeting}}.\end{align*}</latex></p>
+		
+		<p>Given that <latex>$@P \left( \text{@man} \right) = \frac{1}{2}$</latex> and the <latex>$\text{@totalnumberofpeopleinthemeeting} = 28$</latex>, we can substitute these values into the equation above, giving
+		<latex>\begin{align*}\frac{1}{2} = \frac{\text{@numberofmen}}{28}.\end{align*}</latex></p>
+		
+		<p>Multiplying both sides of this equation by 28 and simplifying gives us
+		<latex>\begin{align*}
+		    28 \times \left( \frac{1}{2} \right) &amp;= \text{@numberofmen}\\
+		    14 &amp;= \text{@numberofmen}.
+		\end{align*}</latex></p>
+		
+		<p>Since the number of men in the meeting is 14, then we can calculate the number of women by subtracting the number of men, 14, from the total number of people, 28. As
+		
+		<latex>\begin{align*} 28 - 14 = 14,\end{align*}</latex></p>
+		
+		<p>the number of women in the meeting is 14.</p>
+      </answer>
+    </example>	
+	
+<p>We will now look at an example where we find the probability of picking an even digit from a given number.</p>
+	
+<example>
+      <title>Determining the Probability of an Event</title>
+      <question id="425145204564" instance_number="1">
+        <mcq>
+          <stem>
+          <p>If a single digit is selected at random from the number 224, 839, 287, what is the probability of the digit being even?</p>
+   </stem>
+        </mcq>
+      </question>
+      <answer>
+        <p>Recall that the probability of a simple event is given by
+        <latex>\begin{align*} \text{@probabilityofanevent } = \frac{\text{@numberofoutcomeswheretheeventoccurs}}{\text{@totalnumberofpossibleoutcomes}}. \end{align*}</latex></p>
+		
+		<p>In this question, the probability of picking an even digit, <latex>$@P \left( \text{@evendigit} \right)$</latex>, can be found by
+		
+		<latex>\begin{align*} @P \left( \text{@evendigit} \right) = \frac{\text{@numberofevendigits}}{\text{@totalnumberofdigits}}.\end{align*}</latex></p>
+		
+		<p>Considering each digit separately and determining its parity, we have</p>
+        <tikz src="4.tex" scale="250"/>
+		<p>Counting the number of even digits above, there are 6 even values. The total number of digits is 9. Substituting these values into the probability equation above gives us
+		<latex>\begin{align*}
+		    @P \left( \text{@evendigit} \right) &amp;= \frac{6}{9}\\
+		                                                            &amp;= \frac{2}{3}.\end{align*}</latex></p>
+		
+		<p>Therefore, the probability of selecting an even digit from the number 224, 839, 287 is <latex>$\frac{2}{3}$</latex>.</p>
+      </answer>
+    </example>	
+	
+	
+	<p>In the final example, we will use a given probability and information about the specific number of an outcome, to work out the total number of outcomes.</p>
+	
+<example>
+      <title>Using Theoretical Probability to Solve a Problem</title>
+      <question id="350137960672" instance_number="1">
+        <mcq>
+          <stem>
+          <p>A bag contains 24 white balls and an unknown number of red balls. The probability of choosing a red ball at random is <latex>$\frac{7}{31}$</latex>. How many balls are there in the bag?</p>
+   </stem>
+        </mcq>
+      </question>
+      <answer>
+        <p>We are given the number of white balls in the bag, and we are given the probability of picking one of the unknown number of red balls as <latex>$\frac{7}{31}$</latex>. To find the total number of balls, we can apply the probability equation for finding the probability of a simple event:
+        <latex>\begin{align*} \text{@probabilityofanevent } = \frac{\text{@numberofoutcomeswheretheeventoccurs}}{\text{@totalnumberofpossibleoutcomes}}. \end{align*}</latex></p>
+		
+		<p>To find the number of white balls, we can recognize that since there are only red or white balls in the bag and the total of all of the probabilities is 1, then the probability of getting white, <latex>$@P \left( \text{@white} \right)$</latex>, can be found by
+		<latex>\begin{align*} @P \left( \text{@white} \right) &amp;= 1 - @P \left( \text{@red} \right)\\
+		                                                                                     &amp;= 1 - \frac{7}{31}\\
+		                                                                                     &amp;= \frac{24}{31}. \end{align*}</latex></p>
+		
+		<p>The probability of picking a white ball can be found by
+			<latex>\begin{align*} @P \left( \text{@white} \right) = \frac{\text{@numberofwhiteballs}}{\text{@totalnumberofballs}}.\end{align*}</latex></p>
+			
+			<p>Substituting in the values <latex>$@P \left( \text{@white} \right) = \frac{24}{31}$</latex> and the number of white balls = 24 gives us
+		<latex>\begin{align*} \frac{24}{31} = \frac{24}{\text{@totalnumberofballs}}.\end{align*}</latex></p>
+		
+		<p>Rearranging the equation by cross multiplying the fractions, we have
+		
+		<latex>\begin{align*} 24 \times \text{@totalnumberofballs} = 31 \times 24.\end{align*}</latex></p>
+		
+		<p>Dividing both sides of the equation by 24 gives
+		
+		<latex>\begin{align*} \text{@totalnumberofballs} = 31. \end{align*}</latex></p>
+		
+		<p>We can check our answer by calculating that the number of red balls must be <latex>$31 - 24 = 7$</latex>. Thus, the probability of picking a red ball would be the given value of <latex>$\frac{7}{31}$</latex>, since
+		<latex>\begin{align*}
+		    @P \left( \text{@red} \right) &amp;= \frac{\text{@numberofredballs}}{\text{@totalnumberofballs}}\\
+		                 &amp;= \frac{7}{31}.
+		\end{align*}</latex></p>
+		
+		<p>This confirms our answer; the total number of balls in the bag is 31.</p>
+      </answer>
+    </example>	
+	
+
+	
+	<p>We now summarize the key points.</p>
+	
+	<sidebar type="definition">
+      <title>Key Points</title>
+   <ul>
+<li>The probability of an event is the likelihood of it occurring.</li>
+<li>The sum of the probabilities of all possible outcomes must equal 1.</li>
+<li>A probability experiment is considered as fair if all outcomes are equally likely. Experiments that are unfair are often referred to as biased.</li>
+<li>A simple event is an event with a single outcome.</li>
+<li>The probability of a simple event, <latex>$@P \left( \text{@event} \right)$</latex>, is
+<latex>\begin{align*} @P \left( \text{@event} \right) = \frac{\text{@numberofoutcomeswheretheeventoccurs}}{\text{@totalnumberofpossibleoutcomes}}. \end{align*}</latex></li>
+</ul>
+ </sidebar>
+	
+
+  </body>
+</explainer>

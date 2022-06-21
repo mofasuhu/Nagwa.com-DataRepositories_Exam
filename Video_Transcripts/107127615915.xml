@@ -1,0 +1,475 @@
+﻿<video video_id="107127615915">
+    <video_creator video_creator_id="348191246181">
+        <first_name>Ed</first_name>
+        <last_name>Burdette</last_name>
+        <email>ed.burdette@nagwa.com</email>
+    </video_creator>
+    <video_type>Lesson</video_type>
+    <subject>Physics</subject>
+    <publication_date>2020-02-02</publication_date>
+    <duration>929005.00</duration>
+    <language>
+        <source>en</source>
+    </language>
+    <title>The Vector Product of Two Vectors</title>
+    <seo_meta_description>In this video, we will learn how to calculate the vector product of two vectors using both the components of the vectors and the magnitudes of the two vectors and the angle between them.</seo_meta_description>
+    <transcript>
+        <p>
+            <s start_time ="00:00:00.300" end_time="00:00:03.770">In this video, we’re talking about
+                the vector product of two vectors.</s>
+            <s start_time ="00:00:04.030" end_time="00:00:13.180">As we’ll see, this is a method for
+                taking two vectors that lie in the 𝑥- and 𝑦-plane and combining them to yield a
+                third vector in the 𝑧-dimension.</s>
+        </p>
+        <p>
+            <s start_time ="00:00:13.720" end_time="00:00:17.770">To get started, we can recall that
+                there are a number of ways of combining vectors.</s>
+            <s start_time ="00:00:18.040" end_time="00:00:21.980">It’s possible to add vectors
+                together or to subtract one from another.</s>
+            <s start_time ="00:00:22.360" end_time="00:00:26.790">And we can also combine vectors
+                using what’s called a scalar or dot product.</s>
+            <s start_time ="00:00:27.240" end_time="00:00:39.830">In this lesson, we’re talking about
+                vector products which are unique in that a vector product is a way of multiplying
+                two vectors together so that a vector, a quantity with magnitude and direction,
+                results.</s>
+            <s start_time ="00:00:40.180" end_time="00:00:43.220">In other words, a vector product
+                creates another vector.</s>
+        </p>
+        <p>
+            <s start_time ="00:00:43.650" end_time="00:00:47.410">To see how this works
+                mathematically, let’s give these two vectors names.</s>
+            <s start_time ="00:00:47.650" end_time="00:00:51.760">Let’s say the vector in blue is
+                vector 𝐀 and that in red is vector 𝐁.</s>
+            <s start_time ="00:00:52.150" end_time="00:00:57.750">Without knowing anything more about
+                𝐀 and 𝐁, we can write down a general rule for their vector product.</s>
+            <s start_time ="00:00:58.110" end_time="00:01:05.180">We can represent the vector product
+                of 𝐀 with 𝐁 this way, using an × or a cross in between the two vector symbols.</s>
+        </p>
+        <p>
+            <s start_time ="00:01:05.470" end_time="00:01:10.830">Now, the equation we’re going to
+                write applies specifically to vectors that lie in the 𝑥𝑦-plane.</s>
+            <s start_time ="00:01:11.260" end_time="00:01:15.940">This means that we can write vector
+                𝐀 and vector 𝐁 mathematically like this.</s>
+            <s start_time ="00:01:16.130" end_time="00:01:21.760">We can represent 𝐀 as the sum of a
+                component in the 𝑥-direction and a component in the 𝑦-direction.</s>
+            <s start_time ="00:01:22.100" end_time="00:01:24.600">And we can represent vector 𝐁 in a
+                similar way.</s>
+            <s start_time ="00:01:25.260" end_time="00:01:30.030">And note these vector symbols that
+                apply in our definitions for vectors 𝐀 and 𝐁.</s>
+            <s start_time ="00:01:30.290" end_time="00:01:33.740">In both cases, we have a vector
+                called 𝐢 and a vector called 𝐣.</s>
+        </p>
+        <p>
+            <s start_time ="00:01:34.030" end_time="00:01:38.910">We can recall that these are unit
+                vectors for the 𝑥- and 𝑦-axes, respectively.</s>
+            <s start_time ="00:01:39.180" end_time="00:01:46.460">Note, by the way, that when we
+                include a third dimension and call it 𝑧, the unit vector for that dimension is
+                typically represented by the letter 𝐤.</s>
+            <s start_time ="00:01:46.780" end_time="00:01:55.770">Anyway, when we write 𝐀 and 𝐁 in
+                terms of their components this way, we’re then able to take the next step and fill
+                out the right-hand side of this vector product equation.</s>
+            <s start_time ="00:01:56.150" end_time="00:01:59.510">We do that using the 𝑥- and
+                𝑦-components of 𝐀 and 𝐁.</s>
+        </p>
+        <p>
+            <s start_time ="00:01:59.840" end_time="00:02:07.300">If we take the 𝑥-component of 𝐀,
+                that’s this component here, and multiply it by the 𝑦-component of 𝐁, that’s this
+                component here.</s>
+            <s start_time ="00:02:07.620" end_time="00:02:13.540">And then, subtract from that the
+                𝑦-component of 𝐀 here times the 𝑥-component of 𝐁 here.</s>
+            <s start_time ="00:02:13.860" end_time="00:02:17.880">Then we will have the correct
+                expression for the magnitude of our vector product.</s>
+            <s start_time ="00:02:18.130" end_time="00:02:21.930">But remember we said that a vector
+                product results in another vector.</s>
+            <s start_time ="00:02:22.240" end_time="00:02:24.730">And that’s where this 𝐤 unit
+                vector comes in.</s>
+            <s start_time ="00:02:24.980" end_time="00:02:30.350">This gives the magnitude of 𝐀 𝑥
+                times 𝐁 𝑦 minus 𝐀 𝑦 times 𝐁 𝑥 a direction.</s>
+        </p>
+        <p>
+            <s start_time ="00:02:30.680" end_time="00:02:32.960">So indeed, we are calculating a
+                vector.</s>
+            <s start_time ="00:02:33.140" end_time="00:02:34.940">And notice something about that
+                direction.</s>
+            <s start_time ="00:02:35.210" end_time="00:02:45.020">While 𝐀 and 𝐁 were both entirely
+                in the 𝑥𝑦-plane and, therefore, had only 𝐢- and 𝐣-components, the vector product
+                of 𝐀 and 𝐁 is entirely in a different dimension.</s>
+            <s start_time ="00:02:45.060" end_time="00:02:46.300">It’s in the 𝐤-direction.</s>
+            <s start_time ="00:02:46.670" end_time="00:02:52.880">It’s always the case that a vector
+                product of two vectors is perpendicular to those two original vectors.</s>
+            <s start_time ="00:02:53.300" end_time="00:02:57.670">Now, let’s get some practice
+                applying this equation using these two vectors here.</s>
+        </p>
+        <p>
+            <s start_time ="00:02:58.050" end_time="00:03:01.660">Say that we locate 𝐀 and 𝐁 on a
+                set of coordinate axes.</s>
+            <s start_time ="00:03:01.730" end_time="00:03:07.390">And we label the 𝑥- and 𝑦-axes
+                using these numbers, but we don’t specify the units they represent.</s>
+            <s start_time ="00:03:07.740" end_time="00:03:11.330">For our purposes, those units
+                aren’t important, so we’ll leave them undefined.</s>
+            <s start_time ="00:03:11.760" end_time="00:03:17.410">Studying these axes, we can see
+                that vector 𝐀 has an extension of one unit in the 𝑥-direction.</s>
+            <s start_time ="00:03:17.620" end_time="00:03:20.720">And then, it extends five units in
+                the positive 𝑦-direction.</s>
+            <s start_time ="00:03:21.010" end_time="00:03:25.030">This means we can write 𝐀 as 𝐢
+                plus five times 𝐣.</s>
+            <s start_time ="00:03:25.390" end_time="00:03:32.300">Likewise, with vector 𝐁, we see
+                that this extends four units in the positive 𝑥-direction and two units in the
+                positive 𝑦.</s>
+            <s start_time ="00:03:32.690" end_time="00:03:36.130">So, 𝐁 is equal to four times 𝐢
+                plus two times 𝐣.</s>
+        </p>
+        <p>
+            <s start_time ="00:03:36.480" end_time="00:03:41.520">Now that we know the 𝑥- and
+                𝑦-components of 𝐀 and 𝐁, we can calculate their vector product.</s>
+            <s start_time ="00:03:41.820" end_time="00:03:44.680">Specifically, let’s calculate 𝐀
+                cross 𝐁.</s>
+            <s start_time ="00:03:45.080" end_time="00:03:57.000">We see, based on our vector product
+                equation, that this is equal to the 𝑥-component of 𝐀, that’s one in our case,
+                times the 𝑦-component of 𝐁, that’s equal to two based on our definition of vector
+                𝐁.</s>
+            <s start_time ="00:03:57.330" end_time="00:04:06.420">And then, from this, we subtract
+                the 𝑦-component of 𝐀, that’s equal to five, multiplied by the 𝑥-component of 𝐁,
+                and that is equal to four.</s>
+        </p>
+        <p>
+            <s start_time ="00:04:06.840" end_time="00:04:22.270">And just as we saw for our general
+                vectors that lay in the 𝑥𝑦-plane, so these specific vectors 𝐀 and 𝐁 whose
+                components we know, according to this set of coordinate axes, will yield a vector
+                product that points either in the positive or the negative 𝐤-direction.</s>
+            <s start_time ="00:04:22.510" end_time="00:04:26.410">In other words, this vector product
+                will point somewhere along the 𝑧-dimension.</s>
+            <s start_time ="00:04:26.820" end_time="00:04:30.190">And it will have no component in
+                the 𝑥- or 𝑦-dimensions.</s>
+        </p>
+        <p>
+            <s start_time ="00:04:30.550" end_time="00:04:35.450">So then, looking at this equation,
+                we can now calculate what’s inside the parentheses in blue.</s>
+            <s start_time ="00:04:35.910" end_time="00:04:37.330">One times two is two.</s>
+            <s start_time ="00:04:37.330" end_time="00:04:38.950">And five times four is 20.</s>
+            <s start_time ="00:04:39.180" end_time="00:04:43.970">So, we have two minus 20 or
+                negative 18𝐤 as a resulting vector.</s>
+            <s start_time ="00:04:44.390" end_time="00:04:53.630">On our coordinate axes then, if we
+                represented the negative 𝑧-direction using this dashed line, then the vector
+                product of 𝐀 and 𝐁 would point 18 units along that line.</s>
+        </p>
+        <p>
+            <s start_time ="00:04:53.980" end_time="00:04:57.980">Now, there’s something very
+                important to remember whenever we’re computing a vector product.</s>
+            <s start_time ="00:04:58.100" end_time="00:05:01.560">And that is that the order of the
+                vectors we use is very important.</s>
+            <s start_time ="00:05:01.930" end_time="00:05:11.670">Notice in this equation that when
+                we cross 𝐀 with 𝐁, 𝐀 coming first, then it’s the 𝑥-component of that first
+                vector which multiplies the 𝑦-component of the second one.</s>
+            <s start_time ="00:05:11.780" end_time="00:05:16.090">And then, in the next term, the
+                𝑦-component of that first vector times the 𝑥-component of the second.</s>
+            <s start_time ="00:05:16.410" end_time="00:05:25.970">If we were to reverse these two
+                vectors at the outset — instead of taking 𝐀 cross 𝐁, we take 𝐁 cross 𝐀 — then we
+                would calculate a different result on the right-hand side.</s>
+        </p>
+        <p>
+            <s start_time ="00:05:26.240" end_time="00:05:28.310">To see that that’s so, let’s do
+                this.</s>
+            <s start_time ="00:05:28.550" end_time="00:05:33.320">We’ve already calculated 𝐀 cross
+                𝐁 using these specific 𝐀 and 𝐁 vector examples.</s>
+            <s start_time ="00:05:33.450" end_time="00:05:34.880">Let’s now reverse the order.</s>
+            <s start_time ="00:05:35.040" end_time="00:05:37.430">Let’s take the vector product of 𝐁
+                and 𝐀.</s>
+            <s start_time ="00:05:37.670" end_time="00:05:46.960">As we do this, it will be a bit
+                confusing to refer to our reference equation over here because this equation has a
+                vector called 𝐀 coming first and a vector called 𝐁 coming second.</s>
+            <s start_time ="00:05:47.170" end_time="00:05:51.170">But if we’re careful about it,
+                we’ll be able to work it out and calculate 𝐁 cross 𝐀.</s>
+        </p>
+        <p>
+            <s start_time ="00:05:51.510" end_time="00:05:56.830">Okay, the first term in a
+                vector-product calculation is the 𝑥-component of the first vector.</s>
+            <s start_time ="00:05:57.170" end_time="00:06:02.480">In the case of our specific
+                calculation, that first vector is 𝐁 and its 𝑥-component is four.</s>
+            <s start_time ="00:06:02.810" end_time="00:06:06.540">That value is then multiplied by
+                the 𝑦-component of the second vector.</s>
+            <s start_time ="00:06:06.930" end_time="00:06:10.790">Again, in our case, that second
+                vector is 𝐀 and its 𝑦-component is five.</s>
+            <s start_time ="00:06:11.170" end_time="00:06:12.820">So, we have four times five.</s>
+        </p>
+        <p>
+            <s start_time ="00:06:12.970" end_time="00:06:16.850">And from this, we subtract the
+                𝑦-component of our first vector.</s>
+            <s start_time ="00:06:17.060" end_time="00:06:22.930">The 𝑦-component of vector 𝐁 over
+                here is two times the 𝑥-component of our second vector.</s>
+            <s start_time ="00:06:23.380" end_time="00:06:27.300">Our second vector in this
+                calculation is vector 𝐀 and its 𝑥-component is one.</s>
+            <s start_time ="00:06:27.630" end_time="00:06:34.890">And now, when we calculate the
+                value inside the blue parentheses, we have four times five, or 20, minus two times
+                one, or two.</s>
+            <s start_time ="00:06:35.170" end_time="00:06:37.100">And 20 minus two is 18.</s>
+        </p>
+        <p>
+            <s start_time ="00:06:37.340" end_time="00:06:42.840">As we compare this result with our
+                result for calculating 𝐀 cross 𝐁, we can notice two things.</s>
+            <s start_time ="00:06:43.010" end_time="00:06:45.000">First, these results are not the
+                same.</s>
+            <s start_time ="00:06:45.230" end_time="00:06:47.670">And as it turns out, this is
+                generally true.</s>
+            <s start_time ="00:06:47.880" end_time="00:06:53.180">That is, it’s generally the case
+                that 𝐀 cross 𝐁 is not equal to 𝐁 cross 𝐀.</s>
+            <s start_time ="00:06:53.390" end_time="00:06:55.390">But notice something else about
+                these results.</s>
+            <s start_time ="00:06:55.740" end_time="00:07:01.850">These two vector products have the
+                same magnitude, 18 units, and they point in opposite directions.</s>
+            <s start_time ="00:07:01.980" end_time="00:07:03.970">This also is true in general.</s>
+        </p>
+        <p>
+            <s start_time ="00:07:04.120" end_time="00:07:05.500">And we can write that this way.</s>
+            <s start_time ="00:07:05.720" end_time="00:07:11.790">We can say that the vector product
+                of 𝐀 and 𝐁 is equal to negative the vector product of 𝐁 and 𝐀.</s>
+            <s start_time ="00:07:12.200" end_time="00:07:18.670">As a corollary of this, by the way,
+                we can write that the magnitude of 𝐀 cross 𝐁 is equal to the magnitude of 𝐁 cross
+                𝐀.</s>
+            <s start_time ="00:07:19.090" end_time="00:07:24.030">So, there are a lot of equations
+                here, but we’re discovering important relations for vector products.</s>
+            <s start_time ="00:07:24.390" end_time="00:07:31.540">Now that we’ve calculated the
+                vector products of our two vectors 𝐀 and 𝐁 on this graph, let’s clear some space
+                for a new calculation.</s>
+        </p>
+        <p>
+            <s start_time ="00:07:31.670" end_time="00:07:36.210">What would happen if we were to
+                compute the vector product of two unit vectors?</s>
+            <s start_time ="00:07:36.260" end_time="00:07:41.670">That is, what if we were to take
+                the unit vector 𝐢 and then cross 𝐢 with the unit vector 𝐣?</s>
+            <s start_time ="00:07:42.180" end_time="00:07:45.810">We know that technically both of
+                these are vectors, so this should work.</s>
+            <s start_time ="00:07:45.980" end_time="00:07:52.610">And in fact, just like vectors 𝐀
+                and 𝐁, we can write out the 𝑥- and 𝑦-components of these unit vectors 𝐢 and
+                𝐣.</s>
+        </p>
+        <p>
+            <s start_time ="00:07:52.910" end_time="00:07:57.600">Looking down at our diagram at the
+                bottom left, we can write the unit vector 𝐢 this way.</s>
+            <s start_time ="00:07:57.910" end_time="00:08:03.770">The unit vector 𝐢 has one unit of
+                magnitude in the 𝐢-direction, the 𝑥-dimension.</s>
+            <s start_time ="00:08:04.140" end_time="00:08:08.080">And then, it doesn’t point at all
+                in the 𝐣-direction along the 𝑦-axis.</s>
+            <s start_time ="00:08:08.650" end_time="00:08:14.450">We could say then that 𝐢 is equal
+                to one 𝐢 plus zero 𝐣, and similarly with the unit vector 𝐣.</s>
+            <s start_time ="00:08:14.820" end_time="00:08:19.320">This vector has zero magnitude in
+                the 𝐢-direction or the 𝑥-dimension.</s>
+            <s start_time ="00:08:19.610" end_time="00:08:22.180">And it has a magnitude of one in
+                the 𝐣-direction.</s>
+        </p>
+        <p>
+            <s start_time ="00:08:22.470" end_time="00:08:28.220">With 𝐢 and 𝐣 written out
+                according to their 𝑥- and 𝑦-components, we can now calculate 𝐢 cross 𝐣.</s>
+            <s start_time ="00:08:28.510" end_time="00:08:32.010">It’s equal to the 𝑥-component of
+                the first vector, that’s 𝐢.</s>
+            <s start_time ="00:08:32.330" end_time="00:08:36.720">And that 𝑥-component is one
+                multiplied by the 𝑦-component of the second vector.</s>
+            <s start_time ="00:08:37.020" end_time="00:08:40.340">That second vector is 𝐣, and its
+                𝑦-component is one as well.</s>
+            <s start_time ="00:08:40.660" end_time="00:08:44.270">And then, from that product, we
+                subtract the 𝑦-component of the first vector.</s>
+            <s start_time ="00:08:44.380" end_time="00:08:45.260">That’s vector 𝐢.</s>
+            <s start_time ="00:08:45.580" end_time="00:08:47.440">We see that 𝑦-component is
+                zero.</s>
+            <s start_time ="00:08:47.720" end_time="00:08:50.450">And we multiply that by the
+                𝑥-component of the second vector.</s>
+            <s start_time ="00:08:50.560" end_time="00:08:51.810">That second vector is 𝐣.</s>
+            <s start_time ="00:08:51.810" end_time="00:08:53.600">And that 𝑥-component is zero as
+                well.</s>
+        </p>
+        <p>
+            <s start_time ="00:08:53.900" end_time="00:09:00.210">So now, calculating the result of
+                this, we have one times one, or one, minus zero times zero, which is zero.</s>
+            <s start_time ="00:09:00.450" end_time="00:09:05.720">And when this whole expression
+                simplifies, we find that 𝐢 cross 𝐣 is equal to the 𝐤 unit vector.</s>
+            <s start_time ="00:09:06.030" end_time="00:09:09.470">And we can write this equation in
+                green because it’s generally true.</s>
+            <s start_time ="00:09:09.860" end_time="00:09:15.110">Knowing this, what if we wanted to
+                reverse the order and calculate the vector product of 𝐣 and 𝐢?</s>
+        </p>
+        <p>
+            <s start_time ="00:09:15.450" end_time="00:09:18.770">To do that, we could once more go
+                through this calculation.</s>
+            <s start_time ="00:09:18.820" end_time="00:09:29.110">But let’s not forget about the
+                vector product relationships we discovered, in particular this one, which says the
+                vector product of 𝐀 and 𝐁 equals the negative of the vector product of 𝐁 and
+                𝐀.</s>
+            <s start_time ="00:09:29.330" end_time="00:09:31.300">This saves us some calculation
+                work.</s>
+            <s start_time ="00:09:31.570" end_time="00:09:37.740">Knowing that 𝐢 cross 𝐣 is equal
+                to 𝐤, we know that 𝐣 cross 𝐢 is equal to the negative of that, negative 𝐤.</s>
+            <s start_time ="00:09:38.000" end_time="00:09:46.670">So, as strange as it may seem,
+                indeed we can calculate a vector product of unit vectors, and the result is a vector
+                that’s perpendicular to both 𝐢 and 𝐣.</s>
+        </p>
+        <p>
+            <s start_time ="00:09:47.010" end_time="00:09:50.250">Now, there’s one more thing we’ll
+                want to point out about vector products.</s>
+            <s start_time ="00:09:50.310" end_time="00:09:52.930">And it has to do with the magnitude
+                of those products.</s>
+            <s start_time ="00:09:53.160" end_time="00:09:58.580">Say that we return to our graph of
+                vectors 𝐀 and 𝐁 and that, for now, we ignore the 𝑧-dimension.</s>
+            <s start_time ="00:09:58.870" end_time="00:10:02.320">So, we have these two vectors in
+                the 𝑥𝑦-plane, 𝐀 and 𝐁.</s>
+            <s start_time ="00:10:02.560" end_time="00:10:05.820">And say that we want to calculate
+                the magnitude of their vector product.</s>
+            <s start_time ="00:10:06.160" end_time="00:10:09.840">It turns out that we’re able to do
+                that given three pieces of information.</s>
+            <s start_time ="00:10:09.990" end_time="00:10:12.120">First, we need to know the
+                magnitude of 𝐀.</s>
+            <s start_time ="00:10:12.540" end_time="00:10:14.770">Second, we need to know the
+                magnitude of 𝐁.</s>
+            <s start_time ="00:10:15.130" end_time="00:10:18.630">And third, we’ll need to know the
+                angle between these two vectors.</s>
+            <s start_time ="00:10:18.730" end_time="00:10:20.360">And we can call this angle 𝜃.</s>
+        </p>
+        <p>
+            <s start_time ="00:10:20.750" end_time="00:10:22.090">So, here’s how this works.</s>
+            <s start_time ="00:10:22.370" end_time="00:10:31.710">The magnitude of the vector product
+                of 𝐀 and 𝐁 is equal to the magnitude of 𝐀 times the magnitude of 𝐁 multiplied by
+                the sin of the angle between these two vectors.</s>
+            <s start_time ="00:10:32.000" end_time="00:10:38.830">This relationship can come in very
+                useful when we know the magnitudes of our two vectors but don’t know their component
+                parts.</s>
+            <s start_time ="00:10:38.980" end_time="00:10:46.500">We won’t need to know those
+                component parts to calculate the magnitude of the vector product so long as we also
+                know the angle between the two vectors.</s>
+            <s start_time ="00:10:46.760" end_time="00:10:51.370">We can understand a bit more about
+                this equation by considering this sin 𝜃 factor here.</s>
+        </p>
+        <p>
+            <s start_time ="00:10:51.600" end_time="00:11:03.640">We know that if the angle 𝜃 is
+                zero degrees and that would indicate that 𝐀 and 𝐁 are parallel vectors, then since
+                the sin of zero is zero, we know that would result in this whole vector product
+                being zero.</s>
+            <s start_time ="00:11:03.890" end_time="00:11:07.170">In other words, for parallel
+                vectors, their vector product is zero.</s>
+            <s start_time ="00:11:07.540" end_time="00:11:12.050">But then, what if instead of being
+                a zero-degree angle, 𝜃 is a 90-degree angle?</s>
+            <s start_time ="00:11:12.330" end_time="00:11:15.100">Well, we know that the sin of 90
+                degrees is equal to one.</s>
+            <s start_time ="00:11:15.310" end_time="00:11:21.920">And that would lead to a maximum
+                possible value for the magnitude of 𝐀 times the magnitude of 𝐁 times the sin of
+                the angle between them.</s>
+        </p>
+        <p>
+            <s start_time ="00:11:22.060" end_time="00:11:31.090">This tells us that vectors that are
+                perpendicular to one another at 90 degrees have the largest possible vector product
+                magnitude, given their individual magnitudes.</s>
+            <s start_time ="00:11:31.260" end_time="00:11:36.600">So then, just by knowing how the
+                sin of 𝜃 behaves, we can understand a bit more about this equation.</s>
+            <s start_time ="00:11:37.030" end_time="00:11:40.930">Knowing all this about vector
+                products, let’s try out an example exercise.</s>
+        </p>
+		<question id="862183429134" media_identifier="489187072876">
+		    <publication_date>2020-03-16</publication_date>
+		    <question_title>Calculating the Vector Product of Two Vectors</question_title>
+          <question_seo_meta_description>Consider the two vectors 𝐑 = 3𝐢 + 2𝐣 and 𝐒 = 5𝐢 + 8𝐣. Calculate 𝐑 × 𝐒.</question_seo_meta_description>
+
+        <p>
+            <s start_time ="00:11:41.330" end_time="00:11:48.420">Consider the two vectors 𝐑 equals
+                three 𝐢 plus two 𝐣 and 𝐒 equals five 𝐢 plus eight 𝐣.</s>
+            <s start_time ="00:11:48.870" end_time="00:11:50.730">Calculate 𝐑 cross 𝐒.</s>
+        </p>
+        <p>
+            <s start_time ="00:11:51.090" end_time="00:11:56.750">Well, we see this exercise is about
+                computing a vector product between these two vectors 𝐑 and 𝐒.</s>
+            <s start_time ="00:11:56.900" end_time="00:11:59.450">We’ve been given those two vectors
+                in component form.</s>
+            <s start_time ="00:11:59.650" end_time="00:12:08.170">And we see that each one has an
+                𝐢-component, that is a component along the 𝑥-axis, as well as a 𝐣-component, some
+                component along the 𝑦-dimension.</s>
+            <s start_time ="00:12:08.550" end_time="00:12:12.690">We see then that both of these
+                vectors, 𝐑 and 𝐒, lie in the 𝑥𝑦-plane.</s>
+            <s start_time ="00:12:12.980" end_time="00:12:19.500">In fact, if we were to sketch out
+                𝑥- and 𝑦-axes, then we can draw in vectors 𝐑 and 𝐒 on this graph.</s>
+        </p>
+        <p>
+            <s start_time ="00:12:19.650" end_time="00:12:26.770">Vector 𝐑 extends three units in
+                the positive 𝑥-direction and two units in the positive 𝑦, giving a vector like
+                this.</s>
+            <s start_time ="00:12:26.990" end_time="00:12:33.460">While vector 𝐒 extends five units
+                in the positive 𝑥-direction and then eight units in the positive 𝑦-direction.</s>
+            <s start_time ="00:12:33.780" end_time="00:12:35.410">And that vector looks like
+                this.</s>
+            <s start_time ="00:12:35.740" end_time="00:12:46.610">Now, to calculate this vector
+                product, 𝐑 across 𝐒, we’ll want to recall the mathematical form of the vector
+                product of two vectors that lie entirely in the 𝑥𝑦-plane like 𝐑 and 𝐒 do.</s>
+        </p>
+        <p>
+            <s start_time ="00:12:47.020" end_time="00:12:52.670">If we call two general vectors that
+                both are constrained to lie in the 𝑥𝑦-plane 𝐀 and 𝐁.</s>
+            <s start_time ="00:12:52.880" end_time="00:13:04.270">Then the vector product of 𝐀 and
+                𝐁, also called the cross product of 𝐀 and 𝐁, is equal to the 𝑥-component of 𝐀
+                times the 𝑦-component of 𝐁 minus the 𝑦-component of 𝐀 times the 𝑥-component of
+                𝐁.</s>
+            <s start_time ="00:13:04.580" end_time="00:13:08.050">Note that a vector product of two
+                vectors results in a vector.</s>
+            <s start_time ="00:13:08.320" end_time="00:13:11.190">That is, it has both magnitude as
+                well as direction.</s>
+            <s start_time ="00:13:11.520" end_time="00:13:19.090">And since our vectors 𝐀 and 𝐁
+                both lie in the 𝑥𝑦-plane, their vector product points perpendicularly to that, in
+                the 𝐤-direction.</s>
+        </p>
+        <p>
+            <s start_time ="00:13:19.360" end_time="00:13:26.000">Let’s now use this relationship
+                along with 𝐑 and 𝐒 written in their component form to calculate 𝐑 cross 𝐒.</s>
+            <s start_time ="00:13:26.270" end_time="00:13:34.440">This vector product is equal to the
+                𝑥-component of 𝐑 times the 𝑦-component of 𝐒 minus the 𝑦-component of 𝐑 times
+                the 𝑥-component of 𝐒.</s>
+            <s start_time ="00:13:34.580" end_time="00:13:38.350">And this will also point in the
+                𝐤-direction, either positive or negative.</s>
+            <s start_time ="00:13:38.690" end_time="00:13:53.760">Looking at these different terms in
+                our parentheses, we can see that the 𝑥-component of 𝐑 is three, that the
+                𝑦-component of 𝐒 is eight and then the 𝑦-component of 𝐑 is two and the
+                𝑥-component of 𝐒 is five.</s>
+        </p>
+        <p>
+            <s start_time ="00:13:54.540" end_time="00:13:58.490">When we substitute in these values,
+                our next task is to calculate their result.</s>
+            <s start_time ="00:13:58.770" end_time="00:14:02.530">Three times eight is 24, and two
+                times five is 10.</s>
+            <s start_time ="00:14:02.790" end_time="00:14:06.210">And then, 24 minus 10 is equal to
+                14.</s>
+            <s start_time ="00:14:06.490" end_time="00:14:11.090">So, our vector product points 14
+                units in the positive 𝐤-direction.</s>
+            <s start_time ="00:14:11.210" end_time="00:14:21.040">So, if we drew in a 𝑧-axis on our
+                graph, where that axis pointed out of the screen at us, then this vector product
+                would point 14 units toward us along that direction.</s>
+            <s start_time ="00:14:21.290" end_time="00:14:23.760">This is the vector product of 𝐑
+                and 𝐒.</s>
+        </p>
+		</question>
+        <p>
+            <s start_time ="00:14:24.860" end_time="00:14:28.540">Let’s summarize now what we’ve
+                learned about the vector product of two vectors.</s>
+            <s start_time ="00:14:28.890" end_time="00:14:33.670">In this lesson, we learned that the
+                vector product of two vectors is another vector.</s>
+            <s start_time ="00:14:34.040" end_time="00:14:40.190">Along with this, we saw that if we
+                have two vectors 𝐀 and 𝐁 that lie entirely in the 𝑥𝑦-plane.</s>
+            <s start_time ="00:14:40.330" end_time="00:14:48.670">Then the vector product of 𝐀 and
+                𝐁 is equal to the 𝑥-component of 𝐀 times the 𝑦-component of 𝐁 minus the
+                𝑦-component of 𝐀 times the 𝑥-component of 𝐁.</s>
+            <s start_time ="00:14:48.840" end_time="00:14:52.380">And that this vector product points
+                in the 𝐤-unit vector direction.</s>
+        </p>
+        <p>
+            <s start_time ="00:14:52.660" end_time="00:14:57.510">We also learned that the order in
+                which two vectors appear in a vector product makes a difference.</s>
+            <s start_time ="00:14:57.620" end_time="00:15:04.140">The vector product, also called the
+                cross product, of 𝐀 and 𝐁 is equal to negative the vector product of 𝐁 and
+                𝐀.</s>
+            <s start_time ="00:15:04.420" end_time="00:15:08.390">Along with this, we discovered
+                relationships among the unit vectors themselves.</s>
+            <s start_time ="00:15:08.540" end_time="00:15:15.450">That the vector product of 𝐢 and
+                𝐣 is equal to the 𝐤 unit vector, while the vector product of 𝐣 and 𝐢 is equal to
+                negative that vector.</s>
+        </p>
+        <p>
+            <s start_time ="00:15:15.770" end_time="00:15:28.120">And lastly, we saw that if we have
+                two vectors 𝐀 and 𝐁 in the 𝑥𝑦-plane that are separated by an angle 𝜃, then the
+                magnitude of their vector product is equal to the magnitude of the individual
+                vectors times the sin of 𝜃.</s>
+        </p>
+    </transcript>
+</video>

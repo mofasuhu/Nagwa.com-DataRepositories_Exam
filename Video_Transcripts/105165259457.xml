@@ -1,0 +1,424 @@
+﻿<video video_id="105165259457">
+    <video_creator video_creator_id="348191246181">
+        <first_name>Ed</first_name>
+        <last_name>Burdette</last_name>
+        <email>ed.burdette@nagwa.com</email>
+    </video_creator>
+    <video_type>Lesson</video_type>
+    <subject>Physics</subject>
+    <publication_date>2020-03-04</publication_date>
+    <duration>927452.00</duration>
+    <language>
+        <source>en</source>
+    </language>
+    <title>Inductance</title>
+    <seo_meta_description>In this video, we will learn how to calculate the self-inductance of a conducting loop and the mutual inductance of a pair of conducting coils.</seo_meta_description>
+    <transcript>
+        <p>
+            <s start_time ="00:00:00.510" end_time="00:00:02.980">In this video, we’re talking about
+                inductance.</s>
+            <s start_time ="00:00:03.270" end_time="00:00:07.600">This term refers to the way that
+                current-carrying conductors resist change.</s>
+            <s start_time ="00:00:07.760" end_time="00:00:10.900">In particular, they resist a change
+                in their own current.</s>
+            <s start_time ="00:00:11.470" end_time="00:00:13.320">We’ll see how this all works in a
+                bit.</s>
+            <s start_time ="00:00:13.730" end_time="00:00:20.060">But to get started, let’s consider
+                that inductance basically involves the interaction of two physical properties.</s>
+            <s start_time ="00:00:20.270" end_time="00:00:26.620">It involves magnetic flux,
+                symbolized Φ sub 𝑚, and it involves current, symbolized capital 𝐼.</s>
+            <s start_time ="00:00:27.020" end_time="00:00:30.800">Now, we know that current is charge
+                that flows through a closed circuit.</s>
+            <s start_time ="00:00:31.080" end_time="00:00:34.210">And we can remind ourselves of what
+                magnetic flux means.</s>
+        </p>
+        <p>
+            <s start_time ="00:00:34.520" end_time="00:00:48.030">If we have some area, and we can
+                call that area capital 𝐴, and there’s a magnetic field 𝐵 passing uniformly through
+                that area, then we would say the magnetic flux through this loop of area 𝐴 is equal
+                to 𝐵 times 𝐴.</s>
+            <s start_time ="00:00:48.430" end_time="00:00:52.940">This shows us that magnetic flux is
+                a magnetic field spread over some area.</s>
+            <s start_time ="00:00:53.330" end_time="00:00:59.420">Now, it’s worth saying a quick word
+                about the units of magnetic flux because this will come up in example exercises.</s>
+            <s start_time ="00:00:59.760" end_time="00:01:10.170">Considering how magnetic flux is
+                defined, we know that the SI base units of magnetic field are teslas, capital 𝑇,
+                and that the base unit of area is meter squared.</s>
+            <s start_time ="00:01:10.540" end_time="00:01:14.080">So magnetic flux is measured in
+                teslas meter squared.</s>
+            <s start_time ="00:01:14.390" end_time="00:01:17.370">And the name for that simplified
+                unit is the weber.</s>
+        </p>
+        <p>
+            <s start_time ="00:01:17.990" end_time="00:01:21.650">So magnetic flux is measured in
+                webers, abbreviated this way.</s>
+            <s start_time ="00:01:21.830" end_time="00:01:25.080">And each weber is equal to one
+                tesla times a meter squared.</s>
+            <s start_time ="00:01:25.560" end_time="00:01:34.160">Knowing this about magnetic flux,
+                let’s get back to this idea that inductance is basically about these two physical
+                quantities, magnetic flux and current.</s>
+            <s start_time ="00:01:34.550" end_time="00:01:40.660">Say that we have a loop of wire,
+                like this, that’s carrying a current 𝐼 clockwise as we see it.</s>
+            <s start_time ="00:01:41.210" end_time="00:01:45.960">We can remember that a
+                current-carrying wire produces a magnetic field around itself.</s>
+            <s start_time ="00:01:46.300" end_time="00:01:53.320">So in the case of our wire, this
+                would produce a magnetic field that points into the screen inside this loop of
+                wire.</s>
+            <s start_time ="00:01:53.650" end_time="00:02:03.500">And if we combine the effects of
+                all of these magnetic field lines, what we have is some total magnetic field, we
+                could call it 𝐵, within the area of the cross section of this wire.</s>
+            <s start_time ="00:02:03.860" end_time="00:02:07.080">In other words, we have a magnetic
+                flux through this loop.</s>
+        </p>
+        <p>
+            <s start_time ="00:02:07.590" end_time="00:02:18.490">Whatever this value is, if we take
+                the ratio of that magnetic flux to the current 𝐼 that moves through the loop, then
+                this is equal to what’s called the loop’s inductance, symbolized capital 𝐿.</s>
+            <s start_time ="00:02:18.880" end_time="00:02:25.270">We mentioned that inductance is a
+                measure of how much a current-carrying wire resists a change in its current.</s>
+            <s start_time ="00:02:25.710" end_time="00:02:32.000">So the higher 𝐿 — the inductance
+                of this circuit — is, the harder it is to change the current 𝐼 running through
+                it.</s>
+            <s start_time ="00:02:32.600" end_time="00:02:43.720">Now, it may seem obvious, but when
+                we talk about the inductance of this current-carrying wire, we’re talking about how
+                the current in this wire responds to the magnetic flux created by that current.</s>
+        </p>
+        <p>
+            <s start_time ="00:02:44.240" end_time="00:02:54.580">All that to say, when we talk about
+                inductance symbolized this way, we’re really talking about the self-inductance of a
+                wire, how its current responds to the flux that it creates.</s>
+            <s start_time ="00:02:54.970" end_time="00:02:59.850">We bring all this up because
+                there’s another kind of inductance, called mutual inductance.</s>
+            <s start_time ="00:03:00.310" end_time="00:03:05.030">This has to do with more than one
+                current-carrying wire, and we’ll talk about it soon.</s>
+            <s start_time ="00:03:05.430" end_time="00:03:20.010">So far, though, we just need to
+                know that the inductance of a current-carrying wire describes quantitatively how
+                much it resists a change in current and that it’s equal to the ratio of the magnetic
+                flux through a current-carrying loop divided by that current.</s>
+        </p>
+        <p>
+            <s start_time ="00:03:20.550" end_time="00:03:25.240">Now, talking about magnetic flux
+                may remind us of the law known as Faraday’s law.</s>
+            <s start_time ="00:03:25.530" end_time="00:03:40.830">This law tells us that if we have a
+                conducting loop, even if that loop has no current in it, so long as the magnetic
+                flux Φ sub 𝑚 through that loop is changing in time, then, believe it or not, an
+                electromotive force, an emf, will be induced in the loop.</s>
+            <s start_time ="00:03:41.450" end_time="00:03:48.050">Now, as far as the rest of this
+                equation goes, this capital 𝑁 refers to the number of turns in the loop or loops in
+                a coil.</s>
+            <s start_time ="00:03:48.590" end_time="00:03:53.300">And then this minus sign here just
+                refers to the direction of induced current movement.</s>
+            <s start_time ="00:03:53.730" end_time="00:04:03.470">So Faraday’s law involves a
+                magnetic flux, really a change in magnetic flux, and then an induced emf, which
+                creates a current in a conducting loop.</s>
+        </p>
+        <p>
+            <s start_time ="00:04:03.930" end_time="00:04:08.920">So we can see some elements in
+                Faraday’s law that also appear in this equation for inductance.</s>
+            <s start_time ="00:04:09.140" end_time="00:04:16.580">And in fact, we can write an
+                expression for the emf induced in a conducting loop in terms of the inductance of
+                that loop.</s>
+            <s start_time ="00:04:17.090" end_time="00:04:18.130">It looks like this.</s>
+            <s start_time ="00:04:18.600" end_time="00:04:31.280">Given a conducting loop with
+                inductance capital 𝐿, if we change the current in that loop over some amount of
+                time, then that time rate of change times the loop’s inductance is equal to the emf
+                induced in it.</s>
+        </p>
+        <p>
+            <s start_time ="00:04:31.900" end_time="00:04:36.120">Knowing this, we can actually
+                combine this relationship with Faraday’s law.</s>
+            <s start_time ="00:04:36.440" end_time="00:04:40.630">And as we do, let’s say that we’re
+                talking about the magnitude of the emf induced.</s>
+            <s start_time ="00:04:40.850" end_time="00:04:43.640">So that way, we can just neglect
+                this minus sign here.</s>
+            <s start_time ="00:04:43.990" end_time="00:05:02.030">Okay, so if emf is equal to 𝐿
+                times Δ𝐼 over Δ𝑡 and its magnitude is also equal to the number of turns in a coil
+                multiplied by the change in magnetic flux through one of those loops divided by the
+                change in time, then we can equate the right sides of those two equations.</s>
+            <s start_time ="00:05:02.160" end_time="00:05:11.360">And notice that on both sides we
+                have Δ𝑡 in the denominator, which means that if we multiply both sides by Δ𝑡, then
+                that time interval cancels out.</s>
+        </p>
+        <p>
+            <s start_time ="00:05:12.070" end_time="00:05:17.330">So this is another way of
+                expressing inductance based on these two relationships here.</s>
+            <s start_time ="00:05:17.800" end_time="00:05:22.410">Now, earlier, we said that
+                self-inductance isn’t the only kind of inductance there is.</s>
+            <s start_time ="00:05:22.640" end_time="00:05:28.910">Mutual inductance, and we saw an
+                example of this on our opening screen, is another way for induction to happen.</s>
+            <s start_time ="00:05:29.320" end_time="00:05:30.290">It works like this.</s>
+            <s start_time ="00:05:30.570" end_time="00:05:36.420">Say that we have a current in a
+                conducting loop such that it creates a magnetic field through that loop that looks
+                this way.</s>
+            <s start_time ="00:05:36.650" end_time="00:05:42.440">Now, say we put a second conducting
+                loop in a position so that this magnetic field went through it.</s>
+            <s start_time ="00:05:42.790" end_time="00:05:47.210">In that case, there will be a
+                magnetic field moving through the cross-sectional area of this loop.</s>
+            <s start_time ="00:05:47.430" end_time="00:05:49.620">And that would mean a magnetic flux
+                in the loop.</s>
+        </p>
+        <p>
+            <s start_time ="00:05:50.120" end_time="00:05:56.720">Faraday’s law says that a change in
+                magnetic flux happening over some amount of time induces an emf.</s>
+            <s start_time ="00:05:57.020" end_time="00:05:59.910">And that means that charge would
+                start to flow in this loop.</s>
+            <s start_time ="00:06:00.350" end_time="00:06:07.220">Now, the change in magnetic flux
+                we’re talking about could be the initial movement of this conducting loop into the
+                magnetic field.</s>
+            <s start_time ="00:06:07.470" end_time="00:06:14.490">But of course, once the loop is
+                there, assuming there’s no change in the magnetic field through it, there’d also be
+                no change in magnetic flux.</s>
+        </p>
+        <p>
+            <s start_time ="00:06:14.640" end_time="00:06:16.160">But what if we did this?</s>
+            <s start_time ="00:06:16.480" end_time="00:06:21.290">What if we gradually increased the
+                magnitude of the current in this loop over here?</s>
+            <s start_time ="00:06:21.670" end_time="00:06:27.650">That would create an increasing
+                magnetic field, which would lead to an increase in magnetic flux through this
+                smaller loop.</s>
+            <s start_time ="00:06:28.060" end_time="00:06:35.510">So long as current is changing
+                then, in this primary loop we could call it, then it will drive the creation of
+                current in this secondary loop.</s>
+            <s start_time ="00:06:35.820" end_time="00:06:44.890">That induced current direction will
+                be such that it creates a magnetic field which opposes the change in magnetic flux
+                experienced by this current loop.</s>
+        </p>
+        <p>
+            <s start_time ="00:06:45.430" end_time="00:06:48.860">This overall process is referred to
+                as mutual induction.</s>
+            <s start_time ="00:06:49.270" end_time="00:06:55.310">And rather than symbolizing this
+                kind of induction with a capital 𝐿, it’s typically a capital 𝑀 that is used.</s>
+            <s start_time ="00:06:55.560" end_time="00:07:00.530">So, for example, in this equation
+                over here, instead of an 𝐿, we might see an 𝑀.</s>
+            <s start_time ="00:07:00.770" end_time="00:07:13.550">But it would still mean essentially
+                the same thing, that some inductance, whether self-inductance or mutual, multiplied
+                by a change in current over a change in time is equal to the induced emf in a
+                current-carrying loop.</s>
+            <s start_time ="00:07:14.010" end_time="00:07:20.600">The same thing is true for this
+                equation here, or sometimes instead of an 𝐿, we would see the 𝑀 of mutual
+                inductance.</s>
+        </p>
+        <p>
+            <s start_time ="00:07:20.840" end_time="00:07:28.590">It’s worth pointing out that rather
+                than being a rare occurrence, mutual inductance is the operating principle for
+                electrical transformers.</s>
+            <s start_time ="00:07:28.940" end_time="00:07:34.030">Say we had a transformer here
+                consisting of a core and a primary and secondary circuit.</s>
+            <s start_time ="00:07:34.410" end_time="00:07:43.680">If the current in the primary
+                circuit changes in time, then that will create a change in magnetic field
+                transmitted by the core through the coils of the secondary circuit.</s>
+            <s start_time ="00:07:44.080" end_time="00:07:50.550">Through mutual induction between
+                these circuits, emf and then current will be induced in the secondary circuit.</s>
+            <s start_time ="00:07:51.000" end_time="00:07:56.080">Now, whether we’re talking about
+                mutual or self-inductance, the unit for inductance is the same.</s>
+            <s start_time ="00:07:56.360" end_time="00:08:01.030">It’s the henry, named after Joseph
+                Henry, and it’s abbreviated capital H.</s>
+            <s start_time ="00:08:01.720" end_time="00:08:05.460">To understand this topic better,
+                let’s now try out an example exercise.</s>
+        </p>
+		<question id="848163740512" media_identifier="408107030952">
+          <publication_date>2020-05-02</publication_date>
+          <question_title>Mutual Induction</question_title>
+          <question_seo_meta_description>A transformer with an iron core has a primary coil with 25 turns and a secondary coil that also has 25 turns. The current in the primary coil increases the magnetic flux through the core by 0.15 Wb/s. The current in the secondary coil increases at 0.075 A/s. What is the mutual inductance of the coils?</question_seo_meta_description>
+
+        <p>
+            <s start_time ="00:08:05.790" end_time="00:08:12.950">A transformer with an iron core has
+                a primary coil with 25 turns and a secondary coil that also has 25 turns.</s>
+            <s start_time ="00:08:13.300" end_time="00:08:20.280">The current in the primary coil
+                increases the magnetic flux through the core by 0.15 webers per second.</s>
+            <s start_time ="00:08:20.720" end_time="00:08:26.570">The current in the secondary coil
+                increases at 0.075 amperes per second.</s>
+            <s start_time ="00:08:27.030" end_time="00:08:29.410">What is the mutual inductance of
+                the coils?</s>
+        </p>
+        <p>
+            <s start_time ="00:08:29.840" end_time="00:08:34.920">To get started here, let’s draw a
+                sketch of this transformer with the primary and secondary coils.</s>
+            <s start_time ="00:08:35.320" end_time="00:08:37.660">Okay, so here’s our transformer
+                core.</s>
+            <s start_time ="00:08:37.950" end_time="00:08:40.670">And this is the primary coil; we’ll
+                call this the secondary.</s>
+            <s start_time ="00:08:40.900" end_time="00:08:47.160">And even though we can see that
+                neither of these has 25 turns to it, like our problem statement tells us, we can
+                pretend they do.</s>
+            <s start_time ="00:08:47.560" end_time="00:09:01.480">The idea with the transformer is
+                that as current passes through the primary coil and specifically as it changes and
+                passes through this coil, then this creates a change in magnetic field that the core
+                directs through the loops of the secondary coil.</s>
+            <s start_time ="00:09:01.860" end_time="00:09:07.200">When the secondary coil experiences
+                this change in magnetic flux, current is induced in it.</s>
+        </p>
+        <p>
+            <s start_time ="00:09:07.630" end_time="00:09:11.200">In our scenario, the current in the
+                primary coil is increasing.</s>
+            <s start_time ="00:09:11.430" end_time="00:09:25.350">We don’t know the rate it’s
+                increasing by, but we do know that it’s affecting the magnetic flux in the core and
+                that that flux is increasing at a steady rate, given as 0.15 webers per second,
+                where a weber is the unit of magnetic flux.</s>
+            <s start_time ="00:09:25.700" end_time="00:09:35.540">Now, just as a reminder, if we have
+                some area 𝐴 and there’s a magnetic field 𝐵 passing through that area, then we can
+                say there’s a magnetic flux Φ sub 𝑚 through that loop.</s>
+            <s start_time ="00:09:35.920" end_time="00:09:38.810">And the units of magnetic flux, as
+                we’ve seen, are webers.</s>
+        </p>
+        <p>
+            <s start_time ="00:09:39.070" end_time="00:09:48.680">So going back to our transformer,
+                in the core, this iron material that connects our primary and secondary coils, the
+                magnetic flux is increasing at this given rate.</s>
+            <s start_time ="00:09:49.030" end_time="00:09:53.910">And that, our problems statement
+                tells us, drives an increasing current in the secondary coil.</s>
+            <s start_time ="00:09:54.250" end_time="00:10:01.430">We have then a change in current in
+                one coil, creating a change in magnetic flux, which induces a change in current in
+                another coil.</s>
+            <s start_time ="00:10:01.690" end_time="00:10:04.550">This means we have mutual
+                inductance going on.</s>
+            <s start_time ="00:10:04.920" end_time="00:10:07.540">And we want to calculate the value
+                of that inductance.</s>
+        </p>
+        <p>
+            <s start_time ="00:10:07.950" end_time="00:10:10.890">To begin to do this, we can recall
+                Faraday’s law.</s>
+            <s start_time ="00:10:11.100" end_time="00:10:15.820">The reason we’re thinking of this
+                law is because we have a magnetic flux that changes in time.</s>
+            <s start_time ="00:10:16.160" end_time="00:10:29.730">Faraday’s law tells us that this
+                change in flux, ΔΦ sub 𝑚, over some change in time, Δ𝑡, multiplied by the number
+                of turns in whatever coil we’re considering is equal to the magnitude of the emf
+                induced in that coil.</s>
+            <s start_time ="00:10:30.110" end_time="00:10:35.000">Now, in terms of mutual inductance,
+                induced emf is equal to something else as well.</s>
+            <s start_time ="00:10:35.350" end_time="00:10:49.480">We can recall that induced emf is
+                equal to the mutual inductance between two conducting loops multiplied by the time
+                rate of change of current and what we can call the secondary loop or, in the example
+                of our transformer, the secondary coil.</s>
+        </p>
+        <p>
+            <s start_time ="00:10:49.910" end_time="00:10:52.890">So it’s 𝑀, the mutual inductance,
+                that we want to solve for.</s>
+            <s start_time ="00:10:53.140" end_time="00:11:11.140">And we see that that value
+                multiplied by Δ𝐼 divided by Δ𝑡 is equal to the emf induced in a secondary coil,
+                which by Faraday’s law is also equal to negative the number of turns or loops in the
+                coil multiplied by the change in magnetic flux divided by the change in time.</s>
+            <s start_time ="00:11:11.490" end_time="00:11:20.750">Since we’re given this time rate of
+                change of magnetic flux, let’s combine these two equations for induced emf by
+                equating the right sides with one another.</s>
+        </p>
+        <p>
+            <s start_time ="00:11:21.100" end_time="00:11:27.970">When we do this though, we’ll leave
+                off this minus sign here because in our case we’re only concerned with the magnitude
+                of the emf induced.</s>
+            <s start_time ="00:11:28.260" end_time="00:11:29.700">So then we get this.</s>
+            <s start_time ="00:11:29.870" end_time="00:11:46.370">𝑀, the mutual inductance of the
+                coils, times Δ𝐼 divided by Δ𝑡, the time rate of change of current in the secondary
+                coil, is equal to the number of loops in that coil multiplied by the time rate of
+                change of magnetic flux that each loop in the coil experiences.</s>
+        </p>
+        <p>
+            <s start_time ="00:11:46.610" end_time="00:11:51.060">What we want to do is isolate 𝑀
+                since we’re solving for the mutual inductance.</s>
+            <s start_time ="00:11:51.230" end_time="00:11:55.710">And to do that, we’ll divide both
+                sides of the equation by Δ𝐼 divided by Δ𝑡.</s>
+            <s start_time ="00:11:55.960" end_time="00:12:14.930">When we do, on the right-hand side
+                of the resulting equation, we have 𝑁 — the number of turns in the secondary coil,
+                that’s 25 — multiplied by the time rate of change of magnetic flux in the core,
+                that’s given as 0.15 webers per second, divided by the time rate of change of
+                current in the secondary coil.</s>
+            <s start_time ="00:12:15.190" end_time="00:12:20.590">This is the induced current, and
+                its rate of change is 0.075 amperes per second.</s>
+            <s start_time ="00:12:20.980" end_time="00:12:27.030">When we calculate this fraction and
+                keep two significant figures, we find a result of 50 henrys.</s>
+            <s start_time ="00:12:27.380" end_time="00:12:29.970">That’s the mutual inductance of the
+                two coils.</s>
+        </p>
+		</question>
+        <p>
+            <s start_time ="00:12:30.690" end_time="00:12:33.180">Let’s look now at a second example
+                exercise.</s>
+        </p>
+		<question id="472174025780" media_identifier="592161038072">
+          <publication_date>2020-05-02</publication_date>
+          <question_title>Self-Induction</question_title>
+          <question_seo_meta_description>A loop of wire carries a current of 180 mA. The magnetic flux produced by the current is 0.77 Wb. What is the self-inductance of the loop?</question_seo_meta_description>
+
+        <p>
+            <s start_time ="00:12:33.520" end_time="00:12:37.290">A loop of wire carries a current of
+                180 milliamperes.</s>
+            <s start_time ="00:12:37.580" end_time="00:12:41.790">The magnetic flux produced by the
+                current is 0.77 webers.</s>
+            <s start_time ="00:12:42.110" end_time="00:12:44.150">What is the self-inductance of the
+                loop?</s>
+        </p>
+        <p>
+            <s start_time ="00:12:44.620" end_time="00:12:47.180">So then, in this example, we have a
+                loop of wire.</s>
+            <s start_time ="00:12:47.320" end_time="00:12:48.240">Let’s say this is it.</s>
+            <s start_time ="00:12:48.430" end_time="00:12:51.740">And it’s carrying a current of 180
+                milliamperes.</s>
+            <s start_time ="00:12:51.880" end_time="00:12:55.610">Because of this, a magnetic field
+                is produced that passes through the loop.</s>
+            <s start_time ="00:12:55.980" end_time="00:12:58.490">Let’s just say the magnetic field
+                points like this.</s>
+            <s start_time ="00:12:58.700" end_time="00:13:05.460">And because we have this field
+                passing through the interior area of the loop, that means we have a magnetic flux
+                through the loop.</s>
+            <s start_time ="00:13:05.850" end_time="00:13:10.890">And that’s the value we have given
+                to us here in our problem statement, 0.77 webers.</s>
+            <s start_time ="00:13:11.230" end_time="00:13:14.860">We can refer to that symbolically
+                as Φ sub 𝑚, magnetic flux.</s>
+        </p>
+        <p>
+            <s start_time ="00:13:15.220" end_time="00:13:18.700">Knowing all this, we want to solve
+                for the self-inductance of the loop.</s>
+            <s start_time ="00:13:18.950" end_time="00:13:29.780">And we can recall that the
+                self-inductance of a loop, capital 𝐿, is equal to the ratio of the magnetic flux Φ
+                sub 𝑚 produced by a current 𝐼 in the loop to that current 𝐼.</s>
+            <s start_time ="00:13:30.180" end_time="00:13:33.670">For our particular loop then, we
+                have exactly that information about it.</s>
+            <s start_time ="00:13:34.060" end_time="00:13:36.150">Our current 𝐼 is a current in the
+                loop.</s>
+            <s start_time ="00:13:36.490" end_time="00:13:41.210">And the magnetic flux is produced
+                thanks to a magnetic field generated by that current.</s>
+            <s start_time ="00:13:41.660" end_time="00:13:46.600">So to solve for the self-inductance
+                of our loop, we only need to divide Φ sub 𝑚 by 𝐼.</s>
+        </p>
+        <p>
+            <s start_time ="00:13:46.980" end_time="00:13:54.810">With these values plugged in, the
+                one change we’ll want to make before dividing is to convert the units of our current
+                from milliamperes to amperes.</s>
+            <s start_time ="00:13:55.130" end_time="00:14:03.570">Now, since 1000 milliamperes is
+                equal to one amp, we can say that 180 milliamperes is equal to 0.180 amps.</s>
+            <s start_time ="00:14:04.020" end_time="00:14:05.390">And now we’re ready to divide.</s>
+            <s start_time ="00:14:05.760" end_time="00:14:10.440">And when we do, to two significant
+                figures, we find a result of 4.3 henrys.</s>
+            <s start_time ="00:14:10.760" end_time="00:14:12.870">That’s the self-inductance of this
+                loop.</s>
+        </p>
+		</question>
+        <p>
+            <s start_time ="00:14:14.060" end_time="00:14:17.230">Let’s summarize now what we’ve
+                learned in this lesson on inductance.</s>
+            <s start_time ="00:14:17.660" end_time="00:14:23.600">Earlier on, we saw that inductance
+                is the tendency of a current-carrying conductor to resist a change in current.</s>
+            <s start_time ="00:14:24.060" end_time="00:14:33.700">The inductance of a circuit,
+                sometimes called its self-inductance, is equal to the ratio of the magnetic flux
+                through the current loop divided by that current.</s>
+            <s start_time ="00:14:34.170" end_time="00:14:50.240">We also learned that Faraday’s law
+                led us to another relationship describing inductance, that the inductance in a
+                circuit multiplied by the time rate of change of current in that circuit is equal to
+                the number of loops or turns in the circuit times the time rate of change of
+                magnetic flux.</s>
+        </p>
+        <p>
+            <s start_time ="00:14:50.660" end_time="00:15:08.100">We learned further about mutual
+                inductance, symbolized using a capital 𝑀, which occurs when a change in current, in
+                what we could call a primary coil, creates a change in magnetic field, which is then
+                experienced by a secondary coil where that change in flux through the secondary coil
+                induces a current.</s>
+            <s start_time ="00:15:08.560" end_time="00:15:24.580">This, we saw, is the basic
+                principle behind electrical transformers and can be described by saying that the
+                mutual inductance between two coils or two loops of wire multiplied by the time rate
+                of change of current in the secondary wire is equal to the emf induced there.</s>
+            <s start_time ="00:15:25.060" end_time="00:15:27.030">This is a summary of
+                inductance.</s>
+        </p>
+    </transcript>
+</video>

@@ -1,0 +1,352 @@
+<explainer id="973130769145" country="zz" currency="none" calendar="none" unit_system="none" language="en"  dialect="american" publication_date="2020-09-03T10:10:00">
+  <title>Interpreting Graphs of Derivatives</title>
+  <seo_meta_description/>
+  <source_id>816154794708</source_id>
+  <developer_name>Graham Ely</developer_name>
+  <developer_email>graham.ely@nagwa.com</developer_email>
+  <dictionary>
+    <item>
+      <from>@f</from>
+      <to>f</to>
+    </item>
+    <item>
+      <from>@x</from>
+      <to>x</to>
+    </item>
+    <item>
+      <from>@y</from>
+      <to>y</to>
+    </item>
+    <item>
+      <from>@prime</from>
+      <to>\prime</to>
+    </item>
+     <item>
+      <from>@I</from>
+      <to>I</to>
+    </item>
+    <item symbol="false"><from>@Local</from><to>Local</to></item>
+    <item symbol="false"><from>@extrema</from><to>extrema</to></item>
+    <item symbol="false"><from>@Derivative</from><to>Derivative $0$</to></item>
+    <item symbol="false"><from>@ispo</from><to>is positive</to></item>
+    <item symbol="false"><from>@isne</from><to>is negative</to></item>
+    <item symbol="false"><from>@is</from><to>is</to></item>
+    <item symbol="false"><from>@decreasing</from><to>decreasing</to></item>
+    <item symbol="false"><from>@increasing</from><to>increasing</to></item>
+    <item symbol="false"><from>@Pointof</from><to>Point of</to></item>
+    <item symbol="false"><from>@inflection</from><to>inflection</to></item>
+    <item symbol="false"><from>@forf</from><to>for $f$</to></item>
+    <item symbol="false"><from>@concave</from><to>concave</to></item>
+    <item symbol="false"><from>@downward</from><to>downward</to></item>
+    <item symbol="false"><from>@upward</from><to>upward</to></item>
+    <item symbol="false"><from>@negative</from><to>negative</to></item>
+    <item symbol="false"><from>@ispositivesoslopeof</from><to>is positive&#44; so the slope of </to></item>
+    <item symbol="false"><from>@ispositive</from><to>is positive</to></item>
+    <item symbol="false"><from>@isnegativesoslopeof</from><to>is negative&#44; so the slope of </to></item>
+    <item symbol="false"><from>@isnegative</from><to>is negative</to></item>
+    <item symbol="false"><from>@Slopeisnegative</from><to>Slope is negative&#44;</to></item>
+    <item symbol="false"><from>@isdecreasing</from><to>is decreasing</to></item>
+    <item symbol="false"><from>@Slopeispositive</from><to>Slope is positive&#44;</to></item>
+    <item symbol="false"><from>@isincreasing</from><to>is increasing</to></item>
+    <item symbol="false"><from>@maximum</from><to>maximum</to></item>
+    <item symbol="false"><from>@minimum</from><to>minimum</to></item>
+    <item symbol="false"><from>@Slopeof</from><to>Slope of</to></item>
+    <item symbol="false"><from>@ispositiveso</from><to>is positive&#44; so </to></item>
+    <item symbol="false"><from>@hasapositiveslope</from><to>has a positive slope</to></item>
+    <item symbol="false"><from>@isnegativeso</from><to>is negative&#44; so </to></item>
+    <item symbol="false"><from>@hasanegativeslope</from><to>has a negative slope</to></item>
+    <item symbol="false"><from>@isconcaveupward</from><to>is concave upward</to></item>
+    <item symbol="false"><from>@isconcavedownward</from><to>is concave downward</to></item>
+      </dictionary>
+  <body>
+    <p>In this explainer, we will learn how to connect a function to the graphs of its first and second derivatives.</p>
+    
+    <p>The derivatives of a function give us many different techniques for describing the different properties of a curve. For example, 
+      the slope of a curve is represented by its first derivative and the concavity of the curve is represented by its second derivative.</p>
+    
+    <p>For a differentiable function <latex>$@f$</latex>, we know that the local extrema will occur when its derivative is equal to zero. 
+      We can see this graphically, where the stationary points of <latex>$@y = @f\left( @x \right)$</latex> have the same <latex>$@x$</latex>-value as the 
+      <latex>$@x$</latex>-intercepts of <latex>$@y = @f@prime\left( @x \right)$</latex>.</p><tikz scale="450" src="1.tex"/>
+    
+    <p>This is not the only information we can see from the curve <latex>$@y = @f@prime\left( @x \right)$</latex>. We also know 
+      that <latex>$@f\left( @x \right)$</latex> is increasing when its derivative is positive and decreasing when its derivative is negative. 
+      We can also see this information graphically.</p><tikz scale="500" src="2.tex"/>
+    
+    <p>This means we can analyze the curve <latex>$@y = @f@prime\left( @x \right)$</latex> to determine information about the function 
+      <latex>$@f$</latex>. When <latex>$@y = @f@prime\left( @x \right)$</latex> has an <latex>$@x$</latex>-intercept, 
+      <latex>$@f$</latex> must have a stationary point. In other words, the tangent line to <latex>$@f\left( @x \right)$</latex> at this point is horizontal. 
+      This could be a local extremum or it could be a point of inflection.</p>
+    
+    <p>We know when <latex>$@f@prime\left( @x \right)$</latex> is above the <latex>$@x$</latex>-axis, we can conclude <latex>$@f$</latex> is increasing. 
+      Similarly, when <latex>$@f@prime\left( @x \right)$</latex> is below the <latex>$@x$</latex>-axis, we can conclude <latex>$@f$</latex> is decreasing.</p>
+    
+    <p>We can also do this with the second derivative. Recall that the second derivative of a function tells us the concavity of the curve.</p>
+    
+    <sidebar type="definition">
+      <title>Definition: Concavity of a Function</title>
+      <ul>
+      <li>We say a function <latex>$@f\left( @x \right)$</latex> is concave upward on an interval <latex>$@I$</latex> if all of its tangents on this interval 
+        lie below the curve. Equivalently, <latex>$@f@prime\left( @x \right)$</latex> will be increasing on <latex>$@I$</latex>.</li>
+      <li>We say <latex>$@f\left( @x \right)$</latex> is concave downward on an interval <latex>$@I$</latex> if all of its tangents on this interval lie above 
+        the curve. Equivalently, <latex>$@f@prime\left( @x \right)$</latex> will be decreasing on <latex>$@I$</latex>.</li>
+      </ul>
+      </sidebar>
+    
+    <p>If our function <latex>$@f$</latex> is twice differentiable on an interval, then we can equivalently consider the sign of the second derivative over this interval.</p>
+    
+    <sidebar type="definition">
+      <title>Definition: Concavity of a Twice-Differentiable Function</title>
+      <p>For a twice-differentiable function <latex>$@f$</latex>,</p>
+      <ul>
+      <li>if <latex>$@f@prime@prime\left( @x \right) &gt; 0$</latex> on an interval <latex>$@I$</latex>, then <latex>$@f$</latex> is concave upward on this interval;</li>
+      <li>if <latex>$@f@prime@prime\left( @x \right) &lt; 0$</latex> on an interval <latex>$@I$</latex>, then <latex>$@f$</latex> is concave downward on this interval.</li>
+      </ul>
+      </sidebar>
+    
+    <p>The concavity of a curve may change at values of <latex>$@x$</latex> where its second derivative is equal to zero (or does not exist); 
+      these are called points of inflection. We can also see this information graphically.</p>
+    
+    <p>Let&#x2019;s start with the curve <latex>$@y = @f@prime@prime\left( @x \right)$</latex>.</p><tikz scale="400" src="3.tex"/>
+    
+    <p>When the curve <latex>$@y = @f@prime@prime\left( @x \right)$</latex> is above the <latex>$@x$</latex>-axis, the second derivative is positive, 
+      so <latex>$@f$</latex> is concave upward. Similarly, when the curve <latex>$@y = @f@prime@prime\left( @x \right)$</latex> is below the <latex>$@x$</latex>-axis, 
+      the second derivative is negative, so <latex>$@f$</latex> is concave downward.</p><tikz scale="400" src="4.tex"/>
+    
+    <p>When the second derivative of our function switches from negative to positive, <latex>$@f$</latex> will have a point of inflection and the tangent lines switch 
+      from above the curve to below the curve.</p>
+    
+    <p>We can therefore use the graphs of <latex>$@y = @f@prime \left( @x \right)$</latex> and <latex>$@y = @f@prime@prime\left( @x \right)$</latex> 
+      to determine information about the function <latex>$@f$</latex>. Let us see an example involving the derivative function.</p>
+    
+    <example>
+      <title>Finding the Monotonicity of a Function given Its Derivative Graph</title>
+      <question id="209189293038" instance_number="1">
+        <mcq>
+          <stem>
+            <p>The graph of the derivative <latex>$@f@prime$</latex> of a function <latex>$@f$</latex> is shown. On what intervals is <latex>$@f$</latex> 
+              increasing or decreasing?</p><tikz scale="400" src="5.tex"/>
+          </stem>
+        </mcq>
+      </question>
+      <answer>
+        <p>In this question, we are given the curve of <latex>$@y = @f@prime\left( @x \right)$</latex> and asked to find the intervals on which 
+          <latex>$@f\left( @x \right)$</latex> is increasing. Usually, we would look at the graph of <latex>$@f\left( @x \right)$</latex> 
+          and look for the portions of our graph where the slope is positive to see where the function is increasing and where the slope is 
+          negative to see where the function is decreasing. To answer this question, we need to remember the slope of <latex>$@f\left( @x \right)$</latex> 
+          is given by <latex>$@f@prime \left( @x \right)$</latex>.</p>
+        
+        <p>This means we can also see this information in the graph of <latex>$@y = @f@prime\left( @x \right)$</latex>. The derivative, 
+          <latex>$@f@prime\left( @x \right)$</latex>, will be positive when the curve is above the <latex>$@x$</latex>-axis and it will be negative 
+          when the curve is below the <latex>$@x$</latex>-axis.</p><tikz scale="400" src="6.tex"/>
+        
+        <p>We can see when <latex>$@x \in \nagwaInterval{(1,5)}$</latex> that we have <latex>$@f@prime\left( @x \right) &gt; 0$</latex>, 
+          so the slope of <latex>$@f\left( @x \right)$</latex> is positive. This means that, for these values of <latex>$@x$</latex>, our function 
+          <latex>$@f$</latex> must be increasing.</p>
+        
+        <p>Similarly, when <latex>$@x \in \nagwaInterval{(0,1)}$</latex> or <latex>$@x \in \nagwaInterval{(5,6)}$</latex>, we can see that 
+          <latex>$@f@prime\left( @x \right) &lt; 0$</latex>, so the slope of <latex>$@f\left( @x \right)$</latex> is negative for these values of 
+          <latex>$@x$</latex>, which means that <latex>$@f$</latex> is decreasing on these intervals.</p>
+        
+        <p>Therefore, we were able to show that <latex>$@f$</latex> is increasing on the interval <latex>$\nagwaInterval{(1,5)}$</latex> and decreasing on the intervals 
+          <latex>$\nagwaInterval{(0,1)}$</latex> and <latex>$\nagwaInterval{(5,6)}$</latex>.</p>
+      </answer>
+    </example>
+    
+    <p>It is worth noting that <latex>$@f@prime\left( 1 \right) =0$</latex> and <latex>$@f@prime\left( 5 \right) =0$</latex>. Since these values of 
+      <latex>$@x$</latex> are the end points of increasing or decreasing intervals, we technically could include these values in our answer.</p>
+    
+    <p>In fact, some literature always includes endpoints with zero derivative in the intervals where a function increases or decreases. It is personal preference 
+      whether or not to include endpoints with zero derivative in increasing or decreasing intervals; we will choose to leave these points out. Also, because our function 
+      is not differentiable when <latex>$@x \leq 0$</latex> and <latex>$@x \geq 6$</latex>, we can just assume that it is not increasing or decreasing for these values either.</p>
+    
+    <p>Of course, finding increasing and decreasing intervals is not the only thing we use the derivative for. We can also use the second derivative 
+      of a function to determine the concavity. Let&#x2019;s see an example of using the graph of the derivative of a function to find its inflection points.</p>
+    
+    <example>
+      <title>Finding the Inflection Points of a Function from the Graph of Its Derivative</title>
+      <question id="628140175102" instance_number="1">
+        <mcq>
+          <stem>
+            <p>The graph of the first derivative <latex>$@f@prime$</latex> of a continuous function <latex>$@f$</latex> is shown. 
+              State the <latex>$@x$</latex>-coordinates of the inflection points of <latex>$@f$</latex>.</p><tikz scale="400" src="7.tex"/>
+          </stem>
+        </mcq>
+      </question>
+      <answer>
+        <p>In this question, we are tasked with finding the inflection points of the curve <latex>$@y = @f\left( @x \right)$</latex> and to do this we are given a 
+          graph of the derivative function <latex>$@y = @f@prime\left( @x \right)$</latex>. We first need to recall that the inflection points are when the 
+          curve changes concavity, in other words, where <latex>$@f@prime@prime\left( @x \right)$</latex> changes sign. There are a few different ways to find 
+          this from the given graph. The easiest way is to think about the connection between <latex>$@f@prime\left( @x \right)$</latex> and 
+          <latex>$@f@prime@prime\left( @x \right)$</latex>. We know that <latex>$@f@prime@prime\left( @x \right)$</latex> is the derivative of 
+          <latex>$@f@prime\left( @x \right)$</latex>; in other words, <latex>$@f@prime@prime\left( @x \right)$</latex> is the slope of the curve of 
+          <latex>$@y = @f@prime\left( @x \right)$</latex>.</p>
+        
+        <p>We can then ask the following question: what happens when <latex>$@f@prime@prime\left( @x \right)$</latex> changes sign? When 
+          <latex>$@f@prime@prime\left( @x \right)$</latex> is positive, the slope of <latex>$@y = @f@prime\left( @x \right)$</latex> 
+          is positive, so it must be increasing. Similarly, when <latex>$@f@prime@prime\left( @x \right)$</latex> is negative, the slope of 
+          <latex>$@y = @f@prime\left( @x \right)$</latex> is negative.</p>
+          <p>So, we are looking for the points on our graph where the curve switches from increasing to decreasing or vice versa.</p><tikz scale="400" src="8.tex"/>
+
+<p>We can mark these on our graph; we can see that <latex>$@f@prime\left( @x \right)$</latex> is increasing for the following values of <latex>$@x$</latex>:
+ <latex>\begin{gather*} @x &lt; 2,\\
+ 3 &lt; @x &lt; 5,\\
+ @x &gt; 7.  \end{gather*}</latex>
+  </p>
+ 
+ <p>Similarly, we can see <latex>$@f@prime\left( @x \right)$</latex> is decreasing for the following values of <latex>$@x$</latex>:
+ <latex>\begin{gather*} 2 &lt; @x &lt; 3,\\
+ 5 &lt;@x &lt; 7.  \end{gather*}</latex></p>
+ 
+ <p>This means <latex>$@f@prime\left( @x \right)$</latex> switches from being increasing to being decreasing when <latex>$@x =2$</latex> and <latex>$@x =4$</latex> 
+   and switches from being decreasing to being increasing when <latex>$@x =3$</latex> and <latex>$@x =7$</latex>.</p>
+ 
+ <p>Therefore, <latex>$@f$</latex> has inflection points at <latex>$@x =2$</latex>, <latex>$@x =3$</latex>, <latex>$@x =5$</latex>, and <latex>$@x =7$</latex>.</p>
+      </answer>
+    </example>
+    
+    <p>We have also seen how to use the first derivative test to determine whether local extrema are maxima or minima. For example, consider the following graph.</p>
+    <tikz scale="400" src="9.tex"/>
+    
+    <p>We can mark the local extrema as shown, and we can determine their types by considering the slope around these points.</p><tikz scale="400" src="10.tex"/>
+    
+    <p>At a local maximum of a differentiable function, the slope changes from positive to negative. At a local minimum of a differentiable function, the slope  
+      changes from negative to positive. This gives us a method for checking the type of extremum when we know the derivative function <latex>$@f@prime\left( @x \right)$</latex>. 
+      However, we can use exactly the same reasoning if we are instead given the curve <latex>$@y = @f@prime\left( @x \right)$</latex>. Let us see this in an example.</p>
+    <example>
+      <title>Finding the Values That Give the Local Maximum and Minimum Values of a Function from the Graph of Its First Derivative</title>
+      <question id="720141828476" instance_number="1">
+        <mcq>
+          <stem>
+            <p>The graph of the derivative <latex>$@f@prime$</latex> of a function <latex>$@f$</latex> is shown. At what values of <latex>$@x$</latex> does 
+              <latex>$@f$</latex> have a local maximum or minimum?</p><tikz scale="400" src="11.tex"/>
+          </stem>
+        </mcq>
+      </question>
+      <answer>
+        <p>In this question, we are given a graph of <latex>$@y = @f@prime\left( @x \right)$</latex> and we are asked to determine all the values of 
+          <latex>$@x$</latex>, where the function <latex>$@f\left( @x \right)$</latex> has a local extremum. To do this, we need to remember that local extrema must 
+          always occur at the critical points of our function, that is, when the derivative is equal to zero or does not exist. In our case, we can see that 
+          <latex>$@f@prime\left( @x \right) =0$</latex>, when its curve intersects the <latex>$@x$</latex>-axis.</p><tikz scale="400" src="12.tex"/>
+        
+        <p>So, we have two critical points for our function <latex>$@f\left( @x \right)$</latex>, one at <latex>$@x = 1$</latex> and the other at <latex>$@x = 5$</latex>.</p>
+          <p>However, we are not done. We still need to check the types of point we have. Since we have a graph of <latex>$@y = @f@prime\left( @x \right)$</latex>, 
+          we will do this by using the first derivative test.</p><tikz scale="400" src="13.tex"/>
+
+<p>Remember, <latex>$@f@prime\left( @x \right)$</latex> tells us the slope of the curve <latex>$@y = @f\left( @x \right)$</latex>. So, when 
+  <latex>$@f@prime\left( @x \right)$</latex> is positive, we know the slope of <latex>$@f\left( @x \right)$</latex> is positive and the same is true in reverse.</p>
+
+<p>By looking at our graph, we can see that
+<ul>
+<li>when <latex>$@x &lt; 1$</latex>, <latex>$@f\left( @x \right)$</latex> has a negative slope;</li>
+<li>when <latex>$1 &lt; @x &lt; 5$</latex>, <latex>$@f\left( @x \right)$</latex> has a positive slope.</li>
+</ul></p>
+
+
+<p>The first derivative test then tells us we must have a local minimum at <latex>$@x = 1$</latex>.</p>
+
+<p>Similarly,
+<ul>
+<li>when <latex>$1 &lt; @x &lt; 5$</latex>, <latex>$@f\left( @x \right)$</latex> has a positive slope;</li>
+<li>when <latex>$@x &gt; 5$</latex>, <latex>$@f\left( @x \right)$</latex> has a negative slope.</li>
+</ul></p>
+
+
+<p>This time, the first derivative test then tells that <latex>$@x = 5$</latex> is a local maximum for our function <latex>$@f\left( @x \right)$</latex>.</p>
+<p>By using the first derivative test graphically, we were able to show that <latex>$@f$</latex> has a local maximum at <latex>$@x = 5$</latex> and a local minimum at 
+  <latex>$@x = 1$</latex>.</p>
+      </answer>
+    </example>
+    
+   <p>So far, in all of our examples, we have been given a graph of the function <latex>$@y = @f@prime\left( @x \right)$</latex>. But we can also deduce a lot of 
+     information from the graph of the second derivative of a function. Let us see an example of this.</p> 
+    
+    <example>
+      <title>Finding the 𝑥-Coordinates of the Inflection Points of a Function from the Graph of Its Second Derivative</title>
+      <question id="180128151860" instance_number="1">
+        <mcq>
+          <stem>
+            <p>Use the given graph of a function <latex>$@f@prime@prime$</latex> to find the <latex>$@x$</latex>-coordinates of the inflection points of 
+              <latex>$@f$</latex>.</p><tikz scale="400" src="14.tex"/>
+          </stem>
+        </mcq>
+      </question>
+      <answer>
+        <p>We want to find the inflection points of the function <latex>$@f\left( @x \right)$</latex>. Remember, these are points where <latex>$@f\left( @x \right)$</latex> 
+          is continuous and changes concavity, either from concave upward to concave downward or vice versa.</p>
+        
+        <p>We know all points of inflection occur when <latex>$@f@prime@prime \left( @x \right) = 0$</latex> or when the second derivative does not exist. So, we can see 
+          from our diagram this can only happen when <latex>$@x = 1$</latex>, <latex>$@x = 4$</latex>, or <latex>$@x = 7$</latex>.</p>
+        
+        <p>However, we have only shown that our curve can have inflection points at these values of <latex>$@x$</latex>. We still need to check that these are actually 
+          inflection points. To do this, we need to check if our curve changes concavity at these values of <latex>$@x$</latex>.</p>
+        
+        <p>We say a curve is concave upward when its second derivative is positive and concave downward when its second derivative is negative. We are given a graph 
+          of the curve <latex>$@y = @f@prime@prime\left( @x \right)$</latex>, so we can see when this is positive or negative by looking at where the curve is above or 
+          below the <latex>$@x$</latex>-axis.</p><tikz scale="400" src="15.tex"/>
+        
+        <p>We can now see that when <latex>$@x = 1$</latex>, the curve <latex>$@y = @f\left( @x \right)$</latex> will change from concave downward to concave upward. 
+          Similarly, when <latex>$@x = 7$</latex>, the curve <latex>$@y = @f\left( @x \right)$</latex> will change from concave upward to concave downward. 
+          So, both of these are inflection points for our curve. However, we can see the concavity does not change from positive to negative or vice versa at 
+          <latex>$@x = 4$</latex>, so this is not an inflection point.</p>
+        
+        <p>Therefore, we have shown there are two inflection points for the curve <latex>$@y = @f\left( @x \right)$</latex>, one when <latex>$@x = 1$</latex> 
+          and another when <latex>$@x = 7$</latex>.</p>
+      </answer>
+    </example>
+    
+   <p>Let&#x2019;s now see an example where we want to determine the intervals where our curve <latex>$@y = @f\left( @x \right)$</latex> is concave upward or 
+     concave downward just by using the graph of its derivative.</p> 
+    
+    <example>
+      <title>Finding the Concavity of a Function from Its Derivative Graph</title>
+      <question id="136108219839" instance_number="1">
+        <mcq>
+          <stem>
+            <p>The graph of the first derivative <latex>$@f@prime$</latex> of a function <latex>$@f$</latex> is shown. On what intervals is 
+              <latex>$@f$</latex> concave upward or concave downward?</p><tikz scale="400" src="16.tex"/>
+          </stem>
+        </mcq>
+      </question>
+      <answer>
+        <p>We want to determine the intervals where the curve <latex>$@y = @f\left( @x \right)$</latex> is concave upward and concave downward; however, 
+          instead of being given a graph of this function, we are given the graph of its derivative. So, to answer this question, we will need to start by 
+          recalling the connection between the derivative of a function and its concavity.</p>
+        
+        <p>First, remember, we say a curve is concave upward when its second derivative is positive and concave downward when its second derivative is negative.</p>
+        
+        <p>This means we need to determine the sign of the second derivative from the graph of the first derivative. To do this, we need to remember that if we 
+          differentiate the first derivative, we get the second derivative; in other words, <latex>$@f@prime@prime\left( @x \right)$</latex> is the slope of the curve 
+          <latex>$@y = @f@prime\left( @x \right)$</latex>.</p>
+        <p>Therefore, when the slope of <latex>$@y = @f@prime\left( @x \right)$</latex> is positive, we must have that the curve <latex>$@y = @f\left( @x \right)$</latex> 
+          is concave upward, and when the slope of <latex>$@y = @f@prime\left( @x \right)$</latex> is negative, we must have that the curve 
+          <latex>$@y = @f\left( @x \right)$</latex> is concave downward.</p><tikz scale="400" src="17.tex"/>
+
+<p>We can mark the intervals where the slope is positive and negative 
+  in the graph we were given. We see that <latex>$@f$</latex> 
+  is concave upward on 
+  <latex>$\nagwaInterval{(0,1)}$</latex>, 
+  <latex>$\nagwaInterval{(2,3)}$</latex>, and 
+  <latex>$\nagwaInterval{(5,7)}$</latex> and concave downward on 
+  <latex>$\nagwaInterval{(1,2)}$</latex>, <latex>$\nagwaInterval{(3,5)}$</latex>, 
+  and <latex>$\nagwaInterval{(7,9)}$</latex>.</p>
+      </answer>
+    </example>
+    
+    <p>Let us finish by recapping some of the main points we have seen.</p>
+    
+  
+    <sidebar type="definition">
+      <title>Key Points</title>
+      <ul>
+      <li>We can use the graph of <latex>$@f@prime\left( @x \right)$</latex> to find the intervals of increasing and decreasing intervals of <latex>$@f$</latex>.</li>
+      <li>We can use the graph of <latex>$@f@prime\left( @x \right)$</latex> to find the local extrema of <latex>$@f$</latex> and classify them as maxima or minima.</li>
+      <li>We can use the graph of <latex>$@f@prime\left( @x \right)$</latex> or <latex>$@f@prime@prime\left( @x \right)$</latex> to find the intervals on which 
+        <latex>$@f$</latex> is concave upward or concave downward.</li>
+      <li>We can use the graph of <latex>$@f@prime\left( @x \right)$</latex> or <latex>$@f@prime@prime\left( @x \right)$</latex> to find the inflection points of 
+        <latex>$@f$</latex>.</li>
+      </ul>
+      </sidebar>
+    
+    
+  </body>
+</explainer>

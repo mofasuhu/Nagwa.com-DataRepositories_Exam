@@ -1,0 +1,397 @@
+<video video_id="104104320696">
+  <video_creator video_creator_id="472186274352">
+    <first_name>Parth</first_name>
+    <last_name>Gharfalkar</last_name>
+    <email>parth.gharfalkar@nagwa.com</email>
+  </video_creator>
+  <video_type>Lesson</video_type>
+  <subject>Physics</subject>
+  <publication_date>2019-06-20</publication_date>
+  <duration>702464.00</duration>
+  <language>
+    <source>en</source>
+  </language>
+  <title>Relating Force, Pressure, and Area</title>
+  <seo_meta_description>In this video, we will learn how to use the formula for pressure, 𝑃 = 𝐹/𝐴, to calculate pressures that are produced by forces acting on areas.</seo_meta_description>
+  <transcript>
+    <p>
+      <s start_time="00:00:00.110" end_time="00:00:05.670">In this video, we will be looking
+                at how to define pressure and how it relates to the concept of force and area.</s>
+      <s start_time="00:00:06.020" end_time="00:00:08.870">So let’s start by first of all
+                imagining that we have a box.</s>
+      <s start_time="00:00:09.060" end_time="00:00:12.870">And inside this box, we have a
+                single particle of some gas inside it.</s>
+      <s start_time="00:00:13.150" end_time="00:00:19.790">Let’s also imagine that this
+                particle is moving around inside the box at a velocity 𝑉 and is basically bouncing
+                around inside the box.</s>
+      <s start_time="00:00:19.910" end_time="00:00:27.750">Now, let’s also assume that the
+                particle continues to bounce around inside the box with the same speed even though
+                its direction is changing every time it collides with a wall of the box.</s>
+    </p>
+	
+    <p>
+      <s start_time="00:00:27.980" end_time="00:00:34.030">And with all of that in mind, let’s
+                consider one particular collision between the particle and the right-hand side wall
+                of the box.</s>
+      <s start_time="00:00:34.280" end_time="00:00:38.390">So let’s zoom in to this region
+                here, where the particle is colliding with the wall of the box.</s>
+      <s start_time="00:00:38.690" end_time="00:00:39.990">So here’s the zoomed-in
+                version.</s>
+      <s start_time="00:00:40.020" end_time="00:00:45.010">Now we said earlier that the
+                particle initially was travelling with a velocity 𝑉 in this direction.</s>
+      <s start_time="00:00:45.270" end_time="00:00:49.210">And then, after the collision, the
+                particle is travelling with a velocity 𝑉 in this direction.</s>
+    </p>
+    <p>
+      <s start_time="00:00:49.650" end_time="00:01:01.870">Now if the magnitude or size of the
+                velocity of the particle before the collision and after the collision are exactly
+                the same or in other words it travels at 𝑉 before the collision and 𝑉 after the
+                collision, then the particle can’t have lost any energy.</s>
+      <s start_time="00:01:02.110" end_time="00:01:03.890">This is an assumption that we’re
+                making here.</s>
+      <s start_time="00:01:03.890" end_time="00:01:06.560">We’re assuming that the particle
+                doesn’t lose kinetic energy.</s>
+      <s start_time="00:01:07.000" end_time="00:01:13.760">So the size or magnitude of the
+                particle’s velocity does not change after the collision, but the direction of the
+                velocity does change.</s>
+      <s start_time="00:01:13.880" end_time="00:01:17.660">And one thing that we can do is to
+                break up the velocity of the particle into components.</s>
+    </p>
+    <p>
+      <s start_time="00:01:17.910" end_time="00:01:22.400">Initially, the particle is
+                travelling at some velocity to the right and some velocity upward.</s>
+      <s start_time="00:01:22.730" end_time="00:01:27.360">And after the collision, the
+                particle is travelling at some velocity to the left and some velocity upward.</s>
+            <s start_time="00:01:27.740" end_time="00:01:36.440">Now in a collision where the particle
+                is not losing energy and there’s nothing affecting the upward velocity of the
+                particle, we can say that the upward component of the velocity stays the same.</s>
+      <s start_time="00:01:37.200" end_time="00:01:41.540">Of course, in the diagram that
+                we’ve drawn, they don’t look exactly identical, but they’re meant to be.</s>
+    </p>
+    <p>
+      <s start_time="00:01:41.690" end_time="00:01:52.310">However, what is changing because
+                of the collision is the right left component of the velocity because initially the
+                right left component of the velocity was in this direction and then after the
+                collision, it’s now in this direction.</s>
+      <s start_time="00:01:52.810" end_time="00:02:03.820">This means that the net result of
+                the collision with the wall is that the particle’s velocity is changing in this
+                direction or we can also say that Δ𝑉 — the change in velocity of the particle — is
+                towards the left.</s>
+      <s start_time="00:02:04.000" end_time="00:02:11.260">This is because the right left
+                component of the particle’s velocity was such that it was initially travelling
+                towards the right and then after the collision it’s travelling towards the left.</s>
+      <s start_time="00:02:11.470" end_time="00:02:14.400">So its velocity in the left
+                direction has increased.</s>
+      <s start_time="00:02:14.660" end_time="00:02:17.750">And we’ve called that change in
+                velocity in the leftward direction Δ𝑉.</s>
+    </p>
+    <p>
+      <s start_time="00:02:18.210" end_time="00:02:23.980">Now in addition to this, we can
+                realize that the particle’s collision with the wall takes a certain amount of
+                time.</s>
+      <s start_time="00:02:24.230" end_time="00:02:30.220">As the particle comes in towards
+                the wall and then bounces off, it spends a certain period of time actually colliding
+                with the wall.</s>
+      <s start_time="00:02:30.460" end_time="00:02:34.100">Now this period of time might be
+                very very short, but it is a period of time nonetheless.</s>
+      <s start_time="00:02:34.250" end_time="00:02:38.450">And we can call that period of time
+                when the particle is colliding with the wall Δ𝑡.</s>
+    </p>
+    <p>
+      <s start_time="00:02:39.160" end_time="00:02:48.090">Now since the velocity of the
+                particle is changing by Δ𝑉 and it does this over a time interval Δ𝑡, we can
+                therefore work out the rate of change of the particle’s velocity.</s>
+      <s start_time="00:02:48.400" end_time="00:02:53.210">We can say that the particle
+                changes in velocity by Δ𝑉 over a time interval Δ𝑡.</s>
+      <s start_time="00:02:53.510" end_time="00:02:58.960">And at this point, we can realize
+                that this quantity that we’re calculating is known as the acceleration of the
+                particle 𝑎.</s>
+      <s start_time="00:02:59.240" end_time="00:03:03.520">And this is because acceleration is
+                defined as the rate of change of velocity of an object.</s>
+    </p>
+    <p>
+      <s start_time="00:03:03.830" end_time="00:03:08.200">Now as well as this, we can say
+                that the particle itself has a mass which we’ll call 𝑚.</s>
+      <s start_time="00:03:08.540" end_time="00:03:15.560">And then we can recall that when an
+                object with a certain mass undergoes an acceleration, there must have been some net
+                force acting on that object.</s>
+      <s start_time="00:03:15.750" end_time="00:03:23.890">The reason is because of Newton’s
+                second law of motion: the force on an object 𝐹 is equal to the mass of that object
+                𝑚 multiplied by its acceleration 𝑎.</s>
+    </p>
+    <p>
+      <s start_time="00:03:24.140" end_time="00:03:33.780">And therefore, we can realize that
+              in order for that to be a change in velocity of the particle towards the left, the
+                particle must have experienced the force towards the left exerted by the wall during
+                the collision.</s>
+      <s start_time="00:03:34.270" end_time="00:03:35.720">We can call this force 𝐹.</s>
+      <s start_time="00:03:35.910" end_time="00:03:45.940">And we can use Newton’s second law
+                of motion to work out that the force 𝐹 is equal to the mass of the particle which
+                we’ve called 𝑚 multiplied by the acceleration of the particle which was Δ𝑉 divided
+                by Δ𝑡.</s>
+      <s start_time="00:03:46.910" end_time="00:03:50.690">That’s the change in velocity
+                divided by the time interval over which that velocity changes.</s>
+      <s start_time="00:03:50.920" end_time="00:03:54.470">So that’s the force exerted on the
+                particle by the wall in the collision.</s>
+    </p>
+    <p>
+      <s start_time="00:03:54.830" end_time="00:03:57.720">But then at this point, we can
+                recall Newton’s third law of motion.</s>
+      <s start_time="00:03:57.830" end_time="00:04:08.410">Newton’s third law of motion tells
+                us that if an object which we’ll call A exerts a force on a second object B, then
+                the second object B exerts an equal and opposite force on object A.</s>
+      <s start_time="00:04:08.770" end_time="00:04:14.470">Now in our scenario where the
+                particle is colliding with the wall, the wall is exerting a force 𝐹 on the
+                particle.</s>
+      <s start_time="00:04:14.600" end_time="00:04:21.840">And therefore, by Newton’s third
+                law of motion, the particle must be exerting an equal-in-magnitude force but in the
+                opposite direction on the wall.</s>
+      <s start_time="00:04:22.130" end_time="00:04:27.720">And so, from this, what we can
+                realize is that the particle colliding with the wall results in a force being
+                exerted on the wall.</s>
+    </p>
+    <p>
+      <s start_time="00:04:28.090" end_time="00:04:31.570">Now at this point, we can zoom back
+                out and think about our entire box once again.</s>
+      <s start_time="00:04:31.740" end_time="00:04:37.140">And instead of just one particle
+                inside the box, let’s think about the box being filled up with lots of particles of
+                gas.</s>
+      <s start_time="00:04:37.340" end_time="00:04:42.090">Now each one of these particles is
+                moving around inside the box at different velocities and different directions.</s>
+      <s start_time="00:04:42.440" end_time="00:04:45.730">And they’re all colliding with the
+                walls of the box and bouncing around inside the box.</s>
+      <s start_time="00:04:46.010" end_time="00:04:51.850">But then, we’ve just seen that
+                every time a particle collides with the wall of the box, it exerts a force on the
+                wall of the box.</s>
+      <s start_time="00:04:52.100" end_time="00:05:00.250">And furthermore, if we now think
+                about the fact that the box is a three-dimensional object, we can see that each wall
+                of the box has a particular area, which we shall call 𝐴.</s>
+    </p>
+    <p>
+      <s start_time="00:05:00.910" end_time="00:05:07.480">Now over time as the particles of
+                gas move around inside the box, lots of them will collide with this particular wall
+                of the box which has an area 𝐴.</s>
+      <s start_time="00:05:07.650" end_time="00:05:10.550">And each collision is going to
+                exert a particular force on the wall.</s>
+      <s start_time="00:05:10.850" end_time="00:05:15.900">Now let’s say that we add up all of
+                the forces exerted by the particles on the wall every time they collide with the
+                wall.</s>
+      <s start_time="00:05:16.110" end_time="00:05:17.800">And let’s call this force 𝐹.</s>
+      <s start_time="00:05:18.110" end_time="00:05:19.320">Now let’s not get confused
+                here.</s>
+      <s start_time="00:05:19.510" end_time="00:05:23.450">Earlier, we used 𝐹 to define the
+                force exerted by one particle colliding with the wall.</s>
+      <s start_time="00:05:23.620" end_time="00:05:30.480">But now we’re adding up all of the
+                forces exerted by the particles colliding with that particular wall of the box and
+                calling that total force 𝐹.</s>
+    </p>
+    <p>
+      <s start_time="00:05:30.740" end_time="00:05:44.180">So if we take this total force
+                exerted by all of the particles colliding with the wall and we can do this for any
+                particular instant in time and we can divide that force by the area of the wall
+                itself 𝐴, which will bring us to the definition of a quantity called the
+                pressure.</s>
+      <s start_time="00:05:44.550" end_time="00:05:51.720">In other words, this force per unit
+                area is known as the pressure exerted by the gas particles on this particular wall
+                which has an area 𝐴.</s>
+      <s start_time="00:05:52.190" end_time="00:05:54.100">And that is the definition of
+                pressure.</s>
+      <s start_time="00:05:54.360" end_time="00:05:56.590">It is equal to the force per unit
+                area.</s>
+    </p>
+    <p>
+      <s start_time="00:05:56.700" end_time="00:06:02.580">And at this point, we should note
+                that it’s not only gases that can exert a pressure, even solids and liquids can
+                exert pressures.</s>
+      <s start_time="00:06:02.880" end_time="00:06:16.790">For example, if you were to place
+                your hand on a table and pushed downwards onto the table with a certain force 𝐹,
+                then your hand would be exerting a pressure on the table which would be equivalent
+                to the force 𝐹 divided by the area of contact between your hand and the table.</s>
+      <s start_time="00:06:17.050" end_time="00:06:19.880">So solids, liquids, and gases can
+                exert pressures.</s>
+      <s start_time="00:06:19.880" end_time="00:06:22.510">And pressure is defined as the
+                force per unit area.</s>
+    </p>
+    <p>
+      <s start_time="00:06:22.690" end_time="00:06:32.580">As well as this, the unit for
+                pressure is the pascal, short form Pa, where one pascal is equivalent to one newton
+                — that’s the unit of force — divided by one meter squared — that’s the unit of
+                area.</s>
+      <s start_time="00:06:33.270" end_time="00:06:38.530">So now that we’ve had a look at the
+                definition for pressure, let’s get some practice using this with an example
+                question.</s>
+    </p>
+    <question id="169123865163" media_identifier="820161617010">
+      <publication_date>2019-11-06</publication_date>
+      <question_title>Force and Pressure</question_title>
+      <question_seo_meta_description>The bases of a man’s feet have a total area in contact with the ground of 0.025 m². The man’s weight is 800 N. How much is the pressure applied by his feet to the ground in kilopascals?</question_seo_meta_description>
+      <p>
+        <s start_time="00:06:39.470" end_time="00:06:45.480">The bases of a man’s feet have a
+                total area in contact with the ground of 0.025 meters squared.</s>
+        <s start_time="00:06:45.740" end_time="00:06:47.810">The man’s weight is 800
+                newtons.</s>
+        <s start_time="00:06:48.120" end_time="00:06:51.970">How much is the pressure applied by
+                his feet to the ground in kilopascals?</s>
+      </p>
+      <p>
+        <s start_time="00:06:52.430" end_time="00:06:59.910">Okay, so in this question, we have
+                a man who is standing on the ground and his feet have a total area of 0.025 meters
+                squared.</s>
+        <s start_time="00:07:00.090" end_time="00:07:05.530">In other words, the total area of
+                contact between the man and the ground is 0.025 meters squared.</s>
+        <s start_time="00:07:05.770" end_time="00:07:10.280">So let’s say that the contact area,
+                which we’ll call 𝐴, is 0.025 meters squared.</s>
+        <s start_time="00:07:10.590" end_time="00:07:14.020">Now as well as this, we’ve been
+                told that the man’s weight is 800 newtons.</s>
+        <s start_time="00:07:14.260" end_time="00:07:16.600">Now the man’s weight is going to
+                act in a downward direction.</s>
+        <s start_time="00:07:16.600" end_time="00:07:20.190">So we can say that the weight,
+                which we’ll call 𝑤, is equal to 800 newtons.</s>
+      </p>
+      <p>
+        <s start_time="00:07:20.430" end_time="00:07:23.980">But then, this weight is exactly
+                the force that the man will exert onto the floor.</s>
+        <s start_time="00:07:24.190" end_time="00:07:40.560">And therefore, if we want to work
+                out the pressure applied by the man’s feet to the ground, then we can recall that
+                the pressure applied to in this case the ground is defined as the force applied by
+                the man in this case to the ground divided by the total area of contact or
+                specifically the area of the floor over which that force is distributed.</s>
+      </p>
+      <p>
+        <s start_time="00:07:40.990" end_time="00:07:52.600">Now since we’re working in base
+                units — we’ve been given the area of the man’s feet in meters squared and his weight
+                in newtons — this means that when we calculate the pressure using this equation,
+                we’ll actually find it in its own base unit which is the pascal.</s>
+        <s start_time="00:07:53.290" end_time="00:07:56.900">However, there is a catch: we need
+                to work out this pressure in kilopascals.</s>
+        <s start_time="00:07:57.170" end_time="00:07:59.540">We’ll come to that later, but it’s
+                good to be aware of it now.</s>
+      </p>
+      <p>
+        <s start_time="00:07:59.740" end_time="00:08:09.740">So we can say that the pressure
+                exerted by the man on the floor is equal to the force that he exerts which is 800
+                newtons — that’s his weight — divided by the area over which that force is
+                distributed.</s>
+        <s start_time="00:08:09.880" end_time="00:08:18.180">That area is the same as the
+                contact area between the man’s feet and the floor or in other words the area of the
+                man’s feet which happens to be 0.025 meters squared.</s>
+        <s start_time="00:08:18.540" end_time="00:08:24.730">Then, when we evaluate the
+                right-hand side of this equation, we find that the pressure ends up being 32000
+                pascals.</s>
+      </p>
+      <p>
+        <s start_time="00:08:25.000" end_time="00:08:27.600">Now we need to convert this
+                pressure into kilopascals.</s>
+        <s start_time="00:08:27.810" end_time="00:08:34.870">To do this, we can recall that one
+                pascal is equivalent to one thousandth of a kilopascal because the prefix kilo means
+                1000.</s>
+        <s start_time="00:08:35.180" end_time="00:08:40.390">So one thousandth of 1000 pascals
+                is the same thing as one pascal.</s>
+        <s start_time="00:08:40.640" end_time="00:08:46.600">And therefore, what this means is
+                that 32000 pascals is the same thing as 32 kilopascals.</s>
+        <s start_time="00:08:46.890" end_time="00:08:52.250">Hence, our final answer is that the
+                pressure applied by the man’s feet to the ground is 32 kilopascals.</s>
+      </p>
+    </question>
+    <p>
+      <s start_time="00:08:53.380" end_time="00:08:55.590">Okay, let’s take a look at another
+                example question.</s>
+    </p>
+    <question id="139156869524" media_identifier="490121319842">
+      <publication_date>2019-11-06</publication_date>
+      <question_title>Force and Pressure</question_title>
+      <question_seo_meta_description>A pressure of 20 Pa is applied by an 8000 N force to a square area. What is the length of a side of the square?</question_seo_meta_description>
+      <p>
+        <s start_time="00:08:56.280" end_time="00:09:01.030">A pressure of 20 pascals is applied
+                by an 8000-newton force to a square area.</s>
+        <s start_time="00:09:01.410" end_time="00:09:03.480">What is the length of a side of the
+                square?</s>
+      </p>
+      <p>
+        <s start_time="00:09:04.110" end_time="00:09:09.380">Okay, so in this question, we’ve
+                got a square area, which we can draw something like this if we’re looking at it
+                slightly side-on.</s>
+        <s start_time="00:09:09.500" end_time="00:09:13.150">And we’ve been told that a force of
+                8000 newtons is applied to this area.</s>
+        <s start_time="00:09:13.340" end_time="00:09:15.780">This results in a pressure of 20
+                pascals.</s>
+        <s start_time="00:09:16.070" end_time="00:09:19.820">Now at this point, we can recall
+                the relationship between pressure, force, and area.</s>
+      </p>
+      <p>
+        <s start_time="00:09:20.140" end_time="00:09:26.350">Pressure is defined as the force
+                per unit area or in other words the force exerted on an area divided by that
+                area.</s>
+        <s start_time="00:09:26.530" end_time="00:09:35.500">So using this equation, because we
+                know that the pressure exerted on this blue area is 20 pascals and the force exerted
+                is 8000 newtons, we can calculate the area.</s>
+        <s start_time="00:09:35.780" end_time="00:09:40.630">We can do this by rearranging the
+                equation for which we have to multiply both sides by 𝐴 divided by 𝑃.</s>
+        <s start_time="00:09:41.390" end_time="00:09:45.170">In this case, the 𝑃s on the
+                left-hand side cancel and the 𝐴s on the right-hand side cancel.</s>
+        <s start_time="00:09:45.430" end_time="00:09:50.210">What this leaves us with is that
+                area 𝐴 is equal to the force 𝐹 divided by the pressure 𝑃.</s>
+      </p>
+      <p>
+        <s start_time="00:09:50.590" end_time="00:09:55.580">Therefore, we can plug in the
+                values for the force which is 8000 newtons and the pressure which is 20 pascals.</s>
+        <s start_time="00:09:55.720" end_time="00:10:03.170">And since we’re working in base
+                units for both the pressure and the force, our answer ends up being 400 meters
+                squared, where meter squared is the base unit of area.</s>
+        <s start_time="00:10:03.450" end_time="00:10:07.350">So at this point, we’ve worked out
+                that the total blue area is 400 meters squared.</s>
+      </p>
+      <p>
+        <s start_time="00:10:07.630" end_time="00:10:10.820">However, what we’ve been asked to
+                do is to find the length of one of the sides.</s>
+        <s start_time="00:10:11.140" end_time="00:10:14.030">Luckily though, we’ve been told
+                that this area is actually a square.</s>
+        <s start_time="00:10:14.200" end_time="00:10:17.190">And hence, we know that the lengths
+                of all of the sides are equal.</s>
+        <s start_time="00:10:17.270" end_time="00:10:21.890">So we can say that 𝑥 is the length
+                of one of the sides and therefore it’s also the length of all of the sides.</s>
+        <s start_time="00:10:21.930" end_time="00:10:29.080">Then, we can work out that the area
+                of a square is found by multiplying its length by its width, which because it’s a
+                square, it’s 𝑥 in both cases.</s>
+        <s start_time="00:10:29.280" end_time="00:10:32.680">Therefore, we can say that the area
+                is equal to the length squared.</s>
+      </p>
+      <p>
+        <s start_time="00:10:33.050" end_time="00:10:39.640">And hence, if we want to find the
+                length of one of the sides which is 𝑥, we need to rearrange this equation by taking
+                the square root of both sides.</s>
+        <s start_time="00:10:39.860" end_time="00:10:42.660">This way, the square root on the
+                right-hand side cancels with the squared.</s>
+        <s start_time="00:10:42.900" end_time="00:10:47.490">And what we’re left with is that
+                the square root of the area of the square is equal to the length of one of its
+                sides.</s>
+        <s start_time="00:10:47.650" end_time="00:10:50.770">But then, we’ve just calculated the
+                area to be 400 meters squared.</s>
+        <s start_time="00:10:50.970" end_time="00:10:54.770">Therefore, the length of one of the
+                sides of the square is the square root of 400 meters squared.</s>
+        <s start_time="00:10:54.990" end_time="00:10:59.590">And this ends up being 20 meters,
+                which also happens to be the final answer to our question.</s>
+      </p>
+    </question>
+    <p>
+      <s start_time="00:11:01.110" end_time="00:11:05.250">Okay, so now that we’ve looked at a
+                couple of examples, let’s summarize what we’ve talked about in this video.</s>
+      <s start_time="00:11:05.870" end_time="00:11:15.510">Firstly, we saw that pressure is
+                defined as the force exerted on an object per unit area or in an equation, we can
+                say that the pressure 𝑃 is equal to the force 𝐹 divided by the area 𝐴.</s>
+      <s start_time="00:11:15.910" end_time="00:11:20.480">Secondly, we saw that pressure can
+                be exerted by a solid, liquid, or a gas.</s>
+      <s start_time="00:11:20.750" end_time="00:11:23.590">There is no restriction to what
+                state of matter can exert a pressure.</s>
+    </p>
+    <p>
+      <s start_time="00:11:23.780" end_time="00:11:31.200">And lastly, we saw that pressure
+                has units of Pa which stands for pascals, where one pascal is equivalent to one
+                newton per one meter squared.</s>
+      <s start_time="00:11:31.450" end_time="00:11:35.710">Or in other words, the unit of
+                pressure is equivalent to the unit of force divided by the unit of area.</s>
+      <s start_time="00:11:36.080" end_time="00:11:40.080">So this has been an overview on how
+                we can relate pressure to force and area.</s>
+    </p>
+  </transcript>
+</video>

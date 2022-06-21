@@ -1,0 +1,489 @@
+﻿<video video_id="120194853836">
+    <video_creator video_creator_id="348191246181">
+        <first_name>Ed</first_name>
+        <last_name>Burdette</last_name>
+        <email>ed.burdette@nagwa.com</email>
+    </video_creator>
+    <video_type>Lesson</video_type>
+    <subject>Mathematics</subject>
+    <publication_date>2020-08-23</publication_date>
+    <duration>1022445.00</duration>
+    <language>
+        <source>en</source>
+    </language>
+    <title>Motion of a Body on a Smooth Inclined Plane</title>
+    <seo_meta_description>In this video, we will learn how to solve problems involving moving a particle on a smooth inclined plane.</seo_meta_description>
+    <transcript>
+        <p>
+            <s start_time ="00:00:01.030" end_time="00:00:07.300">In this video, we’ll learn how to
+                solve problems involving moving a particle on a smooth, inclined plane.</s>
+            <s start_time ="00:00:07.810" end_time="00:00:17.380">This will involve studying the
+                forces that act on such particles and using Newton’s second law of motion, as well
+                as the equations of motion, to describe this movement.</s>
+        </p>
+        <p>
+            <s start_time ="00:00:18.150" end_time="00:00:22.780">As we get started, say that we have
+                a body at rest on a flat, smooth surface.</s>
+            <s start_time ="00:00:23.110" end_time="00:00:32.280">If we sketch in the forces acting
+                on this body, we know there’s a weight force equal to the object’s mass times the
+                acceleration due to gravity that acts straight downward.</s>
+            <s start_time ="00:00:32.580" end_time="00:00:35.630">And there’s also an equal and
+                opposite reaction force.</s>
+            <s start_time ="00:00:35.880" end_time="00:00:40.300">This has to do with the surface the
+                body rests on pushing back up on the body.</s>
+            <s start_time ="00:00:40.830" end_time="00:00:48.400">Now Newton’s second law of motion
+                tells us that the net force acting on some object is equal to that object’s mass
+                times its acceleration.</s>
+            <s start_time ="00:00:48.810" end_time="00:00:56.500">Because the weight force acting on
+                our body is equal and opposite to the reaction force, that means the net force on
+                the body is zero.</s>
+            <s start_time ="00:00:56.880" end_time="00:01:01.120">And by Newton’s second law, we
+                therefore know that this object is not accelerating.</s>
+        </p>
+        <p>
+            <s start_time ="00:01:01.490" end_time="00:01:05.220">So this is what we find when our
+                body is at rest on a flat, smooth surface.</s>
+            <s start_time ="00:01:05.540" end_time="00:01:12.010">But now let’s imagine that we
+                incline this smooth surface so that it forms an angle, we’ll call it 𝜃, with the
+                horizontal.</s>
+            <s start_time ="00:01:12.420" end_time="00:01:17.630">Now if we draw the forces acting on
+                our body, once again, there’s the weight force acting straight down.</s>
+            <s start_time ="00:01:17.900" end_time="00:01:20.710">But the reaction force no longer
+                points straight upward.</s>
+            <s start_time ="00:01:21.160" end_time="00:01:25.470">In fact, this force points
+                perpendicularly to the surface the body rests on.</s>
+            <s start_time ="00:01:25.920" end_time="00:01:30.810">Now, if this incline wasn’t smooth,
+                then there will be friction between the body and the incline.</s>
+            <s start_time ="00:01:30.970" end_time="00:01:34.790">And we would include a third force,
+                a frictional force, acting up the slope.</s>
+            <s start_time ="00:01:35.130" end_time="00:01:39.130">But since we are working with a
+                smooth slope, there is no such frictional force.</s>
+        </p>
+        <p>
+            <s start_time ="00:01:39.450" end_time="00:01:43.800">We see then that the only two
+                forces acting on our body are no longer equal and opposite.</s>
+            <s start_time ="00:01:44.270" end_time="00:01:46.540">Therefore, the net force is not
+                zero.</s>
+            <s start_time ="00:01:46.850" end_time="00:01:49.660">And so our body’s acceleration is
+                not zero, either.</s>
+            <s start_time ="00:01:50.030" end_time="00:02:15.330">To look into what that acceleration
+                would be, say that we set up a coordinate frame, where our positive 𝑦-direction is
+                perpendicularly away from our surface, and the positive 𝑥-direction is down the
+                incline, if we now divide our two forces, the reaction and the weight forces, up
+                into their 𝑥- and 𝑦-components, we can see that the reaction force lies entirely
+                in the positive 𝑦-direction, while the weight force has a 𝑦- and an
+                𝑥-component.</s>
+        </p>
+        <p>
+            <s start_time ="00:02:15.840" end_time="00:02:21.900">To see that more clearly, let’s
+                look at this expanded view of the weight force acting on our body and its
+                components.</s>
+            <s start_time ="00:02:22.310" end_time="00:02:27.820">This orange arrow here is the
+                𝑦-component of the weight force, while this one is the 𝑥-component.</s>
+            <s start_time ="00:02:28.080" end_time="00:02:37.140">The key to solving for the
+                magnitude of these components is to recognize that this angle right here is
+                identical to the angle of inclination of our surface.</s>
+            <s start_time ="00:02:37.540" end_time="00:02:41.460">And in fact, this will always be
+                the case, regardless of the value of 𝜃.</s>
+            <s start_time ="00:02:42.070" end_time="00:02:54.130">If we then consider a general right
+                triangle, where another of the interior angles we call 𝜃, we can say that the sides
+                of this triangle are the hypotenuse, the side opposite 𝜃, and the side adjacent to
+                it.</s>
+            <s start_time ="00:02:54.450" end_time="00:03:00.630">If we want to know the sin of the
+                angle 𝜃, that’s the ratio of the opposite side length to the hypotenuse.</s>
+        </p>
+        <p>
+            <s start_time ="00:03:00.930" end_time="00:03:06.160">On the other hand, the cos of 𝜃
+                equals the adjacent side length 𝑎 over the hypotenuse.</s>
+            <s start_time ="00:03:06.600" end_time="00:03:13.910">We bring all this up because
+                solving for the 𝑦- and 𝑥-components of our weight force will involve using the cos
+                and sin of 𝜃.</s>
+            <s start_time ="00:03:14.340" end_time="00:03:21.750">Note that comparing to the angle
+                𝜃, this 𝑦-component of our weight vector is effectively the adjacent side of our
+                right triangle.</s>
+            <s start_time ="00:03:22.090" end_time="00:03:33.590">Looking at the equation involving
+                that side, we see that if we multiplied both sides by the hypotenuse ℎ, canceling
+                that factor on the right, then the adjacent side length equals the hypotenuse times
+                the cos of 𝜃.</s>
+            <s start_time ="00:03:33.960" end_time="00:03:43.200">Since the hypotenuse of our actual
+                triangle is 𝑚 times 𝑔, we can write that the adjacent side of this right triangle
+                is 𝑚 times 𝑔 times the cos of 𝜃.</s>
+        </p>
+        <p>
+            <s start_time ="00:03:43.780" end_time="00:03:48.270">Likewise, the 𝑥-component of this
+                vector is the opposite side of the triangle to 𝜃.</s>
+            <s start_time ="00:03:48.660" end_time="00:03:58.620">Working with that equation, if we
+                once again multiply both sides by the hypotenuse, canceling that factor on the
+                right, we see we can write the opposite side length as ℎ sin 𝜃.</s>
+            <s start_time ="00:03:58.990" end_time="00:04:03.030">The 𝑥-component then of our weight
+                force is 𝑚 times 𝑔 times the sin of 𝜃.</s>
+            <s start_time ="00:04:03.490" end_time="00:04:09.520">Knowing this, we can start to get a
+                bit of clarity about this acceleration that our body on the smooth incline
+                undergoes.</s>
+            <s start_time ="00:04:09.820" end_time="00:04:18.850">If we look at the forces acting on
+                it in the 𝑦-dimension, we have the reaction force, which is positive, minus 𝑚
+                times 𝑔 times the cos of 𝜃.</s>
+            <s start_time ="00:04:19.400" end_time="00:04:25.440">Note that we call the reaction
+                force positive and the weight force negative because of our choice of sign
+                convention.</s>
+        </p>
+        <p>
+            <s start_time ="00:04:25.820" end_time="00:04:35.920">Now, since these forces are the
+                only forces acting on our body in the 𝑦-dimension, Newton’s second law tells us
+                that their sum equals our body’s mass times its acceleration in this dimension.</s>
+            <s start_time ="00:04:36.380" end_time="00:04:38.390">But then 𝑎 sub 𝑦 is zero.</s>
+            <s start_time ="00:04:38.660" end_time="00:04:42.760">Our body isn’t accelerating either
+                into or away from the plane surface.</s>
+            <s start_time ="00:04:43.110" end_time="00:04:49.190">So that means the whole right-hand
+                side of this expression is zero, implying that these forces are equal in
+                magnitude.</s>
+            <s start_time ="00:04:49.560" end_time="00:04:52.930">So the acceleration of our body is
+                not in the 𝑦-direction.</s>
+            <s start_time ="00:04:53.140" end_time="00:04:55.230">It must therefore be in the
+                𝑥-dimension.</s>
+            <s start_time ="00:04:55.570" end_time="00:04:59.260">If we look at the forces along this
+                axis, we find that there’s just one.</s>
+            <s start_time ="00:04:59.520" end_time="00:05:01.760">It’s the 𝑥-component of the weight
+                force.</s>
+            <s start_time ="00:05:02.120" end_time="00:05:07.250">And since this force points in what
+                we’ve called the positive 𝑥-direction, we report it as a positive value.</s>
+        </p>
+        <p>
+            <s start_time ="00:05:07.670" end_time="00:05:18.510">Again, using Newton’s second law,
+                we can say that the net force on our object in the 𝑥-direction, 𝑚 times 𝑔 times
+                the sin of 𝜃, equals our object’s mass times its acceleration in the
+                𝑥-direction.</s>
+            <s start_time ="00:05:18.820" end_time="00:05:22.870">Notice that the mass of our body 𝑚
+                appears on both sides of this equation.</s>
+            <s start_time ="00:05:23.110" end_time="00:05:26.460">This means we can divide each side
+                by 𝑚 and cancel it out.</s>
+            <s start_time ="00:05:26.870" end_time="00:05:30.880">We now know how our body
+                accelerates; it’s purely in the 𝑥-direction.</s>
+            <s start_time ="00:05:31.010" end_time="00:05:34.090">And the acceleration has a
+                magnitude of 𝑔 times the sin of 𝜃.</s>
+            <s start_time ="00:05:34.530" end_time="00:05:39.020">And notice that the acceleration
+                due to gravity and 𝜃 are both constant values.</s>
+            <s start_time ="00:05:39.250" end_time="00:05:42.760">Therefore, the body’s acceleration
+                𝑎 stays constant in time.</s>
+            <s start_time ="00:05:43.130" end_time="00:05:50.460">This is important because it means
+                a set of equations, called the equations of motion, apply for describing the motion
+                of this body.</s>
+        </p>
+        <p>
+            <s start_time ="00:05:50.830" end_time="00:05:53.420">The equations of motion are often
+                written this way.</s>
+            <s start_time ="00:05:53.750" end_time="00:05:59.090">And every time we see an 𝑎
+                representing acceleration, we know that that value must be constant.</s>
+            <s start_time ="00:05:59.400" end_time="00:06:02.710">That’s because these equations only
+                apply under that condition.</s>
+            <s start_time ="00:06:02.960" end_time="00:06:11.520">Since we’ve established that our
+                body moving on a smooth incline is accelerating at a constant rate, we know its
+                motion can be described using these relationships.</s>
+            <s start_time ="00:06:11.880" end_time="00:06:18.160">Knowing all this about the motion
+                of a body on a smooth inclined plane, let’s get a bit of practice now through an
+                example.</s>
+        </p>
+		<question id="823109043479" media_identifier="326149097517">
+          <publication_date>2020-08-30</publication_date>
+		    <question_title>Finding the Magnitude of a Smooth Inclined Plane’s Reaction to a Body Placed on It</question_title>
+          <question_seo_meta_description>A body of mass 0.7 kg was placed on a smooth plane inclined at 66° to the horizontal and it was left to move freely under the effect of gravity, where the acceleration due to gravity is 9.8 m/s². Find, to the nearest two decimal places, the magnitude of the reaction of the plane to the body.</question_seo_meta_description>
+
+        <p>
+            <s start_time ="00:06:19.180" end_time="00:06:33.240">A body of mass 0.7 kilograms was
+                placed on a smooth plane inclined at 66 degrees to the horizontal and it was left to
+                move freely under the effect of gravity, where the acceleration due to gravity is
+                9.8 meters per second squared.</s>
+            <s start_time ="00:06:33.780" end_time="00:06:39.150">Find, to the nearest two decimal
+                places, the magnitude of the reaction of the plane to the body.</s>
+        </p>
+        <p>
+            <s start_time ="00:06:39.790" end_time="00:06:45.390">Alright, let’s say that this is our
+                plane, and this is our body that starts out at rest on the plane.</s>
+            <s start_time ="00:06:45.690" end_time="00:06:58.730">We know, though, that because of
+                the weight force acting on the body equal to its mass times the acceleration due to
+                gravity and the fact that we’re working with a smooth plane, meaning that there’s no
+                friction between the plane and our body, the body will start to move.</s>
+            <s start_time ="00:06:59.110" end_time="00:07:04.730">When it does, it does not follow
+                the direction of the weight force but rather moves down the incline like this.</s>
+            <s start_time ="00:07:05.070" end_time="00:07:09.680">The reason the body doesn’t move
+                straight down is because of a force called the reaction force.</s>
+            <s start_time ="00:07:09.910" end_time="00:07:15.920">This acts on the body
+                perpendicularly from the incline, and it’s this force magnitude that we want to
+                solve for.</s>
+        </p>
+        <p>
+            <s start_time ="00:07:16.250" end_time="00:07:26.960">To start doing this, let’s note
+                that the mass of our body, we’ll call it 𝑚, is 0.7 kilograms, and that it’s moving
+                on a plane inclined to the horizontal at an angle of 66 degrees.</s>
+            <s start_time ="00:07:27.310" end_time="00:07:38.780">Now, if we set up a coordinate
+                frame so that 𝑥 points down the incline and 𝑦 points perpendicularly away from it,
+                we can see, first of all, that our body’s acceleration is entirely in the
+                𝑥-direction.</s>
+            <s start_time ="00:07:39.000" end_time="00:07:52.240">And this means that if we divide
+                the weight force acting on our object into its 𝑥- and 𝑦-components, then it must
+                be the case that the 𝑦-component of that force represented by this orange vector is
+                equal and opposite to the reaction force.</s>
+            <s start_time ="00:07:52.460" end_time="00:07:56.280">This is because our body
+                experiences no acceleration in the 𝑦-dimension.</s>
+        </p>
+        <p>
+            <s start_time ="00:07:56.690" end_time="00:08:02.240">So if we can solve for the
+                𝑦-component of our weight force, then we’ll know the reaction force magnitude
+                𝑅.</s>
+            <s start_time ="00:08:02.540" end_time="00:08:10.290">If we sketch this triangle at a
+                little bit bigger scale, we see we have a right triangle, the length of whose
+                hypotenuse is 𝑚 times 𝑔.</s>
+            <s start_time ="00:08:10.630" end_time="00:08:22.190">To solve for this side length, the
+                𝑦-component of the weight force, we’ll need to recognize that this angle here of
+                our triangle is identical to the angle of inclination of our plane, what we’ve
+                called 𝜃.</s>
+            <s start_time ="00:08:22.600" end_time="00:08:28.760">Knowing that, we can recognize that
+                this 𝑦-component then equals 𝑚 times 𝑔 times the cos of this angle.</s>
+            <s start_time ="00:08:29.170" end_time="00:08:38.410">And since we’re given 𝑚 and 𝜃 and
+                we know 𝑔, the acceleration due to gravity, we can substitute those values into
+                this equation, leaving out units for now.</s>
+            <s start_time ="00:08:38.710" end_time="00:08:42.430">And to two decimal places, we find
+                that this equals 2.79.</s>
+        </p>
+        <p>
+            <s start_time ="00:08:42.690" end_time="00:08:45.730">Since this is a force, the units
+                involved are newtons.</s>
+            <s start_time ="00:08:46.140" end_time="00:08:54.310">Now technically, since the positive
+                𝑦-direction points perpendicularly away from our plane, the 𝑦-component of the
+                weight force will be a negative value.</s>
+            <s start_time ="00:08:54.740" end_time="00:09:02.820">However, in this question, we want
+                to solve for the magnitude of this component because that is equal to the magnitude
+                of the reaction of the plane to the body.</s>
+            <s start_time ="00:09:03.170" end_time="00:09:05.110">And that’s just what we’ve
+                calculated here.</s>
+            <s start_time ="00:09:05.260" end_time="00:09:10.470">So we can say that the magnitude of
+                the reaction of the plane to the body is 2.79 newtons.</s>
+        </p>
+		</question>
+        <p>
+            <s start_time ="00:09:11.250" end_time="00:09:13.000">Let’s look now at a second
+                example.</s>
+        </p>
+		<question id="" media_identifier="394162107180">
+          <publication_date>2020-08-30</publication_date>
+          <question_title>Finding the Acceleration of Body Placed on an Inclined Plane with a Force Acting on It</question_title>
+          <question_seo_meta_description>A body of mass 1.4 kg was placed on a smooth plane inclined at 45° to the horizontal. If a force of 59 N is acting on the body upward along the line of greatest slope of the plane, determine the acceleration of the body rounded to the nearest two decimal places. Take 𝑔 = 9.8 m/s².</question_seo_meta_description>
+
+        <p>
+            <s start_time ="00:09:14.080" end_time="00:09:20.200">A body of mass 1.4 kilograms was
+                placed on a smooth plane inclined at 45 degrees to the horizontal.</s>
+            <s start_time ="00:09:20.650" end_time="00:09:30.350">If a force of 59 newtons is acting
+                on the body upward along the line of greatest slope of the plane, determine the
+                acceleration of the body rounded to the nearest two decimal places.</s>
+            <s start_time ="00:09:30.790" end_time="00:09:33.990">Take 𝑔 to equal 9.8 meters per
+                second squared.</s>
+        </p>
+        <p>
+            <s start_time ="00:09:34.580" end_time="00:09:40.800">Okay, so if this is our plane
+                inclined at 45 degrees to the horizontal, we’re told there’s a body on this
+                plane.</s>
+            <s start_time ="00:09:40.950" end_time="00:09:45.100">And it’s subjected to a force of 59
+                newtons acting up the incline.</s>
+            <s start_time ="00:09:45.460" end_time="00:09:58.020">Knowing this, as well as the mass
+                of our body that we’ll call 𝑚, the acceleration due to gravity, and the fact that
+                we’re working with a smooth plane, which means there’s no friction involved, we want
+                to determine the acceleration of our body.</s>
+            <s start_time ="00:09:58.370" end_time="00:10:06.190">Newton’s second law tells us that
+                the acceleration a body experiences multiplied by its mass is equal to the net force
+                that acts on it.</s>
+            <s start_time ="00:10:06.490" end_time="00:10:10.340">To understand acceleration then,
+                let’s look at the forces acting on our body.</s>
+        </p>
+        <p>
+            <s start_time ="00:10:10.660" end_time="00:10:17.670">In addition to the 59-newton force,
+                there’s also a weight force acting straight downward equal to the body’s mass times
+                𝑔.</s>
+            <s start_time ="00:10:18.200" end_time="00:10:20.930">And then there’s a reaction or
+                normal force 𝑅.</s>
+            <s start_time ="00:10:21.280" end_time="00:10:23.850">This acts at 90 degrees to the
+                incline.</s>
+            <s start_time ="00:10:24.340" end_time="00:10:34.410">To analyze the effect of these
+                forces, let’s set up a coordinate frame, where we say that the positive 𝑥-direction
+                is up the incline and positive 𝑦 is perpendicularly away from it.</s>
+            <s start_time ="00:10:34.950" end_time="00:10:43.930">Dividing up the weight force into
+                its 𝑦- and 𝑥-components, we can see that our body won’t experience any
+                acceleration in what we’ve called the 𝑦-dimension.</s>
+            <s start_time ="00:10:44.210" end_time="00:10:48.810">All of its acceleration will be
+                either up or down the incline in the 𝑥-direction.</s>
+        </p>
+        <p>
+            <s start_time ="00:10:49.280" end_time="00:10:52.570">Let’s consider then the
+                𝑥-direction forces acting on our body.</s>
+            <s start_time ="00:10:52.930" end_time="00:10:54.120">There are two of these.</s>
+            <s start_time ="00:10:54.160" end_time="00:11:02.730">One is the 59-newton force acting
+                in the positive 𝑥-direction, and the other is this component here of our weight
+                force, which acts in the negative 𝑥.</s>
+            <s start_time ="00:11:03.120" end_time="00:11:12.390">To solve for this component, we’ll
+                want to recognize that this interior angle of the right triangle we’ve made is
+                exactly equal to the angle of inclination of our slope.</s>
+            <s start_time ="00:11:12.770" end_time="00:11:18.460">Therefore, this 𝑥-component has a
+                magnitude of 𝑚 times 𝑔 times the sin of 45 degrees.</s>
+            <s start_time ="00:11:18.650" end_time="00:11:26.820">When we add this to our 59-newton
+                force, we use a minus sign because the 𝑥-component of the weight force is in what
+                we’ve called the negative 𝑥-direction.</s>
+            <s start_time ="00:11:26.940" end_time="00:11:31.780">By Newton’s second law, this sum is
+                equal to our body’s mass times its acceleration.</s>
+        </p>
+        <p>
+            <s start_time ="00:11:32.110" end_time="00:11:42.520">Dividing both sides by 𝑚,
+                canceling that factor out on the right, we have that 𝑎 is equal to 59 newtons minus
+                𝑚𝑔 sin 45 all divided by the mass of our body 𝑚.</s>
+            <s start_time ="00:11:42.940" end_time="00:11:52.870">If we substitute in for 𝑚 and 𝑔
+                and leave out units at this step, when we calculate this fraction to the nearest two
+                decimal places, we get a result of 35.21.</s>
+            <s start_time ="00:11:53.160" end_time="00:11:58.030">Remembering that this is an
+                acceleration, we know it will have units of meters per second squared.</s>
+            <s start_time ="00:11:58.360" end_time="00:12:05.680">And so our final answer is that the
+                acceleration of our body to two decimal places is 35.21 meters per second
+                squared.</s>
+        </p>
+		</question>
+        <p>
+            <s start_time ="00:12:06.740" end_time="00:12:08.630">Let’s now look at one last
+                example.</s>
+        </p>
+		<question id="186159035957" media_identifier="945197920673">
+          <publication_date>2020-08-30</publication_date>
+          <question_title>Studying the Motion of a Projected Body on a Smooth Inclined Plane</question_title>
+          <question_seo_meta_description>A body of mass 9 kg is released from rest on a smooth inclined plane. It moves a distance of 25.2 m in the first 4 seconds of its motion. If the body is projected upward along a line of greatest slope on the same plane, with an initial velocity of 12.6 m/s, how far does it travel before coming to instantaneous rest? Take 𝑔 = 9.8 m/s².</question_seo_meta_description>
+
+        <p>
+            <s start_time ="00:12:09.670" end_time="00:12:14.460">A body of mass nine kilograms is
+                released from rest on a smooth inclined plane.</s>
+            <s start_time ="00:12:14.850" end_time="00:12:19.370">It moves a distance of 25.2 meters
+                in the first four seconds of its motion.</s>
+            <s start_time ="00:12:19.870" end_time="00:12:31.060">If the body is projected upward
+                along a line of greatest slope on the same plane, with an initial velocity of 12.6
+                meters per second, how far does it travel before coming to instantaneous rest?</s>
+            <s start_time ="00:12:31.470" end_time="00:12:34.520">Take 𝑔 to equal 9.8 meters per
+                second squared.</s>
+        </p>
+        <p>
+            <s start_time ="00:12:35.070" end_time="00:12:37.950">Alright, so here we have a smooth
+                inclined plane.</s>
+            <s start_time ="00:12:38.180" end_time="00:12:44.120">And we’re told that a body with a
+                mass we’ll call 𝑚 of nine kilograms is released from rest on the plane.</s>
+            <s start_time ="00:12:44.370" end_time="00:12:48.800">Since there’s no frictional force
+                opposing its motion, the body starts to slide downward.</s>
+            <s start_time ="00:12:49.060" end_time="00:12:54.370">And we’re told that after four
+                seconds, it’s moved a distance on the plane of 25.2 meters.</s>
+            <s start_time ="00:12:54.800" end_time="00:12:59.820">This information is given to us so
+                we can solve for the body’s acceleration when it’s on the plane.</s>
+            <s start_time ="00:13:00.050" end_time="00:13:07.730">We’ll need to know that to answer
+                this question of how far the body moves up the plane projected at an initial
+                velocity before coming to rest.</s>
+        </p>
+        <p>
+            <s start_time ="00:13:08.170" end_time="00:13:15.090">To solve then for this body’s
+                acceleration as it slides down the plane, it’s important to realize that this
+                acceleration is constant.</s>
+            <s start_time ="00:13:15.350" end_time="00:13:23.140">If we call the angle of inclination
+                of our smooth plane 𝜃, then 𝑎, the acceleration, is equal to 𝑔 times the sin of
+                𝜃.</s>
+            <s start_time ="00:13:23.610" end_time="00:13:28.190">The point here is that acceleration
+                is constant because 𝑔 and 𝜃 are constant.</s>
+            <s start_time ="00:13:28.650" end_time="00:13:35.840">Therefore, we can calculate the
+                acceleration of our body using this given information by referring to the equations
+                of motion.</s>
+            <s start_time ="00:13:36.230" end_time="00:13:38.350">We won’t list all four of those
+                equations.</s>
+            <s start_time ="00:13:38.380" end_time="00:13:39.990">Here, we’ll just write down
+                one.</s>
+            <s start_time ="00:13:40.210" end_time="00:13:50.180">This equation of motion says that
+                the displacement of a body is equal to its initial velocity times the time elapsed
+                plus one-half its acceleration times that elapsed time squared.</s>
+        </p>
+        <p>
+            <s start_time ="00:13:50.700" end_time="00:13:55.770">Now, in our case, the distance
+                traveled is 𝑑, and the change in time is Δ𝑡.</s>
+            <s start_time ="00:13:56.240" end_time="00:14:03.320">And because our body is released
+                from rest, that means that 𝑣 sub 𝑖 in this equation, the body’s initial velocity,
+                is zero.</s>
+            <s start_time ="00:14:03.810" end_time="00:14:07.390">Therefore, 𝑑 equals one-half 𝑎
+                times Δ𝑡 squared.</s>
+            <s start_time ="00:14:07.940" end_time="00:14:15.990">If we multiply both sides of this
+                equation by two and divide both sides by Δ𝑡 squared, we get an equation where 𝑎 is
+                the subject.</s>
+            <s start_time ="00:14:16.310" end_time="00:14:20.150">We won’t yet solve for 𝑎, but we
+                will come back to this equation in a moment.</s>
+        </p>
+        <p>
+            <s start_time ="00:14:20.470" end_time="00:14:24.130">For now, let’s consider this second
+                stage of motion for our body.</s>
+            <s start_time ="00:14:24.480" end_time="00:14:29.060">We’re to imagine it’s projected up
+                the plane at 12.6 meters per second.</s>
+            <s start_time ="00:14:29.330" end_time="00:14:37.020">We know that thanks to the effects
+                of gravity, the body will slow down over time and eventually it will come to a stop
+                just instantaneously.</s>
+        </p>
+        <p>
+            <s start_time ="00:14:37.360" end_time="00:14:47.860">If we call the distance the body
+                travels as it slows down from 12.6 to zero meters per second capital 𝐷, then we can
+                see that it’s this distance we want to solve for to answer our question.</s>
+            <s start_time ="00:14:48.240" end_time="00:14:51.310">To do this, we’ll once again refer
+                to the equations of motion.</s>
+            <s start_time ="00:14:51.590" end_time="00:14:57.590">To see what that equation is, let’s
+                clear away our problem statement, and we’ll now refer to this equation of
+                motion.</s>
+            <s start_time ="00:14:57.950" end_time="00:15:06.230">It says that the final velocity of
+                an object squared equals its initial velocity squared plus two times its
+                acceleration times its displacement.</s>
+            <s start_time ="00:15:06.700" end_time="00:15:13.750">Written in terms of our variables,
+                we could say that 𝑣𝑓 squared equals 𝑣𝑖 squared plus two times 𝑎 times capital
+                𝐷.</s>
+        </p>
+        <p>
+            <s start_time ="00:15:14.070" end_time="00:15:20.050">And notice this: because our object
+                ends up at rest, that means that 𝑣 sub 𝑓 is equal to zero.</s>
+            <s start_time ="00:15:20.310" end_time="00:15:24.050">So we can write that zero equals 𝑣
+                sub 𝑖 squared plus two 𝑎𝐷.</s>
+            <s start_time ="00:15:24.340" end_time="00:15:27.720">Since it’s 𝐷 we want to solve for,
+                let’s rearrange this expression.</s>
+            <s start_time ="00:15:27.980" end_time="00:15:31.600">We get that 𝐷 equals negative 𝑣
+                sub 𝑖 squared over two 𝑎.</s>
+            <s start_time ="00:15:32.040" end_time="00:15:36.120">And we can now substitute in the
+                expression we have for the acceleration 𝑎.</s>
+            <s start_time ="00:15:36.410" end_time="00:15:46.980">Now, regarding this minus sign, if
+                we consider 𝑣 sub 𝑖, the initial velocity of our body, to be positive, then that
+                means we’re saying that motion up the incline is in the positive direction.</s>
+            <s start_time ="00:15:47.300" end_time="00:15:50.600">Therefore, motion the opposite way
+                is in the negative direction.</s>
+            <s start_time ="00:15:50.770" end_time="00:15:53.370">And that’s the way our acceleration
+                𝑎 will point.</s>
+        </p>
+        <p>
+            <s start_time ="00:15:53.740" end_time="00:16:01.000">By this sign convention, 𝑎 is a
+                negative quantity, and therefore the negative sign in numerator and denominator will
+                cancel out.</s>
+            <s start_time ="00:16:01.340" end_time="00:16:05.380">We’re finally ready to plug in for
+                𝑣 sub 𝑖, 𝐷, and Δ𝑡.</s>
+            <s start_time ="00:16:05.650" end_time="00:16:13.640">Leaving out units, we use a value
+                of 12.6 for 𝑣 sub 𝑖, 25.2 for 𝐷, and four for Δ𝑡.</s>
+            <s start_time ="00:16:14.050" end_time="00:16:18.530">When we compute this fraction, we
+                actually get a result of exactly 25.2.</s>
+            <s start_time ="00:16:18.900" end_time="00:16:20.740">This distance is in meters.</s>
+            <s start_time ="00:16:20.880" end_time="00:16:30.120">So we can say that if our body is
+                projected up the incline at 12.6 meters per second, the distance that will move
+                before it comes to rest is 25.2 meters.</s>
+        </p>
+		</question>
+        <p>
+            <s start_time ="00:16:31.270" end_time="00:16:34.700">Let’s finish up this lesson now by
+                summarizing a few key points.</s>
+            <s start_time ="00:16:35.180" end_time="00:16:40.370">In this lesson, we’ve seen that a
+                body on a smooth, inclined plane experiences no friction.</s>
+            <s start_time ="00:16:40.900" end_time="00:16:45.230">Moreover, the only forces present
+                are the weight force and the reaction force.</s>
+            <s start_time ="00:16:45.730" end_time="00:16:55.460">We also saw that Newton’s second
+                law of motion that the net force acting on a body equals that body’s mass times its
+                acceleration can be used to solve for a body’s acceleration.</s>
+            <s start_time ="00:16:55.900" end_time="00:17:01.810">And lastly, we saw that when a
+                body’s acceleration is constant, the equations of motion apply.</s>
+        </p>
+    </transcript>
+</video>

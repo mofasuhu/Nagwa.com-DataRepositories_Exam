@@ -1,0 +1,643 @@
+﻿<explainer id="969140360237" country="zz" currency="none" calendar="none" unit_system="none" language="en"  dialect="british" publication_date="2020-10-15T10:00:40">
+  <title>Absolute Value Equations</title>
+  <seo_meta_description>In this explainer, we will learn how to solve equations involving the absolute value.</seo_meta_description>
+  <source_id/>
+  <developer_name>Rhodri Jones</developer_name>
+  <developer_email>rhodri.jones@nagwa.com</developer_email>
+  <dictionary>
+    <item>
+      <from>@x</from>
+      <to>x</to>
+    </item>
+    <item>
+      <from>@y</from>
+      <to>y</to>
+    </item>
+    <item>
+      <from>@infty</from>
+      <to>\infty</to>
+    </item>
+    <item symbol="false">
+      <from>@if</from>
+      <to>if</to>
+    </item>
+    <item symbol="false">
+      <from>@or</from>
+      <to>or</to>
+    </item>
+    <item symbol="false">
+      <from>@subtracting</from>
+      <to>subtracting</to>
+    </item>
+    <item symbol="false">
+      <from>@frombothsides</from>
+      <to>from both sides</to>
+    </item>
+    <item symbol="false">
+      <from>@tobothsides</from>
+      <to>to both sides</to>
+    </item>
+    <item symbol="false">
+      <from>@adding</from>
+      <to>adding</to>
+    </item>
+    <item symbol="false"><from>@I</from><to>I</to></item>
+    <item symbol="false"><from>@II</from><to>II</to></item>
+    <item symbol="false"><from>@III</from><to>III</to></item>
+    <item symbol="false">
+      <from>@distributingtheparentheses</from>
+      <to>distributing the parentheses</to>
+    </item>
+    <item symbol="false">
+      <from>@dividingbothsidesby</from>
+      <to>dividing both sides by</to>
+    </item>
+    <item symbol="false">
+      <from>@multiplyingbothsidesby</from>
+      <to>multiplying both sides by</to>
+    </item>
+    <item symbol="false">
+      <from>@and</from>
+      <to>and</to>
+    </item>
+    <item symbol="false">
+      <from>@factoringtherighthandside</from>
+      <to>factoring the right-hand side</to>
+    </item>
+    <item symbol="false">
+      <from>@factoringthelefthandside</from>
+      <to>factoring the left-hand side</to>
+    </item>
+    <item symbol="false">
+      <from>@either</from>
+      <to>either</to>
+    </item>
+      </dictionary>
+  <body>
+    <p>In this explainer, we will learn how to solve equations involving the absolute value.</p>
+    <p>Recall that the <b>absolute value</b> of a real number is its distance from 0 on the number line. 
+      For example, in the expression <latex>$\vert -5 \vert$</latex> (which can be read as the 
+      absolute value of <latex>$-5$</latex>), the number <latex>$-5$</latex> is given using 
+      absolute value notation, the two vertical bars. Since <latex>$-5$</latex> is located 
+      5 units from 0 on the number line, the value of the expression is 5. The value of the 
+      expression <latex>$\vert 5 \vert$</latex> (which can be read as the absolute value of 5) is also 5, because 5 is
+      also located 5 units from 0 on the number line.</p>
+    <sidebar type="definition">
+      <title>Definition: The Absolute Value</title>
+      <p>The absolute value of a number is the magnitude of the number without regard to 
+        its sign:
+        <latex>\begin{align*}\vert @x \vert = 
+          \begin{nagwaCases}@x &amp; \text{@if } @x \geq 0,\\
+          - @x &amp; \text{@if } @x &lt; 0.\end{nagwaCases}\end{align*}</latex>
+      </p>
+    </sidebar>
+    <p>Let us also recap how to plot the graph of an absolute value function. To do
+      this, we can complete a table of values for <latex>$@y = \vert @x \vert$</latex>:</p>
+    <table><tr>  
+      <th><latex>$@x$</latex></th>
+      <td><latex>$-3$</latex></td>
+      <td><latex>$-2$</latex></td>
+      <td><latex>$-1$</latex></td>
+      <td>0</td>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+    </tr>
+      <tr>
+        <th><latex>$@y$</latex></th>
+        <td>3</td>
+        <td>2</td>
+        <td>1</td>
+        <td>0</td>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+      </tr></table>
+    <p>Then, we can plot the coordinates on the Cartesian plane to draw the graph:</p>
+    <tikz src="1.tex" scale="300"/>
+    <p>Being able to apply the definition of the absolute value and plot absolute value
+      graphs is very useful when solving absolute value equations, so practicing these 
+      skills is very important.</p>
+      <p>Let us now introduce the concept of absolute value equations.</p>
+    <p>Consider the equation <latex>$\vert @x + 1 \vert = 3$</latex>.</p>
+      <p>Before we look at this algebraically, it can often be useful to think about 
+        the problem graphically. So, on the same set of axes, let us plot 
+        <latex>$@y = \vert @x + 1 \vert$</latex> 
+        and <latex>$@y = 3$</latex>. To do this, we can complete a table of values for 
+        <latex>$@y = \vert @x + 1 \vert$</latex>:</p>
+        <table><tr>  
+          <th><latex>$@x$</latex></th>
+          <td><latex>$-3$</latex></td>
+          <td><latex>$-2$</latex></td>
+          <td><latex>$-1$</latex></td>
+          <td>0</td>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+        </tr>
+          <tr>
+            <th><latex>$@y$</latex></th>
+            <td>2</td>
+            <td>1</td>
+            <td>0</td>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+          </tr></table>
+    <tikz src="2.tex" scale="300"/>
+      <p>From this graph, we can see that the two lines intersect at two distinct points,
+        when <latex>$@x = -4$</latex> and when <latex>$@x = 2$</latex>.</p>
+    <tikz src="3.tex" scale="300"/>
+    <p>So, the solution to the equation <latex>$\vert @x + 1 \vert = 3$</latex> is 
+      <latex>$@x = -4$</latex> or <latex>$@x = 2$</latex>. This can be written as a 
+      solution set in the form <latex>$\{-4, 2 \}$</latex>.</p>
+      <p>Now, we can also see from the graph how we might approach solving this equation
+        algebraically. Recalling our definition of the absolute value function, we can 
+        represent this using piecewise notation:
+        <latex>\begin{align*}\vert @x + 1 \vert = 
+          \begin{nagwaCases}@x + 1 &amp; \text{@if } @x \geq -1,\\
+          - \left(@x + 1 \right) &amp; \text{@if } @x &lt; -1.\end{nagwaCases}\end{align*}</latex>
+      </p>
+    <p>As <latex>$\vert @x + 1 \vert = 3$</latex>, we will solve the two equations 
+      <latex>$@x + 1 = 3$</latex> and <latex>$- \left(@x + 1 \right) = 3$</latex>.</p>
+        <p>We start with
+          <latex>\begin{align*}@x + 1 &amp;= 3 \quad (\text{@subtracting } 1 \text{ @frombothsides}) \\
+            @x &amp;= 2.\end{align*}</latex>
+        </p>
+        <p>Then, we look at 
+          <latex>\begin{align*}- \left(@x + 1 \right) &amp;= 3 \quad (\text{@distributingtheparentheses})\\
+            - @x - 1 &amp;= 3 \quad (\text{@adding } 1 \text{ @tobothsides})\\
+            - @x &amp;= 4 \quad (\text{@dividingbothsidesby} -1)\\
+              @x &amp;= - 4.\end{align*}</latex>
+        </p>
+        <p>Combining these two equations, we can see that the solutions are
+          <latex>$@x = -4$</latex> or <latex>$@x = 2$</latex>, which agrees
+          with our initial findings from inspecting the graphs.</p>
+        <p>An alternative algebraic method, as opposed to using piecewise notation,
+          is to set the absolute value expression equal to the positive and the negative
+          of the other quantity.</p>
+    <p>In this example, <latex>$\vert @x + 1 \vert = 3$</latex>, we need to solve two 
+      equations:
+      <latex>\begin{align*}@x + 1 = 3\end{align*}</latex>
+        and
+      <latex>\begin{align*}@x + 1 = -3.\end{align*}</latex>
+    </p>
+        <p>Subtracting 1 from both sides of both equations, we once again obtain the
+          solutions <latex>$@x = 2$</latex> and <latex>$@x = -4$</latex>.</p>
+    <p>This method can be summarized as follows.</p>
+    <how_to>
+      <title>How To: Solving Absolute Value Equations</title>
+      <p>
+        <ol type="i">
+          <li>Isolate the absolute value expression.</li>
+          <li>Set the quantity inside the absolute value notation equal to the positive 
+            and the negative of the quantity on the other side of the equation.</li>
+          <li>Solve for the unknown in both equations.</li>
+          <li>Check the answer analytically or graphically.</li>
+        </ol>
+      </p>
+    </how_to> 
+    <p>The two methods are equivalent, and while we can use either to solve absolute
+      value equations, one or the other of the methods can make the process more
+      efficient.</p>
+    <p>We will now solve a variety of absolute value equations both algebraically and
+      graphically.</p>
+    <example>
+      <title>Solving Absolute Value Equations</title>
+      <question id="560198363174" instance_number="1">
+        <mcq>
+          <stem>
+            <p>What is the solution set of the equation <latex>$3 \vert @x \vert - 66 = 0$</latex>?</p>
+          </stem>
+        </mcq>
+      </question>
+      <answer>
+        <p>We will solve this question first by using an algebraic approach and then by using a
+          graphical approach.</p>
+          <p>To solve this equation algebraically, we will follow the following four-step process:
+          <ol type="i">
+            <li>Isolate the absolute value expression.</li>
+            <li>Set the quantity inside the absolute value notation equal to the positive and the negative of
+              the quantity on the other side of the equation.</li>
+            <li>Solve for the unknown in both equations.</li>
+            <li>Check the answer analytically or graphically.</li>
+          </ol>
+          </p>
+          <p>In order to isolate the absolute value expression, we begin by rearranging the equation
+          to make <latex>$\vert @x \vert$</latex> the subject:
+            <latex>\begin{align*}3 \vert @x \vert - 66 &amp;= 0 \quad (\text{@adding } 66 \text{ @tobothsides})\\
+              3  \vert @x \vert &amp;= 66 \quad (\text{@dividingbothsidesby } 3)\\
+              \vert @x \vert &amp;= 22.\end{align*}</latex>
+          </p>
+          <p>Recalling that the absolute value of a real number is its distance from zero, we have
+          two possible solutions:</p>
+          <p>Either
+            <latex>\begin{align*}@x = 22\end{align*}</latex>
+          or
+            <latex>\begin{align*}@x = -22\end{align*}</latex>
+          </p>
+        <p>The solution set of the equation  <latex>$3 \vert @x \vert - 66 = 0$</latex> 
+          contains the values  <latex>$-22$</latex> and 22.</p>
+          <p>We can check these solutions by substituting the values into the original equation,
+            <latex>$3 \vert @x \vert - 66 = 0$</latex>. In both cases, the left-hand side of the
+            equation equals zero.</p>
+          <p>We will now consider how we can demonstrate this solution graphically. Consider the
+            equation <latex>$@y = \vert @x \vert$</latex>. The graph of this equation can be 
+            drawn on a pair of coordinate axes as follows:</p>
+        <tikz src="4.tex" scale="300"/>
+        <p>As <latex>$\vert @x \vert = 22$</latex>, we can draw the horizontal line 
+          <latex>$@y = 22$</latex> onto the same graph.</p>
+        <tikz src="5.tex" scale="300"/>
+        <p>Our two lines intersect at two distinct points <latex>$@x = 22$</latex> and 
+          <latex>$@x = -22$</latex>, which are the two solutions to the equation 
+          <latex>$3 \vert @x \vert - 66 = 0$</latex>.</p>
+        <tikz src="6.tex" scale="300"/>
+          <p><b>Answer</b>: <latex>$\{-22, 22 \}$</latex></p>
+      </answer>
+    </example>
+    
+    <example>
+      <title>Solving Absolute Value Equations</title>
+      <question id="129127139528" instance_number="1">
+        <mcq>
+          <stem>
+            <p>Find algebraically the solution set of the equation 
+              <latex>$\vert @x + 4\vert = @x + 4$</latex>.</p>
+          </stem>
+        </mcq>
+      </question>
+      <answer>
+        <p>Recalling our definition of the absolute value function, we can solve this equation
+          using piecewise notation:
+          <latex>\begin{align*}\vert @x + 4 \vert 
+            = \begin{nagwaCases}@x + 4 &amp; \text{@if } @x \geq -4,\\
+            - \left(@x + 4 \right) &amp; \text{@if } @x &lt; -4.\end{nagwaCases}\end{align*}</latex>
+        </p>
+        <p>As <latex>$\vert @x + 4 \vert = @x + 4$</latex>, we can consider solving the two equations
+          <latex>$@x + 4 = @x + 4$</latex> and
+          <latex>$- \left(@x + 4 \right) = @x + 4$</latex>.</p>
+        <p>Firstly, when <latex>$@x \geq -4$</latex>, we solve the equation
+          <latex>\begin{align*}@x + 4 = @x + 4.\end{align*}</latex>
+        </p>
+          <p>As the left-hand side of our equation is exactly the same as the right-hand side, this
+            equation is true for all values of <latex>$@x$</latex>. However, we were restricting the
+            solutions to values of <latex>$@x$</latex> greater than or equal to <latex>$-4$</latex>,
+            so the solution to this part of the equation is <latex>$@x \geq -4$</latex>.</p>
+        <p>Secondly, when <latex>$@x &lt; -4$</latex>, we need to solve the equation
+          <latex>\begin{align*}- \left( @x + 4 \right) &amp;= @x + 4 \quad (\text{@distributingtheparentheses})\\
+            - @x - 4 &amp;= @x + 4 \quad (\text{@adding } @x \text{ @tobothsides})\\
+            -4 &amp;= 2 @x + 4 \quad (\text{@subtracting } 4 \text{ @frombothsides})\\
+            -8 &amp;= 2 @x \quad (\text{@dividingbothsidesby } 2)\\
+            -4 &amp;=  @x.\end{align*}</latex>
+        </p>
+        <p>In this case, as we restricted this to the interval of <latex>$@x &lt; -4$</latex>,
+          this is not a valid solution to this part of the equation.</p>
+          <p>However, this solution is already covered in the solution to our first equation. The
+            solution of the equation <latex>$\vert @x + 4 \vert = @x + 4$</latex> is 
+            <latex>$@x \geq -4$</latex>, which in interval notation can be written 
+            <latex>$\nagwaInterval{[-4, @infty)}$</latex>.</p>
+          <p>We can verify this solution graphically. Let us begin by drawing the equation
+            <latex>$@y = @x + 4$</latex> on the cartesian plane.</p>
+        <tikz src="7.tex" scale="300"/>
+        <p>By drawing the equation <latex>$@y = \vert @x + 4 \vert$</latex> on the same axes,
+          we see that both graphs are identical for values of <latex>$@x$</latex> such that 
+          <latex>$@x \geq -4$</latex>.</p>
+        <tikz src="8.tex" scale="300"/>
+        <p>This confirms our earlier solution, <latex>$\vert @x + 4 \vert = @x + 4$</latex>,
+          when <latex>$@x \geq -4$</latex>.</p>
+      <tikz src="9.tex" scale="300"/>
+        <p><b>Answer</b>: <latex>$\nagwaInterval{[-4, @infty)}$</latex></p>
+      </answer>
+    </example>
+    <p>The remaining examples in this explainer will involve solving absolute value
+      equations that result in quadratic expressions.</p>
+    
+    <example>
+      <title>Solving Absolute Value Equations</title>
+      <question id="215123632612" instance_number="1">
+        <mcq>
+          <stem>
+            <p>Find algebraically the solution set of the equation 
+              <latex>$\frac{11 @x + 44}{\vert @x + 4 \vert} = @x$</latex>.</p>
+          </stem>
+        </mcq>
+      </question>
+      <answer>
+        <p>In this question, we begin by noticing that since the denominator of a fraction cannot
+          equal zero, the left-hand side of our equation is undefined when <latex>$@x = -4$</latex>.
+          This means that we have two different situations to consider: firstly, when 
+          <latex>$@x + 4 &gt; 0$</latex> and, secondly, when <latex>$@x + 4 &lt; 0$</latex>.</p>
+          <p>Recalling our definition of the absolute value function, we can then represent 
+            this part of the equation using piecewise notation:
+            <latex>\begin{align*}\vert @x + 4 \vert 
+              = \begin{nagwaCases}@x + 4 &amp; \text{@if } @x &gt; -4,\\
+              - \left(@x + 4 \right) &amp; \text{@if } @x &lt; -4.\end{nagwaCases}\end{align*}</latex>
+          </p>
+        <p>When <latex>$@x &gt; -4$</latex>,we solve the equation
+          <latex>\begin{align*}\frac{11 @x + 44}{@x + 4} 
+            &amp;= @x \quad (\text{@multiplyingbothsidesby } \left(@x + 4 \right))\\
+            11 @x + 44 &amp;= @x \left(@x + 4 \right) \quad (\text{@distributingtheparentheses})\\
+            11 @x + 44 &amp;= @x^2 + 4 @x \quad (\text{@subtracting } 11 @x \text{ @and } 44 \text{ @frombothsides})\\
+            0 &amp;= @x^2 - 7 @x - 44 \quad (\text{@factoringtherighthandside})\\
+            0 &amp;=  \left(@x - 11 \right) \left(@x + 4 \right).\end{align*}</latex>
+            </p> 
+          <p>So,
+            <latex>\begin{align*}\text{@either } @x = 11 \quad \text{@or} \quad @x = -4.\end{align*}</latex>
+          </p>
+        <p>As we have already established that <latex>$@x$</latex> cannot equal <latex>$-4$</latex>,
+          this equation has one valid solution.</p>
+        <p>When <latex>$@x &lt; -4$</latex>, we need to solve the equation
+          <latex>\begin{align*}\frac{11 @x + 44}{- \left(@x + 4 \right)} 
+            &amp;= @x \quad (\text{@multiplyingbothsidesby } - \left(@x + 4 \right))\\
+            11 @x + 44 &amp;= - @x \left(@x + 4 \right) \quad (\text{@distributingtheparentheses})\\
+            11 @x + 44 &amp;= - @x^2 - 4 @x \quad (\text{@adding } @x^2 \text{ @and } 4 @x \text{ @tobothsides})\\
+            @x^2 + 15 @x + 44 &amp;= 0 \quad (\text{@factoringthelefthandside})\\
+            \left(@x + 11 \right) \left(@x + 4 \right) &amp;=  0.\end{align*}</latex>
+        </p>
+          <p>So,
+            <latex>\begin{align*}\text{@either } @x = -11 \quad \text{@or} \quad @x = -4.\end{align*}</latex>
+          </p>
+        <p>Once again, we established that <latex>$@x$</latex> cannot equal <latex>$-4$</latex>,
+          so this equation also has one valid solution.</p>
+        <p>The solutions of the equation <latex>$\frac{11 @x + 44}{\vert @x + 4 \vert}$</latex>
+          are <latex>$@x = -11$</latex> and <latex>$@x = 11$</latex>, which can be written in 
+          set notation as <latex>$\{-11, 11 \}$</latex>.</p>
+        <p><b>Answer</b>: <latex>$\{-11, 11 \}$</latex></p>
+      </answer>
+    </example>
+    
+    <example>
+      <title>Solving Absolute Value Linear Equations</title>
+      <question id="676154849038" instance_number="1">
+        <mcq>
+          <stem>
+            <p>Find algebraically the solution set of the equation 
+              <latex>$\vert @x - 3 \vert - \vert @x + 1 \vert = 4$</latex>.</p>
+          </stem>
+        </mcq>
+      </question>
+      <answer>
+        <p>Recalling our definition of the absolute value function, we can represent the 
+          <latex>$\vert @x - 3 \vert$</latex> part of the equation using piecewise notation:
+          <latex>\begin{align*}\vert @x - 3 \vert 
+            = \begin{nagwaCases}@x - 3 &amp; \text{@if } @x &gt; 3,\\
+            - \left(@x - 3 \right) &amp; \text{@if } @x \leq 3.\end{nagwaCases}\end{align*}</latex>
+        </p>
+        <p>We can also represent the <latex>$\vert @x + 1 \vert$</latex> part of the equation using
+          piecewise notation:
+          <latex>\begin{align*}\vert @x + 1 \vert 
+            = \begin{nagwaCases}@x + 1 &amp; \text{@if } @x \geq -1,\\
+            - \left(@x + 1 \right) &amp; \text{@if } @x &lt; -1.\end{nagwaCases}\end{align*}</latex>
+        </p>
+          <p>This means that we need to consider three scenarios.</p>
+        <tikz src="10.tex" scale="250"/>
+        <p>Firstly, when <latex>$@x &lt; -1$</latex>, we know that <latex>$@x − 3 &lt; 0$</latex>
+          and <latex>$@x + 1 &lt; 0$</latex>. We need to solve the equation
+          <latex>\begin{align*}- \left(@x - 3 \right) - - \left(@x + 1 \right) &amp;= 4\\
+          - @x + 3 + @x + 1 &amp;= 4\\
+          4 &amp;= 4.\end{align*}</latex>
+        </p>
+        <p>So, <latex>$\vert @x - 3 \vert − \vert @x + 1 \vert = 4$</latex> is true for all 
+          values of <latex>$@x &lt; -1$</latex>.</p>
+        <p>Secondly, when <latex>$-1 \leq @x \leq 3$</latex>, we know that 
+          <latex>$@x - 3 \leq 0$</latex> and <latex>$@x + 1 \geq 0$</latex>. We need to
+          solve the equation
+          <latex>\begin{align*}- \left(@x - 3 \right) - \left(@x + 1 \right) &amp;= 4\\
+          - @x + 3 - @x - 1 &amp;= 4\\
+          -2 @x + 2 &amp;= 4\\
+          -2 @x &amp;= 2\\
+          @x &amp;= -1.\end{align*}</latex>
+        </p>
+        <p>So, <latex>$\vert @x - 3 \vert − \vert @x + 1 \vert = 4$</latex> is also true when 
+          <latex>$@x = -1$</latex>.</p>
+        <p>Finally, when <latex>$@x &gt; 3$</latex>, we know that <latex>$@x - 3 &gt; 0$</latex>
+          and <latex>$@x + 1 &gt; 0$</latex>. We need to solve the equation
+          <latex>\begin{align*}\left(@x - 3 \right) - \left(@x + 1 \right) &amp;= 4\\
+          @x - 3 - @x - 1 &amp;= 4\\
+          -4 &amp;= 4.\end{align*}</latex>
+        </p>
+        <p>So, there are no solutions of <latex>$\vert @x - 3 \vert − \vert @x + 1 \vert = 4$</latex>
+          when <latex>$@x &gt; 3$</latex>.</p>
+        <p>We can therefore conclude that the equation 
+          <latex>$\vert @x - 3 \vert − \vert @x + 1 \vert = 4$</latex> is true for all values
+          of <latex>$@x$</latex> less than or equal to <latex>$-1$</latex>. This can be written
+          in set notation as <latex>$\nagwaInterval{(- @infty, -1]}$</latex>.</p>
+        <p><b>Answer</b>: <latex>$\nagwaInterval{(- @infty, -1]}$</latex>.</p>
+      </answer>
+    </example>
+    
+    <example>
+      <title>Finding the Solution Set of Quadratic Equations
+        Involving Absolute Value</title>
+      <question id="340127045021" instance_number="1">
+        <mcq>
+          <stem>
+            <p>Find algebraically the solution set of the equation 
+              <latex>$4 @x \left \vert @x \right \vert - 4 @x = 0$</latex>.</p>
+          </stem>
+        </mcq>
+      </question>
+      <answer>
+        <p>To solve this equation, we will follow the following four-step process:
+          <ol type="i">
+            <li>Isolate the absolute value expression.</li>
+            <li>Set the quantity inside the absolute value notation equal to the 
+              positive and the negative of the quantity on the other side of the equation.</li>
+            <li>Solve for the unknown in both equations.</li>
+            <li>Check your answer analytically or graphically.</li>
+          </ol>
+        </p>
+          <p>We have  
+            <latex>\begin{align*}4 @x \left \vert @x \right \vert - 4 @x 
+              &amp;= 0 \quad (\text{@factoringthelefthandside})\\
+              4 @x \left(\left \vert @x \right \vert - 1 \right) 
+              &amp;= 0.\end{align*}</latex>
+          </p>
+          <p>Either
+            <latex>\begin{align*}4 @x &amp;= 0 \quad (\text{@dividingbothsidesby } 4)\\
+          @x &amp;= 0\end{align*}</latex>
+          or
+            <latex>\begin{align*}\vert @x \vert - 1 &amp;= 0 \quad (\text{@adding } 1 \text{ @tobothsides})\\
+              \vert @x \vert &amp;= 1.\end{align*}</latex>
+          </p>
+          <p>Recalling that the absolute value of a real number is its distance from zero, there are
+          two possible solutions to this equation:</p>
+          <p>Either
+            <latex>\begin{align*}@x = 1\end{align*}</latex>
+          or
+            <latex>\begin{align*}@x = -1.\end{align*}</latex>
+          </p>
+        <p>Combining our two results, we have three possible solutions, <latex>$@x = -1$</latex>,
+          <latex>$@x = 0$</latex>, and <latex>$@x = 1$</latex>. This can be written as the 
+          solution set <latex>$\{-1, 0, 1 \}$</latex>.</p>
+        <p><b>Answer</b>: <latex>$\{-1, 0, 1 \}$</latex></p>
+      </answer>
+    </example>
+    
+    <example>
+      <title>Finding the Solution Set of Root Equations Involving
+        Absolute Value</title>
+      <question id="780140164102" instance_number="1">
+        <mcq>
+          <stem>
+            <p>Find the solution set of the equation <latex>$\sqrt{4 @x^2 - 28 @x + 49} = \vert @x + 4 \vert$</latex>.</p>
+          </stem>
+        </mcq>
+      </question>
+      <answer>
+        <p>We begin by recalling that the absolute value of any function must be positive. This
+          means that we can square both sides of our equation without adding any extraneous
+          solutions:
+          <latex>\begin{align*}\left(\sqrt{4@x^2 - 28 @x + 49} \right)^2 
+            &amp;= \left(\vert @x + 4 \vert \right)^2\\
+            4 @x^2 - 28 @x + 49 
+            &amp;=  \left(@x + 4 \right)^2 \quad (\text{@distributingtheparentheses})\\
+            4 @x^2 - 28 @x + 49 
+            &amp;= @x^2 + 8 @x + 16 \quad (\text{@subtracting } @x^2 + 8 @x + 16 \text{ @frombothsides})\\
+            3 @x^2 - 36 @x + 33 
+            &amp;= 0 \quad (\text{@dividingbothsidesby } 3)\\
+            @x^2 - 12 @x + 11 
+            &amp;= 0 \quad (\text{@factoringthelefthandside})\\
+            \left(@x - 11 \right) \left(@x - 1 \right) &amp;= 0.\end{align*}</latex>
+        </p>
+          <p>So,
+              <latex>\begin{align*}\text{@either } @x 
+                = 11 \quad \text{@or} \quad @x = 1.\end{align*}</latex>
+            </p>
+          <p>Checking that these solutions satisfy the original equation, we have</p>
+          <p>LHS:
+            <latex>\begin{align*}\sqrt{4 \left(\textcolor{Red}{11} \right)^2 
+              - 28 \left(\textcolor{Red}{11} \right) + 49}
+              = \sqrt{225} = 15\end{align*}</latex>
+          RHS:
+            <latex>\begin{align*}\vert \left(\textcolor{Red}{11} \right) + 4 \vert 
+              = \vert 15 \vert = 15\end{align*}</latex>
+          and</p>
+          <p>LHS:
+            <latex>\begin{align*}\sqrt{4 \left(\textcolor{Red}{1} \right)^2 
+              - 28 \left(\textcolor{Red}{1} \right) + 49}
+              = \sqrt{25} = 5\end{align*}</latex>
+            RHS:
+            <latex>\begin{align*}\vert \left(\textcolor{Red}{1} \right) + 4 \vert 
+              = \vert 5 \vert = 5.\end{align*}</latex>
+          </p>
+          <p>We can therefore conclude that there are two solutions to the equation
+            <latex>$\sqrt{4 @x^2 - 28 @x + 49} = \vert @x + 4 \vert$</latex>. They are
+            <latex>$@x = 11$</latex> and <latex>$@x = 1$</latex>. This can be written as the
+            solution set <latex>$\{1, 11 \}$</latex>.</p>
+          <p>This can be represented graphically as shown below.</p>
+        <tikz src="11.tex" scale="350"/>
+        <p>The points of intersection of <latex>$@y = \sqrt{4 @x^2 - 28 @x + 49}$</latex> and
+          <latex>$@y = \vert @x + 4 \vert$</latex> occur when <latex>$@x = 11$</latex>
+          and <latex>$@x = 1$</latex>.</p>
+        <p><b>Answer</b>: <latex>$\{1, 11 \}$</latex></p>
+      </answer>
+    </example>
+    
+    <example>
+      <title>Finding the Solution Set of Quadratic Equations
+        Involving Absolute Value by Factorization</title>
+      <question id="156173984719" instance_number="1">
+        <mcq>
+          <stem>
+            <p>Find algebraically the solution set of the equation
+              <latex>$\vert @x^2 + 13 @x + 21 \vert = 21$</latex>.</p>
+          </stem>
+        </mcq>
+      </question>
+      <answer>
+        <p>Recalling our definition of the absolute value function, we have two different situations
+          to consider: firstly, when <latex>$@x^2 + 13 @x + 21 \geq 0$</latex> and, secondly, when 
+          <latex>$@x^2 + 13 @x + 21 &lt; 0$</latex>.</p>
+          <p>In the first scenario, we solve the equation
+            <latex>\begin{align*}@x^2 + 13 @x + 21 
+              &amp;= 21 \quad (\text{@subtracting } 21 \text{ @frombothsides})\\
+              @x^2 + 13 @x 
+              &amp;=  0 \quad (\text{@factoringthelefthandside})\\
+              @x \left(@x + 13 \right) 
+              &amp;= 0.\end{align*}</latex>
+          </p>
+        <p>So,
+          <latex>\begin{align*}\text{@either } @x = 0 \quad \text{@or} \quad @x = -13.\end{align*}</latex>
+        </p>
+          <p>We check that these two solutions are valid by substituting them into the equation
+            <latex>$\vert @x^2 + 13 @x + 21 \vert = 21$</latex>.</p>
+        <p>When <latex>$@x = 0$</latex>,
+          <latex>\begin{align*}\vert \left(0 \right)^2 + 13 \left(0 \right) + 21 \vert &amp;= 21\\
+          \vert 21 \vert &amp;= 21\\
+          21 &amp;= 21.\end{align*}</latex>
+        </p>
+        <p>When <latex>$@x = -13$</latex>,
+          <latex>\begin{align*}\vert \left(-13 \right)^2 + 13 \left(-13 \right) + 21 \vert &amp;= 21\\
+          \vert 169 - 169 + 21 \vert &amp;= 21\\
+          \vert 21 \vert &amp;= 21\\
+          21 &amp;= 21.\end{align*}</latex>
+        </p>
+        <p>Therefore, the solutions <latex>$@x = 0$</latex> and <latex>$@x = -13$</latex> are both valid.</p>
+        <p>When <latex>$@x^2 + 13 @x + 21 &lt; 0$</latex>, we solve the equation
+          <latex>\begin{align*}- \left(@x^2 + 13 @x + 21 \right)
+            &amp;= 21 \quad (\text{@distributingtheparentheses})\\
+            - @x^2 - 13 @x - 21 
+            &amp;=  21 \quad (\text{@subtracting } 21 \text{ @frombothsides})\\
+            - @x^2 - 13 @x - 42 
+            &amp;= 0 \quad (\text{@dividingbothsidesby } -1)\\
+            @x^2 + 13 @x + 42 
+            &amp;= 0 \quad (\text{@factoringthelefthandside})\\
+            \left(@x + 6 \right) \left(@x + 7 \right) 
+            &amp;= 0.\end{align*}</latex>
+        </p>
+          <p>So,
+            <latex>\begin{align*}\text{@either } @x = -6 \quad \text{@or} \quad @x = -7.\end{align*}</latex>
+          </p>
+          <p>We check that these two solutions are valid by substituting them into the equation
+            <latex>$\vert @x^2 + 13 @x + 21 \vert = 21$</latex>.</p>
+        <p>When <latex>$@x = -6$</latex>,
+          <latex>\begin{align*}\vert \left(-6 \right)^2 + 13 \left(-6 \right) + 21 \vert &amp;= 21\\
+          \vert 36 - 78 + 21 \vert &amp;= 21\\
+          \vert -21 \vert &amp;= 21\\
+          21 &amp;= 21.\end{align*}</latex>
+        </p>
+        <p>When <latex>$@x = -7$</latex>,
+          <latex>\begin{align*}\vert \left(-7 \right)^2 + 13 \left(-7 \right) + 21 \vert &amp;= 21\\
+          \vert 49 - 91 + 21 \vert &amp;= 21\\
+          \vert -21 \vert &amp;= 21\\
+          21 &amp;= 21.\end{align*}</latex>
+        </p>
+        <p>Therefore, the solutions <latex>$@x = -6$</latex> and <latex>$@x = -7$</latex> are both valid.</p>
+          <p>Combining our two results, there are four possible solutions to the equation
+            <latex>$\vert @x^2 + 13 @x + 21 \vert = 21$</latex>. They are <latex>$@x = -13$</latex>, 
+            <latex>$@x = 0$</latex>, <latex>$@x = -6$</latex>, and <latex>$@x = -7$</latex>. This can be
+            written as the solution set <latex>$\{-13, -7, -6, 0 \}$</latex>.</p>
+          <p>We can also demonstrate this graphically. Let us begin by sketching the equation 
+            <latex>$@y = @x^2 + 13 @x + 21$</latex> on the Cartesian plane.</p>
+        <tikz src="12.tex" scale="300"/>
+        <p>In order to sketch the graph of <latex>$@y = \vert @x^2 + 13 @x + 21 \vert$</latex>
+          we reflect the portion of the graph below the <latex>$@x$</latex>-axis in the line 
+          <latex>$@y = 0$</latex>, as shown in the figure below.</p>
+        <tikz src="13.tex" scale="300"/>
+        <p>Drawing the horizontal line <latex>$@y = 22$</latex>, we see that this intersects 
+          <latex>$@y = \vert @x^2 + 13 @x + 21 \vert$</latex> at four distinct points.</p>
+        <tikz src="14.tex" scale="300"/>
+        <p>These correspond to the values <latex>$@x = -13$</latex>, <latex>$@x = 0$</latex>,
+          <latex>$@x = -6$</latex>, and <latex>$@x = -7$</latex> as identified in the algebraic
+          solution above.</p>
+        <p><b>Answer</b>: <latex>$\{-13, -7, -6, 0 \}$</latex></p>
+      </answer>
+    </example>
+    <p>We will finish this explainer by recapping some of the important concepts.</p>
+    <sidebar type="definition">
+      <title>Key Points</title>
+      <p>
+        <ul>
+          <li>The absolute value is the magnitude of a number without regard to its sign.</li>
+          <li>We solve absolute value equations by considering the set of values for which
+            the absolute value can be positive and negative.</li>
+          <li>We then work out the solution sets separately and check if each solution
+            matches the above criteria.</li>
+          <li>Absolute value equations can be solved both graphically and algebraically.</li>
+        </ul>
+      </p>
+      </sidebar>
+  </body>
+</explainer>

@@ -1,0 +1,363 @@
+﻿<explainer id="989130863985" country="zz" currency="none" calendar="none" unit_system="si" language="en"  dialect="british" publication_date="2020-11-16T10:05:00">
+  <title>Velocity&#x2013;Time Graphs</title>
+  <seo_meta_description>In this explainer, we will learn how to calculate the displacement or acceleration of a particle moving 
+    in a straight line from its velocity&#x2013;time graph.</seo_meta_description>
+  <source_id>585152746587</source_id>
+  <developer_email>jamie.gudge@nagwa.com</developer_email>
+  <dictionary>
+    <item>
+      <from>@v</from>
+      <to>v</to>
+    </item>
+    <item>
+      <from>@s</from>
+      <to>s</to>
+    </item>
+    <item>
+      <from>@t</from>
+      <to>t</to>
+    </item>
+    <item>
+      <from>@Delta</from>
+      <to>\Delta</to>
+    </item>
+    <item symbol="false">
+      <from>@f</from>
+      <to>f</to>
+    </item>
+    <item symbol="false">
+      <from>@i</from>
+      <to>i</to>
+    </item>
+    <item>
+      <from>@a</from>
+      <to>a</to>
+    </item>
+    <item>
+      <from>@A</from>
+      <to>A</to>
+    </item>
+    <item symbol="false">
+      <from>@average</from>
+      <to>average</to>
+    </item>
+    <item symbol="false">
+      <from>@area</from>
+      <to>area</to>
+    </item>
+    <item symbol="false">
+      <from>@totalarea</from>
+      <to>totalarea</to>
+    </item>
+    <item symbol="false">
+      <from>@ten</from>
+      <to>ten</to>
+    </item>
+    <item symbol="false"><from>@Time</from><to>Time</to></item>
+    <item symbol="false"><from>@Velocity</from><to>Velocity</to></item>
+   </dictionary>
+  <body>
+    <p>In this explainer, we will learn how to calculate the displacement or acceleration of a particle moving in a straight
+      line from its velocity&#x2013;time graph.</p>
+    <p>Imagine an object that moves at a constant velocity, <latex>$@v$</latex>, for a period of time that lasts from 
+      <latex>$@t = <quantity><value>0</value><unit>second</unit></quantity>$</latex> to 
+      <latex>$@t = <quantity><value>10</value><unit>second</unit></quantity>$</latex>. A graph of the velocity of the 
+      object against time might look like as follows.</p>
+    <tikz src="1.tex" scale="350"> </tikz>
+      <p>Since the velocity is constant, the graph shows a straight, horizontal line. What is the change in the displacement
+        of the object over the time interval shown? Recall that for an object that moves at a constant velocity, <latex>$@v$</latex>,
+        for a time interval <latex>$@Delta @t$</latex>, the change in the displacement of the object, <latex>$@Delta @s$</latex>,
+        is given by the formula
+        <latex>\begin{align*}@Delta @s = @v @Delta @t.\end{align*}</latex>
+      </p>
+      <p>The object in the graph above moves at a velocity of <quantity><value>12</value><unit>meter per second</unit></quantity>
+        for a time of <quantity><value>10</value><unit>second</unit></quantity> so it moves a distance of 
+        <latex>$<quantity><value>12</value><unit>meter per second</unit></quantity> \times 
+        <quantity><value>10</value><unit>second</unit></quantity> = <quantity><value>120</value><unit>meter</unit></quantity>$</latex>
+        in the direction of its motion. Notice how this is also equal to the area between the line and the <latex>$@t$</latex>-axis.</p>
+      <p>Another question we could ask is &#x201c;What is the acceleration of the object in the time interval shown?&#x201d; 
+        Since the object is moving at a constant velocity, we know that its acceleration is zero, so we can say that 
+        <b>when the line on a velocity&#x2013;time graph is horizontal, the acceleration is zero</b>.</p>
+      <p>Now imagine an object that moves at a steadily increasing velocity for a period of time that lasts from 
+        <latex>$@t = <quantity><value>0</value><unit>second</unit></quantity>$</latex> to <latex>$@t = 
+          <quantity><value>10</value><unit>second</unit></quantity>$</latex>. A graph of the velocity of the object against time might
+        look like as follows.</p>
+    <tikz src="2.tex" scale="350"> </tikz>
+      <p>Since the velocity is increasing steadily over time, the graph shows a straight, but <i>not</i> horizontal, line. 
+        Since the velocity is not constant, we cannot use <i>exactly</i> the same formula that we used before to find the
+        change in the object&#x2019;s displacement. However, we could use the same formula if we were to find the <i>average</i>
+        velocity of the object, <latex>$@v_{\text{@average}}$</latex>. In this case, the average velocity of the object is just
+        equal to the initial velocity, <latex>$@v_{\text{@i}}$</latex>, plus the final velocity, <latex>$@v_{\text{@f}}$</latex>, divided by two:
+        <latex>\begin{align*}@v_{\text{@average}} = \frac{@v_{\text{@i}} + @v_{\text{@f}}}{2}.\end{align*}</latex>
+      </p>
+      <p>In this case, the initial velocity is <quantity><value>12</value><unit>meter per second</unit></quantity>
+        and the final velocity is <quantity><value>18</value><unit>meter per second</unit></quantity>, so the average velocity
+        is equal to <latex>$\frac{\left(<quantity><value>12</value><unit>meter per second</unit></quantity> 
+          + <quantity><value>18</value><unit>meter per second</unit></quantity> \right)}{2} = 
+          <quantity><value>15</value><unit>meter per second</unit></quantity>$</latex>. We can now use the formula for the change
+        in the displacement of the object that we used before:
+        <latex>\begin{align*}@Delta @s &amp;= @v_{\text{@average}} @Delta @t\\
+      @Delta @s &amp;= <quantity><value>15</value><unit>meter per second</unit></quantity> 
+        \times <quantity><value>10</value><unit>second</unit></quantity>\\
+        @Delta @s &amp;= <quantity><value>150</value><unit>meter</unit></quantity>.\end{align*}</latex>
+      </p>
+      <p>But another way of thinking about this is in terms of the area between the line and the <latex>$@t$</latex>-axis,
+        or <b>the area under the line</b>. The change in the displacement is equal to the area under the line. We can find
+        the area under the line more easily by dividing it into two regions, as follows.</p>
+    <tikz src="3.tex" scale="350"> </tikz>
+      <p>The blue region is a rectangle, so its area is equal to its height, 
+        <quantity><value>12</value><unit>meter per second</unit></quantity>, multiplied by its width, 
+        <quantity><value>10</value><unit>second</unit></quantity>, which is <quantity><value>120</value><unit>meter</unit></quantity>.
+        The red region is a right triangle, so its area is equal to its height, 
+        <quantity><value>6</value><unit>meter per second</unit></quantity>, multiplied by its width, 
+        <quantity><value>10</value><unit>second</unit></quantity>, divided by two, which is 
+        <quantity><value>30</value><unit>meter</unit></quantity>. So the total area is 
+        <latex>$<quantity><value>120</value><unit>meter</unit></quantity> + <quantity><value>30</value><unit>meter</unit></quantity> 
+        = <quantity><value>150</value><unit>meter</unit></quantity>$</latex>.</p>
+      <p>Since we said that the velocity is increasing <i>steadily</i> over time, the acceleration of the object is constant,
+        so we can say that <b>when the line on a velocity&#x2013;time graph is straight, the acceleration is constant.</b>
+        Since the line slopes <i>up</i> to the right, the object is <i>accelerating</i>, but if it slopes <i>down</i> to the right,
+        it would be <i>decelerating</i>.</p>
+      <p>Let&#x2019;s have a look at some examples.</p>
+    
+    <example>
+      <title>Finding the Change in Displacement of an Object over a Given Time Interval from a Velocity&#x2013;Time Graph</title>
+      <question id="206145926759" instance_number="1">
+        <mcq>
+          <stem>
+            <p>The given velocity&#x2013;time graph represents a particle moving in a straight line. Determine its displacement at
+              <latex>$@t = <quantity><value>2</value><unit>second</unit></quantity>$</latex>.</p>
+            <tikz src="4.tex" scale="250"> </tikz>
+          </stem>
+        </mcq>
+      </question>
+      <answer>
+        <p>This graph shows us the velocity of the particle over <quantity type="long"><value>7</value><unit>second</unit></quantity>,
+          but we are only interested in the first <quantity type="long"><value>2</value><unit>second</unit></quantity>. 
+          The line on the graph is straight and slopes up to the right; this means that the object has a constant, nonzero 
+          acceleration.</p>
+        <p>To find the change in the displacement of the particle between <quantity><value>0</value><unit>second</unit></quantity>
+          and <quantity><value>2</value><unit>second</unit></quantity>, we just need to find the area between the line and the 
+          <latex>$@t$</latex>-axis between <latex>$@t = <quantity><value>0</value><unit>second</unit></quantity>$</latex> and 
+          <latex>$@t = <quantity><value>2</value><unit>second</unit></quantity>$</latex>.</p> 
+        <tikz src="5.tex" scale="250"> </tikz>
+        <p>Since this region is a triangle, the area is equal to the change in velocity, <latex>$@Delta @v$</latex>, times the
+          time interval, <latex>$@Delta @t$</latex>, divided by two:
+          <latex>\begin{align*}\text{@area} &amp;= \frac{@Delta @v @Delta @t}{2}\\
+   \text{@area} &amp;= \frac{30 \times 2}{2}\\
+   \text{@area} &amp;= 30.\end{align*}</latex>
+        </p>
+<p>This area is equal to the change in the displacement of the particle. Since the unit of the velocity was 
+  <quantity type="long"><value></value><unit>centimeter per second</unit></quantity> and the unit of time was 
+  <quantity type="long"><value></value><unit>second</unit></quantity>, this value for the displacement is in 
+  <quantity type="long" count="singular"><value></value><unit>centimeter</unit></quantity>, so the change in 
+  the displacement of the particle is <quantity><value>30</value><unit>centimeter</unit></quantity>.</p>
+      </answer>
+      </example>
+<p>So far, we have only considered <i>positive</i> velocity. If the velocity of the object were <i>negative</i>,
+  however, and the magnitude of the velocity increased steadily with time, a graph of its velocity would look as follows.</p>
+    <tikz src="6.tex" scale="350"> </tikz>
+<p>In this case, since the velocity is negative throughout the time interval shown, the change in the displacement throughout
+  that time interval is also negative. We can again find the change in displacement by finding the area of the shaded region 
+  on the graph, but we then have to multiply that area by <latex>$-1$</latex> to get the change in the displacement:
+  <latex>\begin{align*}\text{@area} &amp;= 10 \times 20 \times \frac{1}{2}\\
+    \text{@area} &amp;= 100,\end{align*}</latex>
+  but since the velocity is negative, we have to multiply this by <latex>$-1$</latex>:
+  <latex>\begin{align*}@Delta @s = <quantity><value>-100</value><unit>meter</unit></quantity>.\end{align*}</latex>
+</p>
+<p>So we have now considered what we have to do if the velocity is negative throughout a time interval, but what about if 
+  the velocity changes between positive and negative? The graph below shows the velocity of an object that starts out 
+  positive before becoming negative.</p>
+    <tikz src="7.tex" scale="350"> </tikz>
+<p>The line crosses the <latex>$@t$</latex>-axis at <latex>$@t = <quantity><value>10</value><unit>second</unit></quantity>$</latex>;
+  the velocity goes from positive to negative; this is when the object <b>reverses direction</b>. The object starts out
+  moving in one direction and then starts moving in the <i>opposite</i> direction.</p>
+    <p>In the first <quantity type="long"><value>@ten</value><unit>second</unit></quantity> of its motion,
+      the displacement of the object is <i>increasing</i>, but in the last 
+  <quantity type="long"><value>@ten</value><unit>second</unit></quantity>, since the object is moving in the opposite direction,
+  its displacement must be <i>decreasing</i>. This means that in order to find the change in the displacement over the whole time
+  interval from <latex>$@t = <quantity><value>0</value><unit>second</unit></quantity>$</latex> to 
+  <latex>$@t = <quantity><value>20</value><unit>second</unit></quantity>$</latex>, we have to subtract the area between the line
+  and the <latex>$@t$</latex>-axis that is <i>below</i> the <latex>$@t$</latex>-axis (the red region) from the area between the line and the 
+  <latex>$@t$</latex>-axis that is <i>above</i> the <latex>$@t$</latex>-axis (the blue region). In this case, since the area of
+  the red region is equal to the area of the blue region, the change in the displacement of the object over this 
+  20-<quantity type="long" count="singular"><value></value><unit>second</unit></quantity> time interval would be zero.</p>
+<p>Let&#x2019;s have a look at another example.</p>
+
+      <example>
+        <title>Finding the Displacement of a Particle Using a Velocity&#x2013;Time Graph</title>
+        <question id="987107048142" instance_number="1">
+          <mcq>
+            <stem>
+              <p>Given the velocity&#x2013;time graph of a particle moving in a straight line, determine the displacement of
+                the particle within the time interval <latex>$\nagwaInterval{[0,9]}$</latex>.</p>
+              <tikz src="8.tex" scale="350"> </tikz>
+            </stem>
+          </mcq>
+        </question>
+        <answer>
+          <p>The question asks us about the displacement between <latex>$@t = <quantity><value>0</value><unit>second</unit></quantity>$</latex>
+            and <latex>$@t = <quantity><value>9</value><unit>second</unit></quantity>$</latex>, so we can ignore everything
+            on the graph after <latex>$@t = <quantity><value>9</value><unit>second</unit></quantity>$</latex>.</p>
+          <p>Between <latex>$@t = <quantity><value>0</value><unit>second</unit></quantity>$</latex> and 
+            <latex>$@t = <quantity><value>1</value><unit>second</unit></quantity>$</latex>, the velocity is positive, so the
+            change in the displacement in that time interval is also positive. Between <latex>$@t = 
+              <quantity><value>1</value><unit>second</unit></quantity>$</latex> and <latex>$@t =
+              <quantity><value>9</value><unit>second</unit></quantity>$</latex>, the velocity is negative, so the change in 
+            the displacement in that time interval is also negative. In order to find the displacement of the particle, we 
+            need to subtract the area between the line and the <latex>$@t$</latex>-axis for the interval 
+            <latex>$\nagwaInterval{[1,9]}$</latex> from the area between the line and the <latex>$@t$</latex>-axis for the
+            interval <latex>$\nagwaInterval{[0,1]}$</latex>.</p>
+          <p>Let&#x2019;s start by finding the area between the line and the <latex>$@t$</latex>-axis for the interval 
+            <latex>$\nagwaInterval{[0,1]}$</latex>. This region is a triangle, so its area, <latex>$@A_1$</latex>, is given by
+            <latex>\begin{align*}@A_1 &amp;= 4 \times 1 \times \frac{1}{2}\\
+              @A_1 &amp;= 2.\end{align*}</latex>
+          </p>
+          <p>Now let&#x2019;s find the area between the line and the <latex>$@t$</latex>-axis for the interval 
+            <latex>$\nagwaInterval{[1,9]}$</latex>. This region is a trapezoid, so its area, <latex>$@A_2$</latex>,
+            is given by
+            <latex>\begin{align*}@A_2 &amp;= \frac{8 + 5}{2} \times 4\\
+              @A_2 &amp;= 26.\end{align*}</latex>
+          </p>
+<p>Then, the displacement is given by
+  <latex>\begin{align*}@Delta @s &amp;= @A_1 - @A_2\\
+    @Delta @s &amp;= 2 - 26\\
+    @Delta @s &amp;= -24.\end{align*}</latex>
+</p>
+  <p>Since <latex>$@v$</latex> was given in <quantity type="long"><value></value><unit>meter per second</unit></quantity>
+    and <latex>$@t$</latex> was given in <quantity type="long"><value></value><unit>second</unit></quantity>, this value
+    for the displacement is in <quantity type="long"><value></value><unit>meter</unit></quantity>.</p>
+</answer>
+</example>
+<p>So far, we have only looked at how we find the displacement from a velocity&#x2013;time graph. To find the displacement,
+  we add up the areas between the line and the <latex>$@t$</latex>-axis that are <i>above</i> the <latex>$@t$</latex>-axis
+  and subtract from that all the areas between the line and the <latex>$@t$</latex>-axis from <i>below</i> the 
+  <latex>$@t$</latex>-axis.</p>
+<p>However, if instead we wanted to find the <b>total distance</b> traveled by an object from its velocity&#x2013;time graph,
+  we would instead add <b>all</b> of the areas between the line and the <latex>$@t$</latex>-axis, whether or not they are 
+  above or below the axis.</p>
+
+      <example>
+        <title>Finding the Distance Covered by a Particle Using a Velocity&#x2013;Time Graph</title>
+        <question id="983137864751" instance_number="1">
+          <mcq>
+            <stem>
+              <p>Given the velocity&#x2013;time graph of a particle moving in a straight line, determine the distance covered 
+                by the particle within the time interval <latex>$\nagwaInterval{[0,8]}$</latex>.</p>
+              <tikz src="9.tex" scale="350"> </tikz>
+            </stem>
+          </mcq>
+        </question>
+        <answer>
+          <p>This question only asks us about the time interval <latex>$\nagwaInterval{[0,8]}$</latex>, so we can ignore 
+            everything on the graph after <latex>$@t = <quantity><value>8</value><unit>second</unit></quantity>$</latex>.</p>
+          <p>To find the total distance traveled, we just need to add the areas between the line and the <latex>$@t$</latex>-axis
+            between <latex>$@t = <quantity><value>0</value><unit>second</unit></quantity>$</latex> and 
+            <latex>$@t = <quantity><value>8</value><unit>second</unit></quantity>$</latex>.</p>
+          <p>The region between the line and the <latex>$@t$</latex>-axis in the interval <latex>$\nagwaInterval{[0,1]}$</latex>
+            is a triangle, so its area, which we will call <latex>$@A_1$</latex>, is equal to its height multiplied by its width
+            divided by two:
+            <latex>\begin{align*}@A_1 &amp;= \frac{5 \times 1}{2}\\
+              @A_1 &amp;= 2.5.\end{align*}</latex>
+          </p>
+          <p>The region between the line and the <latex>$@t$</latex>-axis in the interval <latex>$\nagwaInterval{[1,8]}$</latex>
+            is a trapezoid, so its area, which we will call <latex>$@A_2$</latex>, is equal to its mean width multiplied by its
+            height:
+            <latex>\begin{align*}@A_2 &amp;= \frac{4 + 7}{2} \times 5\\
+              @A_2 &amp;= 27.5.\end{align*}</latex>
+          </p>
+<p>The total distance traveled is equal to the total area:
+  <latex>\begin{align*}\text{@totalarea} &amp;= @A_1 + @A_2\\
+    \text{@totalarea} &amp;= 2.5 + 27.5\\
+    \text{@totalarea} &amp;= 30.\end{align*}</latex>
+</p>
+          <p>So the total distance traveled by the object in the time interval <latex>$\nagwaInterval{[0,8]}$</latex> is 
+            <quantity><value>30</value><unit>meter</unit></quantity>.</p>
+</answer>
+</example>
+<p>When the line on a velocity&#x2013;time graph is straight, we can also work out the <i>acceleration</i> of the object. 
+  Over the time interval for which the line is straight, the acceleration is constant and is equal to the change in velocity,
+  <latex>$@Delta @v$</latex>, divided by the time interval, <latex>$@Delta @t$</latex>:
+  <latex>\begin{align*}@a = \frac{@Delta @v}{@Delta @t},\end{align*}</latex>
+  where <latex>$@a$</latex> is the acceleration.</p>
+
+      <example>
+        <title>Finding the Acceleration of an Object from Its Velocity&#x2013;Time Graph</title>
+        <question id="989152941252" instance_number="1">
+          <mcq>
+            <stem>
+              <p>Given the velocity&#x2013;time graph for a particle that moved in a straight line, determine its acceleration 
+                at <latex>$@t = <quantity><value>3</value><unit>second</unit></quantity>$</latex>.</p>
+              <tikz src="10.tex" scale="250"> </tikz>
+            </stem>
+          </mcq>
+        </question>
+        <answer>
+          <p>The line is straight over the entire time interval shown, so the acceleration is constant throughout the time interval.</p>
+<p>We can use the formula
+  <latex>\begin{align*}@a = \frac{@Delta @v}{@Delta @t},\end{align*}</latex>
+  where <latex>$@a$</latex> is the acceleration, <latex>$@Delta @v$</latex> is the change in the velocity over the time interval,
+  and <latex>$@Delta @t$</latex> is the time interval, to find the acceleration of the object.</p>
+          <p>From the graph, we can see that the velocity of the object increases from 
+            <quantity><value>0</value><unit>centimeter per second</unit></quantity> to 
+            <quantity><value>210</value><unit>centimeter per second</unit></quantity>, and the time interval is 
+            <quantity type="long"><value>10</value><unit>second</unit></quantity> long, so
+            <latex>\begin{align*}@a &amp;= \frac{210}{10}\\
+@a &amp;= 21,\end{align*}</latex>
+and since the acceleration is constant throughout the time interval shown on the graph, the acceleration of the object at
+            <latex>$@t = <quantity><value>3</value><unit>second</unit></quantity>$</latex> is 
+            <quantity><value>21</value><unit>centimeter per second^2</unit></quantity>.</p>
+        </answer>
+      </example>
+
+      <example>
+        <title>Finding the Acceleration of an Object from Its Velocity&#x2013;Time Graph</title>
+        <question id="453104027549" instance_number="1">
+          <mcq>
+            <stem>
+              <p>The figure shown is a velocity&#x2013;time graph for a body moving in a straight line. 
+                Determine the deceleration of the body during the final section of its movement, given 
+                that it came to rest <quantity type="long"><value>100</value><unit>second</unit></quantity> after it started moving.</p>
+              <tikz src="11.tex" scale="350"> </tikz>
+            </stem>
+          </mcq>
+        </question>
+        <answer>
+          <p>We are only interested in the final section of the object&#x2019;s motion, which is between 
+            <quantity><value>90</value><unit>second</unit></quantity> and 
+            <quantity><value>100</value><unit>second</unit></quantity>, and we can ignore everything outside of that.</p>
+          <p>In the time interval <latex>$\nagwaInterval{[90,100]}$</latex>, the line on the graph is straight, so the
+            acceleration is constant. That means that we can use the formula 
+            <latex>\begin{align*}@a = \frac{@Delta @v}{@Delta @t},\end{align*}</latex>
+            where <latex>$@a$</latex> is the acceleration, <latex>$@Delta @v$</latex> is the change in the velocity over
+            the time interval, and <latex>$@Delta @t$</latex> is the time interval, to find the acceleration of the object.</p>
+          <p>From the graph, we can see that the velocity of the object <i>decreases</i> from 
+            <quantity><value>45</value><unit>meter per second</unit></quantity> to 
+            <quantity><value>0</value><unit>meter per second</unit></quantity>, which is a change of 
+            <latex>$<quantity><value>-45</value><unit>meter per second</unit></quantity>$</latex>, and the time interval is 
+            <quantity type="long"><value>10</value><unit>second</unit></quantity> long, so
+            <latex>\begin{align*}@a &amp;= \frac{-45}{10}\\
+    @a &amp;= -4.5.\end{align*}</latex>
+          </p>
+          <p>The acceleration of the object in the last part of its motion is 
+            <latex>$<quantity><value>-4.5</value><unit>meter per second</unit></quantity>$</latex>, which is the same as a 
+            <i>deceleration</i> of <latex>$<quantity><value>4.5</value><unit>meter per second</unit></quantity>$</latex>.</p>
+</answer>
+</example>
+    <sidebar type="definition">
+      <title>Key Points</title>
+      <p>
+        <ul>
+          <li>The change in the displacement of an object can be calculated from a velocity&#x2013;time graph by adding the
+            areas between the line and the <latex>$@t$</latex>-axis that are <i>above</i> the <latex>$@t$</latex>-axis and
+            subtracting the areas that are <i>below</i> the <latex>$@t$</latex>-axis.</li>
+          <li>The distance traveled by an object can be calculated from its velocity&#x2013;time graph by adding 
+            <b>all</b> the areas between the line and the <latex>$@t$</latex>-axis.</li>
+          <li>When the line on a velocity&#x2013;time graph is straight, the acceleration can be found using the formula
+            <latex>\begin{align*}@a = \frac{@Delta @v}{@Delta @t}.\end{align*}</latex>
+          </li>
+        </ul>
+      </p>
+    </sidebar>
+    </body>
+</explainer>

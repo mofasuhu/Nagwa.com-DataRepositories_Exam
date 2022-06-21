@@ -1,0 +1,556 @@
+﻿<explainer id="980162532502" country="zz" currency="none" calendar="none" unit_system="si" language="en"
+  dialect="british" publication_date="2020-11-11T12:02:02">
+  <title>Empirical and Molecular Formulas</title>
+  <seo_meta_description>In this explainer, we will learn how to define, determine, 
+    and convert between a compound’s empirical and molecular formulas.</seo_meta_description>
+  <source_id>706193561646</source_id>
+  <developer_name>Fallon Simpson</developer_name>
+  <developer_email>fallon.simpson@nagwa.com</developer_email>
+  <dictionary>
+    <item symbol="false">
+      <from>@ofoxygengas</from>
+      <to>of oxygen gas</to>
+    </item>
+    <item symbol="false">
+      <from>@ofmercury</from>
+      <to>of mercury</to>
+    </item>
+    <item symbol="false">
+      <from>@Step</from>
+      <to>Step</to>
+    </item>
+    <item symbol="false">
+      <from>@molarmassofempiricalformula</from>
+      <to>molar mass of empirical formula</to>
+    </item>
+    <item symbol="false">
+      <from>@molarmassofcarbon</from>
+      <to>molar mass of carbon</to>
+    </item>
+    <item symbol="false">
+      <from>@molarmassofhydrogen</from>
+      <to>molar mass of hydrogen</to>
+    </item>
+    <item symbol="false">
+      <from>@molarmassofnaphthalenesempiricalformula</from>
+      <to>molar mass of naphthalene&#x2019;s empirical formula</to>
+    </item>
+    <item symbol="false">
+      <from>@empiricalformulamolarmass</from>
+      <to>empirical formula molar mass</to>
+    </item>
+    <item symbol="false">
+      <from>@molarmassof</from>
+      <to>molar mass of</to>
+    </item>
+    <item symbol="false">
+      <from>@molarmassofcompound</from>
+      <to>molar mass of compound</to>
+    </item>
+    <item symbol="false">
+      <from>@molarmassofcompoundsempiricalformula</from>
+      <to>molar mass of compound&#x2019;s empirical formula</to>
+    </item>
+    <item symbol="false">
+      <from>@molarmassofoxalicacid</from>
+      <to>molar mass of oxalic acid</to>
+    </item>
+    <item symbol="false">
+      <from>@molarmassofoxalicacidsempiricalformula</from>
+      <to>molar mass of oxalic acid&#x2019;s empirical formula</to>
+    </item>
+    <item symbol="false">
+      <from>@molarmassofnaphthalene</from>
+      <to>molar mass of naphthalene</to>
+    </item>
+    
+    <item symbol="false"><from>@Percentcomposition</from><to>Percent composition</to></item>
+    <item symbol="false"><from>@Convertto</from><to>Convert to</to></item>
+    <item symbol="false"><from>@Massofeachelement</from><to>Mass of each element</to></item>
+    <item symbol="false"><from>@Dividebymolarmass</from><to>Divide by molar mass</to></item>
+    <item symbol="false"><from>@Molesofeachelement</from><to>Moles of each element</to></item>
+    <item symbol="false"><from>@Dividebythesmallest</from><to>Divide by the smallest</to></item>
+    <item symbol="false"><from>@Simplifiedratio</from><to>Simplified ratio</to></item>
+    <item symbol="false"><from>@Changetointeger</from><to>Change to integer</to></item>
+    <item symbol="false"><from>@subscripts</from><to>subscripts</to></item>
+    <item symbol="false"><from>@Empiricalformula</from><to>Empirical formula</to></item>
+    <item symbol="false"><from>@numberofmoles</from><to>number of</to></item>
+    <item symbol="false"><from>@Calculatemolarmassof</from><to>Calculate molar mass of</to></item>
+    
+    
+    <item symbol="false"><from>@empiricalformula</from><to>empirical formula</to></item>
+    
+    
+    <item symbol="false"><from>@Molarmassof</from><to>Molar mass of molecule</to></item>
+    <item symbol="false"><from>@massofempirical</from><to>molar mass of empirical formula</to></item>
+    
+    
+    <item symbol="false"><from>@Dividethemolarmassofthe</from><to>Divide the molar mass of the</to></item>
+    <item symbol="false"><from>@oftheempiricalformula</from><to>of the empirical formula</to></item>
+    <item symbol="false"><from>@Integer</from><to>Integer</to></item>
+    <item symbol="false"><from>@Multiplysubscriptsin</from><to>Multiply subscripts in</to></item>
+    <item symbol="false"><from>@empiricalformulabyinteger</from><to>empirical formula by integer</to></item>
+    <item symbol="false"><from>@Molecularformula</from><to>Molecular formula</to></item>
+    <item symbol="false"><from>@moleculebythemolarmass</from><to>molecule by the molar mass</to></item>
+  </dictionary>
+  <body>
+    <p>In this explainer, we will learn how to define, determine, and convert 
+      between a compound&#x2019;s empirical and molecular formulas.</p>
+    <p>The composition of a molecule can be expressed as a molecular formula.
+      The molecular formula tells us the exact number of 
+      <quantity type="long"><value></value><unit>atom</unit></quantity> of each element
+      in a molecule. For example, the molecular formula of water, 
+      <chem style="inline">\ch{H2 O}</chem>, indicates that every water molecule
+      will contain two hydrogen atoms and one oxygen atom. The molecular formula
+      of glucose, <chem style="inline">\ch{C6 H12 O6}</chem>, indicates that 
+      every glucose molecule will contain six carbon atoms, twelve hydrogen 
+      atoms, and six oxygen atoms.</p>
+    <sidebar type="definition">
+      <title>Definition: Molecular Formula</title>
+      <p>A molecular formula is a chemical formula expressing the exact number
+        of <quantity type="long"><value></value><unit>atom</unit></quantity>
+        of each element in a molecule.</p>
+    </sidebar>
+    <p>The ratio of carbon atoms to hydrogen atoms to oxygen atoms in a molecule
+      of glucose is <latex>$6:12:6$</latex>. This ratio can be simplified to 
+      <latex>$1:2:1$</latex>. We can write the simplified ratio as a chemical 
+      formula, <chem style="inline">\ch{CH2 O}</chem>. This is the empirical 
+      formula of glucose. The empirical formula tells us the simplest whole 
+      number ratio of the elements in a molecule.</p>
+    <sidebar type="definition">
+      <title>Definition: Empirical Formula</title>
+      <p>An empirical formula is a chemical formula that indicates the elements
+        in a molecule or ionic compound and the simplest whole number ratio of
+        <quantity type="long"><value></value><unit>atom</unit></quantity> of 
+        each element.</p>
+    </sidebar>
+    <p>Empirical formulas are also used to represent the chemical formulas of 
+      ionic compounds because ionic compounds exist as a three-dimensional 
+      network of ions rather than a discrete molecular unit. The sodium chloride
+      crystal lattice, shown below, must have equal numbers of 
+      <chem style="inline">\ch{Na^+}</chem> and <chem style="inline">\ch{Cl^-}</chem>
+      in order for the compound to be electrically neutral. Therefore, the 
+      simplified ratio of sodium to chlorine in sodium chloride is <latex>$1:1$</latex>
+      and the empirical formula is <chem style="inline">\ch{NaCl}</chem>.</p>
+    <tikz src="1.tex" scale="400">
+      <svg src="1" />
+      <svg src="2" />
+      <svg src="3" />
+    </tikz>
+    <p>We can easily determine the empirical formula from the molecular formula by 
+      dividing the subscripts in the molecular formula by their greatest common factor.</p>
+    
+    <example>
+      <title>Determining an Empirical Formula from a Molecular Formula</title>
+      <question id="162107620762" instance_number="1">
+        <mcq>
+          <stem>
+            <p>Caffeine has the chemical formula <chem style="inline">\ch{C8 H10 N4 O2}</chem>.
+              What is its empirical formula?</p>
+          </stem>
+        </mcq>
+      </question>
+      <answer>
+        <p>The ratio of carbon atoms to hydrogen atoms to nitrogen atoms to oxygen atoms 
+          in the molecular formula is <latex>$8:10:4:2$</latex>. The greatest common 
+          factor of these values is 2. We can divide each value by the greatest common
+          factor to simplify the ratio to <latex>$4:5:2:1$</latex>.</p> 
+        <p>We can replace the subscripts in the molecular formula with the simplified
+          ratio to give us the empirical formula of <chem style="inline">\ch{C4 H5 N2 O}</chem>.</p>
+      </answer>
+    </example>
+    <p>It is possible for the empirical formula and molecular formula to be the same. 
+      For example, formaldehyde, a biological specimen preservative, has the molecular
+      formula <chem style="inline">\ch{CH2 O}</chem> and the empirical formula 
+      <chem style="inline">\ch{CH2 O}</chem>. It is also possible for multiple molecules
+      to have the same empirical formula. Glucose and formaldehyde both have an empirical
+      formula of <chem style="inline">\ch{CH2 O}</chem>.</p>
+    <p>Empirical formulas are often derived from experimental data. In fact, the word 
+      empirical means based on observation or experience. In order to determine the 
+      empirical formula, we will need to experimentally determine the percent composition
+      or measure the mass of each element in a pure sample. In either case, we will need 
+      to calculate the number of <quantity type="long"><value></value><unit>mole</unit></quantity> of each element in order to determine the ratio.</p>    
+    <sidebar type="definition">
+      <title>Definition: Percent Composition</title>
+      <p>Percent composition is the percent by mass of each element in a compound.</p>
+    </sidebar>
+    <p>Let us examine how to determine the empirical formula from the mass of each 
+      element in a sample. A sample is composed of 
+      <quantity type="long"><value>42.2</value><unit>gram</unit></quantity> of carbon
+      and <quantity type="long"><value>112.0</value><unit>gram</unit></quantity> of 
+      oxygen. Dividing the mass of each element by its molar mass will give us the 
+      number of <quantity type="long"><value></value><unit>mole</unit></quantity> of each element in the sample:
+      <chem style="displayed">\ch{C}: \frac{<quantity><value>42.2</value><unit>gram</unit></quantity>}
+        {<quantity><value>12</value><unit>gram per mole</unit></quantity>}
+        = <quantity><value>3.517</value><unit>mole</unit></quantity>,\quad 
+        \ch{O}: \frac{<quantity><value>112.0</value><unit>gram</unit></quantity>}
+        {<quantity><value>16</value><unit>gram per mole</unit></quantity>}
+        = <quantity><value>7</value><unit>mole</unit></quantity>.</chem>
+    </p>
+    <p>This gives us a ratio of carbon to oxygen of <latex>$3.517:7$</latex>. However,
+      an empirical formula represents the simplest whole number ratio. We can divide
+      the number of <quantity type="long"><value></value><unit>mole</unit></quantity> of each element by the smallest number of <quantity type="long"><value></value><unit>mole</unit></quantity> to try to
+      convert the ratio to whole numbers:
+      <chem style="displayed">\ch{C}: \frac{<quantity><value>3.517</value><unit>mole</unit></quantity>}
+        {<quantity><value>3.517</value><unit>mole</unit></quantity>}
+       = 1,\quad 
+       \ch{O}: \frac{<quantity><value>7</value><unit>mole</unit></quantity>}
+        {<quantity><value>3.517</value><unit>mole</unit></quantity>}
+       = 1.990 \approx 2.</chem>
+      </p>
+    <p>Decimal values that are close to whole numbers can be rounded to the nearest
+      whole number. The sign <latex>$\approx$</latex> means &#x201c;approximately equal to.&#x201d; Once 
+      the simplest whole number ratio has been determined, it can be written as a 
+      chemical formula. Therefore, the empirical formula of this sample is 
+      <chem style="inline">\ch{CO2}</chem>.</p>
+    <p>In this example, we knew the mass of each element in the sample. If we knew
+      the percent composition of each element, for example, <latex>$27.3\%$</latex>
+      carbon and <latex>$72.7\%$</latex> oxygen, we would begin by assuming that 
+      the sample size is 
+      <quantity type="long"><value>100</value><unit>gram</unit></quantity>. 
+      This would allow us to represent the amount of each element in 
+      <quantity type="long"><value></value><unit>gram</unit></quantity>&#x2014;
+      <quantity type="long"><value>27.3</value><unit>gram</unit></quantity> of 
+      carbon and <quantity type="long"><value>72.7</value><unit>gram</unit></quantity>
+      of oxygen&#x2014;so that we could convert it into <quantity type="long"><value></value><unit>mole</unit></quantity> and find the molar ratio.</p>
+    <p>The complete process for determining the empirical formula is shown below.</p>
+    <tikz src="2.tex" scale="220"/>
+    <example>
+      <title>Determining an Empirical Formula from Experimental Data</title>
+      <question id="169158780385" instance_number="1">
+        <mcq>
+          <stem>
+            <p>In an experiment, mercury oxide is heated in a container, producing
+              oxygen gas and mercury in its pure elemental form. The results of the
+              experiment are shown below. [<chem style="inline">\ch{Hg}</chem> = 
+              <quantity><value>201</value><unit>gram per mole</unit></quantity>,
+              <chem style="inline">\ch{O}</chem> = <quantity><value>16</value>
+                <unit>gram per mole</unit></quantity>]</p>
+            <table><tr>  
+              <th>Mass of Empty Container</th>
+              <th>Mass of Empty Container + Mercury Oxide</th>
+              <th>Mass of Container + Mercury</th>
+            </tr>
+              <tr>
+                <td><quantity><value>30.0</value><unit>gram</unit></quantity></td>
+                <td><quantity><value>73.4</value><unit>gram</unit></quantity></td>
+                <td><quantity><value>70.2</value><unit>gram</unit></quantity></td>
+              </tr></table>
+            <p> 
+              <ol type="1">
+                <li>What is the mass of oxygen gas lost?</li>
+                <li>What is the mass of mercury produced?</li>
+                <li>What is the empirical formula for the compound of mercury oxide?</li>
+              </ol>
+            </p>
+          </stem>
+        </mcq>
+      </question>
+      <answer>
+        <p><b>Part 1</b></p>
+            <p>As the mercury oxide is heated, the oxygen is driven off leaving behind
+              the pure mercury metal. The difference between the mass of the container with
+              the mercury oxide and the mass of the container with the mercury is the mass
+              of oxygen gas lost.  Therefore,
+              <latex>\begin{align*}<quantity><value>73.4</value><unit>gram</unit></quantity>
+                - <quantity><value>70.2</value><unit>gram</unit></quantity> 
+                = <quantity><value>3.2</value><unit>gram</unit></quantity> \text{ @ofoxygengas}.\end{align*}</latex>
+            </p>
+        <p><b>Part 2</b></p>
+          <p>We know the mass of the container with the mercury. To find the mass of
+              the mercury alone, we simply subtract the mass of the empty container. Therefore,
+              <latex>\begin{align*}<quantity><value>70.2</value><unit>gram</unit></quantity>
+                - <quantity><value>30.0</value><unit>gram</unit></quantity> 
+                = <quantity><value>40.2</value><unit>gram</unit></quantity> \text{ @ofmercury}.\end{align*}</latex>
+          </p>
+          <p><b>Part 3</b></p>
+          <p>To determine the empirical formula, we begin by dividing the total mass of
+              each element by its molar mass:
+              <chem style="displayed">\ch{Hg}: \frac{<quantity><value>40.2</value><unit>gram</unit></quantity>}{<quantity><value>201</value><unit>gram per mole</unit></quantity>}
+                = <quantity><value>0.2</value><unit>mole</unit></quantity>,\quad 
+                \ch{O}:\frac{<quantity><value>3.2</value><unit>gram</unit></quantity>}{<quantity><value>16</value><unit>gram per mole</unit></quantity>}
+                =<quantity><value>0.2</value><unit>mole</unit></quantity>.</chem>            
+          </p>
+          <p>This tells us that the ratio of mercury to oxygen is <latex>$0.2:0.2$</latex>.
+          Now, we can divide the number of <quantity type="long"><value></value><unit>mole</unit></quantity> of each element by the smallest number 
+          of <quantity type="long"><value></value><unit>mole</unit></quantity>:
+          <chem style="displayed">\ch{Hg}: \frac{<quantity><value>0.2</value><unit>mole</unit></quantity>}{<quantity><value>0.2</value><unit>mole</unit></quantity>}
+            = 1,\quad 
+            \ch{O}:\frac{<quantity><value>0.2</value><unit>mole</unit></quantity>}{<quantity><value>0.2</value><unit>mole</unit></quantity>}
+            =1.</chem>
+        </p>
+        <p>This tells us that the simplest whole number ratio of mercury to oxygen is <latex>$1:1$</latex>.
+          We can write this as the empirical formula <chem style="inline">\ch{HgO}</chem>.</p>
+      </answer>
+    </example>
+    <p>There will be occasions when solving for the empirical formula where a whole number 
+      ratio is not produced when dividing by the smallest number of <quantity type="long"><value></value><unit>mole</unit></quantity>.
+      Let us consider the following mathematical steps:
+      <chem style="displayed">\text{@Step } 1 &amp;: \ch{C}: 
+        \frac{<quantity><value>40.92</value><unit>gram</unit></quantity>}
+        {<quantity><value>12</value><unit>gram per mole</unit></quantity>} 
+        = <quantity><value>3.41</value><unit>mole</unit></quantity> \quad
+        \ch{H}: \frac{<quantity><value>4.58</value><unit>gram</unit></quantity>}
+        {<quantity><value>1</value><unit>gram per mole</unit></quantity>} 
+        = <quantity><value>4.58</value><unit>mole</unit></quantity>	\quad
+        \ch{O}: \frac{<quantity><value>54.50</value><unit>gram</unit></quantity>}
+        {<quantity><value>16</value><unit>gram per mole</unit></quantity>} 
+        = <quantity><value>3.41</value><unit>mole</unit></quantity>\\
+        \text{@Step } 2&amp;: \ch{C}: 
+        \frac{<quantity><value>3.41</value><unit>mole</unit></quantity>}
+        {<quantity><value>3.41</value><unit>mole</unit></quantity>} = 1	\qquad \qquad 
+        \ch{H}: \frac{<quantity><value>4.58</value><unit>mole</unit></quantity>}
+        {<quantity><value>3.41</value><unit>mole</unit></quantity>} = 1.34 \qquad 	
+        \ch{O}: \frac{<quantity><value>3.41</value><unit>mole</unit></quantity>}
+        {<quantity><value>3.41</value><unit>mole</unit></quantity>} = 1</chem>
+    </p>
+    <p>In step 1, the mass of carbon, hydrogen, and oxygen in a sample was divided
+      by the molar mass of the element. In step 2, the number of <quantity type="long"><value></value><unit>mole</unit></quantity> of each 
+      element was divided by the smallest number of <quantity type="long"><value></value><unit>mole</unit></quantity>.  This gave us a ratio of
+      carbon to hydrogen to oxygen of <latex>$1:1.34:1$</latex>. In cases like the 
+      above, we will need to multiply the ratio by the smallest integer that will 
+      produce a ratio with whole numbers.</p>
+    <p>We can multiply the entire ratio in the example by 3 to give a ratio of 
+      carbon to hydrogen to oxygen of <latex>$3:4:3$</latex>. This gives us an
+      empirical formula of <chem style="inline">\ch{C3 H4 O3}</chem>.</p>
+    <example>
+      <title>Determining an Empirical Formula from Percent Composition</title>
+      <question id="487150638019" instance_number="1">
+        <mcq>
+          <stem>
+            <p>A vanadium oxide compound is found to be <latex>$68\%$</latex> vanadium
+              and <latex>$32\%$</latex> oxygen by mass. What is the empirical formula 
+              of this compound? Take the atomic masses of vanadium and oxygen to be 51
+              and 16, respectively.</p>
+          </stem>
+        </mcq>
+      </question>
+      <answer>
+        <p>First, we need to assume that the sample size is 
+          <quantity type="long"><value>100</value><unit>gram</unit></quantity>. 
+          By making this assumption, we know that 
+          <quantity type="long"><value>68</value><unit>gram</unit></quantity>
+          of the sample is vanadium and 
+          <quantity type="long"><value>32</value><unit>gram</unit></quantity> is oxygen.</p>
+        <p>Next, we can convert the mass of each element into <quantity type="long"><value></value><unit>mole</unit></quantity> by dividing
+          by the molar mass:
+          <chem style="displayed">\ch{V}: \frac{<quantity><value>68</value><unit>gram</unit></quantity>}
+            {<quantity><value>51</value><unit>gram per mole</unit></quantity>}
+            = <quantity><value>1.333</value><unit>mole</unit></quantity>,	\quad
+            \ch{O}: \frac{<quantity><value>32</value><unit>gram</unit></quantity>}
+            {<quantity><value>16</value><unit>gram per mole</unit></quantity>} 
+            = <quantity><value>2</value><unit>mole</unit></quantity>.</chem>
+        </p>
+        <p>Now, we can determine the ratio by dividing the number of 
+          <quantity type="long"><value></value><unit>mole</unit></quantity> of each
+          element by the smallest number of 
+          <quantity type="long"><value></value><unit>mole</unit></quantity>:
+          
+          <chem style="displayed">\ch{V}: \frac{<quantity><value>1.333</value><unit>mole</unit></quantity>}
+            {<quantity><value>1.333</value><unit>mole</unit></quantity>}
+            = 1,	\quad
+            \ch{O}: \frac{<quantity><value>2</value><unit>mole</unit></quantity>}
+            {<quantity><value>1.333</value><unit>mole</unit></quantity>} 
+            = 1.5.</chem>
+                   
+        </p>
+        <p>This step did not produce a ratio with whole numbers. We will need to
+          multiply the ratio by 2, the smallest integer that will produce a whole
+          number ratio:
+          <chem style="displayed">\ch{V}: 1 \times 2 = 2,	\quad
+            \ch{O}: 1.5 \times 2 = 3.</chem>
+        </p>
+        <p>We can write the whole number ratio as a chemical formula, giving us the
+          empirical formula <chem style="inline">\ch{V2 O3}</chem>.</p>
+      </answer>
+    </example>
+    
+    <p>The chemical formula determined from the percent composition will always be the
+      empirical formula. In order to determine the molecular formula, the molar mass 
+      of the molecule must be known. As the molecular formula is a multiple of the 
+      empirical formula, the molar mass of the molecule will be a multiple of the molar
+      mass of the empirical formula. Let us examine how to determine the molecular 
+      formula from the empirical formula:</p>
+    <p>Naphthalene is a compound containing carbon and hydrogen that is often used as
+      a moth repellent. The molar mass of naphthalene is 
+      <quantity><value>128</value><unit>gram per mole</unit></quantity> and its empirical 
+      formula is <chem style="inline">\ch{C5 H4}</chem>. What is the molecular formula
+      of naphthalene?</p>
+    <p>We can follow these steps to determine the molecular formula from the molar mass 
+      and empirical formula. First, we will calculate the molar mass of the empirical 
+      formula:
+      <latex>\begin{align*}\text{@molarmassofempiricalformula} 
+        &amp;= \left(5 \times \text{ @molarmassofcarbon} \right) 
+        + \left(4 \times \text{ @molarmassofhydrogen} \right)\\
+        \text{@molarmassofempiricalformula} 
+        &amp;= \left(5 \times <quantity><value>12</value><unit>gram per mole</unit></quantity> \right) 
+        + \left(4 \times <quantity><value>1</value><unit>gram per mole</unit></quantity> \right) 
+        = <quantity><value>64</value><unit>gram per mole</unit></quantity>.\end{align*}</latex>
+    </p>
+    <p>Then, we will divide the molar mass of the molecule by the molar mass of the empirical 
+      formula. The answer should be a whole number or very close to a whole number:
+      <latex>\begin{align*}\frac{\text{@molarmassofnaphthalene}}
+        {\text{@molarmassofnaphthalenesempiricalformula}} 
+        = \frac{<quantity><value>128</value><unit>gram per mole</unit></quantity>}
+        {<quantity><value>64</value><unit>gram per mole</unit></quantity>} = 2.\end{align*}</latex>
+    </p>
+    <p>We can multiply the subscripts in the empirical formula by this integer to determine
+      the molecular formula:
+      <chem style="displayed">\ch{C5 H4} \times 2 = \ch{C10 H8}.</chem>
+    </p>
+    <p>The molecular formula of naphthalene is <chem style="inline">\ch{C10 H8}</chem>.
+      The process for determining the molecular formula is shown below.</p>
+    <tikz src="3.tex" scale="410"/>
+    <example>
+      <title>Determining a Molecular Formula from an Empirical Formula</title>
+      <question id="978134854803" instance_number="1">
+        <mcq>
+          <stem>
+            <p>A compound with the empirical formula <chem style="inline">\ch{C5 H7 NO2}</chem>
+              has a molar mass of <quantity><value>339</value><unit>gram per mole</unit></quantity>.
+              What is the molecular formula of this compound? [<chem style="inline">\ch{H}</chem> 
+              = <quantity><value>1</value><unit>gram per mole</unit></quantity>, 
+              <chem style="inline">\ch{C}</chem> = 
+              <quantity><value>12</value><unit>gram per mole</unit></quantity>, 
+              <chem style="inline">\ch{N}</chem> = 
+              <quantity><value>14</value><unit>gram per mole</unit></quantity>, 
+              <chem style="inline">\ch{O}</chem> =
+              <quantity><value>16</value><unit>gram per mole</unit></quantity>]</p>
+          </stem>
+        </mcq>
+      </question>
+      <answer>
+        <p>In order to determine the molecular formula, we will begin by calculating the
+          molar mass of the empirical formula:
+          <chem style="displayed">\text{@empiricalformulamolarmass} &amp;=
+            \left(5 \times \text{ @molarmassof } \ch{C} \right) 
+            + \left(7 \times \text{ @molarmassof } \ch{H} \right) 
+             + \left(\text{@molarmassof } \ch{N} \right)\\
+             &amp; \quad + \left(2 \times \text{ @molarmassof } \ch{O} \right)\\
+            \text{@empiricalformulamolarmass} &amp;= 
+            \left(5 \times <quantity><value>12</value><unit>gram per mole</unit></quantity> \right) 
+            + \left(7 \times <quantity><value>1</value><unit>gram per mole</unit></quantity> \right) 
+            + <quantity><value>14</value><unit>gram per mole</unit></quantity> 
+            + \left(2 \times <quantity><value>16</value><unit>gram per mole</unit></quantity> \right)\\
+            &amp;= <quantity><value>113</value><unit>gram per mole</unit></quantity>.</chem>
+        </p>
+        <p>Next, we will divide the molar mass of the compound by the molar mass of the 
+          empirical formula to produce an integer:
+          <latex>\begin{align*}\frac{\text{@molarmassofcompound}}{\text{@molarmassofcompoundsempiricalformula}}
+            = \frac{<quantity><value>339</value><unit>gram per mole</unit></quantity>}
+            {<quantity><value>113</value><unit>gram per mole</unit></quantity>} = 3.\end{align*}</latex>
+        </p>
+        <p>This value indicates that the molecular formula is three times larger than the empirical formula.
+          We can multiply the subscripts in the empirical formula by the integer to determine the molecular
+          formula:
+          <chem style="displayed">\ch{C5 H7 NO2} \times 3 = \ch{C15 H21 N3 O6}.</chem>
+        </p>
+        <p>The molecular formula of the compound is <chem style="inline">\ch{C15 H21 N3 O6}</chem>.</p>
+      </answer>
+    </example>
+    <example>
+      <title>Determining the Molecular Formula from the Percent Composition</title>
+      <question id="970187398435" instance_number="1">
+        <mcq>
+          <stem>
+            <p>Oxalic acid is an organic compound found in many plants, including rhubarb.
+              It is found to contain <latex>$26.7\%$</latex> carbon and <latex>$71.1\%$</latex>
+              oxygen, with the rest being hydrogen. If the molar mass of oxalic acid is 
+              <quantity><value>90</value><unit>gram per mole</unit></quantity>,
+              what is its molecular formula? [<chem style="inline">\ch{H}</chem> 
+              = <quantity><value>1</value><unit>gram per mole</unit></quantity>,
+              <chem style="inline">\ch{C}</chem> = 
+              <quantity><value>12</value><unit>gram per mole</unit></quantity>, 
+              <chem style="inline">\ch{O}</chem> = 
+              <quantity><value>16</value><unit>gram per mole</unit></quantity>]</p>
+          </stem>
+        </mcq>
+      </question>
+      <answer>
+        <p>In order to determine the molecular formula, we need to know the molar 
+          mass of oxalic acid (<quantity><value>90</value><unit>gram per mole</unit></quantity>)
+          and the empirical formula. The empirical formula was not provided, but we can determine
+          it from the percent composition data.</p>
+        <p>First, we will assume that the sample size is 
+          <quantity type="long"><value>100</value><unit>gram</unit></quantity>. This means that the sample is
+          composed of <quantity type="long"><value>26.7</value><unit>gram</unit></quantity> of carbon, 
+          <quantity type="long"><value>71.1</value><unit>gram</unit></quantity> of oxygen, and 
+          <quantity type="long"><value>2.2</value><unit>gram</unit></quantity> of hydrogen. 
+          The hydrogen mass was calculated by subtracting the mass of carbon and oxygen from 
+          <quantity type="long"><value>100</value><unit>gram</unit></quantity>.</p>
+        <p>Next, we will convert the mass of each element into <quantity type="long"><value></value><unit>mole</unit></quantity> by dividing by the molar
+          mass:
+          <chem style="displayed">\ch{C}: \frac{<quantity><value>26.7</value><unit>gram</unit></quantity>}
+            {<quantity><value>12</value><unit>gram per mole</unit></quantity>} 
+            = <quantity><value>2.225</value><unit>mole</unit></quantity>, \quad 
+            \ch{O}: \frac{<quantity><value>71.1</value><unit>gram</unit></quantity>}
+            {<quantity><value>16</value><unit>gram per mole</unit></quantity>} 
+            = <quantity><value>4.444</value><unit>mole</unit></quantity>, \quad 
+            \ch{H}: \frac{<quantity><value>2.2</value><unit>gram</unit></quantity>}
+            {<quantity><value>1</value><unit>gram per mole</unit></quantity>} 
+            = <quantity><value>2.2</value><unit>mole</unit></quantity>.</chem>
+        </p>
+        <p>This tells us that the molar ratio of carbon to hydrogen to oxygen is 
+          <latex>$2.225:4.444:2.2$</latex>. We can divide the number of 
+          <quantity type="long"><value></value><unit>mole</unit></quantity> of
+          each element by the smallest number of 
+          <quantity type="long"><value></value><unit>mole</unit></quantity> to 
+          try to convert the ratio to whole numbers:
+          <chem style="displayed">\ch{C}: \frac{<quantity><value>2.225</value><unit>mole</unit></quantity>}
+            {<quantity><value>2.2</value><unit>mole</unit></quantity>} 
+            = 1.011 \approx 1, \quad 
+            \ch{O}: \frac{<quantity><value>4.444</value><unit>mole</unit></quantity>}
+            {<quantity><value>2.2</value><unit>mole</unit></quantity>} 
+            = 2.02 \approx 2, \quad 
+            \ch{H}: \frac{<quantity><value>2.2</value><unit>mole</unit></quantity>}
+            {<quantity><value>2.2</value><unit>mole</unit></quantity>} 
+            = 1.</chem>
+        </p>
+        <p>We substitute the ratio as subscripts in a chemical formula, giving us an empirical
+          formula of <chem style="inline">\ch{CH2 O}</chem>.</p>
+        <p>Now that we know the molar mass of oxalic acid and its empirical formula, we can
+          determine the molecular formula. We begin by calculating the molar mass of the 
+          empirical formula:
+          <chem style="displayed">\text{@empiricalformulamolarmass}
+            &amp;= \left(\text{@molarmassof } \ch{C} \right) 
+            + \left(2 \times \text{ @molarmassof } \ch{H} \right)
+            + \left(\text{@molarmassof } \ch{O} \right)\\
+            &amp;= <quantity><value>12</value><unit>gram per mole</unit></quantity>
+            + \left(2 \times <quantity><value>1</value><unit>gram per mole</unit></quantity> \right) 
+            + <quantity><value>16</value><unit>gram per mole</unit></quantity>\\
+            &amp;= <quantity><value>30</value><unit>gram per mole</unit></quantity>.</chem>
+        </p>
+        <p>Then, we divide the molar mass of oxalic acid by the molar mass of the empirical formula:
+          <latex>\begin{align*}\frac{\text{@molarmassofoxalicacid}}
+            {\text{@molarmassofoxalicacidsempiricalformula}} 
+            = \frac{<quantity><value>90</value><unit>gram per mole</unit></quantity>}
+            {<quantity><value>30</value><unit>gram per mole</unit></quantity>} = 3.\end{align*}</latex>
+        </p>
+        <p>This value indicates that the molecular formula of oxalic acid is three times larger than
+          the empirical formula. We can multiply the subscripts in the empirical formula by three to
+          determine the molecular formula:
+          <chem style="displayed">\ch{CH2 O} \times 3 = \ch{C3 H6 O3}.</chem>
+        </p>
+        <p>The molecular formula of oxalic acid is <chem style="inline">\ch{C3 H6 O3}</chem>.</p>
+      </answer>
+    </example>
+    
+    <sidebar type="definition">
+      <title>Key Points</title>
+      <p>
+        <ul>
+          <li>A molecular formula indicates the exact number of 
+            <quantity type="long"><value></value><unit>atom</unit></quantity>
+            of each element in a molecule.</li>
+          <li>An empirical formula indicates the simplest whole number ratio of 
+            <quantity type="long"><value></value><unit>atom</unit></quantity> of each element in
+            a molecule or ionic compound.</li>
+          <li>The empirical formula can be determined from the experimental data.</li>
+          <li>The percent composition by mass can be used to calculate the empirical formula.</li>
+          <li>The molecular formula can be determined from the empirical formula as long as the molar 
+            mass of the molecule is known.</li>
+        </ul>
+      </p>
+    </sidebar>
+    </body>
+</explainer>

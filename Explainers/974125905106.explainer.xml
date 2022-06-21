@@ -1,0 +1,450 @@
+﻿<explainer id="974125905106" country="zz" currency="none" calendar="none" unit_system="none" language="en"  dialect="british" publication_date="2020-12-02T10:02:01">
+  <title>Geometric Mean</title>
+  <seo_meta_description>In this explainer, we will learn how to find geometric means between two nonconsecutive terms of a geometric sequence.</seo_meta_description>
+  <source_id>872143063508</source_id>
+  <developer_name>Seungly Oh</developer_name>
+  <developer_email>seungly.oh@nagwa.com</developer_email>
+    <dictionary>
+      <item symbol="false">
+        <from>@whichleadsto</from>
+        <to>which leads to</to>
+      </item>
+      <item symbol="false">
+        <from>@or</from>
+        <to>or</to>
+      </item>
+      <item>     
+      <from>@kth</from>  
+      <to>k\text{th}</to>   
+      </item>
+      <item>     
+      <from>@kk</from>  
+      <to>(k+1)\text{th}</to>   
+      </item>
+      <item>
+        <from>@a</from>
+        <to>a</to>
+      </item>
+      <item>
+        <from>@c</from>
+        <to>c</to>
+      </item>
+      <item>
+        <from>@T</from>
+        <to>T</to>
+      </item>
+      <item>
+        <from>@b</from>
+        <to>b</to>
+      </item>
+      <item>
+        <from>@n</from>
+        <to>n</to>
+      </item>
+      <item>
+        <from>@N</from>
+        <to>N</to>
+      </item>
+      <item>
+        <from>@x</from>
+        <to>x</to>
+      </item>
+      <item>
+        <from>@y</from>
+        <to>y</to>
+      </item>
+      <item>
+        <from>@r</from>
+        <to>r</to>
+      </item>
+    </dictionary>
+  <body>
+
+    <p>In this explainer, we will learn how to find geometric means between two nonconsecutive terms of a geometric sequence.</p>
+
+    <p>In many cases, we associate the mean of two numbers <latex>$@a$</latex> and <latex>$@b$</latex> with the quantity <latex>$\frac{@a+@b}{2}$</latex>, which is the arithmetic mean.  However, this is not the only notion of the &#x201c;mean.&#x201d;  For instance, the geometric mean of two numbers with the same sign is defined as the square root of the product of the two numbers.</p>
+
+    <sidebar type="definition">
+      <title>Definition: Geometric Mean of Two Numbers</title>
+      <p>Given a pair of numbers <latex>$@a$</latex> and <latex>$@b$</latex>, with the same sign, the geometric mean of <latex>$@a$</latex> and <latex>$@b$</latex> is
+<latex>\begin{align*}
+	\sqrt{@a@b}.
+\end{align*}</latex></p>
+    </sidebar>
+
+    <p>We note that we cannot take the geometric mean between two numbers with opposite signs, since the square root of a negative number yields a nonreal result.</p>
+
+    <p>When <latex>$@a$</latex> and <latex>$@b$</latex> are positive numbers, the geometric mean of the two numbers is the side length of the square that has the same area as the rectangle with side lengths <latex>$@a$</latex> and <latex>$@b$</latex>.</p><tikz scale="250" src="1.tex"/>
+
+    <p>The rectangle on the left side has area <latex>$@a@b$</latex>, and the square on the right side has area
+<latex>\begin{align*}
+	\sqrt{@a@b} \times \sqrt{@a@b} = \left(\sqrt{@a@b}\right)^2 = @a@b.
+\end{align*}</latex></p>
+
+    <p>Thus, the square with side length <latex>$\sqrt{@a@b}$</latex> has the same area as the rectangle with side lengths <latex>$@a$</latex> and <latex>$@b$</latex>.</p>
+
+    <p>We can also understand the geometric mean of two numbers in context of geometric sequences.  We recall that a geometric sequence is a sequence of numbers that has a fixed ratio.  In other words, the ratio between the first and second terms is the same as the ratio between the second and third terms, and so on.  For example, the sequence <latex>$(3, 6, 12, 24, 48)$</latex> is a geometric sequence where the ratio between the first two terms is <latex>$\frac{6}{3} = 2$</latex>.  We can see that the ratios of any two consecutive terms is also equal to 2:
+<latex>\begin{align*}
+	2 =\frac{6}{3} =\frac{12}{6} =\frac{24}{12} =\frac{48}{24}.
+\end{align*}</latex></p>
+
+    <p>When we draw a number line with these terms, we can see that the length of the interval between two terms is always double the length of the previous interval.</p><tikz scale="400" src="2.tex"/>
+
+    <p>Taking the geometric mean of the first and third terms of this sequence, 
+	<latex>\begin{align*}
+	\sqrt{ @a_1  @a_3} &amp;= \sqrt{3 \times 12}\\
+	    &amp;= \sqrt{36}\\
+	    &amp;= 6\\
+	    &amp;= @a_2.
+	\end{align*}</latex></p>
+
+    <p>In other words, the second term of the geometric sequence is the geometric mean of the term before and after it.  Also,
+<latex>\begin{align*}
+	\sqrt{12 \times 48} = \sqrt{576} = 24.
+\end{align*}</latex></p>
+
+    <p>Hence, the fourth term, 24, is the geometric mean of 12 and 48, which are the terms that come before and after it in the geometric sequence.</p>
+
+    <sidebar type="definition">
+      <title>Standard Fact: Consecutive Terms of a Geometric Sequence with a Positive Ratio</title>
+      <p>Given a geometric sequence with a positive ratio, any intermediate term of this sequence is the geometric average of the two neighboring terms.</p>
+    </sidebar>
+
+    <p>In our first example, we will compute the geometric mean of two numbers.</p>
+
+    <example>
+      <title>Finding the Geometric Mean of Two Numbers</title>
+      <question id="618152592493" instance_number="1">
+        <mcq>
+          <stem>
+            <p>Find the geometric mean of 16 and 4.</p>
+          </stem>
+        </mcq>
+      </question>
+      <answer>
+        <p>Recall that the geometric mean of two numbers <latex>$@a$</latex> and <latex>$@b$</latex> with the same sign is 
+	<latex>\begin{align*}
+		\sqrt{@a@b}.
+	\end{align*}</latex></p>
+
+        <p>Since 16 and 4 are both positive, their geometric mean is given by
+	    <latex>\begin{align*}
+	    \sqrt{16\times 4} = \sqrt{64} = 8.
+	    \end{align*}</latex></p>
+
+        <p>The geometric mean of 16 and 4 is 8.</p>
+      </answer>
+    </example>
+
+    <p>In the next example, we will find the geometric mean of two algebraic expressions.</p>
+
+    <example>
+      <title>Writing an Algebraic Expression to Describe the Geometric Mean of Two Terms</title>
+      <question id="956169705306" instance_number="1">
+        <mcq>
+          <stem>
+            <p>Find the geometric mean of <latex>$9 @x^{36}$</latex> and <latex>$36 @y^{40}$</latex>.</p>
+          </stem>
+        </mcq>
+      </question>
+      <answer>
+        <p>Recall that the geometric mean of two numbers <latex>$@a$</latex> and <latex>$@b$</latex> with the same sign is 
+	<latex>\begin{align*}
+		\sqrt{@a@b}.
+	\end{align*}</latex></p>
+
+        <p>Since both expressions, <latex>$9 @x^{36}$</latex> and <latex>$36 @y^{40}$</latex>, have even powers, these quantities must be nonnegative.  Hence, their geometric mean is given by
+	    <latex>\begin{align*}
+	    \sqrt{\left(9 @x^{36}\right) \times \left(36 @y^{40}\right)} &amp;= \sqrt{   9 \times 36 @x^{36} @y^{40}}\\
+	        &amp;= \sqrt{324 @x^{36} @y^{40}}.
+	    \end{align*}</latex></p>
+
+        <p>We recall that the square root can be distributed over each factor.  In other words,
+	    <latex>\begin{align*}
+	    \sqrt{324 @x^{36} @y^{40} } &amp;= \sqrt{324} \times \sqrt{@x^{36}} \times \sqrt{@y^{40}}\\
+	    &amp;= 18 \sqrt{@x^{36}}  \sqrt{@y^{40}}.
+	    \end{align*}</latex></p>
+
+        <p>We know that the square root can be written as an exponent of <latex>$\frac{1}{2}$</latex>.  Recall that when raising a power to an exponent, we multiply the two exponents:  
+		<latex>\begin{align*}
+	    18 \sqrt{@x^{36}} \times \sqrt{@y^{40}} &amp; = 180 \left(@x^{36}\right)^{\frac{1}{2}} \left(@y^{40}\right)^{\frac{1}{2}}\\
+	    &amp;= 18 @x^{\frac{36}{2}} @y^{\frac{40}{2}}\\
+	        &amp;= 18 @x^{18} @y^{20}. 
+	    \end{align*}</latex></p>
+
+        <p>Hence, the geometric mean is  <latex>$18 @x^{18} @y^{20}$</latex>.</p>
+      </answer>
+    </example>
+
+    <p>We can also compute the geometric mean of more than two numbers.  Given any three numbers <latex>$@a$</latex>, <latex>$@b$</latex>, and <latex>$@c$</latex>, the geometric mean is defined by
+<latex>\begin{align*}
+	\sqrt[3]{@a@b@c}.
+\end{align*}</latex></p>
+
+    <p>Unlike the geometric mean of two numbers, the geometric mean of three numbers is well defined even if the signs of the numbers are different.  However, in practice, only positive values are used when considering a geometric mean.</p>
+
+    <p>If <latex>$@a$</latex>, <latex>$@b$</latex>, and <latex>$@c$</latex> are positive numbers, the geometric mean represents the side length of the cube that has the same volume as the rectangular box with side lengths <latex>$@a$</latex>, <latex>$@b$</latex>, and <latex>$@c$</latex>.</p><tikz scale="350" src="3.tex"/>
+
+    <p>The rectangular box on the left side has the volume <latex>$@a@b@c$</latex>, while the volume of the cube on the right side is given by
+<latex>\begin{align*}
+	\sqrt[3]{@a@b@c}\times \sqrt[3]{@a@b@c}\times \sqrt[3]{@a@b@c} = \left(\sqrt[3]{@a@b@c}\right)^3 = @a@b@c. 
+\end{align*}</latex></p>
+    <p>Hence, the rectangular box with side lengths <latex>$@a$</latex>, <latex>$@b$</latex>, and <latex>$@c$</latex> has the same volume as the cube whose side length is given by their geometric mean.  In general, the geometric mean of a sequence of numbers can be defined analogously.</p>
+
+    <sidebar type="definition">
+      <title>Definition: Geometric Mean of a Sequence of Numbers</title>
+      <p>Given a sequence of numbers <latex>$@a_1, @a_2,\ldots, @a_@n$</latex>, the geometric mean of the sequence of numbers is 
+<latex>\begin{align*}
+	\sqrt[@n]{@a_1  @a_2  \cdots  @a_@n}.
+\end{align*}</latex></p>
+      <p>In particular, the product <latex>$@a_1  @a_2 \cdots  @a_@n$</latex> must be positive when <latex>$@n$</latex> is an even integer.</p>
+    </sidebar>
+
+    <p>Let us consider an example where we compute the geometric mean of three numbers using this formula.</p>
+
+    <example>
+      <title>Finding the Geometric Mean between Sets of Numbers</title>
+      <question id="379179607310" instance_number="1">
+        <mcq>
+          <stem>
+            <p>Find the geometric mean of the numbers 6, 72, and 108.</p>
+          </stem>
+        </mcq>
+      </question>
+      <answer>
+        <p>Recall that the geometric mean of a sequence of numbers <latex>$@a_1, @a_2, \ldots, @a_@n$</latex> is 
+<latex>\begin{align*}
+	\sqrt[@n]{@a_1  @a_2  \cdots  @a_@n}.
+\end{align*}</latex></p>
+
+        <p>In this example, we are given three numbers, which leads to <latex>$@n=3$</latex>.  Hence, we need to compute
+<latex>\begin{align*}
+	\sqrt[3]{@a_1 @a_2 @a_3}.
+    \end{align*}</latex></p>
+
+        <p>Substituting the values 6, 72, and 108 for <latex>$@a_1$</latex>, <latex>$@a_2$</latex>, and <latex>$@a_3$</latex>, respectively,
+    <latex>\begin{align*}
+    \sqrt[3]{6\times 72\times 108} = \sqrt[3]{46656} = 36.
+    \end{align*}</latex></p>
+
+        <p>Thus, the geometric mean of the three given numbers is 36.</p>
+      </answer>
+    </example>
+
+    <p>In previous examples, we considered the geometric mean of two or more numbers.  We now introduce a related concept, known as <latex>$@n$</latex> geometric means between two numbers.</p>
+
+    <sidebar type="definition">
+      <title>Definition: 𝑛 Geometric Means</title>
+      <p>Given a pair of numbers <latex>$@a$</latex> and <latex>$@b$</latex>, <latex>$@n$</latex> geometric means between <latex>$@a$</latex> and <latex>$@b$</latex> are the values in a geometric sequence from <latex>$@a$</latex> to <latex>$@b$</latex> with exactly <latex>$@n$</latex> terms in between.</p>
+    </sidebar>
+
+    <p>We can see that <latex>$@n$</latex> geometric means between two numbers refers to a sequence of <latex>$@n$</latex> numbers, while the geometric mean of two numbers refers to one number.  Note that one geometric mean between two numbers is the only term between the given pair of numbers in a geometric sequence.  Since any intermediate term in a geometric sequence is the geometric mean of the two neighboring terms, one geometric mean between two numbers is the same as the geometric mean of the given pair.</p>
+
+    <p>Let us find geometric means between a pair of numbers in the next example.</p>
+
+    <example>
+      <title>Inserting Geometric Means between Two Numbers</title>
+      <question id="537146274259" instance_number="1">
+        <mcq>
+          <stem>
+            <p>Insert five positive geometric means between <latex>$\frac{21}{38}$</latex> and <latex>$\frac{672}{19}$</latex>.</p>
+          </stem>
+        </mcq>
+      </question>
+      <answer>
+        <p><latex>$@n$</latex> geometric means between a pair of numbers are the <latex>$@n$</latex> terms of a geometric sequence between the two given numbers.  Since we need to find 5 positive geometric means between  <latex>$\frac{21}{38}$</latex> and <latex>$\frac{672}{19}$</latex>,  we need to first identify a positive geometric sequence beginning with  <latex>$\frac{21}{38}$</latex> and ending with <latex>$\frac{672}{19}$</latex> with exactly five terms in between.  Recall that the general term of a geometric sequence with the first term <latex>$@a_1$</latex> and ratio <latex>$@r$</latex> is 
+	<latex>\begin{align*}
+		@a_@n = @a_1 @r^{@n-1}.
+	\end{align*}</latex></p>
+
+        <p>Since the first term of our geometric sequence is <latex>$\frac{21}{38}$</latex>, we have <latex>$@a_1 = \frac{21}{38}$</latex>.  Since there are five terms between the first and last terms, we can see that the last term <latex>$\frac{672}{19}$</latex> is the seventh term of this geometric sequence, meaning that <latex>$@a_7 =\frac{672}{19}$</latex>.  Substituting <latex>$@n= 7$</latex>, <latex>$@a_1 =\frac{21}{38}$</latex>, and <latex>$@a_7 =\frac{672}{19}$</latex> into the formula above, 
+		<latex>\begin{align*}
+		\frac{672}{19} &amp;=\frac{21}{38} @r^{6}, \\
+		@r^6 &amp;=\frac{672}{19} \times\frac{38}{21}= 64.		    
+		\end{align*}</latex></p>
+
+        <p>Since 6 is an even power, taking the 6th root of both sides of the equation results in both the positive and negative values
+	<latex>\begin{align*}
+		@r = \sqrt[6]{64} \quad \text{@or} \quad - \sqrt[6]{64},
+	\end{align*}</latex>
+		which leads to <latex>$@r=2$</latex> or <latex>$@r=-2$</latex>.  However, since we are looking for a positive geometric sequence, we can disregard the negative ratio.  This tells us that our geometric sequence has <latex>$@a_1= \frac{21}{38}$</latex> and <latex>$@r=2$</latex>.  We know that a term in a geometric sequence is obtained by multiplying the previous term by the ratio.  Beginning with <latex>$@a_1= \frac{21}{38}$</latex>, we multiply each term by 2 to obtain the sequence
+	<latex>\begin{align*}
+		\frac{21}{38}, \quad \frac{21}{19}, \quad \frac{42}{19}, \quad \frac{84}{19}, \quad \frac{168}{19}, \quad \frac{336}{19}, \quad\frac{672}{19}.
+	\end{align*}</latex></p>
+
+        <p>	We can stop at <latex>$\frac{672}{19}$</latex> since this is given to be the last term of our geometric sequence.</p>
+
+        <p>Taking the five terms between the first and last terms of this sequence, the five positive geometric means between the given pair of numbers are
+	<latex>\begin{align*}
+		\frac{21}{19}, \quad \frac{42}{19}, \quad \frac{84}{19}, \quad \frac{168}{19}, \quad \frac{336}{19}.
+	\end{align*}</latex></p>
+      </answer>
+    </example>
+
+    <p>In the previous example, we identified geometric means between a given pair of numbers.  Looking more closely, we can see that there were two possible options for the geometric sequence in this example, one with the positive ratio <latex>$@r=2$</latex> and the other with the negative ratio <latex>$@r=-2$</latex>.  Since the problem specified positive geometric means, we discarded the negative ratio.  However, this also tells us that unless the geometric means are restricted to a specific sign, we could have two sets of <latex>$@n$</latex> geometric means between two numbers when the number of geometric means is odd.</p>
+
+    <p>For instance, consider the geometric sequence we discussed earlier: <latex>$(3,6,12,24,48)$</latex>.  Since the terms 6, 12, 24 are between 3 and 48 in the geometric sequence, these are three geometric means between 3 and 48. However, they are not the only three geometric means between 3 and 48.  We also know that <latex>$(3,-6,12,-24,48)$</latex> is a geometric sequence with ratio <latex>$-2$</latex> and the three terms  <latex>$-6,12,-24$</latex> are between 3 and 48 in a geometric sequence.  Hence, <latex>$-6,12,-24$</latex> are also three geometric means between 3 and 48.</p>
+
+    <p>In the next example, we will find all possible <latex>$@n$</latex> geometric means between two numbers.</p>
+
+    <example>
+      <title>Finding the Geometric Means of a Given Geometric Sequence</title>
+      <question id="383132042965" instance_number="1">
+        <mcq>
+          <stem>
+            <p>Find the geometric means of the sequence <latex>$(2, \ldots, \ldots, \ldots, 4802)$</latex>.</p>
+          </stem>
+        </mcq>
+      </question>
+      <answer>
+        <p>Geometric means between a pair of numbers are the terms of a geometric sequence between the two given numbers.  Hence, we need to first identify the geometric sequence beginning with 2 and ending with 4802 with exactly three terms in between.  Recall that the general term of a geometric sequence with the first term <latex>$@a_1$</latex> and ratio <latex>$@r$</latex> is 
+	<latex>\begin{align*}
+		@a_@n = @a_1 @r^{@n-1}.
+	\end{align*}</latex></p>
+
+        <p>Since the first term of our geometric sequence is 2, we have <latex>$@a_1 = 2$</latex>.  We can also see that the term 4802 is the fifth term of the geometric sequence, which leads to <latex>$@a_5 = 4802$</latex>.  Substituting <latex>$@n= 5$</latex>, <latex>$@a_1 =2$</latex>, and <latex>$@a_5 = 4802$</latex> into the formula above, 
+	<latex>\begin{align*}
+		4802 = 2 @r^{4}, \quad \text{@whichleadsto} \quad @r^4 = 2401.
+	\end{align*}</latex></p>
+
+        <p>Since 4 is an even power, taking the 4th root of both sides of the equation will result in both the positive and the negative values
+	<latex>\begin{align*}
+		@r = \sqrt[4]{2401} \quad \text{@or} \quad -\sqrt[4]{2401},
+	\end{align*}</latex>
+		which leads to <latex>$@r=7$</latex> or <latex>$@r=-7$</latex>.  This tells us that there are two possible geometric sequences with the given conditions: the geometric sequence with <latex>$@a_1= 2$</latex> and <latex>$@r=7$</latex> and the geometric sequence with <latex>$@a_1= 2$</latex> and <latex>$@r= -7$</latex>.  Let us first find the sequence with <latex>$@r=7$</latex>.  We know that each term in a geometric sequence is obtained by multiplying the previous term by the ratio.  Beginning with <latex>$@a_1= 2$</latex>, we multiply each term by 7 to obtain the sequence
+	<latex>\begin{align*}
+		2, \quad 14, \quad 98, \quad 686, \quad 4802.
+	\end{align*}</latex></p>
+
+        <p>We can stop at 4802, since this is given to be the last term of our sequence.  This leads to the geometric means 14, 98, 686.</p>
+
+        <p>Next, let us find the geometric sequence with ratio <latex>$-7$</latex>.  Beginning with 2, we multiply each term by <latex>$-7$</latex> to obtain
+	<latex>\begin{align*}
+		2, \quad -14, \quad 98, \quad -686, \quad 4802.
+	\end{align*}</latex></p>
+
+        <p>This gives us the geometric means <latex>$-14, 98, -686$</latex>.</p>
+
+        <p>The geometric means of the given sequence are 
+	<latex>\begin{align*}
+		14, 98, 686 \quad \text{@or} \quad -14, 98, -686.
+	\end{align*}</latex></p>
+      </answer>
+    </example>
+
+    <p>In our last example, we will identify the number of geometric means between two numbers when provided sufficient information.</p>
+
+    <example>
+      <title>Finding the Number of Geometric Means Inserted between Two Numbers Under a Given Condition</title>
+      <question id="868183509763" instance_number="1">
+        <mcq>
+          <stem>
+            <p>Find the number of geometric means inserted between 82 and 1312 given the sum of the last two means equals twice the sum of the first two means.</p>
+          </stem>
+        </mcq>
+      </question>
+      <answer>
+        <p>Recall that geometric means between a pair of numbers are the terms of a geometric sequence between the two given numbers.  In this example, we need to find the number of geometric means between 82 and 1312 so that the means satisfy the given conditions. We can find the number of geometric means by first identifying the geometric sequence between the given pair of numbers that satisfies the given conditions.  Let us identify the geometric sequence beginning with 82 and ending with 1312.  If there are <latex>$@N$</latex> terms in this sequence, we can denote 
+<latex>\begin{align*}
+	@a_1 = 82, \quad @a_@N = 1312.
+\end{align*}</latex></p>
+        
+        <p>The general term of a geometric sequence with the first term <latex>$@a_1$</latex> and ratio <latex>$@r$</latex> is 
+<latex>\begin{align*}
+		@a_@n = @a_1 @r^{@n-1}.
+\end{align*}</latex></p>
+        <p>We are given that the sum of the last two means equals twice the sum of the first two means. Since the geometric means exclude the first term, <latex>$@a_1$</latex>, and the last term, <latex>$@a_@N$</latex>, of the geometric sequence, the last two means are <latex>$@a_{@N-2}$</latex> and <latex>$@a_{@N-1}$</latex>.  Similarly, the first two means are <latex>$@a_2$</latex> and <latex>$@a_3$</latex>.  Putting the given condition into an equation involving these terms,
+<latex>\begin{align*}
+	@a_{@N-2} + @a_{@N-1} = 2\left(@a_2 + @a_3\right).
+\end{align*}</latex></p>
+        <p>Using the formula for the general term, we can write
+	<latex>\begin{align*}
+	    @a_2 &amp;= @a_1 @r^{2-1} = 82 @r,\\
+	    @a_3 &amp;= @a_1 @r^{3-1} = 82 @r^2,\\
+	    @a_{@N-2} &amp;= @a_1 @r^{\left(@N-2\right)-1} = 82 @r^{@N-3},\\
+	    @a_{@N-1} &amp;= @a_1 @r^{\left(@N-1\right)-1} = 82 @r^{@N-2}.\\
+	\end{align*}</latex></p>
+        <p>Hence, we have
+<latex>\begin{align*}
+	82 @r^{@N-3}+82 @r^{@N-2} =  2\left(82 @r+ 82 @r^2\right).
+\end{align*}</latex></p>
+        <p>We can factor out <latex>$82@r^{@N-3}$</latex> from the left side of the equation and <latex>$82 @r$</latex> from the right side of the equation:
+<latex>\begin{align*}
+	82 @r^{@N-3} \left(1 + @r\right) = 164 @r \left(1+@r\right).
+\end{align*}</latex></p>
+
+        <p>We know that <latex>$@r\neq -1$</latex>, since this ratio will only create a geometric sequence with alternating signs <latex>$82, -82, 82,-82,\ldots$</latex> that can never reach 1312.  <latex>$@r\neq -1$</latex> means <latex>$1+@r \neq 0$</latex>, so we can divide both sides of the equation by <latex>$82 \left(1+@r\right)$</latex> to obtain
+<latex>\begin{align*}
+	@r^{@N-3} = 2 @r.
+\end{align*}</latex></p>
+
+        <p>We also know that <latex>$@r\neq 0$</latex>, since this leads to a sequence of zeros trailing 82.  Dividing both sides of the equation by <latex>$@r$</latex> gives us <latex>\begin{align*}
+	@r^{@N-4} = 2.
+\end{align*}</latex></p>
+
+        <p>Now, there are two unknowns in this equation, so we need another equation to help us find the unknowns.  We know that <latex>$@a_@N = 1312$</latex>. Using the formula for general terms of the geometric sequence, this gives us
+<latex>\begin{align*}
+	82 @r^{@N-1} = 1312.
+\end{align*}</latex></p>
+
+        <p>This leads to <latex>$@r^{@N-1} = 16$</latex>.  We can divide this equation by the equation for <latex>$@r^{@N-4}$</latex> to obtain
+<latex>\begin{align*}
+	\frac{82@r^{@N-1}}{@r^{@N-4}} =\frac{1312}{2}=656.
+\end{align*}</latex></p>
+
+        <p>Dividing both sides of the equation by 82 and simplifying the fraction leads to
+<latex>\begin{align*}
+	@r^{\left(@N-1\right) - \left(@N-4\right)} =\frac{656}{82} = 8.
+\end{align*}</latex></p>
+
+        <p>Since <latex>$\left(@N-1\right) - \left(@N-4\right) = 3$</latex>, we have
+<latex>\begin{align*}
+	 @r^3 =8.
+\end{align*}</latex></p>
+
+        <p>This gives us <latex>$@r= \sqrt[3]{8} = 2$</latex>.	Now that we know <latex>$@r$</latex>, we can substitute this value into <latex>$@r^{@N-4} =2$</latex> to find <latex>$@N$</latex>:
+    <latex>\begin{align*}
+    2^{@N-4} = 2.
+    \end{align*}</latex></p>
+
+        <p>If 2 raised to a power is equal to 2, the exponent must be equal to 1.  Hence,
+    <latex>\begin{align*}
+    @N-4 = 1, \quad \text{@whichleadsto} \quad @N= 5.
+    \end{align*}</latex></p>
+
+        <p>This tells us that there are five terms in this geometric sequence.  Let us verify this by computing the geometric sequence.  Beginning with 82, we multiply each term by the ratio 2 to obtain
+    <latex>\begin{align*}
+    82, \quad 164, \quad 328, \quad 656, \quad 1312.
+    \end{align*}</latex></p>
+
+        <p>We can see that exactly 5 terms are in this geometric sequence, beginning with 82 and ending with 1312.  Since the geometric means do not include the first and last terms, the number of geometric means is
+    <latex>\begin{align*}
+    5-2 = 3.
+    \end{align*}</latex></p>
+      </answer>
+    </example>
+
+    <p>Let us finish by recapping a few important concepts from this explainer.</p>
+    
+  
+  
+    <sidebar type="definition">
+      <title>Key Points</title>
+       <ul>
+         <li>Given a pair of numbers <latex>$@a$</latex> and <latex>$@b$</latex>, with the same sign, the geometric mean of <latex>$@a$</latex> and <latex>$@b$</latex> is
+    <latex>\begin{align*}
+    	\sqrt{@a@b}.
+    \end{align*}</latex></li>
+         <li>Given a sequence of numbers <latex>$@a_1, @a_2,\ldots, @a_@n$</latex>, the geometric mean of the sequence of numbers is 
+    <latex>\begin{align*}
+    	\sqrt[@n]{@a_1  @a_2  \cdots  @a_@n}.
+    \end{align*}</latex>
+    	In particular, the product <latex>$@a_1  @a_2 \cdots  @a_@n$</latex> must be positive when <latex>$@n$</latex> is an even integer.</li>
+         <li>Given a pair of numbers <latex>$@a$</latex> and <latex>$@b$</latex>, <latex>$@n$</latex> geometric means between <latex>$@a$</latex> and <latex>$@b$</latex> are the values in a geometric sequence from <latex>$@a$</latex> to <latex>$@b$</latex> with exactly <latex>$@n$</latex> terms in between.</li>
+         <li>In a geometric sequence of the general form <latex>$@T_{@n}=@T_{1} @r^{@n-1}$</latex>, the values from <latex>$@T_{2}$</latex>
+        to <latex>$@T_{@n-1}$</latex> are called arithmetic means. The <latex>$@kth$</latex> geometric mean is the <latex>$@kk$</latex> term.</li>
+         <li>Since the geometric means are all of the terms in a geometric sequence except the first and final terms for a sequence with <latex>$@n$</latex> number of terms, there are <latex>$@n-2$</latex> geometric means between <latex>$@T_{1}$</latex> and <latex>$@T_{@n}$</latex>.</li>
+       </ul> 
+    </sidebar>
+  </body>
+</explainer>

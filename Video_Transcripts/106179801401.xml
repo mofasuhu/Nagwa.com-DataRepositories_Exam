@@ -1,0 +1,418 @@
+﻿<video video_id="106179801401">
+    <video_creator video_creator_id="978107247356">
+        <first_name>Anita</first_name>
+        <last_name>Piatek</last_name>
+        <email>anita.piatek@nagwa.com</email>
+    </video_creator>
+    <video_type>Lesson</video_type>
+    <subject>Mathematics</subject>
+    <publication_date>2020-05-18</publication_date>
+    <duration>1005146.00</duration>
+    <language>
+        <source>en</source>
+    </language>
+    <title>Finding the 𝑛th Term of a Geometric Sequence</title>
+    <seo_meta_description>In this video, we will learn how to write explicit and recursive formulas for geometric sequences, to find the value of the nth term in a geometric sequence, and to find a term’s order given its value.</seo_meta_description>
+    <transcript>
+        <p>
+            <s start_time ="00:00:02.210" end_time="00:00:05.410">In this video, we will learn about
+                geometric sequences.</s>
+            <s start_time ="00:00:05.740" end_time="00:00:11.270">We will discover how to find the
+                general or 𝑛th term and how to find the term-to-term rule.</s>
+            <s start_time ="00:00:11.480" end_time="00:00:15.650">We’ll also cover how to find the
+                order of a term given its value.</s>
+        </p>
+        <p>
+            <s start_time ="00:00:16.550" end_time="00:00:23.560">The first thing to note about a
+                geometric sequence is these are sequences where the ratio between terms is
+                constant.</s>
+            <s start_time ="00:00:23.870" end_time="00:00:29.920">Notice that that’s different to
+                arithmetic sequences, where it’s the difference between terms that’s constant.</s>
+            <s start_time ="00:00:30.400" end_time="00:00:38.860">We can describe a geometric
+                sequence in one of two ways, either by using a term-to-term rule or by using a
+                position-to-term rule.</s>
+            <s start_time ="00:00:39.270" end_time="00:00:46.290">The position-to-term rule is often
+                called the 𝑛th term, and it’s very helpful for finding the value of a specific
+                term.</s>
+            <s start_time ="00:00:46.550" end_time="00:01:01.890">For example, if we wanted to find
+                the 15th term of a sequence, we could directly evaluate it by substituting 15 into
+                the 𝑛th term rule rather than having to work out all the terms up to the 15th one
+                using the term-to-term rule.</s>
+        </p>
+        <p>
+            <s start_time ="00:01:02.560" end_time="00:01:06.870">So, let’s think about some of the
+                notation that we use in geometric sequences.</s>
+            <s start_time ="00:01:07.180" end_time="00:01:15.910">We say that if the first term is
+                denoted as the letter 𝑎 and the common ratio is 𝑟, then our sequence would look
+                like this.</s>
+            <s start_time ="00:01:17.150" end_time="00:01:18.920">The first term is 𝑎.</s>
+            <s start_time ="00:01:19.340" end_time="00:01:25.710">The second term would be 𝑎𝑟
+                because we’ve multiplied the first term 𝑎 by the common ratio 𝑟.</s>
+            <s start_time ="00:01:25.950" end_time="00:01:31.170">Multiplying the second term 𝑎𝑟
+                with another 𝑟 would give us 𝑎𝑟 squared.</s>
+            <s start_time ="00:01:31.590" end_time="00:01:34.880">We can signify the terms by using
+                subscript notation.</s>
+            <s start_time ="00:01:35.110" end_time="00:01:44.360">For example, the first term would
+                be written as 𝑎 sub one, the second term would be written as 𝑎 sub two, the third
+                as 𝑎 sub three, and so on.</s>
+        </p>
+        <p>
+            <s start_time ="00:01:44.870" end_time="00:01:50.710">So, how could we find a rule to
+                find the 𝑛th term which is written as 𝑎 sub 𝑛?</s>
+            <s start_time ="00:01:51.230" end_time="00:01:58.590">Well, we could start by noticing
+                that each term has an exponent value of 𝑟 which is one less than the term
+                number.</s>
+            <s start_time ="00:01:58.930" end_time="00:02:06.330">We know that the 𝑛th term would
+                still have an 𝑎-value, and the exponent of 𝑟 would be one less than 𝑛.</s>
+            <s start_time ="00:02:06.870" end_time="00:02:15.180">We can, therefore, say that the
+                𝑛th term of any geometric sequence can be written as 𝑎 times 𝑟 to the power of 𝑛
+                minus one.</s>
+            <s start_time ="00:02:15.560" end_time="00:02:22.760">We remember, of course, that it’s
+                just the 𝑟 that’s taken to the power of 𝑛 minus one and it doesn’t include the 𝑎
+                as well.</s>
+            <s start_time ="00:02:23.430" end_time="00:02:30.690">So, let’s see how we can put this
+                formula into practice to find the 𝑛th term of our first geometric sequence.</s>
+        </p>
+        <question id="175127380280" media_identifier="263101659560">
+            <publication_date>2020-06-24</publication_date>
+            <question_title>Finding the General Term of a Given Geometric Sequence</question_title>
+            <question_seo_meta_description>Find the general term of the geometric sequence −76,  −38,  −19, −19/2, ...</question_seo_meta_description>
+        <p>
+            <s start_time ="00:02:33.050" end_time="00:02:42.450">Find the general term of the
+                geometric sequence negative 76, negative 38, negative 19, negative 19 over two.</s>
+        </p>
+        <p>
+            <s start_time ="00:02:43.280" end_time="00:02:47.430">Another way of phrasing general
+                term is the 𝑛th term.</s>
+            <s start_time ="00:02:47.680" end_time="00:02:55.220">So, we’re looking for the 𝑛th term
+                of this geometric sequence, which is a sequence which has a common ratio between the
+                terms.</s>
+            <s start_time ="00:02:55.710" end_time="00:02:59.310">So, let’s have a look at the
+                sequence and see what we can determine.</s>
+            <s start_time ="00:02:59.560" end_time="00:03:04.280">Firstly, we can see the first term
+                in the sequence is negative 76.</s>
+            <s start_time ="00:03:04.570" end_time="00:03:11.360">When we’re working with geometric
+                sequences, we usually use the letter 𝑎 to signify the first term of the
+                sequence.</s>
+            <s start_time ="00:03:11.880" end_time="00:03:17.120">In order to find the 𝑛th term,
+                we’ll also need to find 𝑟, the common ratio.</s>
+            <s start_time ="00:03:17.580" end_time="00:03:31.400">When we consider a general
+                geometric sequence written as 𝑎 then 𝑎𝑟 then 𝑎𝑟 squared, and so on, we can find
+                the common ratio 𝑟 by dividing any term by the immediately preceding term.</s>
+        </p>
+        <p>
+            <s start_time ="00:03:31.750" end_time="00:03:37.910">So, here, we could take the second
+                term of negative 38 and divide it by negative 76.</s>
+            <s start_time ="00:03:38.170" end_time="00:03:40.900">Therefore, 𝑟 is equal to
+                one-half.</s>
+            <s start_time ="00:03:41.150" end_time="00:03:54.280">Notice that even if we’d taken two
+                different terms, for example, if we divided the third term of negative 19 by the
+                second term of negative 38, we would still have found the common ratio 𝑟 to be
+                one-half.</s>
+            <s start_time ="00:03:54.680" end_time="00:03:59.130">After all, if it wasn’t the same,
+                then we wouldn’t have a geometric sequence.</s>
+        </p>
+        <p>
+            <s start_time ="00:03:59.480" end_time="00:04:06.870">So now that we found the values of
+                𝑎 and 𝑟, we recall the general formula for the nth term of a geometric
+                sequence.</s>
+            <s start_time ="00:04:07.430" end_time="00:04:14.240">𝑎 sub 𝑛, that’s the 𝑛th term, is
+                equal to 𝑎 times 𝑟 to the power of 𝑛 minus one.</s>
+            <s start_time ="00:04:14.610" end_time="00:04:22.240">All we need to do now is plug in
+                the values of 𝑎 equals negative six and 𝑟 equals a half into this formula.</s>
+            <s start_time ="00:04:22.700" end_time="00:04:29.720">This gives us 𝑎 sub 𝑛 equals
+                negative 76 times a half to the power of 𝑛 minus one.</s>
+            <s start_time ="00:04:30.180" end_time="00:04:37.380">As we can’t simplify this any
+                further, then that’s our answer for the general term or the 𝑛th term of the
+                geometric sequence.</s>
+        </p>
+        </question>
+        <p>
+            <s start_time ="00:04:39.300" end_time="00:04:45.120">Let’s have a look at another
+                question where we’re finding the 𝑛th term of a slightly more complex sequence.</s>
+        </p>
+        <question id="648135917479" media_identifier="532180375847" >
+            <publication_date>2020-06-24</publication_date>
+            <question_seo_meta_description>Find, in terms of 𝑛, the general term of the sequence (1/4, 9/16, 81/64, 729/256, ...)</question_seo_meta_description>
+        <p>
+            <s start_time ="00:04:47.650" end_time="00:05:00.540">Find, in terms of 𝑛, the general
+                term of the sequence one-fourth, nine over 16, 81 over 64, 729 over 256, and so
+                on.</s>
+        </p>
+        <p>
+            <s start_time ="00:05:01.590" end_time="00:05:05.260">In this question, we’re given the
+                first four terms of this sequence.</s>
+            <s start_time ="00:05:05.670" end_time="00:05:12.810">There doesn’t look like there’s a
+                common difference between the terms, so we could say that this is definitely not an
+                arithmetic sequence.</s>
+            <s start_time ="00:05:13.300" end_time="00:05:22.420">We can check if it’s a geometric
+                sequence which would have a common ratio between the terms by seeing if we can work
+                out what that common ratio would be.</s>
+        </p>
+        <p>
+            <s start_time ="00:05:23.020" end_time="00:05:34.340">In order to find the ratio 𝑟
+                between the first two terms, we would take the second term, nine over 16, and divide
+                by the term before it, one-quarter.</s>
+            <s start_time ="00:05:34.610" end_time="00:05:42.620">We can recall that to divide by
+                one-quarter, that would be equivalent to multiplying by the reciprocal, which would
+                be four over one.</s>
+            <s start_time ="00:05:42.920" end_time="00:05:48.840">We can simplify the four on the
+                numerator and the 16 on the denominator by taking out a factor of four.</s>
+            <s start_time ="00:05:49.070" end_time="00:05:51.920">We then multiply our numerators and
+                denominators.</s>
+            <s start_time ="00:05:52.160" end_time="00:05:56.250">Nine times one would give us nine,
+                and four times one gives us four.</s>
+            <s start_time ="00:05:56.660" end_time="00:06:01.410">We can check if there’s the same
+                ratio between the third term and the second term.</s>
+            <s start_time ="00:06:01.700" end_time="00:06:06.360">So, we calculate 81 over 64 divided
+                by nine over 16.</s>
+            <s start_time ="00:06:06.760" end_time="00:06:11.460">We can see that the reciprocal of
+                nine over 16 would be 16 over nine.</s>
+            <s start_time ="00:06:11.800" end_time="00:06:20.770">And we simplify the fractions
+                before multiplying the numerators and denominators, which gives us the same common
+                ratio 𝑟 of nine over four.</s>
+            <s start_time ="00:06:21.010" end_time="00:06:35.640">And if we check this by working out
+                what we need to multiply the third term 81 over 64 by in order to get the fourth
+                term of 729 over 256, we get the same answer of nine over four.</s>
+        </p>
+        <p>
+            <s start_time ="00:06:36.350" end_time="00:06:40.650">So, let’s think about how we would
+                find the general term of this sequence.</s>
+            <s start_time ="00:06:40.920" end_time="00:06:45.620">We can recall that the general term
+                is another way of saying the 𝑛th term.</s>
+            <s start_time ="00:06:46.010" end_time="00:06:54.800">We can recall that the formula to
+                find the 𝑛th term 𝑎 sub 𝑛 is that 𝑎 sub 𝑛 is equal to 𝑎 times 𝑟 to the power
+                of 𝑛 minus one.</s>
+            <s start_time ="00:06:55.090" end_time="00:07:01.550">The 𝑟-value represents the common
+                ratio, and the 𝑎-value represents the first term of the sequence.</s>
+            <s start_time ="00:07:01.900" end_time="00:07:09.680">We’ve already established that 𝑟
+                is equal to nine over four, and the 𝑎-value, the first term in the sequence, would
+                be one-quarter.</s>
+            <s start_time ="00:07:10.050" end_time="00:07:14.530">We can then take the values of 𝑎
+                and 𝑟 and plug them into this formula.</s>
+            <s start_time ="00:07:14.850" end_time="00:07:21.350">This gives us 𝑎 sub 𝑛 equals
+                one-quarter times nine-quarters to the power of 𝑛 minus one.</s>
+        </p>
+        <p>
+            <s start_time ="00:07:21.770" end_time="00:07:30.810">While this is a perfectly valid
+                answer for the 𝑛th term of the sequence, it might be worth seeing if we can
+                simplify this right-hand side any further.</s>
+            <s start_time ="00:07:31.100" end_time="00:07:37.130">We can start our simplification by
+                thinking about what happens when we have a power of a fraction.</s>
+            <s start_time ="00:07:37.600" end_time="00:07:45.580">A fraction with a certain exponent
+                value is equivalent to the numerator with that exponent over the denominator with
+                that exponent.</s>
+            <s start_time ="00:07:45.910" end_time="00:07:58.570">If we then consider these fractions
+                multiplied, multiplying the numerators one times nine to the power of 𝑛 minus one
+                would give us the value on the numerator of nine to the power of 𝑛 minus one.</s>
+            <s start_time ="00:07:58.910" end_time="00:08:04.760">Multiplying the denominators would
+                give us four times four to the power of 𝑛 minus one.</s>
+        </p>
+        <p>
+            <s start_time ="00:08:05.230" end_time="00:08:16.020">If we look at the denominator, we
+                can apply another exponent rule that 𝑥 to the power of 𝑎 multiplied by 𝑥 to the
+                power of 𝑏 is equal to 𝑥 to the power of 𝑎 plus 𝑏.</s>
+            <s start_time ="00:08:16.380" end_time="00:08:20.000">On the denominator, the 𝑥-value
+                here would be four.</s>
+            <s start_time ="00:08:20.150" end_time="00:08:26.740">And our 𝑎- and 𝑏-values, that’s
+                the exponents, would be represented by one and 𝑛 minus one.</s>
+            <s start_time ="00:08:27.140" end_time="00:08:31.590">Adding one and 𝑛 minus one would
+                leave us with the value of 𝑛.</s>
+            <s start_time ="00:08:31.960" end_time="00:08:38.130">So, we’ve found a fully simplified
+                answer for the general term of this sequence in terms of 𝑛.</s>
+            <s start_time ="00:08:38.330" end_time="00:08:43.140">It’s nine to the power of 𝑛 minus
+                one over four to the power of 𝑛.</s>
+        </p>
+        </question>
+        <p>
+            <s start_time ="00:08:45.140" end_time="00:08:51.100">In the two questions that we’ve
+                just seen, we’ve been finding the 𝑛th term or the position-to-term rule.</s>
+            <s start_time ="00:08:51.390" end_time="00:08:56.440">In the next question, we’ll have a
+                look at how we would find a term-to-term rule.</s>
+        </p>
+        <question id="" media_identifier="" pause_reason="no_live_question">
+            <publication_date></publication_date>
+            <question_title></question_title>
+            <question_seo_meta_description>Find a recursive formula for the sequence 486, 162, 54, 18, 6, 2, 2/3.</question_seo_meta_description>
+        <p>
+            <s start_time ="00:08:59.290" end_time="00:09:10.480">Find a recursive formula for the
+                sequence 486, 162, 54, 18, six, two, two-thirds.</s>
+        </p>
+        <p>
+            <s start_time ="00:09:11.400" end_time="00:09:19.370">So here we have a sequence which
+                begins with the number 486, and we’re asked to find a recursive formula.</s>
+            <s start_time ="00:09:19.630" end_time="00:09:27.310">This means that instead of finding
+                a general term or an 𝑛th term for the sequence, we’re going to find a term-to-term
+                rule.</s>
+            <s start_time ="00:09:27.610" end_time="00:09:32.370">It means we’ll be thinking about
+                how we go from one term to another term.</s>
+            <s start_time ="00:09:32.830" end_time="00:09:37.210">Let’s begin by seeing if we can
+                find a common ratio between the terms.</s>
+            <s start_time ="00:09:37.380" end_time="00:09:40.140">We can signify this with the letter
+                𝑟.</s>
+            <s start_time ="00:09:40.760" end_time="00:09:55.530">In a geometric sequence, we say
+                that the first term is 𝑎, the second term would be 𝑎 times the common ratio 𝑟,
+                the third term would be 𝑎𝑟 squared, and the fourth term would be 𝑎𝑟 cubed, and
+                so on.</s>
+            <s start_time ="00:09:55.940" end_time="00:10:02.710">Therefore, to find the ratio
+                between terms, we take any term and divide by the term immediately before it.</s>
+        </p>
+        <p>
+            <s start_time ="00:10:03.090" end_time="00:10:10.440">So, we could, for example, take the
+                second term of 162 and divide by the term before it, 486.</s>
+            <s start_time ="00:10:10.740" end_time="00:10:16.790">Or if it’s a geometric sequence, as
+                we assume, then we could take the third term and divide by the second term.</s>
+            <s start_time ="00:10:17.100" end_time="00:10:21.400">We could even take the sixth term
+                of two and divide by the fifth term.</s>
+            <s start_time ="00:10:21.800" end_time="00:10:26.930">We should hopefully see
+                straightaway that two-sixths can simplify to one-third.</s>
+            <s start_time ="00:10:27.250" end_time="00:10:31.340">So, do the other two fractions here
+                also simplify to one-third?</s>
+            <s start_time ="00:10:31.720" end_time="00:10:35.840">Well, if we take 54 and add 54,
+                that’s 108.</s>
+            <s start_time ="00:10:36.070" end_time="00:10:39.970">And adding another 54 would give us
+                162.</s>
+            <s start_time ="00:10:40.250" end_time="00:10:43.410">So, this fraction would also
+                simplify to one-third.</s>
+            <s start_time ="00:10:43.890" end_time="00:10:49.380">162 over 486 would also give us
+                one-third.</s>
+        </p>
+        <p>
+            <s start_time ="00:10:49.970" end_time="00:10:53.340">It’s looking like we have a common
+                ratio of one-third.</s>
+            <s start_time ="00:10:53.620" end_time="00:11:02.390">In fact, if we take any two
+                consecutive terms in this sequence, we find that we need to multiply the first one
+                by one-third to get the second.</s>
+            <s start_time ="00:11:02.800" end_time="00:11:08.000">The terms we have been given
+                definitely do have a common ratio of one-third.</s>
+            <s start_time ="00:11:08.720" end_time="00:11:12.730">So, does this answer the question
+                then to find a recursive formula?</s>
+            <s start_time ="00:11:13.020" end_time="00:11:18.730">Is it sufficient to say we would
+                multiply a term by one-third to find the next one?</s>
+        </p>
+        <p>
+            <s start_time ="00:11:19.130" end_time="00:11:20.400">Well, not quite.</s>
+            <s start_time ="00:11:20.980" end_time="00:11:23.510">We can use some more formal
+                notation here.</s>
+            <s start_time ="00:11:24.040" end_time="00:11:29.350">We say that the first term 𝑎 one
+                will be equal to 486.</s>
+            <s start_time ="00:11:29.890" end_time="00:11:36.680">To find the second term, we know
+                that that would be 486 times the ratio 𝑟 of one-third.</s>
+            <s start_time ="00:11:37.050" end_time="00:11:42.140">So, 𝑎 sub two, the second term, is
+                equal to one-third of 𝑎 sub one.</s>
+            <s start_time ="00:11:42.600" end_time="00:11:51.970">In the same way, if we wanted to
+                find the third term and we didn’t know the value of it, we take the second term and
+                multiply it by the ratio 𝑟 of one-third.</s>
+            <s start_time ="00:11:52.390" end_time="00:11:59.460">We could continue like this to say
+                the fourth term would be equal to one-third times the third term.</s>
+        </p>
+        <p>
+            <s start_time ="00:11:59.920" end_time="00:12:10.790">So, if we wanted to find the 𝑛th
+                term of this sequence, we would calculate one-third multiplied by the term before,
+                written as 𝑎 sub 𝑛 minus one.</s>
+            <s start_time ="00:12:11.380" end_time="00:12:21.700">This is where we get the helpful
+                formula from, that if we want to find the 𝑛 plus oneth term of a sequence, then we
+                multiply the common ratio by the 𝑛th term.</s>
+            <s start_time ="00:12:22.400" end_time="00:12:32.600">It sort of looks like the formula
+                for the 𝑛th term of a sequence, but this time the term is based on the term before
+                it rather than the starting term of a sequence.</s>
+            <s start_time ="00:12:33.250" end_time="00:12:43.530">But here, we can give our answer
+                that any term in the sequence 𝑎 sub 𝑛 can be calculated by a third times the term
+                before it, 𝑎 sub 𝑛 minus one.</s>
+        </p>
+        </question>
+        <p>
+            <s start_time ="00:12:45.580" end_time="00:12:52.740">In the next question, we’ll see how
+                we can find the order of a term given its value and the 𝑛th term of the
+                sequence.</s>
+        </p>
+        <question id="467198792769" media_identifier="385127940739">
+            <publication_date>2020-06-24</publication_date>
+            <question_title>Finding the Order of a Term in a Geometric Sequence given Its Value and General Term</question_title>
+            <question_seo_meta_description>Find the order of the term whose value is 4,374 in the geometric sequence 𝑎_𝑛 = (2/3)(3)^𝑛.</question_seo_meta_description>
+        <p>
+            <s start_time ="00:12:55.480" end_time="00:13:06.750">Find the order of the term whose
+                value is 4374 in the geometric sequence 𝑎 sub 𝑛 equals two-thirds times three to
+                the power of 𝑛.</s>
+        </p>
+        <p>
+            <s start_time ="00:13:08.000" end_time="00:13:11.000">Let’s start by looking at the
+                information that we’re given.</s>
+            <s start_time ="00:13:11.370" end_time="00:13:16.190">This value of 𝑎 sub 𝑛 represents
+                the 𝑛th term of this sequence.</s>
+            <s start_time ="00:13:16.610" end_time="00:13:22.560">We’re asked to find the order of
+                the term whose value is 4374.</s>
+            <s start_time ="00:13:22.870" end_time="00:13:29.550">That means that we’ve got a
+                sequence, and somewhere in this sequence is this value of 4374.</s>
+            <s start_time ="00:13:29.930" end_time="00:13:36.880">The order of this term means we’re
+                really asking, is it the second term, the 10th term, the 100th term?</s>
+            <s start_time ="00:13:37.220" end_time="00:13:38.700">That’s what we need to find
+                out.</s>
+            <s start_time ="00:13:39.250" end_time="00:13:48.420">We can do this by saying let’s make
+                the order of this term 𝑛, and then our 𝑛th term will be 4374.</s>
+            <s start_time ="00:13:48.950" end_time="00:13:56.790">We could then fill this into the
+                formula and rearrange to find this value of 𝑛, which would give us the order of
+                this term.</s>
+        </p>
+        <p>
+            <s start_time ="00:13:57.380" end_time="00:14:02.730">We can start our rearranging by
+                dividing both sides of this equation by two-thirds.</s>
+            <s start_time ="00:14:03.140" end_time="00:14:09.570">On the left-hand side, we can
+                recall that to divide by a fraction, we multiply by its reciprocal.</s>
+            <s start_time ="00:14:09.950" end_time="00:14:14.030">And on the right-hand side, we’ll
+                be left with three to the power of 𝑛.</s>
+            <s start_time ="00:14:14.480" end_time="00:14:17.220">We can simplify the values on the
+                left-hand side.</s>
+            <s start_time ="00:14:17.480" end_time="00:14:28.150">So, we work out 2187 multiplied by
+                three, which gives us 6561 is equal to three to the power of 𝑛.</s>
+        </p>
+        <p>
+            <s start_time ="00:14:28.640" end_time="00:14:35.060">Now, at this stage, there’s a
+                branch of mathematics called logarithms, which would help us solve this problem
+                directly.</s>
+            <s start_time ="00:14:35.380" end_time="00:14:43.420">But as most people learn this long
+                after they learn about geometric sequences, we’ll use a bit of trial and improvement
+                here instead.</s>
+            <s start_time ="00:14:44.080" end_time="00:14:54.090">Remember that a value like three to
+                the power of 𝑛 equals 6561 is really equivalent to saying three to the power of
+                what gives us this value.</s>
+            <s start_time ="00:14:54.570" end_time="00:15:01.740">You might know your first powers of
+                three off by heart, up to roughly three to the power of four equals 81.</s>
+            <s start_time ="00:15:02.080" end_time="00:15:07.850">We could then continue with a few
+                more by multiplying each of the values by three as we go up.</s>
+            <s start_time ="00:15:08.130" end_time="00:15:13.850">If we’re using a non-calculator
+                method, we’ll probably need to start using some pencil and paper working out.</s>
+            <s start_time ="00:15:14.280" end_time="00:15:20.760">But then, we find that three to the
+                power of eight is equal to 6561.</s>
+            <s start_time ="00:15:21.110" end_time="00:15:25.440">This means that our 𝑛-value here
+                must be equal to eight.</s>
+            <s start_time ="00:15:26.020" end_time="00:15:35.590">So, we can give our answer that the
+                order of the term whose value is 4374 is eight, as it would be the eighth term in
+                this sequence.</s>
+        </p>
+        </question>
+        <p>
+            <s start_time ="00:15:37.750" end_time="00:15:40.710">We can now summarize what we’ve
+                learnt in this video.</s>
+            <s start_time ="00:15:41.660" end_time="00:15:48.090">Firstly, we saw that a geometric
+                sequence is a sequence where the ratio between terms is constant.</s>
+            <s start_time ="00:15:48.660" end_time="00:15:59.880">For a first term 𝑎 and a common
+                ratio 𝑟, we have the terms of the sequence as 𝑎, 𝑎𝑟, 𝑎𝑟 squared, 𝑎𝑟 to the
+                third power, and so on.</s>
+            <s start_time ="00:16:00.670" end_time="00:16:08.040">To find the common ratio 𝑟 given a
+                value of terms in a sequence, we can divide any term by its preceding term.</s>
+            <s start_time ="00:16:08.340" end_time="00:16:12.840">For example, 𝑟 can be found by
+                dividing the third term by the second term.</s>
+            <s start_time ="00:16:13.500" end_time="00:16:22.200">The position-to-term rule or the
+                𝑛th term can be written as 𝑎 sub 𝑛 equals 𝑎 times 𝑟 to the power of 𝑛 minus
+                one.</s>
+        </p>
+        <p>
+            <s start_time ="00:16:22.720" end_time="00:16:42.960">Finally, we saw the term-to-term
+                rule, or recursive formula, which can be written as 𝑎 sub 𝑛 plus one equals 𝑟
+                times 𝑎 sub 𝑛, remembering that this means if we want to find the value of the
+                term with order 𝑛 plus one, then we take the value of the term with order 𝑛 and
+                multiply it by the common ratio 𝑟.</s>
+        </p>
+    </transcript>
+</video>

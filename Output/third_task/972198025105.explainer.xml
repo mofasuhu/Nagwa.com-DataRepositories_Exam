@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<explainer calendar="none" country="zz" currency="none" dialect="british" id="972198025105" language="en" publication_date="2020-10-22T10:00:00" unit_system="si usc">
+<title>Measurement Tools</title>
+<seo_meta_description>In this explainer, we will learn how to identify different
+    tools for the measurement of fundamental physical quantities.</seo_meta_description>
+<developer_name>Simeon Every</developer_name>
+<developer_email>simeon.every@nagwa.com</developer_email>
+<dictionary>
+<item symbol="false"><from>@Anvil</from><to>Anvil</to></item>
+<item symbol="false"><from>@Spindle</from><to>Spindle</to></item>
+<item symbol="false"><from>@Sleeve</from><to>Sleeve</to></item>
+<item symbol="false"><from>@Thimble</from><to>Thimble</to></item>
+<item symbol="false"><from>@Panbalance</from><to>Pan balance</to></item>
+<item symbol="false"><from>@Springbalance</from><to>Spring balance</to></item>
+<item symbol="false"><from>@Slidingjaw</from><to>Sliding jaw</to></item>
+<item symbol="false"><from>@Fixedjaw</from><to>Fixed jaw</to></item>
+</dictionary>
+<body>
+<p><s>In this explainer, we will learn how to identify different tools for the measurement of 
+      fundamental physical quantities.</s></p>
+<p><s>Fundamental physical quantities (also called base quantities) are 
+      those that cannot be obtained by combinations of other fundamental 
+      quantities.</s></p>
+<p><s>The following is a list of the SI base quantities:
+      <ul>
+<li>Length</li>
+<li>Time</li>
+<li>Mass</li>
+<li>Amount of substance</li>
+<li>Absolute temperature</li>
+<li>Electric current</li>
+<li>Luminous intensity</li>
+</ul>
+</s></p>
+<p><s>In this explainer, we will only be considering length, time, and mass.</s></p>
+<p><s>The explainer is specifically concerned with how length, time, and mass 
+        can be measured using different tools and devices.</s></p>
+<p><s>Length is measured using an instrument that is graduated with markings 
+        that correspond to submultiples of a unit of length, the SI base unit 
+        of which is the 
+        <quantity count="singular" type="long"><value/><unit>meter</unit></quantity>.</s></p>
+<p><s>A ruler is a straight-edged stick with graduated marks. An object for
+        which the length is to be measured is placed along the straight edge 
+        and the number of marks between the ends of the object are counted.</s></p>
+<p><s>The marks on a ruler are usually 
+      <quantity type="long"><value>1</value><unit>millimeter</unit></quantity> 
+      (<quantity><value>1</value><unit>millimeter</unit></quantity>) apart. 
+      Usually, every <quantity><value>5</value><unit>millimeter</unit></quantity>,
+      the mark is larger to make it easier for a user to keep track of how many 
+      marks have been counted. Also, an even larger mark is usually made every 
+      <quantity><value>10</value><unit>millimeter</unit></quantity>; these even
+      larger marks are 
+      <quantity type="long"><value>1</value><unit>centimeter</unit></quantity>  
+      (<quantity><value>1</value><unit>centimeter</unit></quantity>) apart. 
+      The following figure shows an enlarged section of a ruler on which the 
+      marks can be seen.</s></p>
+<tikz scale="200" src="1.tex"> <svg src="Ruler"/></tikz>
+<p><s>The maximum length that can be measured by a ruler in a single measurement
+      is the length of the ruler. The minimum length that can be measured by a 
+      ruler is the smallest graduation of the marks on the ruler, usually 
+      <quantity><value>1</value><unit>millimeter</unit></quantity>.</s></p>
+<p><s>To measure lengths of less than 
+      <quantity><value>1</value><unit>millimeter</unit></quantity>, different
+      measuring devices are required. One such device is a vernier caliper, 
+      which is shown in the following figure.</s></p>
+<tikz scale="500" src="2.tex"> <svg src="Two"/></tikz>
+<p><s>The length measured by a vernier caliper is the distance between the
+        jaws of the caliper. One jaw of the caliper, called the sliding jaw, 
+        can be moved away from and toward the fixed jaw so that the distance 
+        between the jaws equals the length of an object. The following figure
+        shows the jaws of the caliper with an object between them.</s></p>
+<tikz scale="400" src="3.tex"> <svg src="Three"/></tikz>
+<p><s>The red arrow between the jaws of the caliper is equal to the length
+        of the object between the jaws. A green arrow of the same length as 
+        the red arrow is shown on a graduated length of the caliper that is 
+        called the main scale.</s></p>
+<p><s>The main scale of the caliper is the same as the scale of a ruler. 
+        The marks are <quantity><value>1</value><unit>millimeter</unit></quantity>
+        apart and every 10 marks a 
+        <quantity count="singular" type="long"><value/><unit>centimeter</unit></quantity>
+        mark shows the length in 
+        <quantity type="long"><value/><unit>centimeter</unit></quantity>.</s></p>
+<p><s>Close inspection of the main scale of the caliper shown reveals that the 
+        length is somewhere between 
+        <quantity><value>34</value><unit>millimeter</unit></quantity> and 
+        <quantity><value>35</value><unit>millimeter</unit></quantity>. The main 
+        scale cannot measure a shorter length than this. There is, however, 
+        another scale on the caliper that moves with the sliding jaw. 
+        This scale is called the vernier scale.</s></p>
+<p><s>The following figure shows where the main scale and the vernier scale
+        meet. The vernier scale is outlined in a dashed orange box.</s></p>
+<tikz scale="300" src="4.tex"> <svg src="Four"/></tikz>
+<p><s>The vernier scale consists of 10 marks. Each mark on the vernier scale
+        is some horizontal distance from the nearest mark to it on the main 
+        scale. One mark on the vernier scale has a smaller value for this 
+        distance than any of the other marks. This mark is the best aligned 
+        mark.</s></p>
+<p><s>The best aligned mark corresponds to a value between 0 and 9 on
+        the vernier scale. This value corresponds to a length expressed in
+        tenths of a 
+        <quantity count="singular" type="long"><value/><unit>millimeter</unit></quantity>;
+        if the best aligned mark is the mark labeled 3 on the vernier scale,
+        the vernier scale reads a length of 
+        <latex>$<quantity><value>\frac{3}{10}</value><unit>millimeter</unit></quantity>$</latex>.
+        The vernier scale shown here can therefore measure lengths as small as one tenth of a 
+        <quantity count="singular" type="long"><value/><unit>millimeter</unit></quantity>.</s></p>
+<p><s>Let us now look at an example in which a vernier caliper is used to measure a length.</s></p>
+<example>
+<title>Measuring a Length Using a Vernier Caliper</title>
+<question id="916168989531" instance_number="1">
+<mcq>
+<stem>
+<p><s>What is the length of the object being measured
+              by the vernier caliper in the diagram?</s></p>
+<tikz scale="440" src="5.tex"> <svg src="Five"/></tikz>
+</stem>
+</mcq>
+</question>
+<answer>
+<p><s>To obtain the reading on the vernier caliper, we 
+          need to record the reading on the main scale and 
+          on the vernier scale.</s></p>
+<p><s>In the following figure, the main scale reading
+            is shown within a dashed red box.</s></p>
+<tikz scale="350" src="6.tex"> <svg src="Six"/></tikz>
+<p><s>We can see from the main scale that there are more
+          than 27 marks between the start and the end of the 
+          reading, but less than 28 marks. The reading is 
+          closer to 28 marks than to 27 marks. The reading 
+          on the main scale is 
+          <quantity><value>27</value><unit>millimeter</unit></quantity>,
+          or 
+          <quantity><value>2.7</value><unit>centimeter</unit></quantity>.</s></p>
+<p><s>In the following figure, the entire vernier 
+            scale is shown within a dashed blue box.</s></p>
+<tikz scale="290" src="7.tex"> <svg src="Seven"/></tikz>
+<p><s>The vernier scale consists of the graduated 
+            marks that range from 0 to 10. The reading on
+            this scale corresponds to the mark for which 
+            there is the least horizontal distance between
+            it and the closest mark to it on the main scale.
+            The appropriate mark is indicated in the following
+            figure.</s></p>
+<tikz scale="220" src="8.tex"> <svg src="Eight"/></tikz>
+<p><s>This mark is the 9th on the vernier scale. Marks
+            on the vernier scale correspond to lengths of a 
+            tenth of a <quantity count="singular" type="long"><value/><unit>millimeter</unit></quantity>, so this reading is 
+            <quantity><value>0.9</value><unit>millimeter</unit></quantity>,
+            or 
+            <quantity><value>0.09</value><unit>centimeter</unit></quantity>.</s></p>
+<p><s>The full reading on the caliper, in <quantity type="long"><value/><unit>centimeter</unit></quantity>, is given by
+            <latex>\begin{align*}2.7 + 0.09 
+              = <quantity><value>2.79</value><unit>centimeter</unit></quantity>.\end{align*}</latex>
+</s></p>
+</answer>
+</example>
+<p><s>Another length-measuring device that can measure distances of less than
+      <quantity><value>1</value><unit>millimeter</unit></quantity> is an 
+      instrument called a micrometer.</s></p>
+<p><s>Perhaps unhelpfully, the name of this instrument is the same as 
+        the name for one-millionth of a 
+        <quantity count="singular" type="long"><value/><unit>meter</unit></quantity>,
+        as “micro” means “one-millionth.” Less helpfully still, the 
+        instrument called a micrometer cannot measure lengths as small as
+        one-millionth of a 
+        <quantity count="singular" type="long"><value/><unit>meter</unit></quantity>!</s></p>
+<p><s>The following figure shows a micrometer and the names of its 
+        most relevant parts when using it to measure a length.</s></p>
+<tikz scale="350" src="9.tex"> <svg src="micrometer"/></tikz>
+<p><s>The object that the length of is to be measured is placed
+        between the anvil and the spindle. The thimble is then 
+        turned until the gap between the anvil and spindle equals 
+        the length of the object.</s></p>
+<p><s>When the thimble is turned, it moves along the sleeve. 
+        The main scale of the 
+        micrometer
+        is on the sleeve. The rotating scale of the 
+         micrometer
+        is on the thimble. As with vernier calipers, one mark 
+        on the rotating scale will most closely align to the 
+        end of the main scale, and this mark will give the 
+        reading of the rotating scale.</s></p>
+<p><s>Let us now look at an example in which a 
+         micrometer 
+        is used to measure a length.</s></p>
+<example>
+<title>Measuring a Length Using a Micrometer</title>
+<question id="958145836454" instance_number="1">
+<mcq>
+<stem>
+<p><s>What is the reading on the 
+              micrometer
+              shown in the diagram?</s></p>
+<tikz scale="250" src="10.tex"> <svg src="Ten"/></tikz>
+</stem>
+</mcq>
+</question>
+<answer>
+<p><s>The diagram shows the main scale and rotating scale of the 
+          micrometer.
+          To obtain the reading on the 
+           micrometer,
+          we need to record the reading on the main scale and on the rotating scale.</s></p>
+<p><s>The main scale is the horizontal line. We can see that this consists of large 
+            numbered marks separated by small unnumbered marks. The large marks are 
+            <quantity><value>1</value><unit>millimeter</unit></quantity> apart and the 
+            small marks are 
+            <quantity><value>0.5</value><unit>millimeter</unit></quantity> apart from
+            the large marks on either side of them.</s></p>
+<p><s>We can see that the main scale reading is between 
+            <quantity><value>2.5</value><unit>millimeter</unit></quantity> and 
+            <quantity><value>3</value><unit>millimeter</unit></quantity>.</s></p>
+<p><s>The rotating scale is the vertical line. It is not possible to 
+            see the entire rotating scale when looking at a 
+            micrometer 
+            in profile, as the scale is actually a circle rather than a 
+            vertical line, and half of the scale covers the unseen side
+            of the thimble.</s></p>
+<p><s>The full number of marks on the rotating scale is in fact 50.
+            Turning the thimble sufficiently to change the main scale 
+            reading by <quantity><value>0.5</value><unit>millimeter</unit></quantity>
+            rotates the thimble through a complete revolution, leaving
+            the reading on the rotating scale the same before and after
+            the rotation.</s></p>
+<p><s>The length corresponding to one mark on the rotating scale
+            is given by
+            <latex>\begin{align*}\frac{<quantity><value>0.5</value><unit>millimeter</unit></quantity>}
+              {50} = <quantity><value>0.01</value><unit>millimeter</unit></quantity>.\end{align*}</latex>
+</s></p>
+<p><s>This is the smallest length that a 
+            micrometer 
+            can measure. It is important to understand that this is not
+            a length equal to 
+            <quantity type="long"><value>1</value><unit>micrometer</unit></quantity>
+            (<quantity><value>1</value><unit>micrometer</unit></quantity>); rather,
+            it is equal to 
+            <quantity><value>10</value><unit>micrometer</unit></quantity>.</s></p>
+<p><s>We can see that the mark on the rotating scale that most closely 
+            aligns to the main scale is the 25th mark.</s></p>
+<p><s>The full reading on the micrometer is given by
+            <latex>\begin{gather*}2.5 + <quantity><value>25 \left(0.01\right)</value><unit>millimeter</unit></quantity>\\
+              2.5 + <quantity><value>0.25</value><unit>millimeter</unit></quantity>\\
+              <quantity><value>2.75</value><unit>millimeter</unit></quantity>.\end{gather*}</latex>
+</s></p>
+</answer>
+</example>
+<p><s>Let us now look at an example involving comparing the accuracy of
+      measurement tools for measuring length.</s></p>
+<example>
+<title>Comparing Tools for Measuring Length</title>
+<question id="842127405645" instance_number="1">
+<mcq>
+<stem>
+<p><s>Which of the following tools is the most accurate tool for measuring length?</s></p>
+<tikz scale="250" src="11.tex"> <svg src="Eleven"/></tikz>
+<tikz scale="250" src="12.tex"> <svg src="Twelve"/></tikz>
+<tikz scale="250" src="13.tex"> <svg src="Thirteen"/></tikz>
+<tikz scale="250" src="14.tex"> <svg src="Fourteen"/></tikz>
+</stem>
+</mcq>
+</question>
+<answer>
+<p><s>The tools shown are a 
+          micrometer,
+          a tape measure, a ruler, and a vernier caliper.</s></p>
+<p><s>The accuracy of a measurement corresponds to how close the measured value is to the 
+            real value of the quantity measured.</s></p>
+<p><s>An important difference between the tools shown is the smallest length that each can 
+          measure.</s></p>
+<p><s>Consider a length measured using a ruler as shown in the following figure.</s></p>
+<tikz scale="200" src="15.tex"> <svg src="Fifteen"/></tikz>
+<p><s>The measured value of the length is 
+          <quantity><value>1.1</value><unit>centimeter</unit></quantity> or 
+          <quantity><value>11</value><unit>millimeter</unit></quantity>. We can see, however,
+          that the length of the object is greater than the measured length. A measuring tool
+          that could measure the fraction of a 
+          <quantity count="singular" type="long"><value/><unit>millimeter</unit></quantity>
+          by which the length of the object exceeds 
+          <quantity><value>11</value><unit>millimeter</unit></quantity> would have a
+          value closer to the length of the object. The tool that can measure the smallest 
+          length is therefore the most accurate tool for measuring length.</s></p>
+<p><s>Rulers and tape measures both measure minimum lengths of 
+          <quantity><value>1</value><unit>millimeter</unit></quantity>, while vernier 
+          calipers and 
+          micrometer
+          can measure lengths of less than 
+          <quantity><value>1</value><unit>millimeter</unit></quantity>.</s></p>
+<p><s>Vernier calipers can measure a minimum length of 
+            <quantity><value>0.1</value><unit>millimeter</unit></quantity>. 
+            Micrometers can measure a minimum length of 
+            <quantity><value>0.01</value><unit>millimeter</unit></quantity>.</s></p>
+<p><s>The most accurate length measuring tool is therefore a 
+            micrometer.</s></p>
+</answer>
+</example>
+<p><s>Let us now look at an example that involves other measuring tools than rulers,
+      vernier calipers, and 
+      micrometer.</s></p>
+<example>
+<title>Identifying the Quantity Measured by Different Tools</title>
+<question id="647124934797" instance_number="1">
+<mcq>
+<stem>
+<p><s>Which of the following physical quantities can be measured by an hourglass,
+              a pendulum clock, and a digital stopwatch?
+              <ul>
+<li>Time</li>
+<li>Length</li>
+<li>Mass</li>
+</ul>
+</s></p>
+</stem>
+</mcq>
+</question>
+<answer>
+<p><s>The terms “clock” and “watch” applied to objects are 
+          familiar to most people, who would recognize that these refer to objects that give
+          readings of time. The term “hourglass” contains the word 
+          “<quantity count="singular" type="long"><value/>
+<unit>hour</unit></quantity>” which is a unit of time. Time is a physical
+          quantity.</s></p>
+<p><s>An object that gives a reading of time can be read at two different instances 
+            to measure the time that passes between the instances.</s></p>
+</answer>
+</example>
+<p><s>Mass is an SI base quantity. Mass is often confused with the SI-derived quantity 
+      “weight.”</s></p>
+<p><s>Measuring devices that give readings in 
+      <quantity type="long"><value/><unit>gram</unit></quantity> or 
+      <quantity type="long"><value/><unit>kilogram</unit></quantity>, and so seem
+      to be measuring mass, are in fact measuring weight.</s></p>
+<p><s>Supposing that such a device was taken to the moon and used to measure the mass
+        of the same object on the moon as on Earth, the result of the measurement would 
+        be different, but the mass of the object would actually be the same either on 
+        Earth or on the moon.</s></p>
+<p><s>Tools that measure weight can be calibrated to give readings of mass, and then
+        they will correctly read the mass of an object on Earth.</s></p>
+<p><s>A tool that can measure weight is shown in the following figure. The arrow 
+        shows the direction of the weight that acts.</s></p>
+<tikz scale="100" src="16.tex"> <svg src="Sixteen"/></tikz>
+<p><s>The action of the weight of a measured object extends the spring in the 
+        balance. The length of the spring is used to give a reading of weight.</s></p>
+<p><s>Another such tool is shown in the following figure.</s></p>
+<tikz scale="300" src="17.tex"> <svg src="Seventeen"/></tikz>
+<p><s>For a pan balance, two weights act, one on each pan. The pan balance 
+        compares these weights. The weight on one pan is produced by an object 
+        of a known mass.</s></p>
+<p><s>Let us now look at an example involving such tools.</s></p>
+<example>
+<title>Comparing Tools for Measuring Related Quantities</title>
+<question id="259178637140" instance_number="1">
+<mcq>
+<stem>
+<p><s>A beam balance, a spring balance, and a digital scale are types
+              of measurement tools.</s></p>
+<p><s>Which of the following physical quantities is typically measured
+                by a beam balance and by a digital scale?
+              <ul>
+<li>Mass</li>
+<li>Length</li>
+<li>Time</li>
+<li>Weight</li>
+</ul>
+</s></p>
+<p><s>Which of the following physical quantities is typically measured
+                by a spring balance?
+              <ul>
+<li>Weight</li>
+<li>Mass</li>
+<li>Length</li>
+<li>Time</li>
+</ul>
+</s></p>
+</stem>
+</mcq>
+</question>
+<answer>
+<p><s>Balances and scales do not measure length or time, so the answer to 
+          each part of the question is either mass or weight. All these tools 
+          actually measure weight but can be calibrated to give readings of 
+          mass or of weight.</s></p>
+<p><s>Beam balances compare the weight of an object to that of another
+           object, often a standard mass. Beam balances are usually calibrated
+           to read mass measurements. Digital scales are also usually calibrated
+           to read mass measurements. Spring balances measure the extension of 
+           a spring by an object suspended from the spring. This extension is 
+           more intuitively obvious as being due to the weight of an object, 
+           and spring balances are usually calibrated to read weight measurements.</s></p>
+</answer>
+</example>
+<p><s>Let us now summarize what has been learned in this explainer.</s></p>
+<sidebar type="definition">
+<title>Key Points</title>
+<p><s>
+<ol type="1">
+<li>Different tools are used to measure different physical quantities.</li>
+<li>Lengths of less than 
+            <quantity type="long"><value>1</value><unit>millimeter</unit></quantity> 
+            can be measured by vernier calipers and by 
+            micrometer.</li>
+<li>A tool that gives a reading of time can be read at two different instances
+            to measure the time that passes between the instances.</li>
+<li>Tools for measuring mass actually measure weight but can be calibrated 
+            so that if used on Earth they read the mass of objects.</li>
+</ol>
+</s></p>
+</sidebar>
+</body>
+</explainer>

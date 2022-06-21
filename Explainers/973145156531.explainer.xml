@@ -1,0 +1,313 @@
+﻿<explainer id="973145156531" country="zz" currency="none" calendar="none" unit_system="none" language="en"  dialect="american" publication_date="2020-09-10T10:00:00">
+  <title>Sum of an Infinite Geometric Sequence</title>
+  <source_id>230191639106</source_id>
+  <developer_name>Sarah Garry</developer_name>
+  <developer_email>sarah.garry@nagwa.com</developer_email>
+    <dictionary>
+      <item>
+        <from>@S</from>
+        <to>S</to>
+      </item>
+      <item>
+        <from>@r</from>
+        <to>r</to>
+      </item>
+      <item>
+        <from>@n1</from>
+        <to>n</to>
+      </item>
+	  <item>
+        <from>@n</from>
+        <to>n</to>
+      </item>
+	   <item>
+        <from>@a</from>
+        <to>a</to>
+      </item>
+        </dictionary>
+  <body>
+
+    <p>In this explainer, we will learn how to calculate the sum of an infinite geometric sequence.</p>
+    
+    <p>A geometric sequence is a sequence that has a common ratio between consecutive terms. We are able to calculate the value of the common ratio by dividing any term by the term that precedes it.</p>
+
+    <p>For instance, the following sequence is geometric: <latex>\begin{align*}1,3,9,27,81, \ldots .\end{align*}</latex></p>
+
+    <p>This sequence has a common ratio of 3 since each term can be calculated by multiplying the previous term by 3.</p>
+
+    <p>If we define the first term in the general geometric sequence as <latex>$@a$</latex>, and the common ratio as <latex>$@r$</latex>, we create the following sequence: <latex>\begin{align*}@a, @a@r, @a@r^2, @a@r^3, @a@r^4 \ldots .\end{align*}</latex></p>
+
+    <p>We now notice that the exponent of <latex>$@r$</latex> in each term is one less than the term number, giving us a general term <latex>$@a@r^{@n-1}$</latex>.</p>
+
+    <p>Look at what happens when we divide a term by the term that precedes it: <latex>\begin{align*}\frac{@a@r}{@a}=\frac{@a@r^2}{@a@r}=@r.\end{align*}</latex></p>
+
+    <p>No matter which pair of terms we choose, their quotient is always <latex>$@r$</latex>, the common ratio.</p>
+
+    <p>Let&#x2019;s generalize this.</p>
+
+    <sidebar type="definition">
+      <title>Definition:</title>
+      <p>A geometric sequence is a sequence that has a common ratio between consecutive terms. The general term, <latex>$\nagwaSeqTerm{@n}$</latex>, of a geometric sequence with first term <latex>$@a$</latex> and common ratio <latex>$@r$</latex> is given by, <latex>\begin{align*}\nagwaSeqTerm{@n}=@a@r^{@n-1}.\end{align*}</latex></p>
+      <p>A geometric series is the sum of a given number of terms of a geometric sequence. A series can be finite or infinite.</p>
+    </sidebar>
+
+    <sidebar type="definition">
+      <title>Definition:</title>
+      <p>The common ratio, <latex>$@r$</latex>, of a geometric sequence whose <latex>$@n1$</latex>th term is <latex>$\nagwaSeqTerm{@n}$</latex> is given by, <latex>\begin{align*}@r=\frac{\nagwaSeqTerm{{@n+1}}}{\nagwaSeqTerm{@n}}.\end{align*}</latex></p>
+
+      <p>Alternatively, it can be also given by <latex>\begin{align*}@r=\frac{\nagwaSeqTerm{@n}}{\nagwaSeqTerm{{@n-1}}}.\end{align*}</latex></p>
+    </sidebar>
+
+    <p>Now, let&#x2019;s go  back to our earlier example of a geometric sequence: <latex>\begin{align*}1,3,9,27, 81,\ldots .\end{align*}</latex></p>
+
+    <p>We notice that as the term number, <latex>$@n$</latex>, increases, the value of the term itself, <latex>$\nagwaSeqTerm{@n}$</latex>, grows exponentially larger. We might infer, then, that if we were to calculate the sum of a large number of terms, our result would be particularly large. In fact, as <latex>$@n$</latex> approaches infinity for this sequence, the sum of the terms, <latex>$@S_@n$</latex>, will also approach infinity.</p>
+
+    <p>This is not always the case though. In fact, somewhat counterintuitively, some infinite geometric sequences <i>do</i> have a finite sum. We might see these sorts of sequences when considering fractal geometry, such as calculating the area of a <i>Koch snowflake</i>, or when converting recurring decimals to their equivalent fractional form.</p>
+
+    <p>When an infinite geometric sequence has a finite sum, we say that the series (this is just the sum of all the terms) is <i>convergent</i>. In order for a geometric series to be convergent, we need the successive terms to get exponentially smaller until they approach zero. For this to happen, the common ratio must be in the interval
+      <latex>$\nagwaInterval{(-1, 1)}$</latex>.</p>
+
+    <p>For instance, the following sequence has a common ratio of <latex>$\frac{1}{2}$</latex> and is convergent; as <latex>$@n$</latex> approaches infinity, <latex>$\nagwaSeqTerm{@n}$</latex> approaches zero, meaning we can find the sum of the infinite sequence: <latex>\begin{align*}8,4,2,1,\frac{1}{2},\ldots.\end{align*}</latex></p>
+
+    <sidebar type="definition">
+      <title>Definition:</title>
+      <p>An infinite geometric series is said to be convergent if the absolute value of the common ratio, <latex>$@r$</latex>, is less than 1: <latex>\begin{align*}\left \vert @r \right \vert &lt; 1.\end{align*}</latex></p>
+    </sidebar>
+
+    <p>To find a formula for the sum of the terms in an infinite geometric sequence, let&#x2019;s first consider the finite geometric series with first term <latex>$@a$</latex> and common ratio <latex>$@r$</latex> with <latex>$@n$</latex> terms: <latex>\begin{align*}@S_@n = @a + @a@r + @a@r^2 + @a@r^3 + \cdots + @a@r^{@n - 1}.\end{align*}</latex></p>
+
+    <p>Multiplying this equation by <latex>$@r$</latex> gives, <latex>\begin{align*}@r@S_@n = @a@r + @a@r^2 + @a@r^3 + @a@r^4 + \cdots + @a@r^@n.\end{align*}</latex></p>
+
+    <p>We can now subtract the second equation from the first and factorize fully. Notice that when we subtract the terms on the right-hand side, most of the terms become zero: <latex>\begin{align*}@S_@n - @r@S_@n &amp;= @a - @a@r^@n \\ @S_@n\left(1 - @r\right) &amp;= @a\left(1 - @r^@n\right).\end{align*}</latex></p>
+
+    <p>Dividing both sides of this equation by <latex>$1-@r$</latex>, we derive the formula for the sum of the first <latex>$@n$</latex> terms of a geometric series with first term <latex>$@a$</latex> and common ratio <latex>$@r$</latex>: <latex>\begin{align*}@S_@n=\frac{@a\left(1-@r^@n\right)}{1-@r}.\end{align*}</latex></p>
+
+    <p>We stated earlier that for a convergent geometric series, <latex>$-1 &lt; @r &lt; 1$</latex>.</p>
+
+    <p>This means that as <latex>$@n$</latex> approaches infinity, <latex>$@r^@n$</latex> must approach zero.</p>
+
+    <p>In other words, if <latex>$\left \vert @r \right \vert &lt; 1$</latex>, then <latex>$\lim_{@n \rightarrow \infty}@r^@n=0$</latex>.</p>
+
+    <p>We can consider what happens with our convergent geometric series as <latex>$@n$</latex> approaches infinity. For <latex>$\left \vert @r \right \vert &lt; 1$</latex>, <latex>\begin{align*}\lim_{@n \rightarrow \infty}\frac{@a\left(1-@r^@n\right)}{1-@r} &amp;= \frac{@a\left(1-0\right)}{1-@r} \\ &amp;= \frac{@a}{1-@r}.\end{align*}</latex></p>
+
+    <p>This is sometimes called the sum to infinity of a geometric series.</p>
+
+    <sidebar type="definition">
+      <title>Definition: The Sum of an Infinite Geometric Sequence</title>
+      <p>If the common ratio, <latex>$@r$</latex>, satisfies <latex>$\left \vert @r \right \vert &lt; 1$</latex>, then the sum of an infinite geometric series with first term <latex>$@a$</latex> is <latex>\begin{align*}@S_\infty = \frac{@a}{1-@r}.\end{align*}</latex></p>
+    </sidebar>
+
+    <p>Let&#x2019;s now look at a question that requires us to apply our knowledge of common ratios in geometric sequences and conditions for convergence of these series, and calculate the value of a convergent infinite geometric series.</p>
+
+    <example>
+      <title>Finding the Sum of an Infinite Geometric Series</title>
+      <question id="746158754762" instance_number="1">
+        <mcq>
+          <stem>
+            <p>Find the sum of the geometric series <latex>$\frac{13}{2}+\frac{13}{4}+\frac{13}{8}+\cdots$</latex>.</p>
+          </stem>
+        </mcq>
+      </question>
+      <answer>
+        <p>We know that if the common ratio, <latex>$@r$</latex>, satisfies <latex>$\left \vert @r \right \vert &lt; 1$</latex>, then the sum of an infinite geometric sequence with first term <latex>$@a$</latex> is <latex>\begin{align*}@S_\infty = \frac{@a}{1-@r}.\end{align*}</latex></p>
+
+        <p>We can see that the first term is <latex>$\frac{13}{2}$</latex>, so we will need to calculate the common ratio, <latex>$@r$</latex>. We find this by dividing a term by the term that precedes it, so we will use the first two terms: <latex>\begin{align*}@r &amp;=\frac{13}{4} \div \frac{13}{2} \\ &amp;= \frac{1}{2}.\end{align*}</latex></p>
+
+        <p>We can see that the absolute value of the common ratio is less than 1 and so we can find the sum of this series by letting <latex>$@a=\frac{13}{2}$</latex> and <latex>$@r=\frac{1}{2}$</latex>: <latex>\begin{align*}@S_\infty &amp;= \frac{\frac{13}{2}}{1-\frac{1}{2}}\\&amp;=\frac{13}{2} \div \frac{1}{2} \\&amp;=13.\end{align*}</latex></p>
+
+        <p>The sum of the series is 13.</p>
+      </answer>
+    </example>
+
+    <p>In our next example, we will see how to apply this technique when dealing with radical ratios.</p>
+
+    <example>
+      <title>Determining the Common Ratio of an Infinite Geometric Sequence and Finding Its Sum If it Exists</title>
+      <question id="789143604282" instance_number="1">
+        <mcq>
+          <stem>
+            <p>Consider the series <latex>$160+\frac{160}{\sqrt{2}}+80+\frac{80}{\sqrt{2}}+40+\frac{40}{\sqrt{2}}+\cdots$</latex>.</p>
+
+            <p>The series is geometric. What is its common ratio?</p>
+
+            <p>Is this series convergent? If yes, what is its sum?</p>
+          </stem>
+        </mcq>
+      </question>
+      <answer>
+        <p><b>Part 1</b></p>
+        <p>The common ratio in a geometric sequence, <latex>$@r$</latex>, is found by dividing a term in the series by the term that precedes it. Let&#x2019;s choose the first two terms: <latex>\begin{align*}\frac{160}{\sqrt{2}} \div 160 = \frac{1}{\sqrt{2}}.\end{align*}</latex></p>
+
+        <p>The common ratio is <latex>$\frac{1}{\sqrt{2}}$</latex>.</p>
+
+        <p>Note that we would get the same result if we divided the third term by the second, or indeed any term by the term that precedes it!</p>
+
+        <p><b>Part 2</b></p>
+        <p>A geometric series is convergent if <latex>$\left \vert @r \right \vert &lt; 1$</latex>, or <latex>$-1 &lt; @r &lt; 1$</latex>.</p>
+
+        <p>In this case, <latex>$-1 &lt; \frac{1}{\sqrt{2}} &lt; 1$</latex>, meaning that this series is convergent. We can therefore find the sum of the series with first term <latex>$@a$</latex> and common ratio <latex>$@r$</latex> by applying the formula <latex>\begin{align*}@S_\infty = \frac{@a}{1-@r}\end{align*}</latex> with <latex>$@a = 160$</latex> and <latex>$@r = \frac{1}{\sqrt{2}}$</latex>: <latex>\begin{align*}@S_\infty = \frac{160}{1-\frac{1}{\sqrt{2}}}.\end{align*}</latex></p>
+
+        <p>To simplify <latex>$1-\frac{1}{\sqrt{2}}$</latex>, we create a common denominator of <latex>$\sqrt{2}$</latex>: <latex>\begin{align*}1-\frac{1}{\sqrt{2}} &amp;= \frac{\sqrt{2}}{\sqrt{2}}-\frac{1}{\sqrt{2}} \\ &amp;= \frac{\sqrt{2}-1}{\sqrt{2}}.\end{align*}</latex></p>
+
+        <p>The sum of the series is now <latex>\begin{align*}@S_\infty &amp;= \frac{160}{\frac{\sqrt{2}-1}{\sqrt{2}}} \\ &amp;= 160 \times \frac{\sqrt{2}}{\sqrt{2}-1} \\ &amp;= \frac{160\sqrt{2}}{\sqrt{2}-1}.\end{align*}</latex></p>
+
+        <p>To finish, we must remember to rationalize the denominator by multiplying by the <i>conjugate</i> of <latex>$\sqrt{2}-1$</latex>. The conjugate is found by changing the sign between the two terms: <latex>\begin{align*}@S_\infty &amp;= \frac{160 \sqrt{2}}{\sqrt{2}-1} \times \frac{\sqrt{2}+1}{\sqrt{2}+1} \\ &amp;=\frac{160\sqrt{2}\left(\sqrt{2}+1\right)}{\left(\sqrt{2}-1\right)\left(\sqrt{2}+1\right)} \\&amp;=\frac{320+160\sqrt{2}}{1}.\end{align*}</latex></p>
+
+        <p>Factorizing this expression, we find <latex>\begin{align*}@S_\infty = 160\left(2+\sqrt{2}\right).\end{align*}</latex></p>
+
+        <p>Yes, the series is convergent, with an infinite sum of <latex>$160\left(2 + \sqrt{2}\right)$</latex>.</p>
+      </answer>
+    </example>
+
+    <p>In our previous two examples, we established the existence of a sum and we calculated that sum based on the first few terms of the series. We can also use a formula for the <latex>$@n1$</latex>th term of a geometric sequence to achieve the same result.</p>
+
+    <example>
+      <title>Finding the Sum of an Infinite Number of Terms of a Geometric Sequence given Its General Term</title>
+      <question id="529106895260" instance_number="1">
+        <mcq>
+          <stem>
+            <p>Find the sum of the terms of the infinite geometric sequence starting at <latex>$\nagwaSeqTerm{1}$</latex> with <latex>$@n1$</latex>th term <latex>$\nagwaSeqTerm{@n} = 3 × 14^{1-@n}$</latex>.</p>
+          </stem>
+        </mcq>
+      </question>
+      <answer>
+        <p>The general term of a geometric series with first term <latex>$@a$</latex> and common ratio <latex>$@r$</latex> is <latex>\begin{align*}\nagwaSeqTerm{@n} = @a@r^{@n-1}.\end{align*}</latex></p>
+
+        <p>Comparing this to our sequence, we see that they do not quite match. Instead, we can use the <latex>$@n1$</latex>th term formula we were given to generate the first two terms.</p>
+
+        <p>When <latex>$@n = 1$</latex>, <latex>\begin{align*}\nagwaSeqTerm{1} &amp;= 3 \times 14^{1-1} \\&amp;=3 \times 14^0 \\&amp;=3.\end{align*}</latex></p>
+
+        <p>When <latex>$@n = 2$</latex>, <latex>\begin{align*}\nagwaSeqTerm{2}&amp;=3 \times 14^{1-2}\\&amp;=3 \times 14^{-1}\\&amp;=\frac{3}{14}.\end{align*}</latex></p>
+
+        <p>The first term is therefore 3, and the common ratio is <latex>$\frac{3}{14} \div 3 = \frac{1}{14}$</latex>.</p>
+        
+        <p>Since the common ratio is in the interval <latex>$\nagwaInterval{(-1, 1)}$</latex>, the series is convergent and so we can find its sum by using the formula <latex>\begin{align*}@S_\infty = \frac{@a}{1-@r}\end{align*}</latex> with <latex>$@a = 3$</latex> and <latex>$@r = \frac{1}{14}$</latex>: <latex>\begin{align*}@S_\infty &amp;= \frac{3}{1-\frac{1}{14}} \\ &amp;=3 \div \frac{13}{14} \\ &amp;=\frac{42}{13}.\end{align*}</latex></p>
+      </answer>
+    </example>
+
+    <p>As previously mentioned, the application of this process goes beyond just a given series. We can, in fact, represent a recurring decimal as a fraction by thinking about the decimal as a geometric series.</p>
+
+    <example>
+      <title>Recurring Decimals</title>
+      <question id="395134069783" instance_number="1">
+        <mcq>
+          <stem>
+            <p>By finding the sum of an infinite geometric sequence, express <latex>$\nagwaRD{0.375}{3,5}$</latex> as a common fraction.</p>
+          </stem>
+        </mcq>
+      </question>
+      <answer>
+        <p>The recurring decimal <latex>$\nagwaRD{0.375}{3,5} = 0.375375375375 \ldots $</latex>.</p>
+
+        <p>This means we can split it into <latex>$0.375 + 0.000375 + 0.000000375 + \cdots$</latex> and then write each term as a fraction: <latex>\begin{align*}\nagwaRD{0.375}{3,5} = \frac{375}{1000}+\frac{375}{1000000}+\frac{375}{1000000000}+\cdots.\end{align*}</latex></p>
+
+        <p>This is a geometric series with first term <latex>$\frac{375}{1000}$</latex> and common ratio <latex>$\frac{1}{1000}$</latex>. Since the common ratio is in the interval <latex>$\nagwaInterval{(-1, 1)}$</latex>, we can say that this series is convergent and thus find its sum.</p>
+
+        <p>Using the formula <latex>\begin{align*}@S_\infty = \frac{@a}{1-@r}\end{align*}</latex> with <latex>$@a=\frac{375}{1000}$</latex> and <latex>$@r=\frac{4}{1000}$</latex> gives <latex>\begin{align*}@S_\infty &amp;= \frac{\frac{375}{1000}}{1-\frac{1}{1000}} \\ &amp;= \frac{375}{1000} \div \frac{999}{1000} \\&amp;=\frac{375}{999}.\end{align*}</latex></p>
+
+        <p>Simplifying fully, we see that the recurring decimal <latex>$\nagwaRD{0.375}{3,5}$</latex> is equivalent to <latex>$\frac{125}{333}$</latex>.</p>
+      </answer>
+    </example>
+
+    <p>Let&#x2019;s now consider how this process would differ for a recurring decimal whose digits do not <i>all</i> recur.</p>
+
+    <example>
+      <title>Recurring Decimals</title>
+      <question id="217194139025" instance_number="1">
+        <mcq>
+          <stem>
+            <p>By finding the sum of an infinite geometric sequence, express <latex>$\nagwaRD{0.43}{4}$</latex> as a common fraction.</p>
+          </stem>
+        </mcq>
+      </question>
+      <answer>
+        <p>The recurring decimal <latex>$\nagwaRD{0.43}{4}=0.4333333 \ldots$</latex>.</p>
+
+        <p>This means we can split it into <latex>\begin{align*}0.4+\nagwaRD{0.03}{4} = 0.4 + 0.03+0.003+0.0003+ \cdots.\end{align*}</latex></p>
+
+        <p>By considering the sum <latex>$0.03+0.003+0.0003+\cdots$</latex>, we can see that we have a geometric series with a first term <latex>$@a=0.03$</latex>. The common ratio is <latex>$\frac{0.003}{0.03}=\frac{1}{10}$</latex>.</p>
+
+        <p>Since the absolute value of this common ratio is less than 1, this series is convergent and so we can find its sum.</p>
+
+        <p>Using the formula <latex>\begin{align*}@S_\infty=\frac{@a}{1-@r}\end{align*}</latex> with <latex>$@a = 0.03$</latex> and <latex>$@r = \frac{1}{10}$</latex> gives <latex>\begin{align*}@S_\infty &amp;= \frac{0.03}{1-\frac{1}{10}} \\&amp;= 0.03 \div \frac{9}{10} \\&amp;=\frac{3}{90}.\end{align*}</latex></p>
+
+        <p>Simplifying fully, we see that that the recurring decimal <latex>$\nagwaRD{0.03}{4}$</latex> is equivalent to <latex>$\frac{1}{30}$</latex>.</p>
+
+        <p>This means that <latex>\begin{align*}\nagwaRD{0.43}{4} &amp;=0.4 +\frac{1}{30} \\&amp;=\frac{13}{30}.\end{align*}</latex></p>
+
+        <p>As a common fraction, <latex>$\nagwaRD{0.43}{4}$</latex> is <latex>$\frac{13}{30}$</latex>.</p>
+      </answer>
+    </example>
+
+    <p>In our next example, we will look at how to find the infinite sum of a geometric series given the value of two of its terms. This will involve applying the formula for the general term of a geometric sequence and then working backward to calculate the value of the common ratio.</p>
+
+    <example>
+      <title>Finding the Sum of an Infinite Geometric Sequence given the Values of Two Terms</title>
+      <question id="424186867210" instance_number="1">
+        <mcq>
+          <stem>
+            <p>Find the sum of an infinite geometric sequence given the first term is 171 and the fourth term is <latex>$\frac{171}{64}$</latex>.</p>
+          </stem>
+        </mcq>
+      </question>
+      <answer>
+        <p>A geometric series is convergent if <latex>$\left \vert @r \right \vert &lt; 1$</latex>, or <latex>$-1 &lt; @r &lt; 1$</latex>, where <latex>$@r$</latex> is the common ratio.</p>
+
+        <p>In this case, the sum of an infinite geometric sequence with first term <latex>$@a$</latex> is <latex>\begin{align*}@S_\infty = \frac{@a}{1-@r}.\end{align*}</latex></p>
+
+        <p>Notice that we have been given the value of the first and fourth terms, so we will need to use this information to calculate the common ratio.</p>
+
+        <p>We will use the formula for the <latex>$@n1$</latex>th term of a geometric sequence with <latex>$@a = 171$</latex> and <latex>$\nagwaSeqTerm{4} = \frac{171}{64}$</latex>: <latex>\begin{align*}\nagwaSeqTerm{@n} &amp;=@a@r^{@n-1} \\ \frac{171}{64} &amp;= 171@r^{4-1} \\ \frac{171}{64} &amp;=171@r^3.\end{align*}</latex></p>
+
+        <p>To solve for <latex>$@r$</latex>, we will divide through by 171 and find the cube root of both sides of the equation: <latex>\begin{align*}\frac{1}{64} &amp;= @r^3 \\ @r &amp;= \frac{1}{4}.\end{align*}</latex></p>
+
+        <p>Since the absolute value of this common ratio is less than 1, this series is convergent and so we can find its sum.</p>
+
+        <p>Using the formula <latex>\begin{align*}@S_\infty=\frac{@a}{1-@r}\end{align*}</latex> with <latex>$@a = 171$</latex> and <latex>$@r =\frac{1}{4}$</latex> gives <latex>\begin{align*}@S_\infty&amp;=\frac{171}{1-\frac{1}{4}} \\ &amp;=171 \div \frac{3}{4} \\ &amp;=228.\end{align*}</latex></p>
+
+        <p>The sum of the infinite geometric sequence is 228.</p>
+      </answer>
+    </example>
+
+    <p>In our final example, we look at how we can apply the formula for the infinite sum of a geometric series to calculate the first term.</p>
+
+    <example>
+      <title>Finding the First Term of an Infinite Geometric Sequence given Its Common Ratio and the Sum of the Terms</title>
+      <question id="520147272365" instance_number="1">
+        <mcq>
+          <stem>
+            <p>Find the first term of the infinite geometric sequence where the common ratio is <latex>$\frac{1}{4}$</latex> and the sum is <latex>$98\frac{6}{7}$</latex>.</p>
+          </stem>
+        </mcq>
+      </question>
+      <answer>
+        <p>We know that if the common ratio, <latex>$@r$</latex>, satisfies <latex>$\left \vert @r \right \vert &lt; 1$</latex>, then the sum of an infinite geometric sequence with first term <latex>$@a$</latex> is <latex>\begin{align*}@S_\infty=\frac{@a}{1-@r}.\end{align*}</latex></p>
+
+        <p>Letting <latex>$@r=\frac{1}{4}$</latex>, we see that the absolute value of <latex>$@r$</latex> does indeed satisfy the requirement for a series to be convergent.</p>
+
+        <p>Letting <latex>$@S_\infty=98\frac{6}{7}$</latex>, our formula for the sum to infinity becomes <latex>\begin{align*}98\frac{6}{7} &amp;=\frac{@a}{1-\frac{1}{4}} \\ 98\frac{6}{7} &amp;= \frac{@a}{\frac{3}{4}}.\end{align*}</latex></p>
+
+        <p>To solve for <latex>$@a$</latex>, the first term, we multiply both sides of this equation by <latex>$\frac{3}{4}$</latex>: <latex>\begin{align*}@a &amp;=98\frac{6}{7} \times \frac{3}{4} \\ &amp;=\frac{692}{7} \times \frac{3}{4} \\ &amp;=\frac{519}{7}.\end{align*}</latex></p>
+
+        <p>The first term of the infinite geometric sequence is <latex>$\frac{519}{7}$</latex>.</p>
+
+        
+      </answer>
+    </example>
+    
+    
+ 
+    <sidebar type="definition">
+      <title>Key Points</title>
+        <ul>
+          <li>An infinite geometric series is said to be convergent if the absolute value of the common ratio, <latex>$@r$</latex>, is less than 1: <latex>\begin{align*}\left \vert @r \right \vert &lt; 1.\end{align*}</latex></li>
+
+          <li>For a convergent geometric series with first term <latex>$@a$</latex>, the infinite sum is given by <latex>\begin{align*}@S_\infty=\frac{@a}{1-@r}.\end{align*}</latex></li>
+
+          <li>By expressing a recurring decimal as a geometric sequence, we can find its sum and write it as a common fraction.</li>
+        </ul>
+    </sidebar>
+    
+    
+  </body>
+</explainer>

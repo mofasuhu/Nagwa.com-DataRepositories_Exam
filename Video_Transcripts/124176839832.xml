@@ -1,0 +1,416 @@
+<video video_id="124176839832">
+  <video_creator video_creator_id="907139471258">
+    <first_name>Tim</first_name>
+    <last_name>Burnham</last_name>
+    <email>tim.burnham@nagwa.com</email>
+  </video_creator>
+  <video_type>Lesson</video_type>
+  <subject>Mathematics</subject>
+  <publication_date>2017-08-22</publication_date>
+  <duration>896080.00</duration>
+  <language>
+    <source>en</source>
+  </language>
+  <title>Adding and Subtracting Vectors</title>
+  <seo_meta_description>Visualise the results of addition, subtraction, and scalar multiplication of vectors.</seo_meta_description>
+  <transcript>
+    <p>
+      <s start_time ="00:00:02.690" end_time="00:00:07.820">In this video, we’re gonna look at
+                what happens when you add or subtract vectors to or from each other.</s>
+      <s start_time ="00:00:08.560" end_time="00:00:18.140">We know that vectors can be
+                represented by line segments with a specific length and direction, and using these
+                will really help us to visualise vector addition and subtraction.</s>
+    </p>
+    <p>
+      <s start_time ="00:00:21.140" end_time="00:00:34.600">The addition process amounts to
+                laying vectors end-to-end and calculating the components of the resultant vector by
+                examining the difference between the coordinates of the initial point of the first
+                vector and the terminal point of the last vector in the chain.</s>
+      <s start_time ="00:00:37.450" end_time="00:00:38.780">So let’s see an example of
+                that.</s>
+    </p>
+    <question id="697140938979" media_identifier="250162493740">
+      <publication_date>2020-07-21</publication_date>
+      <question_title>Adding Components of Two Vectors in 2D</question_title>
+      <question_seo_meta_description>𝑎 = 〈3, 2〉, 𝑏 = 〈4, −1〉, find 𝑎 + 𝑏.</question_seo_meta_description>
+      <p>
+        <s start_time ="00:00:39.300" end_time="00:00:44.910">We’ve got 𝑎 which is the
+                    vector three, two and 𝑏 which is the vector four, negative one.</s>
+        <s start_time ="00:00:45.240" end_time="00:00:47.360">And we want to add those two
+                    vectors together.</s>
+        <s start_time ="00:00:49.230" end_time="00:01:10.360">So just quickly sketching those
+                    out, here we’ve got vector 𝑎 which has an 𝑥-component of positive three and a
+                    𝑦-component of positive two — so we’ve gone three in that direction, two in
+                    that direction — and 𝑏, which has an 𝑥-component of four and a 𝑦-component of
+                    negative one.</s>
+      </p>
+      <p>
+        <s start_time ="00:01:11.070" end_time="00:01:19.800">So if we add these two vectors,
+                    it’s like laying them end to end and then working out how we get from the
+                    beginning of the first vector to the end of the last vector.</s>
+        <s start_time ="00:01:21.480" end_time="00:01:30.300">So to get from here to here,
+                    we’ve taken a journey of three in the 𝑥-direction here and another four in the
+                    𝑥-direction here.</s>
+        <s start_time ="00:01:31.670" end_time="00:01:41.490">So to find the 𝑥-component of
+                    the resultant vector, 𝑎 plus 𝑏, we simply add the 𝑥-component of 𝑎 to the
+                    𝑥-component of 𝑏.</s>
+      </p>
+      <p>
+        <s start_time ="00:01:43.560" end_time="00:01:45.470">And now let’s visit the
+                    𝑦-components.</s>
+        <s start_time ="00:01:45.470" end_time="00:01:54.000">So to get from here to here
+                    again, we’ve done our positive two to take us up to the top of the diagram but
+                    then we came back one.</s>
+        <s start_time ="00:01:54.080" end_time="00:01:56.320">So we’ve got to add those two
+                    components together.</s>
+        <s start_time ="00:01:57.720" end_time="00:02:00.270">So that’s two plus negative
+                    one.</s>
+        <s start_time ="00:02:02.320" end_time="00:02:06.760">And three and four makes seven,
+                    so the resultant 𝑥-component is seven.</s>
+        <s start_time ="00:02:07.000" end_time="00:02:12.210">And two add negative one is
+                    one, so the resultant 𝑦-component is one.</s>
+      </p>
+      <p>
+        <s start_time ="00:02:13.430" end_time="00:02:20.270">So addition of vectors is just
+                    a case of adding the 𝑥-components and adding the 𝑦-components.</s>
+      </p>
+    </question>
+    <p>
+      <s start_time ="00:02:23.700" end_time="00:02:25.840">Now let’s add three vectors
+                together.</s>
+    </p>
+    <question id="" media_identifier="" pause_reason="not_suitable">
+      <publication_date />
+      <question_title />
+      <question_seo_meta_description />
+      <p>
+        <s start_time ="00:02:26.370" end_time="00:02:34.680">So we’ve got vector 𝑎, which
+                    is four minus two; 𝑏 is one, six; and 𝑐 is negative five, negative four.</s>
+        <s start_time ="00:02:34.710" end_time="00:02:37.350">And we’ve got to add all three
+                    of those vectors together.</s>
+      </p>
+      <p>
+        <s start_time ="00:02:37.730" end_time="00:02:39.680">So first let’s just sketch out
+                    a diagram.</s>
+        <s start_time ="00:02:40.960" end_time="00:02:48.620">Well here’s vector 𝑎 going
+                    positive four in the 𝑥-direction and negative two in the 𝑦-direction.</s>
+        <s start_time ="00:02:50.160" end_time="00:02:56.820">There’s 𝑏 going positive one
+                    in the 𝑥-direction and positive six in the 𝑦-direction.</s>
+        <s start_time ="00:02:59.660" end_time="00:03:09.870">And lastly we lay 𝑐 onto the
+                    end of 𝑏, and we’ve got negative five in the 𝑥-direction and negative four in
+                    the 𝑦-direction.</s>
+        <s start_time ="00:03:11.520" end_time="00:03:21.380">And we can see that when we’ve
+                    added 𝑎, 𝑏, and 𝑐, the initial point of the first vector 𝑎 is in exactly the
+                    same place as the terminal point of the last vector 𝑐.</s>
+      </p>
+      <p>
+        <s start_time ="00:03:23.840" end_time="00:03:29.060">So although we’ve gone around
+                    the houses, we started off here and we’ve ended up in exactly the same place
+                    here.</s>
+        <s start_time ="00:03:30.780" end_time="00:03:33.540">Okay let’s add those
+                    𝑥-components together.</s>
+        <s start_time ="00:03:33.870" end_time="00:03:37.830">So we’ve gone four and then
+                    another one, and then we’ve taken away five.</s>
+        <s start_time ="00:03:38.990" end_time="00:03:44.340">And in the 𝑦-direction, we
+                    went negative two then added six and then finally took away four.</s>
+        <s start_time ="00:03:45.510" end_time="00:03:51.960">And four add one take away five
+                    is zero, and negative two add six take away four is also zero.</s>
+      </p>
+      <p>
+        <s start_time ="00:03:53.870" end_time="00:03:58.030">So the resultant vector by
+                    doing the adding up of the components is zero, zero.</s>
+        <s start_time ="00:03:58.350" end_time="00:04:03.610">And that tallies with what we
+                    knew at the beginning: that we started off and we ended in exactly the same
+                    position.</s>
+        <s start_time ="00:04:03.950" end_time="00:04:12.800">So the resultant vector, we
+                    haven’t moved in the 𝑥-direction we haven’t moved in the 𝑦-direction; our
+                    initial point and our terminal point are coincident.</s>
+      </p>
+    </question>
+    <p>
+      <s start_time ="00:04:14.770" end_time="00:04:23.560">Having looked at some basic
+                addition of vectors, let’s take a quick look at repeated addition of vectors, or as
+                it’s more properly called multiplying vectors by scalars.</s>
+      <s start_time ="00:04:25.240" end_time="00:04:28.190">So let’s start up with 𝑎 is equal
+                to the vector two, three.</s>
+      <s start_time ="00:04:28.500" end_time="00:04:32.440">Let’s say we wanted to find out the
+                what the value of two 𝑎 was.</s>
+      <s start_time ="00:04:32.760" end_time="00:04:35.460">Well two 𝑎 is just 𝑎 plus 𝑎.</s>
+      <s start_time ="00:04:36.780" end_time="00:04:43.260">And as we’ve just seen, to add two
+                vectors together you just add the components together, so two plus two and three
+                plus three.</s>
+    </p>
+    <p>
+      <s start_time ="00:04:44.540" end_time="00:04:46.770">So yep we’re labouring the point
+                here a little bit.</s>
+      <s start_time ="00:04:47.000" end_time="00:04:52.030">But that means, we’ve got two lots
+                of the 𝑥-component and two lots of the 𝑦-component, so this two here.</s>
+      <s start_time ="00:04:52.060" end_time="00:04:58.300">We’ve multiplied each of the
+                components by two, which gives us the vector four, six.</s>
+      <s start_time ="00:05:00.050" end_time="00:05:04.500">Okay let’s think about three 𝑎
+                now, so that’s 𝑎 plus 𝑎 plus 𝑎.</s>
+    </p>
+    <p>
+      <s start_time ="00:05:04.850" end_time="00:05:06.780">Well I’m just gonna jump straight
+                to the stage.</s>
+      <s start_time ="00:05:06.780" end_time="00:05:18.310">When we’re multiplying the
+                components, because it’s three 𝑎 we’re multiplying the 𝑥-component by three and
+                the 𝑦-component by three, which gives us six, nine.</s>
+      <s start_time ="00:05:20.420" end_time="00:05:24.660">And let’s just look at one more
+                example: a fractional scalar, so a quarter.</s>
+      <s start_time ="00:05:25.020" end_time="00:05:29.010">So a quarter of 𝑎, we’re just
+                gonna multiply each component by a quarter.</s>
+      <s start_time ="00:05:30.250" end_time="00:05:33.270">So that’s a quarter of two and a
+                quarter of three.</s>
+      <s start_time ="00:05:34.950" end_time="00:05:38.590">So that gives us a half and
+                three-quarters as our components.</s>
+    </p>
+    <p>
+      <s start_time ="00:05:40.360" end_time="00:05:52.350">So just to summarise that, the
+                process of multiplying a vector by a scalar, we take the scalar and we just multiply
+                each component of the vector by that scalar to get our components of the resultant
+                vector.</s>
+      <s start_time ="00:05:55.410" end_time="00:05:57.860">So let’s start off with the same
+                vector 𝑎.</s>
+      <s start_time ="00:05:57.860" end_time="00:06:02.180">And now let’s have a look at
+                negative scalar multiplication, works in exactly the same way.</s>
+      <s start_time ="00:06:02.240" end_time="00:06:03.860">So let’s just see a couple of
+                examples.</s>
+    </p>
+    <p>
+      <s start_time ="00:06:05.460" end_time="00:06:07.800">Okay we’re trying to find negative
+                𝑎.</s>
+      <s start_time ="00:06:07.840" end_time="00:06:15.510">That just means minus one times 𝑎,
+                so we’re gonna take the scalar negative one and we’re gonna multiply both components
+                by negative one.</s>
+      <s start_time ="00:06:17.230" end_time="00:06:22.510">And that gives us an answer of
+                negative two and negative three.</s>
+      <s start_time ="00:06:25.610" end_time="00:06:28.670">And okay, let’s look at negative
+                two 𝑎.</s>
+      <s start_time ="00:06:30.190" end_time="00:06:37.360">So this time the scalar is negative
+                two and we’re gonna multiply each of our 𝑥- and 𝑦-components by negative two.</s>
+      <s start_time ="00:06:39.140" end_time="00:06:42.000">And that gives us an answer of
+                negative four, negative six.</s>
+    </p>
+    <p>
+      <s start_time ="00:06:44.000" end_time="00:06:58.490">Now it’s just worth taking a moment
+                to notice 𝑎 and negative 𝑎: the components have the same numbers, two- two and two
+                for the 𝑥-components and three and three for the 𝑦-components.</s>
+      <s start_time ="00:06:58.780" end_time="00:07:02.520">But the in the negative 𝑎, the
+                signs are the opposite signs.</s>
+      <s start_time ="00:07:02.520" end_time="00:07:05.290">In fact, what we’re doing is we’re
+                going exactly the opposite direction.</s>
+      <s start_time ="00:07:06.760" end_time="00:07:14.610">So vector 𝑎, we’re going positive
+                two in the 𝑥-direction and positive three in the 𝑦-direction; that’s this journey
+                here.</s>
+      <s start_time ="00:07:14.640" end_time="00:07:21.840">Negative 𝑎, we’re going negative
+                two in the 𝑥-direction and negative three in the 𝑦-direction.</s>
+    </p>
+    <p>
+      <s start_time ="00:07:23.340" end_time="00:07:29.370">So we’ve done the exact reverse
+                journey in the neg- in the negative direction, in the opposite direction.</s>
+      <s start_time ="00:07:29.670" end_time="00:07:37.720">So positive 𝑎 and negative 𝑎 are
+                the same length of line, the same angle of vector, but they’re just going in the
+                opposite direction.</s>
+    </p>
+    <p>
+      <s start_time ="00:07:40.200" end_time="00:07:44.810">Okay let’s look at a quick example
+                or two of subtracting some vectors.</s>
+    </p>
+    <question id="" media_identifier="" pause_reason="not_suitable">
+      <publication_date />
+      <question_title />
+      <question_seo_meta_description />
+      <p>
+        <s start_time ="00:07:44.810" end_time="00:07:48.730">So we’ve got vector 𝑎 is two,
+                    three and vector 𝑏 is four, negative one.</s>
+        <s start_time ="00:07:49.040" end_time="00:07:52.830">And we wanna calculate the
+                    resultant of vector 𝑎 take away vector 𝑏.</s>
+        <s start_time ="00:07:54.860" end_time="00:08:03.610">Well there’s different ways,
+                    you could just take the 𝑥-components of 𝑎 and subtract the 𝑥-components of 𝑏
+                    and the 𝑦-components of 𝑎 subtract the 𝑦-component of 𝑏 to get your
+                    resultant.</s>
+        <s start_time ="00:08:04.010" end_time="00:08:10.890">But I just like to suggest that
+                    we look at it in this slightly different way so 𝑎 take away 𝑏 is the same as
+                    𝑎 add the negative of 𝑏.</s>
+      </p>
+      <p>
+        <s start_time ="00:08:11.620" end_time="00:08:24.930">So when we write that out,
+                    we’ve got two plus the negative of four and we got three plus the negative of
+                    negative one, which looks a bit on odd on the page.</s>
+        <s start_time ="00:08:25.580" end_time="00:08:26.710">But there it is.</s>
+        <s start_time ="00:08:27.890" end_time="00:08:36.070">So two add negative four is
+                    negative two, and three add the negative of negative one, which is positive one,
+                    makes four.</s>
+      </p>
+      <p>
+        <s start_time ="00:08:38.020" end_time="00:08:45.950">Now this business of converting
+                    𝑎 minus 𝑏 into 𝑎 plus the negative of 𝑏 seems like we’re overcomplicated
+                    things.</s>
+        <s start_time ="00:08:46.280" end_time="00:08:51.050">But let’s just take a look at
+                    it visually first and see how that pans out.</s>
+        <s start_time ="00:08:51.540" end_time="00:08:55.450">So we’ve got here vector 𝑎,
+                    which I’m going across two and up three.</s>
+        <s start_time ="00:08:56.770" end_time="00:09:03.200">So if I was adding 𝑏, I’d be
+                    going right four and down one, but I’m adding the negative of 𝑏.</s>
+        <s start_time ="00:09:03.230" end_time="00:09:09.560">So adding the negative of 𝑏
+                    takes me from the end of 𝑎 left four, so we’re going four in that
+                    direction.</s>
+        <s start_time ="00:09:09.860" end_time="00:09:13.900">And the negative of negative
+                    one, we’re going up one in that direction.</s>
+      </p>
+      <p>
+        <s start_time ="00:09:15.060" end_time="00:09:31.300">So this idea of laying vectors
+                    end to end, thinking of taking away 𝑏 as adding negative 𝑏, means we can just
+                    lay down the negative vector to the end of 𝑎 and we can then look for this
+                    resultant vector, going from the beginning of 𝑎 to the end of 𝑏 here.</s>
+        <s start_time ="00:09:33.260" end_time="00:09:41.750">And when we do that, we were
+                    going negative two in this direction and up here positive four in that
+                    direction.</s>
+        <s start_time ="00:09:42.690" end_time="00:09:54.770">So when subtracting vectors, we
+                    can just subtract the components if you want to or we can add the negative of
+                    the components for the second vector, which helps us to visualise the vector
+                    diagram a bit more easily.</s>
+      </p>
+    </question>
+    <p>
+      <s start_time ="00:09:55.170" end_time="00:09:56.930">Let’s just take a look at one more
+                example.</s>
+      <s start_time ="00:09:57.770" end_time="00:09:59.810">So we’re gonna start off with the
+                same 𝑎 and 𝑏 vectors.</s>
+    </p>
+    <question id="" media_identifier="" pause_reason="not_suitable">
+      <publication_date />
+      <question_title />
+      <question_seo_meta_description />
+      <p>
+        <s start_time ="00:09:59.810" end_time="00:10:15.520">But this time we’re gonna
+                    calculate 𝑏 take away 𝑎, which is the same as 𝑏 add the negative of 𝑎, which
+                    gives us four add negative two and negative one add negative three.</s>
+        <s start_time ="00:10:17.050" end_time="00:10:19.860">So that’s a resultant vector of
+                    two, negative four.</s>
+      </p>
+      <p>
+        <s start_time ="00:10:19.860" end_time="00:10:21.790">Well let’s look at the diagram
+                    again.</s>
+        <s start_time ="00:10:23.170" end_time="00:10:39.750">Well first of all, vector 𝑏,
+                    we’re going positive four in the 𝑥-direction and negative one in the
+                    𝑦-direction and then adding the negative of 𝑎, that’s negative two in the
+                    𝑥-direction, so we’re coming back, negative two.</s>
+        <s start_time ="00:10:40.420" end_time="00:10:46.790">And negative of three so we’re
+                    gonna go down three — one, two, three — in the 𝑦-direction.</s>
+      </p>
+      <p>
+        <s start_time ="00:10:48.050" end_time="00:10:55.160">So we start off at the initial
+                    point of 𝑏; we add the negative of 𝑎; and we end up at the terminal point of
+                    𝑎.</s>
+        <s start_time ="00:10:55.460" end_time="00:10:58.100">So our resulting journey is
+                    this one here.</s>
+        <s start_time ="00:10:59.560" end_time="00:11:07.380">And in completing that journey,
+                    we went positive four in the 𝑥-direction but then we came back two, which gave
+                    us an 𝑥-component of two.</s>
+        <s start_time ="00:11:08.150" end_time="00:11:09.980">So this distance here is
+                    two.</s>
+        <s start_time ="00:11:10.480" end_time="00:11:19.960">And we went down one and then
+                    we went down another three, which gave us our 𝑦-component of negative four,
+                    which means we’ve come down here four.</s>
+        <s start_time ="00:11:20.830" end_time="00:11:29.160">So this vector here is 𝑏 take
+                    away 𝑎, 𝑏 subtract 𝑎, or 𝑏 plus negative 𝑎.</s>
+      </p>
+      <p>
+        <s start_time ="00:11:30.780" end_time="00:11:38.450">So just putting those two
+                    results side by side, 𝑎 take away 𝑏 was negative two four, and 𝑏 take away 𝑎
+                    was two negative four.</s>
+        <s start_time ="00:11:38.800" end_time="00:11:43.580">So they were both in the same
+                    position here, this was the position.</s>
+        <s start_time ="00:11:43.910" end_time="00:11:49.320">And this was the length of the
+                    vector, but one was going in this direction and the other was going in that
+                    direction.</s>
+      </p>
+      <p>
+        <s start_time ="00:11:49.320" end_time="00:11:53.780">So they’re the same vector, but
+                    in opposite directions; one vector is the negative of the other.</s>
+        <s start_time ="00:11:54.980" end_time="00:12:00.080">So vector 𝑎 minus 𝑏 is the
+                    negative of vector 𝑏 minus 𝑎.</s>
+        <s start_time ="00:12:00.080" end_time="00:12:07.730">And that makes sense because
+                    negative of 𝑏 is negative 𝑏 and the negative of negative 𝑎 is positive
+                    𝑎.</s>
+        <s start_time ="00:12:07.890" end_time="00:12:13.220">So algebraically, they mean the
+                    same thing; and in vector format, they mean the same thing as well.</s>
+      </p>
+    </question>
+    <p>
+      <s start_time ="00:12:16.350" end_time="00:12:17.850">Now let’s look at one last
+                problem.</s>
+    </p>
+    <question id="238170949567" media_identifier="158163675760">
+      <publication_date>2020-07-21</publication_date>
+      <question_title>Expressing Vectors in terms of 𝑢 and 𝑣</question_title>
+      <question_seo_meta_description>𝐴𝐵𝐶𝐷𝐸𝐹 is a regular hexagon. Express 𝐀𝐄 in terms of 𝐮 and 𝐯.</question_seo_meta_description>
+      <p>
+        <s start_time ="00:12:17.850" end_time="00:12:28.330">We’ve got a regular hexagon
+                    𝐴𝐵𝐶𝐷𝐸𝐹 and 𝐺 is the midpoint of that and we have to express 𝐴𝐸 in terms
+                    of vectors 𝑢 and 𝑣.</s>
+        <s start_time ="00:12:28.360" end_time="00:12:34.170">So the vector 𝑣 is from 𝐺 to
+                    𝐶 and the vector 𝑢 is from 𝐷 to 𝐶.</s>
+        <s start_time ="00:12:34.870" end_time="00:12:39.060">Now because this is a regular
+                    hexagon, we know that a number of these things are parallel.</s>
+        <s start_time ="00:12:39.490" end_time="00:12:55.980">So 𝐴𝐵 and 𝐸𝐷 and 𝐹𝐺 and
+                    𝐺𝐶 are all parallel; 𝐴𝐹 and 𝐵𝐺 and 𝐺𝐸 and 𝐶𝐷 are all parallel; and
+                    𝐸𝐹, 𝐷𝐺, 𝐺𝐴, and 𝐶𝐵 are all parallel.</s>
+      </p>
+      <p>
+        <s start_time ="00:12:56.760" end_time="00:13:05.780">So we know for example that
+                    vector 𝑢 runs from 𝐷 to 𝐶, or we can put in vector 𝑢 in some various
+                    different places in there as well.</s>
+        <s start_time ="00:13:07.410" end_time="00:13:11.060">So those distances are
+                    parallel, but they’re also the same length.</s>
+        <s start_time ="00:13:11.060" end_time="00:13:15.740">So they- we can pick the vector
+                    𝑢 up and place them in each of those locations.</s>
+        <s start_time ="00:13:16.670" end_time="00:13:26.680">And likewise, vector 𝑣,
+                    running from 𝐺 to 𝐶, that will also be vector 𝑣; that will also be vector 𝑣;
+                    and that will also be vector 𝑣.</s>
+      </p>
+      <p>
+        <s start_time ="00:13:28.150" end_time="00:13:30.490">So we got a few gaps on our
+                    hexagon here.</s>
+        <s start_time ="00:13:30.750" end_time="00:13:35.080">How would I get for example
+                    from 𝐺 to 𝐷 along this vector here?</s>
+        <s start_time ="00:13:35.340" end_time="00:13:40.220">Well I could go the
+                    straight-line route, but that doesn’t tell me anything in terms of 𝑢 and
+                    𝑣.</s>
+        <s start_time ="00:13:40.490" end_time="00:13:51.510">So I could also go by this
+                    other route; I could go along from 𝐺 to 𝐶, which is the vector 𝑣, and I could
+                    go from 𝐶 to 𝐷, which is the opposite way to 𝑢, so it’s a negative 𝑢.</s>
+      </p>
+      <p>
+        <s start_time ="00:13:53.060" end_time="00:13:58.900">So vector 𝐺𝐷 as we said is
+                    𝐺𝐶 plus 𝐶𝐷, which is 𝑣 plus the negative of 𝑢.</s>
+        <s start_time ="00:13:59.300" end_time="00:14:01.140">In other words, 𝑣 take away
+                    𝑢.</s>
+        <s start_time ="00:14:02.300" end_time="00:14:05.740">So let’s draw that in on the
+                    diagram then: 𝐺𝐷 is 𝑣 take away 𝑢.</s>
+        <s start_time ="00:14:06.080" end_time="00:14:14.110">And likewise, 𝐹𝐸 is parallel
+                    and the same length, so that is also 𝑣 minus 𝑢; A𝐺 is too; and so is
+                    𝐵𝐶.</s>
+      </p>
+      <p>
+        <s start_time ="00:14:15.830" end_time="00:14:30.700">So when you’re trying to
+                    summarise the journey from 𝐴 to 𝐸 in terms of 𝑢 and 𝑣, so all of these
+                    journeys between individual points on our hexagon are already in terms of 𝑢 and
+                    𝑣, so we just need to pick a convenient route.</s>
+        <s start_time ="00:14:30.700" end_time="00:14:38.680">So let’s go along here, which
+                    is a negative 𝑢 — it’s the opposite direction to a 𝑢 — and then down here,
+                    which is 𝑣 minus 𝑢.</s>
+        <s start_time ="00:14:38.870" end_time="00:14:39.830">We better tidy those up.</s>
+        <s start_time ="00:14:40.420" end_time="00:14:44.150">So when we write that out,
+                    we’ve got 𝑢 plus 𝑣 minus 𝑢.</s>
+        <s start_time ="00:14:45.340" end_time="00:14:49.560">So when we write that out,
+                    we’ve got a negative 𝑢 plus 𝑣 minus 𝑢.</s>
+        <s start_time ="00:14:50.060" end_time="00:14:55.450">And it doesn’t matter what
+                    route we took; however convoluted, would’ve still come up with that same answer
+                    for 𝐴𝐸.</s>
+      </p>
+    </question>
+  </transcript>
+</video>

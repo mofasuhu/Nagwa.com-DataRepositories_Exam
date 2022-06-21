@@ -1,0 +1,507 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<explainer id="979165921053" country="zz" currency="none" calendar="none" unit_system="si" language="en" dialect="british" publication_date="2021-01-19T11:40:03.7533373+00:00">
+  <title>The Equilibrium Constant for Concentration</title>
+  <seo_meta_description>In this explainer, we will learn how to construct and calculate the equilibrium constant for concentration.</seo_meta_description>
+  <source_id>187172546121</source_id>
+  <developer_name>Harry Shuttleworth</developer_name>
+  <developer_email>harry.shuttleworth@nagwa.com</developer_email>
+  <dictionary>
+    <item>
+      <from>@K</from>
+      <to>K</to>
+    </item>
+    <item>
+      <from>@c</from>
+      <to>c</to>
+    </item>
+    <item>
+      <from>@a</from>
+      <to>a</to>
+    </item>
+    <item>
+      <from>@b</from>
+      <to>b</to>
+    </item>
+    <item>
+      <from>@d</from>
+      <to>d</to>
+    </item>
+    <item symbol="false">
+      <from>@nounit</from>
+      <to>no unit</to>
+    </item>
+    <item symbol="false">
+      <from>@products</from>
+      <to>products</to>
+    </item>
+    <item symbol="false">
+      <from>@reactants</from>
+      <to>reactants</to>
+    </item>
+    <item>
+      <from>@longrightarrow</from>
+      <to>\longrightarrow</to>
+    </item>
+    <item>
+      <from>@x</from>
+      <to>x</to>
+    </item>
+    <item>
+      <from>@V</from>
+      <to>V</to>
+    </item>
+  </dictionary>
+  <body>
+    <p>In this explainer, we will learn how to construct and calculate the equilibrium 
+      constant for concentration.</p>
+    <p>We can quantify the equilibrium that exists between reactants and products in 
+      terms of their concentrations by calculating and using the equilibrium constant <latex>$@K_@c$</latex>. 
+      The equilibrium constant for concentration expresses a value related to the ratio 
+      between the concentration of the reactants and the concentration of the products 
+      at equilibrium. The equilibrium constant, as the name implies, relates to a 
+      closed system that does not allow any matter exchange with its surroundings; 
+      therefore, the concentrations of the products and reactants do not change once 
+      the system is at equilibrium.</p>
+    <sidebar type="definition">
+      <title>Definition: Closed System</title>
+      <p>It is a system that does not exchange matter but can exchange energy with its surroundings.</p>
+    </sidebar>
+    <p>In its simplest form, the equilibrium constant for concentration, <latex>$@K_@c$</latex>, can 
+      be written as
+      <latex>\begin{align*}@K_@c=\frac{[\text{@products}]}{[\text{@reactants}]}.\end{align*}</latex></p>
+    <p>If we extend this to the general equation
+      <chem style="displayed">\ch{A + B &lt;=&gt; C + D}</chem>
+      in which an equilibrium is formed between two reactants, <chem style="inline">\ch{A}</chem> and
+      <chem style="inline">\ch{B}</chem>, and two products, 
+      <chem style="inline">\ch{C}</chem> and <chem style="inline">\ch{D}</chem>, then <latex>$@K_@c$</latex> 
+      would be written as follows:
+      <chem style="displayed">@K_@c =\frac{\ch{[C][D]}}{\ch{[A][B]}}.</chem></p>
+    <p>Remember that, in chemistry, we use square brackets to indicate concentration, 
+      which is most commonly measured in moles (M), 
+      <quantity type="long"><value></value><unit>mole per decimeter^3</unit></quantity> 
+      (<quantity><value></value><unit>mole decimeter^-3</unit></quantity>), 
+      or <quantity type="long"><value></value><unit>mole per liter</unit></quantity> 
+      (<quantity><value></value><unit>mole per liter</unit></quantity>).</p>
+    <p>When writing equations for <latex>$@K_@c$</latex> from actual chemical equations, it is essential to 
+      take note of the stoichiometry. Let’s look closely at the equation for <latex>$@K_@c$</latex> for the 
+      equilibrium between nitrogen dioxide and dinitrogen tetroxide:
+      <chem style="displayed">{\textcolor{Red}{2}}\ch{NO2(\textit{g}) &lt;=&gt;  N2O4(\textit{g})} \quad
+        @K_@c=\frac{\ch{[N2O4]}}{\ch{[NO2]}^{\textcolor{Red}{2}}}</chem></p>
+    <p>We can see that the concentration of nitrogen dioxide is raised to the power of 
+      two and that this mirrors the value of the stoichiometric coefficient of nitrogen 
+      dioxide in the original chemical equation. In a slightly more complicated example 
+      that reinforces this point, the common equilibrium reaction that occurs as part 
+      of the Haber process in the generation of ammonia has an equilibrium constant 
+      for concentration expressed as
+      <chem style="displayed">\ch{N2(\textit{g}) + }\textcolor{Red}{3} \ch{H2(\textit{g}) &lt;=&gt;}
+        \textcolor{Blue}{2} \ch{NH3(\textit{g})} \quad
+        @K_@c=\frac{\ch{[NH3]}^{\textcolor{Blue}{2}}}{\ch{[H2]}^{\textcolor{Red}{3}}\ch{[N2]}}</chem></p>
+    <sidebar type="definition">
+      <title>Definition: Equilibrium Constant for Concentration</title>
+      <p>For the equation 
+        <chem style="displayed">\ch{$@a$A + $@b$B &lt;=&gt; $@c$C + $@d$D}</chem>
+        the equilibrium constant for concentration, <latex>$@K_@c$</latex>, is the product of the 
+        concentrations of <chem style="inline">\ch{C}</chem> and <chem style="inline">\ch{D}</chem> 
+        divided by the product of the concentrations 
+        of <chem style="inline">\ch{A}</chem> and <chem style="inline">\ch{B}</chem>, each raised to 
+        the power of its respective stoichiometric 
+        coefficient: <latex>$@a$</latex>, <latex>$@b$</latex>, <latex>$@c$</latex>, or 
+        <latex>$@d$</latex>.</p>
+    </sidebar>
+    <example>
+      <title>Determining the Equation for 𝐾<sub>𝑐</sub> from a General Reaction</title>
+      <question id="208121783024" instance_number="1">
+        <mcq>
+          <stem>
+            <p>Consider the general reaction
+<chem style="displayed">\ch{$@a$A + $@b$B &lt;=&gt; $@c$C + $@d$D}</chem></p>
+            <p>What is the expression for the equilibrium constant for the reversible 
+              reaction of this general reaction? Take 
+              <chem style="inline">\ch{[A]}</chem> and 
+              <chem style="inline">\ch{[B]}</chem> to be the molar
+              concentrations of the reactants, 
+              <chem style="inline">\ch{[C]}</chem> and <chem style="inline">\ch{[D]}</chem>
+              to be the molar concentrations of the products, and <latex>$@a$</latex>, 
+              <latex>$@b$</latex>, <latex>$@c$</latex>,
+              and <latex>$@d$</latex> to be the stoichiometric coefficients in the 
+              balanced equation.</p>
+            <ol type="A">
+              <li>
+                <latex>$@K_@c =  \frac{@c\ch{[C]} @d\ch{[D]}}{@a\ch{[A]} @b\ch{[B]}}$</latex>
+              </li>
+              <li>
+                <latex>$@K_@c = \frac{\ch{[C]}^@c \ch{[D]}^@d}{\ch{[A]}^@a \ch{[B]}^@b}$</latex>
+              </li>
+              <li>
+                <latex>$@K_@c ={\ch{[A]}^@a}{\ch{[B]}^@b}$</latex>
+              </li>
+              <li>
+                <latex>$@K_@c = \frac{\ch{[A]}^@a \ch{[B]}^@b}{\ch{[C]}^@c\ch{[D]}^@d}$</latex>
+              </li>
+              <li>
+                <latex>$@K_@c = {\ch{[C]}^@c}{\ch{[D]}^@d}$</latex>
+              </li>
+            </ol>
+          </stem>
+        </mcq>
+      </question>
+      <answer>
+        <p>At its simplest level, we know that <latex>$@K_@c$</latex> is the equilibrium constant for 
+          concentration and that, like all equilibrium constants, it is represented in 
+          some fashion by the products being divided by the reactants. We know that in 
+          this general reaction equation, the products are <chem style="inline">\ch{C}</chem> and 
+          <chem style="inline">\ch{D}</chem>; therefore, we 
+          immediately know that we can discount answers C, D, and E.</p>
+        <p>We also know that when writing the equilibrium constant of the concentration, 
+          each of the concentrations of the reactants and the products is raised to 
+          the power of its stoichiometric coefficient. Answer A has the stoichiometric 
+          coefficients multiplied by the concentrations, whereas answer B has 
+          concentrations raised to the powers of the stoichiometric coefficients, 
+          which is what we are looking for. Hence, answer B is the correct answer.</p>
+      </answer>
+    </example>
+    <p>It is important to note that some questions may involve a chemical reaction in 
+      which one of the products and/or reactants may be in the solid phase. In this 
+      case, the chemical species in the solid phase is not included in the value for 
+      <latex>$@K_@c$</latex>, nor is the concentration of pure water when used as a solvent 
+      (<chem style="inline">\ch{H2O(\textit{l})}</chem>).</p>
+    <example>
+      <title>Writing the Equation for 𝐾<sub>𝑐</sub> in the Reduction of Iron(II) Ions by Silver Ions</title>
+      <question id="158149392129" instance_number="1">
+        <mcq>
+          <stem>
+            <p>Silver ions can be reduced by iron(II) ions in the net ionic equation
+              <chem style="displayed">\ch{Fe^{2+}(\textit{aq}) + Ag+ (\textit{aq}) &lt;=&gt; Fe^3+ (\textit{aq}) + 
+                Ag (\textit{s})}</chem></p>
+            <p>What is the correct equation for <latex>$@K_@c$</latex> for this reaction?</p>
+          </stem>
+        </mcq>
+      </question>
+      <answer>
+        <p>When writing the equation for <latex>$@K_@c$</latex>, we must initially follow the overall principle 
+          of writing <latex>$@K_@c$</latex> equations, which is that the product of the concentrations of the 
+          products should be divided by the product of the concentrations of the reactants.</p>
+        <p>However, in this particular chemical reaction, we must be mindful of the state 
+          symbols of each of the different chemical species. The silver product is solid 
+          silver metal and should not be included in the equation for <latex>$@K_@c$</latex>, as the effective 
+          concentration of a solid stays constant throughout the reaction.</p>
+        <p>As such, the only product in this reaction that is included in the expression 
+          for <latex>$@K_@c$</latex> is the concentration of iron(III) ions, which should be divided by the 
+          product of the concentration of iron(II) ions and silver ions. Hence, the 
+          correct answer is
+          <chem style="displayed">@K_@c = \frac{\ch{[Fe^{3+}]}}{\ch{[Fe^{2+}][Ag^+]}}.</chem></p>
+      </answer>
+    </example>
+    <p>At higher levels, the discussion of a topic known as dimensionality explains why 
+      equilibrium constants are often being expressed without a unit, but that is 
+      beyond the scope of this explainer.</p>
+    <p>However, in certain cases, units for <latex>$@K_@c$</latex> may need to be calculated. As such, it is 
+      important to be able to multiply and divide 
+      <quantity type="long"><value></value><unit>mole per decimeter^3</unit></quantity> 
+      (<quantity><value></value><unit>mole decimeter^-3</unit></quantity>) 
+      or <quantity type="long"><value></value><unit>mole per liter</unit></quantity> 
+      (<quantity><value></value><unit>mole per liter</unit></quantity>) as well as understand what happens to these values 
+      when they are raised to different powers. Let’s examine again the reaction 
+      between nitrogen and hydrogen. The <latex>$@K_@c$</latex> equation in question is
+      <chem style="displayed">@K_@c = \frac{\ch{[NH3]^2}}{\ch{[H2]^3}\ch{[N2]}}.</chem></p>
+    <p>Given the equation for <latex>$@K_@c$</latex> above, the final unit would be resolved as follows:
+      <latex>\begin{align*}\frac{\left(<quantity><value></value><unit>mole decimeter^-3</unit></quantity>\right)^2}{\left(<quantity><value></value><unit>mole decimeter^-3</unit></quantity>\right)^3 \left(<quantity><value></value><unit>mole decimeter^-3</unit></quantity>\right)}=\frac{<quantity><value></value><unit>mole^2 decimeter^-6</unit></quantity>}{<quantity><value></value><unit>mole^4 decimeter^-12</unit></quantity>}=\frac{1}{<quantity><value></value><unit>mole^2 decimeter^-6</unit></quantity>}=<quantity><value></value><unit>mole^-2 decimeter^6</unit></quantity>.\end{align*}</latex></p>
+    <example>
+      <title>Calculating the Units of 𝐾<sub>𝑐</sub> Equations</title>
+      <question id="498130435684" instance_number="1">
+        <mcq>
+          <stem>
+            <p>
+              Find the unit for the <latex>$@K_@c$</latex> equation
+              <chem style="displayed">@K_@c = \frac{\ch{[HI]^2}}{\ch{[H2][I2]}}.</chem></p>
+            <ol type="A">
+              <li>No unit</li>
+              <li>
+                <quantity>
+                  <value></value>
+                  <unit>mole decimeter^-3</unit>
+                </quantity>
+              </li>
+              <li>
+                <quantity>
+                  <value></value>
+                  <unit>mole^-1 decimeter^3</unit>
+                </quantity>
+              </li>
+              <li>
+                <quantity>
+                  <value></value>
+                  <unit>mole^2 decimeter^-6</unit>
+                </quantity>
+              </li>
+              <li>
+                <quantity>
+                  <value></value>
+                  <unit>mole^-2 decimeter^6</unit>
+                </quantity>
+              </li>
+            </ol>
+          </stem>
+        </mcq>
+      </question>
+      <answer>
+        <p>When concentrations are represented using square brackets in chemistry, 
+          we can assume that the unit we are discussing is 
+          <quantity type="long"><value></value><unit>mole per decimeter^3</unit></quantity> 
+          (<quantity><value></value><unit>mole decimeter^-3</unit></quantity>) or <quantity type="long"><value></value><unit>mole per liter</unit></quantity> (<quantity><value></value><unit>mole per liter</unit></quantity>), unless we are told otherwise.</p>
+        <p>In this equation, the unit of the products on top is raised to the power of 
+          2, whereas the units at the bottom are multiplied by each other. We can see 
+          in the equation below how these units would cancel out, meaning that answer 
+          A, “No unit,” is the correct answer:
+          <latex>\begin{align*}\frac{\left(<quantity><value></value><unit>mole decimeter^-3</unit></quantity>\right)^2}{\left(<quantity><value></value><unit>mole decimeter^-3</unit></quantity>\right) \left(<quantity><value></value><unit>mole decimeter^-3</unit></quantity>\right)}=\frac{<quantity><value></value><unit>mole^2 decimeter^-6</unit></quantity>}{<quantity><value></value><unit>mole^2 decimeter^-6</unit></quantity>} @longrightarrow \text{@nounit}.\end{align*}</latex></p>
+      </answer>
+    </example>
+    <p>In terms of actually calculating <latex>$@K_@c$</latex>, there are a variety of ways in which the 
+      calculation could be attempted. For example, a question may give you all the 
+      concentrations required, meaning that all that would be left to do would be 
+      to input the data into the <latex>$@K_@c$</latex> equation.</p>
+    <p>Let’s imagine that during the production of ammonia, the equilibrium mixture 
+      contains  <quantity><value>0.982</value><unit>mole decimeter^-3</unit></quantity> of 
+      <chem style="inline">\ch{NH3 (\textit{g})}</chem> and <quantity><value>0.193</value><unit>mole decimeter^-3</unit></quantity> 
+      of each <chem style="inline">\ch{H2 (\textit{g})}</chem> and 
+      <chem style="inline">\ch{N2 (\textit{g})}</chem>. 
+      The reaction is
+      <chem style="displayed">\ch{N2 (\textit{g}) + 3 H2 (\textit{g}) &lt;=&gt; 2 NH3 (\textit{g})}</chem></p>
+    <p>So, the equation for <latex>$@K_@c$</latex> must be
+      <chem style="displayed">@K_@c= \frac{\ch{[NH3]^2}}{\ch{[H2]^3}\ch{[N2]}}.</chem></p>
+    <p>If we substitute the correct numbers into the equation, we can simply calculate 
+      the value of <latex>$@K_@c$</latex> as follows:
+      <chem style="displayed">@K_@c=\frac{\ch{[NH3]^2}}{\ch{[H2]^3 [N2]}}
+        =\frac{[0.982]^2}{[0.193]^2[0.193]}=
+        <quantity><value>695</value><unit>mole^-2 decimeter^6</unit></quantity>.</chem></p>
+    <p>When calculating <latex>$@K_@c$</latex>, it is important to ensure that the correct information is 
+      extracted from the question. The numbers that need to be used in the calculation 
+      should be concentrations, so it may be necessary to calculate the concentration 
+      from information in the question before calculating <latex>$@K_@c$</latex>.</p>
+    <p>It may also be the case that all the values needed at equilibrium are not given, 
+      but initial values of concentrations or moles are given instead. In this 
+      situation, a table is often the most sensible way to clearly and carefully 
+      calculate the numbers that will need to eventually be put into the <latex>$@K_@c$</latex> equation. 
+      One popular method of creating a table is known as the ICE method, which we will 
+      use here; however, there are others.</p>
+    <p>Hydrogen sulfide can be decomposed by heat according to the equation
+      <chem style="displayed">\ch{2 H2S (\textit{g}) &lt;=&gt; 2 H2 (\textit{g}) + S2 (\textit{g})}</chem><quantity><value>0.50</value><unit>mole</unit></quantity> of hydrogen sulfide is heated at a steady temperature in a container of 
+      volume 
+      <quantity><value>2.0</value><unit>decimeter^-3</unit></quantity> 
+      until an equilibrium in which <quantity><value>0.38</value><unit>mole</unit></quantity> of 
+      <chem style="inline">\ch{H2S}</chem> still remains is 
+    reached.</p>
+    <table>
+      <tr>
+        <th></th>
+        <th>
+          <chem style="inline">\ch{2 H2S}</chem>
+        </th>
+        <th>
+          <chem style="inline">\ch{2 H2}</chem>
+        </th>
+        <th>
+          <chem style="inline">\ch{S2}</chem>
+        </th>
+      </tr>
+      <tr>
+        <th>Initial, I
+          (Moles at Start)
+        </th>
+        <td>0.50</td>
+        <td>0.00</td>
+        <td>0.00</td>
+      </tr>
+    </table>
+    <p>In the first row of the table above, we put the “Initial,” which gives us the 
+    letter I. These are the values from the start of the experiment before the 
+    reaction takes place and equilibrium is reached.</p>
+    <table>
+      <tr>
+        <th>Change, C</th>
+        <td>
+          <latex>$-\textcolor{Blue}{2}@x$</latex>
+        </td>
+        <td>
+          <latex>$+\textcolor{Purple}{2}@x$</latex>
+        </td>
+        <td>
+          <latex>$+@x$</latex>
+        </td>
+      </tr>
+      <tr>
+        <th>Equilibrium, E
+          (Moles at Equilibrium)</th>
+        <td>0.38</td>
+        <td>0.12</td>
+        <td>0.06</td>
+      </tr>
+    </table>
+    <p>Next, we fill out the next two rows, “Change” and “Equilibrium.” The change 
+      <latex>$@x$</latex> is 
+    multiplied by the stoichiometric coefficient from the reaction equation
+      <chem style="displayed">\textcolor{Blue}{2}\ch{H2S (\textit{g}) &lt;=&gt;} \textcolor{Purple}{2}
+        \ch{H2 (\textit{g}) + S2 (\textit{g})}</chem></p>
+    <p>We can consider the change in the reactants to be negative and the change in 
+    the products to be positive, hence the positive and negative values in the 
+    row “Change.”</p>
+    <p>We are told that <quantity><value>0.38</value><unit>mole</unit></quantity> of 
+      <chem style="inline">\ch{H2S}</chem> remains at equilibrium; therefore, 
+    <quantity><value>0.12</value><unit>mole</unit></quantity> must have been converted. 
+      We now know that
+      <latex>\begin{align*}-2@x = <quantity><value>-0.12</value><unit>mole</unit></quantity>.\end{align*}</latex></p>
+    <p>From here, we can calculate that <latex>$2@x = <quantity><value>0.12</value><unit>mole</unit></quantity>$</latex> and 
+      <latex>$@x = <quantity><value>0.06</value><unit>mole</unit></quantity>$</latex>.</p>
+    <table>
+      <tr>
+        <th>Concentration at Equilibrium</th>
+        <td>
+          <latex>$\frac{0.32}{2} =0.016$</latex>
+        </td>
+        <td>
+          <latex>$\frac{0.08}{2} =0.004$</latex>
+        </td>
+        <td>
+          <latex>$\frac{0.04}{2} =0.002$</latex>
+        </td>
+      </tr>
+    </table>
+    <p>In the final row of the table, we use the volume, given to us in the question, to 
+      calculate the concentration at equilibrium.</p>
+    <p>With this information, we can calculate <latex>$@K_@c$</latex> as follows:
+      <chem style="displayed">@K_@c=\frac{\ch{[H2]^2 [S2]}}{\ch{[H2S]^2}}
+        =\frac{0.004^2\times 0.002}{0.016}
+        =<quantity><value>2.00\times 10^{-6}</value><unit>mole decimeter^-3</unit></quantity>.</chem></p>
+    <p>It is also possible that a question may provide you with the amount of substance but 
+    not the volume. At first, this may cause you to quite rightly think that there is 
+    no solution, as concentration cannot be calculated without a volume. However, 
+    in these cases, the volumes will often cancel out, making them an unnecessary 
+    piece of information. This can be seen in the following example.</p>
+    <p>In this example, <quantity><value>0.50</value><unit>mole</unit></quantity> of 
+    hydrogen gas and <quantity><value>0.40</value><unit>mole</unit></quantity> of iodine 
+    gas are heated and an equilibrium is allowed to establish. The equilibrium mixture 
+    contains <quantity><value>0.64</value><unit>mole</unit></quantity> of hydrogen iodide:
+      <chem style="displayed">\ch{H2 (\textit{g}) + I2 (\textit{g}) &lt;=&gt; 2 HI (\textit{g})}</chem></p>
+    <p>Again, using the ICE method, the following table can be completed.</p>
+    <table>
+      <tr>
+        <th></th>
+        <th>
+          <chem style="inline">\ch{H2}</chem>
+        </th>
+        <th>
+          <chem style="inline">\ch{I2}</chem>
+        </th>
+        <th>
+          <chem style="inline">\ch{2 HI}</chem>
+        </th>
+      </tr>
+      <tr>
+        <th>Initial, I
+          (Moles at Start)</th>
+        <td>0.50</td>
+        <td>0.40</td>
+        <td>0.00</td>
+      </tr>
+      <tr>
+        <th>Change, C</th>
+        <td>
+          <latex>$-@x$</latex>
+        </td>
+        <td>
+          <latex>$-@x$</latex>
+        </td>
+        <td>
+          <latex>$+2@x$</latex>
+        </td>
+      </tr>
+      <tr>
+        <th>Equilibrium, E
+          (Moles at Equilibrium)</th>
+        <td>0.18</td>
+        <td>0.08</td>
+        <td>0.64</td>
+      </tr>
+      <tr>
+        <th>Concentration at Equilibrium</th>
+        <td>
+          <latex>$0.18/@V$</latex>
+        </td>
+        <td>
+          <latex>$0.08/@V$</latex>
+        </td>
+        <td>
+          <latex>$0.64/@V$</latex>
+        </td>
+      </tr>
+    </table>
+    <p>Now, we have the values to substitute into the <latex>$@K_@c$</latex> equation as follows:
+      <chem style="displayed">@K_@c=\frac{\ch{[HI]^2}}{\ch{[H2][I2]}}
+        =\frac{[0.64/@V]^2}{[0.18/@V][0.08/@V]}
+        =\frac{[0.64]^2}{[0.18][0.08]}=28.44.</chem></p>
+    <p>Using the examples above, we can see how we are able to calculate values of <latex>$@K_@c$</latex> or 
+    use values of <latex>$@K_@c$</latex> to calculate concentrations of products or reactants at 
+    equilibrium. Furthermore, it is vitally important that we have some 
+    understanding of what the value of <latex>$@K_@c$</latex> is telling us, now that we have 
+    quantified it.</p>
+    <p>If the value of <latex>$@K_@c$</latex> is greater than one 
+      <latex>$\left(@K_@c &gt; 1\right)$</latex>, we know that the equilibrium lies 
+    to the right-hand side and that the equilibrium favors the products 
+    (forward reaction). If the value of <latex>$@K_@c$</latex> is less than one 
+      <latex>$\left(@K_@c &lt; 1\right)$</latex>, we know that the 
+    equilibrium lies to the left-hand side and favors the reactants (backward reaction). 
+    While the manner in which the value of <latex>$@K_@c$</latex> increases or decreases is not always 
+    linear, generally, the greater or smaller the value of <latex>$@K_@c$</latex>, the further the 
+    equilibrium lies in favor of either the products or the reactants.</p>
+    <example>
+      <title>Calculating the Value of 𝐾<sub>𝑐</sub> for a Reaction Involving the Oxides of Sulfur</title>
+      <question id="897184125648" instance_number="1">
+        <mcq>
+          <stem>
+            <p>At equilibrium, <latex>$@K_@c =  <quantity><value>32</value><unit>mole decimeter^3</unit></quantity>$</latex> 
+              at <quantity><value>325</value><unit>kelvin</unit></quantity> for the following reaction involving oxides of sulfur:
+              <chem style="displayed">\ch{2 SO2 (\textit{g}) + O2 (\textit{g}) &lt;=&gt; 2 SO3 (\textit{g})}</chem></p>
+            <p>Find the value of <latex>$@K_@c$</latex>, including units, at <quantity><value>325</value><unit>kelvin</unit></quantity> for the reaction</p>
+            <p>
+              <chem style="displayed">\ch{2 SO3 (\textit{g}) &lt;=&gt; 2 SO2 (\textit{g}) + O2 (\textit{g})}</chem>
+            </p>
+          </stem>
+        </mcq>
+      </question>
+      <answer>
+        <p>At first inspection, it may appear that we are missing a lot of information 
+          in this question. How could we possibly start to calculate <latex>$@K_@c$</latex> for the second 
+          equation with no information about concentrations? However, if we look 
+          closely, we will see that the second reaction is, in fact, the reverse 
+          reaction of the first equation. If we were to write out the equations for <latex>$@K_@c$</latex> 
+          for both of these equations, they would be as follows.</p>
+        <p>For equation 1,
+          <chem style="displayed">@K_@c=\frac{\ch{[SO3]^2}}{\ch{[SO2]^2 [O2]}}.</chem></p>
+        <p>For equation 2,
+          <chem style="displayed">@K_@c=\frac{\ch{[SO2]^2 [O2]}}{\ch{[SO3]^2}}.</chem></p>
+        <p>As we can see, the second value of <latex>$@K_@c$</latex> is, in fact, the reciprocal of the 
+          first equation. As the temperature is the same, we can find the 
+          reciprocal of 32, which will give us the value of <latex>$@K_@c$</latex> for the second 
+          equation. Remember, however, that we also need to find the reciprocal of 
+          the units. So, our final answer would be as follows:
+          <latex>\begin{align*}@K_@c = <quantity><value>\frac{1}{32}</value><unit>mole decimeter^-3</unit></quantity>
+            = <quantity><value>0.03125</value><unit>mole decimeter^-3</unit></quantity>.\end{align*}</latex></p>
+      </answer>
+    </example>
+    <sidebar type="definition">
+      <title>Key Points</title>
+      <ul>
+        <li>Equilibria can be quantitatively evaluated.</li>
+        <li>The equilibrium constant for concentration, <latex>$@K_@c$</latex>, is the product of the 
+          concentrations of the products divided by the product of the concentrations 
+          of the reactants, each raised to the power of its respective stoichiometric 
+          coefficient.</li>
+        <li>Tables and the ICE method can be used to calculate concentrations at 
+          equilibrium for use in <latex>$@K_@c$</latex> equations.</li>
+        <li>Large values for <latex>$@K_@c$</latex> indicate that an equilibrium lies far to the right-hand 
+          side and favors the products, whereas values smaller than 1 indicate that an 
+          equilibrium lies to the left-hand side and favors the reactants.</li>
+      </ul>
+    </sidebar>
+  </body>
+</explainer>

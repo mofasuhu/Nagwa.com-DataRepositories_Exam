@@ -1,0 +1,332 @@
+﻿<video video_id="108196894364">
+    <video_creator video_creator_id="519179193151">
+        <first_name>Oliver</first_name>
+        <last_name>Rigg</last_name>
+        <email>oliver.rigg@nagwa.com</email>
+    </video_creator>
+    <video_type>Lesson</video_type>
+    <subject>Physics</subject>
+    <publication_date>2020-04-13</publication_date>
+    
+    <duration>883706.00</duration>
+    <language>
+        <source>en</source>
+    </language>
+    <title>Design of the Voltmeter</title>
+    <seo_meta_description>In this video, we will learn how to describe the combining of a
+        galvanometer with a multiplier resistor to design a DC voltmeter.</seo_meta_description>
+    <transcript>
+        <p>
+            <s start_time ="00:00:00.660" end_time="00:00:08.690">In this video, we’re going to be looking at the design of the voltmeter, a device
+                that we can use to measure the voltage or potential difference across a component in
+                a circuit.</s>
+            <s start_time ="00:00:09.380" end_time="00:00:13.610">In a circuit diagram, we can represent a voltmeter with an uppercase 𝑉 inside a
+                circle.</s>
+            <s start_time ="00:00:14.110" end_time="00:00:18.600">And in this circuit, the voltmeter is being used to measure the voltage drop across
+                this resistor.</s>
+            <s start_time ="00:00:19.100" end_time="00:00:24.630">In this video, we’ll see how we can construct a voltmeter by using a galvanometer and
+                a resistor connected in series.</s>
+            <s start_time ="00:00:24.990" end_time="00:00:32.680">We’ll also see how we can calculate the required resistance of this resistor in order
+                to build a voltmeter capable of measuring a given maximum voltage.</s>
+        </p>
+        <p>
+            <s start_time ="00:00:33.130" end_time="00:00:35.600">So to start off with, let’s consider a cell.</s>
+            <s start_time ="00:00:35.750" end_time="00:00:39.350">And let’s say that this cell has a certain voltage 𝑉 that we want to measure.</s>
+            <s start_time ="00:00:39.800" end_time="00:00:44.150">A simple way that we can try to do this is to connect a galvanometer in series with
+                the cell.</s>
+            <s start_time ="00:00:44.650" end_time="00:00:50.930">Let’s quickly recall that a galvanometer is a device which can measure the magnitude
+                and direction of a current using a needle on a dial.</s>
+            <s start_time ="00:00:51.390" end_time="00:00:56.880">So in this circuit, because the cell is applying a voltage to the galvanometer, this
+                produces a current which we can call 𝐼.</s>
+            <s start_time ="00:00:57.760" end_time="00:01:00.030">This causes the needle on the galvanometer to deflect.</s>
+            <s start_time ="00:01:00.120" end_time="00:01:04.370">And as long as the current isn’t too big, the deflection will be proportional to the
+                current.</s>
+        </p>
+        <p>
+            <s start_time ="00:01:04.860" end_time="00:01:12.700">Now, Ohm’s law tells us that the voltage applied to a conductor is equal to the
+                current in that conductor multiplied by the resistance of that conductor.</s>
+            <s start_time ="00:01:13.280" end_time="00:01:24.920">In other words, the voltage across our galvanometer, which is the same as the voltage
+                supplied by the cell, is equal to the current in our galvanometer multiplied by the
+                resistance of the galvanometer, which we can call our 𝑅 G.</s>
+            <s start_time ="00:01:25.850" end_time="00:01:35.500">So if we know the resistance of the galvanometer and the galvanometer tells us the
+                current in the circuit, then we can work out the voltage of the cell simply by
+                multiplying these two numbers together.</s>
+            <s start_time ="00:01:36.430" end_time="00:01:40.570">So in this simple case, it looks like a galvanometer can function as a voltmeter.</s>
+        </p>
+        <p>
+            <s start_time ="00:01:41.520" end_time="00:01:44.540">The deflection of the needle is proportional to the current in the circuit.</s>
+            <s start_time ="00:01:44.800" end_time="00:01:48.320">And Ohm’s law tells us that the current in the circuit is proportional to the
+                voltage.</s>
+            <s start_time ="00:01:49.220" end_time="00:01:52.550">Therefore, the deflection of the needle is proportional to the voltage.</s>
+            <s start_time ="00:01:53.070" end_time="00:01:56.920">However, there is a problem with just using a galvanometer as a voltmeter.</s>
+            <s start_time ="00:01:57.450" end_time="00:02:05.650">This is down to the fact that galvanometers are really sensitive, and typically they
+                can only measure up to a maximum current in the microamp or milliamp region.</s>
+            <s start_time ="00:02:06.100" end_time="00:02:13.210">So, for example, we might find that the needle on our galvanometer reaches maximum
+                deflection for a current of 100 microamps in either direction.</s>
+            <s start_time ="00:02:13.660" end_time="00:02:18.690">And this means that any current over 100 microamps will also just cause maximum
+                deflection of the needle.</s>
+        </p>
+        <p>
+            <s start_time ="00:02:19.080" end_time="00:02:26.240">What this means is that we can use a galvanometer as a voltmeter, but it would only
+                be capable of measuring voltages within a very limited range.</s>
+            <s start_time ="00:02:26.750" end_time="00:02:35.430">If the galvanometer has a maximum deflection current of 𝐼 G, then it means it will
+                reach maximum deflection for a voltage equal to 𝐼 G times 𝑅 G.</s>
+            <s start_time ="00:02:35.950" end_time="00:02:39.620">So this expression basically tells us the voltage range of our galvanometer.</s>
+            <s start_time ="00:02:40.100" end_time="00:02:49.020">If we want to increase the range of voltages that we can measure, then we need some
+                way of limiting the current in this circuit to prevent the galvanometer’s needle
+                from reaching maximum deflection.</s>
+        </p>
+        <p>
+            <s start_time ="00:02:49.400" end_time="00:02:51.240">Fortunately, there’s a pretty simple solution.</s>
+            <s start_time ="00:02:51.480" end_time="00:02:55.080">All we need to do is connect a resistor in series with the galvanometer.</s>
+            <s start_time ="00:02:55.480" end_time="00:03:01.970">The function of this resistor is that it increases the overall resistance in the
+                circuit, thus decreasing the current in the galvanometer.</s>
+            <s start_time ="00:03:02.420" end_time="00:03:09.680">This means that, together, these two components could be connected to a larger
+                potential difference without the needle on the galvanometer of reaching maximum
+                deflection.</s>
+            <s start_time ="00:03:10.110" end_time="00:03:15.830">And this is actually all we need to build a voltmeter, just a galvanometer and a
+                resistor connected in series.</s>
+        </p>
+        <p>
+            <s start_time ="00:03:16.240" end_time="00:03:22.070">In the context of voltmeter design, the extra resistor which we have attached here is
+                known as a multiplier resistor.</s>
+            <s start_time ="00:03:22.350" end_time="00:03:24.460">And we can say it has a resistance 𝑅 M.</s>
+            <s start_time ="00:03:25.140" end_time="00:03:31.770">The reason it’s called a multiplier resistor is that it effectively multiplies the
+                maximum voltage that the galvanometer could measure on its own.</s>
+            <s start_time ="00:03:32.330" end_time="00:03:35.750">We can see how this works by applying Ohm’s law to our voltmeter as a whole.</s>
+            <s start_time ="00:03:36.130" end_time="00:03:46.890">Ohm’s law tells us that the voltage across the voltmeter, which once again is the
+                same as the voltage supplied by the cell, is equal to the current in the voltmeter
+                multiplied by the total resistance of the voltmeter.</s>
+        </p>
+        <p>
+            <s start_time ="00:03:47.410" end_time="00:03:57.650">This means that the full deflection voltage of our voltmeter, in other words, the
+                range of our voltmeter, is given by the full deflection current of the galvanometer
+                multiplied by the resistance of the voltmeter.</s>
+            <s start_time ="00:03:58.220" end_time="00:04:05.400">Here, it’s useful to remember that for resistors connected in series, the total
+                resistance is given by the sum of the individual resistances.</s>
+            <s start_time ="00:04:05.740" end_time="00:04:12.520">This means that the total resistance of our voltmeter is equal to the resistance of
+                the multiplier resistor plus the resistance of the galvanometer.</s>
+            <s start_time ="00:04:13.540" end_time="00:04:16.620">In other words, 𝑅 V equals 𝑅 M plus 𝑅 G.</s>
+            <s start_time ="00:04:16.970" end_time="00:04:21.370">So overall we can write 𝑉 equals 𝐼 G times 𝑅 M plus 𝑅 G.</s>
+        </p>
+        <p>
+            <s start_time ="00:04:21.840" end_time="00:04:32.540">This is a really useful formula that tells us the voltage range that our voltmeter
+                can measure based on the full deflection current of the galvanometer, the resistance
+                of the multiplier resistor, and the resistance of the galvanometer.</s>
+            <s start_time ="00:04:33.540" end_time="00:04:38.100">We can get another useful formula if we rearrange this expression to make 𝑅 𝑀 the
+                subject.</s>
+            <s start_time ="00:04:39.110" end_time="00:04:46.930">To do this, we start by multiplying out the brackets on the right-hand side of the
+                expression to give us 𝑉 equals 𝐼 G 𝑅 M plus 𝐼 G 𝑅 G.</s>
+            <s start_time ="00:04:47.370" end_time="00:04:54.380">We can then subtract 𝐼 G times 𝑅 G from both sides of the equation and then finally
+                dividing both sides of the equation by 𝐼 G.</s>
+        </p>
+        <p>
+            <s start_time ="00:04:54.950" end_time="00:05:02.890">Finally, we’ll just swap around the left and right sides of this expression to give
+                us 𝑅 M equals 𝑉 over 𝐼 G minus 𝑅 G.</s>
+            <s start_time ="00:05:03.300" end_time="00:05:15.010">This expression tells us the sides of multiplier resistor that we need to use in
+                order to build a voltmeter with a range of 𝑉, using a galvanometer with a
+                resistance 𝑅 G and a full deflection current 𝐼 G.</s>
+            <s start_time ="00:05:15.760" end_time="00:05:24.710">Now, one other important thing to mention is that when we make a voltmeter by
+                connecting together a resistor and a galvanometer, we need to make a couple of
+                modifications to the galvanometer.</s>
+            <s start_time ="00:05:25.220" end_time="00:05:29.280">The first issue we need to address is that galvanometers can measure current in
+                either direction.</s>
+            <s start_time ="00:05:29.730" end_time="00:05:38.670">This means that generally they have a zero in the middle of the dial and the needle
+                will deflect either to the right, with the current flowing one way, or to the left
+                when the current is reversed.</s>
+        </p>
+        <p>
+            <s start_time ="00:05:39.060" end_time="00:05:46.390">Now, if we’re building a direct current or DC voltmeter, that means we only want it
+                to measure a potential difference in one direction.</s>
+            <s start_time ="00:05:46.690" end_time="00:05:52.910">This means that we can get rid of half of the scale as we’re only interested in this
+                bit, which indicates a current with a certain direction.</s>
+            <s start_time ="00:05:53.360" end_time="00:05:57.920">Now, the other issue we need to address with our galvanometer is that at the moment
+                it measures current.</s>
+            <s start_time ="00:05:58.380" end_time="00:06:08.500">However, we’ve shown in this equation that if our galvanometer has a maximum
+                deflection current 𝐼 G, then the voltmeter that we build using this galvanometer
+                will have a maximum deflection voltage 𝑉.</s>
+            <s start_time ="00:06:08.900" end_time="00:06:14.960">We can use this expression to calculate the value of 𝑉 that we would write in place
+                of 𝐼 G on the galvanometer’s dial.</s>
+        </p>
+        <p>
+            <s start_time ="00:06:15.440" end_time="00:06:39.770">For example, if we’re using a galvanometer that have a resistance 𝑅 G of 100 ohms
+                and a full deflection current 𝐼 G of 100 microamps and we’re using a multiplier
+                resistor with a resistance equal to five kiloohms, then the range of our voltmeter
+                𝑉 would be given by 100 times 10 to the negative six amps, that’s 𝐼 G, multiplied
+                by 5000 ohms, that’s 𝑅 M, plus 100 ohms.</s>
+            <s start_time ="00:06:39.800" end_time="00:06:47.730">That’s 𝑅 G, which works out at 0.51 volts, which we could then write at the maximum
+                deflection position on the voltmeter’s dial.</s>
+            <s start_time ="00:06:48.280" end_time="00:06:56.870">So once we’ve chosen the value of our multiplier resistor, connected it in series
+                with the galvanometer, and calibrated the scale, our voltmeter’s ready to be
+                used.</s>
+        </p>
+        <p>
+            <s start_time ="00:06:57.410" end_time="00:07:01.070">Of course, measuring the voltage of a cell isn’t the only application for a
+                voltmeter.</s>
+            <s start_time ="00:07:01.630" end_time="00:07:07.380">More commonly, we might use a voltmeter to measure the potential drop of the
+                individual components in a circuit like this.</s>
+            <s start_time ="00:07:07.870" end_time="00:07:10.550">Here, we have a cell and two resistors wired in series.</s>
+            <s start_time ="00:07:10.920" end_time="00:07:15.470">And let’s say that these resistors have resistances of 𝑅 one and 𝑅 two,
+                respectively.</s>
+            <s start_time ="00:07:16.060" end_time="00:07:21.320">Now, in this circuit, the cell provides a voltage, which we’ll call 𝑉, and this
+                creates a current, which we’ll call 𝐼.</s>
+            <s start_time ="00:07:22.040" end_time="00:07:28.510">Now, if we were analyzing a circuit that looked like this, it might be useful to
+                measure the voltage that’s dropped across each of these resistors.</s>
+        </p>
+        <p>
+            <s start_time ="00:07:28.860" end_time="00:07:34.130">And to measure the voltage drop across 𝑅 one, for example, we would attach a
+                voltmeter in parallel with 𝑅 one.</s>
+            <s start_time ="00:07:34.670" end_time="00:07:42.630">And of course, we now know that a voltmeter is essentially comprised of a multiplier
+                resistor with a resistance 𝑅 M and a galvanometer with a resistance 𝑅 G.</s>
+            <s start_time ="00:07:43.450" end_time="00:07:50.150">Now when we look at a voltmeter in an application like this, we can see that the
+                multiplier resistor actually fulfills another useful function.</s>
+            <s start_time ="00:07:51.200" end_time="00:07:55.460">At this point in the circuit, the incoming current is split into two smaller
+                currents.</s>
+        </p>
+        <p>
+            <s start_time ="00:07:56.090" end_time="00:08:02.370">Let’s say that the current flowing through the voltmeter is called 𝐼 V and the
+                current going through resistor 𝑅 one is called 𝐼 R.</s>
+            <s start_time ="00:08:03.240" end_time="00:08:10.590">The splitting of the current could potentially cause a problem as it threatens to
+                decrease the size of the current that flows through the resistor 𝑅 one.</s>
+            <s start_time ="00:08:10.910" end_time="00:08:23.690">And once again, Ohm’s law shows us that if the current decreases, then the voltage
+                will decrease, meaning that connecting a voltmeter here actually threatens to
+                decrease the voltage we’re trying to measure, which obviously isn’t what we want
+                from an accurate measuring device.</s>
+            <s start_time ="00:08:24.800" end_time="00:08:29.320">Very fortunately, this problem is actually solved by the presence of the multiplier
+                resistor.</s>
+            <s start_time ="00:08:29.710" end_time="00:08:34.070">This resistor insures that the overall resistance of the voltmeter is relatively
+                high.</s>
+        </p>
+        <p>
+            <s start_time ="00:08:34.490" end_time="00:08:38.090">This means that only a very small amount of current flows through the voltmeter.</s>
+            <s start_time ="00:08:38.490" end_time="00:08:47.310">So since the current through a voltmeter 𝐼 V is very small, this means that the
+                current through the resistor, 𝐼 R, is approximately equal to the current in the
+                rest of the circuit, 𝐼.</s>
+            <s start_time ="00:08:48.250" end_time="00:08:58.450">The upshot of this is that connecting a voltmeter in parallel with 𝑅 one makes only
+                a negligible change to the current in 𝑅 one, therefore making a negligible change
+                to the voltage across 𝑅 one.</s>
+            <s start_time ="00:08:59.100" end_time="00:09:04.190">So now that we’ve seen how a voltmeter is designed and used, let’s try answering a
+                practice question.</s>
+        </p>
+        <p>
+            <s start_time ="00:09:04.910" end_time="00:09:08.980">The circuit diagram represents a galvanometer connected with a multiplier
+                resistor.</s>
+            <s start_time ="00:09:09.420" end_time="00:09:13.190">The multiplier resistor has a resistance 50 times that of the galvanometer.</s>
+            <s start_time ="00:09:13.630" end_time="00:09:19.380">What is the ratio of the current in the galvanometer, 𝐼 G, to the current in the
+                multiplier resistor, 𝐼 M?</s>
+        </p>
+        <p>
+            <s start_time ="00:09:20.010" end_time="00:09:27.460">So in this question, we’ve been given a circuit diagram that shows a galvanometer and
+                a resistor called a multiplier resistor connected in series with a cell.</s>
+            <s start_time ="00:09:27.930" end_time="00:09:34.090">Let’s start by recalling that the term multiplier resistor describes a resistor used
+                in the construction of a voltmeter.</s>
+            <s start_time ="00:09:34.460" end_time="00:09:40.450">Specifically, it’s the name given to a resistor, which is connected in series with a
+                galvanometer, as is the case in this circuit.</s>
+            <s start_time ="00:09:40.830" end_time="00:09:44.900">This combination of a multiplayer resistor and a galvanometer creates a
+                voltmeter.</s>
+            <s start_time ="00:09:45.240" end_time="00:09:50.190">So effectively, this circuit diagram shows a voltmeter being used to measure the
+                voltage of a cell.</s>
+            <s start_time ="00:09:50.650" end_time="00:09:54.170">Now, it is possible to use a galvanometer on its own to measure a voltage.</s>
+            <s start_time ="00:09:54.390" end_time="00:09:59.510">However, galvanometers are so sensitive that they’re only able to measure voltages
+                within a very small range.</s>
+        </p>
+        <p>
+            <s start_time ="00:09:59.870" end_time="00:10:07.700">The function of the multiplier resistor in a voltmeter is that it greatly increases
+                or multiplies the maximum voltage that the galvanometer can measure.</s>
+            <s start_time ="00:10:08.040" end_time="00:10:16.670">In a voltmeter, we typically find that the resistance of the multiplayer resistor,
+                which we can call 𝑅 M, is much greater than the resistance of the galvanometer,
+                which we can call 𝑅 G.</s>
+            <s start_time ="00:10:17.170" end_time="00:10:19.170">As we can see, the same is true in this question.</s>
+            <s start_time ="00:10:19.440" end_time="00:10:23.500">We’re told that the multiplier resistor has a resistance 50 times that of the
+                galvanometer.</s>
+        </p>
+        <p>
+            <s start_time ="00:10:24.020" end_time="00:10:30.250">We’re then asked to calculate the ratio of the current in the galvanometer 𝐼 G to
+                the current in a multiplier resistant 𝐼 M.</s>
+            <s start_time ="00:10:30.700" end_time="00:10:37.090">So let’s start by writing down an expression for each of these currents in terms of
+                their resistances, which we’ve been given some information about.</s>
+            <s start_time ="00:10:37.740" end_time="00:10:45.240">We can do this using Ohm’s law, which tells us that the current in a conductor is
+                equal to the voltage across that conductor divided by the resistance of that
+                conductor.</s>
+            <s start_time ="00:10:45.740" end_time="00:10:55.750">So we can say that the current in the galvanometer 𝐼 G is equal to the voltage
+                across the galvanometer, which we could call 𝑉 G, divided by the resistance of the
+                galvanometer, which is 𝑅 G.</s>
+        </p>
+        <p>
+            <s start_time ="00:10:56.510" end_time="00:11:06.730">Similarly, we can say that the current in the multiplier resistor 𝐼 M is equal to
+                the voltage across the multiplier resistor, which we’ll call 𝑉 M, divided by the
+                resistance of the multiplier resistor 𝑅 M.</s>
+            <s start_time ="00:11:07.790" end_time="00:11:12.510">Now it’s really important to note that 𝑉 G and 𝑉 M are not necessarily the
+                same.</s>
+            <s start_time ="00:11:13.380" end_time="00:11:19.250">It’s tempting to assume that each of these voltages is simply the same as the voltage
+                supplied by the cell, which we could call 𝑉 C.</s>
+            <s start_time ="00:11:19.670" end_time="00:11:20.960">However, this isn’t the case.</s>
+            <s start_time ="00:11:21.330" end_time="00:11:30.850">When we have resistors in series connected to a cell, as we do in this question, then
+                the voltage drops across each component will add up to the total voltage supplied by
+                the cell.</s>
+        </p>
+        <p>
+            <s start_time ="00:11:31.490" end_time="00:11:37.800">Now, the question is asking us to find the ratio of the current in the galvanometer
+                𝐼 G to the current in the multiplier resistor 𝐼 M.</s>
+            <s start_time ="00:11:38.160" end_time="00:11:49.460">And one way of expressing the ratio of 𝐼 G to 𝐼 M is to calculate 𝐼 G over 𝐼 M,
+                which must be equal to 𝑉 G over 𝑅 G divided by 𝑉 M over 𝑅 M.</s>
+            <s start_time ="00:11:50.410" end_time="00:12:04.200">Dividing this fraction by this fraction is the same as multiplying this fraction by
+                the reciprocal of this fraction, which gives us 𝑉 G over 𝑅 G times 𝑅 M over 𝑉 M,
+                which is equivalent to 𝑉 G 𝑅 M over 𝑉 M 𝑅 G.</s>
+        </p>
+        <p>
+            <s start_time ="00:12:04.810" end_time="00:12:09.950">Now, the question tells us that the multiplier resistor has a resistance 50 times
+                that of the galvanometer.</s>
+            <s start_time ="00:12:10.460" end_time="00:12:13.350">In other words, 𝑅 M equals 50 𝑅 G.</s>
+            <s start_time ="00:12:14.010" end_time="00:12:26.170">This means that we can substitute 50 𝑅 G in place of 𝑅 M in this expression, which
+                then enables us to cancel the common factor of 𝑅 G in the numerator and the
+                denominator, leaving us with 50 𝑉 G over 𝑉 M.</s>
+            <s start_time ="00:12:26.690" end_time="00:12:28.480">Okay, so this simplifies our expression.</s>
+            <s start_time ="00:12:28.550" end_time="00:12:31.540">However, we still don’t have a numerical value for this ratio.</s>
+            <s start_time ="00:12:32.040" end_time="00:12:38.450">And we’re not able to calculate the actual values of 𝑉 G and 𝑉 M without first
+                knowing the voltage supplied by the cell.</s>
+        </p>
+        <p>
+            <s start_time ="00:12:39.090" end_time="00:12:47.970">However, to help us, we can recall that when we have resistors connected in series
+                with a cell, the size of the voltage drop over each resistor is proportional to its
+                resistance.</s>
+            <s start_time ="00:12:48.350" end_time="00:12:53.780">In other words, a bigger resistor will use a bigger proportion of the total available
+                voltage supplied by the cell.</s>
+            <s start_time ="00:12:54.270" end_time="00:13:06.190">Now, because we’re told that the resistance of the multiplier resistor is 50 times
+                that of the galvanometer, that means that the voltage drop over the multiplier
+                resistor, 𝑉 M, is 50 times the voltage drop over the galvanometer, 𝑉 G.</s>
+            <s start_time ="00:13:07.320" end_time="00:13:17.700">Substituting 50 𝑉 G in place of 𝑉 M in our expression tells us that the ratio of 𝐼
+                G to 𝐼 M is 50 𝑉 G over 50 𝑉 G, which is equal to one.</s>
+            <s start_time ="00:13:18.560" end_time="00:13:19.940">And this is the answer to our question.</s>
+        </p>
+        <p>
+            <s start_time ="00:13:20.430" end_time="00:13:25.300">However, there is a simpler way of answering this question that doesn’t require us to
+                use any algebra.</s>
+            <s start_time ="00:13:26.300" end_time="00:13:29.330">In fact, we don’t even need to know how a voltmeter is designed.</s>
+            <s start_time ="00:13:30.010" end_time="00:13:34.080">Nor do we need to know anything about the resistances of the galvanometer and the
+                resistor.</s>
+            <s start_time ="00:13:34.450" end_time="00:13:39.500">In fact, it’s enough just to see that these two components are connected together in
+                a single series circuit.</s>
+            <s start_time ="00:13:40.150" end_time="00:13:51.540">In a series circuit, the rate of flow of charge, in other words, the current, is the
+                same at every point, which means the current in the galvanometer 𝐼 G must be the
+                same as the current in the multiplier resistor 𝐼 M.</s>
+            <s start_time ="00:13:52.030" end_time="00:13:56.000">And if 𝐼 G equals 𝐼 M, then 𝐼 G over 𝐼 M is one.</s>
+            <s start_time ="00:13:56.680" end_time="00:14:04.150">If we have a multiplier resistor connected in series with a galvanometer, then the
+                ratio of the current in the galvanometer to the current in the multiplier resistor
+                is one.</s>
+        </p>
+        <p>
+            <s start_time ="00:14:05.070" end_time="00:14:07.970">Let’s finish by recapping the key points that we’ve learned in this video.</s>
+            <s start_time ="00:14:08.850" end_time="00:14:15.390">Firstly, we saw that a voltmeter could be made by connecting a galvanometer in series
+                with a resistor known as a multiplier resistor.</s>
+            <s start_time ="00:14:16.070" end_time="00:14:22.610">The multiplier resistor increases the voltage range of the galvanometer and prevents
+                it from greatly affecting the voltage that’s being measured.</s>
+            <s start_time ="00:14:23.170" end_time="00:14:35.250">We’ve also seen that to build a voltmeter with a voltage range 𝑉, using a
+                galvanometer with a resistance 𝑅 G and a full deflection current 𝐼 G, the required
+                resistance 𝑅 M of the multiplier resistor is given by this expression.</s>
+            <s start_time ="00:14:35.770" end_time="00:14:40.200">And we can rearrange this expression like this in order to calculate the voltage
+                range of a voltmeter.</s>
+            <s start_time ="00:14:40.800" end_time="00:14:42.920">This is a summary of the design of the voltmeter.</s>
+        </p>
+    </transcript>
+</video>

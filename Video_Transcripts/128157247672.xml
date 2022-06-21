@@ -1,0 +1,448 @@
+<video video_id="128157247672">
+  <video_creator video_creator_id="918190346401">
+    <first_name>Lauren</first_name>
+    <last_name>McNaughten</last_name>
+    <email>lauren.mcnaughten@nagwa.com</email>
+  </video_creator>
+  <video_type>Lesson</video_type>
+  <subject>Mathematics</subject>
+  <publication_date>2018-05-10</publication_date>
+  <duration>843.869</duration>
+  <language>
+    <source>en</source>
+  </language>
+  <title>Trigonometry: Angles of Elevation and Depression</title>
+  <seo_meta_description>Learn the definition of angles of elevation and depression. Use your knowledge of the tangent ratio to calculate angles of elevation and depression or distances in a range of word problems.</seo_meta_description>
+  <transcript>
+    <p>
+      <s start_time ="00:00:02.580" end_time="00:00:09.090">In this video, we’re going to look
+                at an application of trigonometry to calculating angles of elevation and
+                depression.</s>
+    </p>
+    <p>
+      <s start_time ="00:00:12.060" end_time="00:00:16.960">So, first of all, let’s clarify
+                what is meant by angles of elevation and angles of depression.</s>
+      <s start_time ="00:00:17.120" end_time="00:00:22.380">And the two diagrams here are
+                useful in explaining it, angles of elevation, first of all.</s>
+      <s start_time ="00:00:23.590" end_time="00:00:28.300">So, we have here a diagram of a
+                person and they are looking up at an object above them.</s>
+      <s start_time ="00:00:28.790" end_time="00:00:36.900">The angle of elevation is the angle
+                formed between the horizontal and that person’s line of sight as they’re looking up
+                towards this object.</s>
+    </p>
+    <p>
+      <s start_time ="00:00:38.400" end_time="00:00:44.180">An angle of depression is a similar
+                concept, but this time our observer is looking down at something.</s>
+      <s start_time ="00:00:44.480" end_time="00:00:52.890">So, the angle of depression is the
+                angle formed again between the horizontal and the observer’s line of sight as they
+                look down towards an object.</s>
+    </p>
+    <p>
+      <s start_time ="00:00:54.610" end_time="00:01:05.460">In fact, if I were to add in
+                another person, as I’ve done in this diagram on the right, then the angle of
+                elevation from the observer below and the angle of depression from the observer
+                above are the same.</s>
+      <s start_time ="00:01:05.460" end_time="00:01:09.330">They’re congruent to each other
+                because the two horizontals are parallel.</s>
+      <s start_time ="00:01:09.520" end_time="00:01:14.450">And therefore, these two angles are
+                alternate interior angles in parallel lines.</s>
+      <s start_time ="00:01:16.380" end_time="00:01:26.660">So, a lot of questions about angles
+                of elevation and depression tend to be worded questions, where you need to read a
+                description, interpret it, and I would always suggest drawing a diagram to help.</s>
+      <s start_time ="00:01:26.820" end_time="00:01:28.550">So, we’ll see some examples of
+                this.</s>
+    </p>
+    <p>
+      <s start_time ="00:01:30.980" end_time="00:01:32.590">So, here is our first question.</s>
+    </p>
+    <question id="" media_identifier="" pause_reason="not_suitable">
+      <publication_date />
+      <question_title />
+      <question_seo_meta_description />
+      <p>
+        <s start_time ="00:01:32.940" end_time="00:01:37.540">It says Tom stands on a cliff
+                    100 metres high and sees a boat out at sea.</s>
+        <s start_time ="00:01:38.070" end_time="00:01:42.200">The angle of depression from
+                    Tom to the boat is 51 degrees.</s>
+        <s start_time ="00:01:42.680" end_time="00:01:46.090">Calculate the distance between
+                    the boat and the base of the cliff.</s>
+      </p>
+      <p>
+        <s start_time ="00:01:48.030" end_time="00:01:52.880">So, as I mentioned, a diagram
+                    is always a useful starting point to visualize the situation here.</s>
+        <s start_time ="00:01:54.530" end_time="00:01:55.880">So, here is my diagram.</s>
+        <s start_time ="00:01:55.880" end_time="00:02:01.050">I have a cliff with Tom on it
+                    and a boat out at sea and Tom is looking down towards the boat.</s>
+        <s start_time ="00:02:02.550" end_time="00:02:05.180">Now, we’re told the angle of
+                    depression is 51 degrees.</s>
+        <s start_time ="00:02:05.180" end_time="00:02:07.910">So, I also need to draw in the
+                    horizontal.</s>
+        <s start_time ="00:02:07.910" end_time="00:02:11.610">Because, remember, the angle of
+                    depression is measured from the horizontal.</s>
+        <s start_time ="00:02:13.210" end_time="00:02:14.680">So, there’s the horizontal.</s>
+        <s start_time ="00:02:14.820" end_time="00:02:18.270">And the angle of depression
+                    we’re told is 51 degrees.</s>
+        <s start_time ="00:02:18.270" end_time="00:02:20.210">So, I need to label that
+                    here.</s>
+      </p>
+      <p>
+        <s start_time ="00:02:21.790" end_time="00:02:26.250">Now, if I want to use
+                    trigonometry to approach this problem, then I need a right-angled triangle.</s>
+        <s start_time ="00:02:26.380" end_time="00:02:32.230">So, I’m also going to add in a
+                    vertical line that is parallel to the cliff from the boat to the horizontal.</s>
+        <s start_time ="00:02:33.370" end_time="00:02:36.410">So, this gives me the
+                    right-angled triangle that I’m going to work with.</s>
+        <s start_time ="00:02:37.170" end_time="00:02:38.560">Now, we have some other
+                    information.</s>
+        <s start_time ="00:02:38.560" end_time="00:02:42.470">We’re told that the cliff Tom
+                    standing on is 100 metres high.</s>
+        <s start_time ="00:02:44.160" end_time="00:02:48.720">So that means I can label this
+                    measurement here as 100 metres.</s>
+      </p>
+      <p>
+        <s start_time ="00:02:50.160" end_time="00:02:54.110">Now, it’s just worth pointing
+                    out we haven’t accounted for Tom’s height in any way.</s>
+        <s start_time ="00:02:54.110" end_time="00:02:57.790">Obviously, Tom is on top of the
+                    cliff, so he’s gonna be adding a little bit to this.</s>
+        <s start_time ="00:02:58.160" end_time="00:03:00.410">But we haven’t been told how
+                    tall Tom is.</s>
+        <s start_time ="00:03:00.600" end_time="00:03:03.390">So, in this question, we’re
+                    ignoring Tom’s height.</s>
+        <s start_time ="00:03:03.720" end_time="00:03:12.400">In another question, it’s
+                    possible that you might be told how tall Tom is or how high up his eyes are from
+                    the ground, in which case you’d need to account for that as well.</s>
+        <s start_time ="00:03:12.430" end_time="00:03:16.580">But in this question, we’re
+                    just treating it as the 100 metres for the height of the cliff.</s>
+      </p>
+      <p>
+        <s start_time ="00:03:18.630" end_time="00:03:22.570">Now, we’re asked to calculate
+                    the distance between the boat and the base of the cliff.</s>
+        <s start_time ="00:03:24.290" end_time="00:03:28.890">So, that is this horizontal
+                    distance here, which I’ve labelled as 𝑑 metres.</s>
+        <s start_time ="00:03:30.630" end_time="00:03:34.380">So, thinking about how to
+                    approach this problem then, it’s a trigonometry problem.</s>
+        <s start_time ="00:03:34.530" end_time="00:03:43.390">And the first step for me when
+                    approaching a trigonometry question is always to label the sides as the
+                    opposite, the adjacent, and the hypotenuse in relation to the angle.</s>
+        <s start_time ="00:03:43.440" end_time="00:03:45.930">So, that’s in relation to the
+                    51 degrees here.</s>
+      </p>
+      <p>
+        <s start_time ="00:03:47.810" end_time="00:03:49.210">So, there are their labels.</s>
+        <s start_time ="00:03:49.380" end_time="00:03:52.810">And I can see I’ve been given
+                    the opposite and I want to know the adjacent.</s>
+        <s start_time ="00:03:53.000" end_time="00:03:54.290">So, I’ve got O and A.</s>
+        <s start_time ="00:03:54.290" end_time="00:03:56.610">So, I’m going to be using the
+                    tangent ratio here.</s>
+        <s start_time ="00:03:57.350" end_time="00:04:00.980">I need to recall then what the
+                    definition of the tangent ratio is.</s>
+        <s start_time ="00:04:02.620" end_time="00:04:09.830">And the definition, remember,
+                    is that tan of 𝜃, where 𝜃 represents an angle, is the ratio of the opposite
+                    divided by the adjacent.</s>
+      </p>
+      <p>
+        <s start_time ="00:04:11.610" end_time="00:04:17.580">So, what I’m gonna do is I’m
+                    gonna write this ratio out again, but I’m gonna fill in the information that I
+                    know for this question.</s>
+        <s start_time ="00:04:17.790" end_time="00:04:27.490">So, I’m gonna replace 𝜃 with
+                    51 degrees, I’m gonna replace the opposite with 100, and I’m gonna replace
+                    adjacent with 𝑑 cause that’s the letter I’ve given it in this question.</s>
+        <s start_time ="00:04:29.120" end_time="00:04:32.990">So, I have tan of 51 is equal
+                    to 100 over 𝑑.</s>
+      </p>
+      <p>
+        <s start_time ="00:04:33.860" end_time="00:04:37.390">Now, looking to solve this
+                    equation in order to work out the value of 𝑑.</s>
+        <s start_time ="00:04:37.720" end_time="00:04:45.040">𝑑 is currently in the
+                    denominator of a fraction, so the first thing I’m gonna do is I’m gonna multiply
+                    both sides of the equation by 𝑑.</s>
+        <s start_time ="00:04:46.730" end_time="00:04:51.370">And this gives me 𝑑 multiplied
+                    by tan 51 is equal to 100.</s>
+        <s start_time ="00:04:52.370" end_time="00:04:58.310">Now, the next step to getting
+                    𝑑 on its own here is to divide both sides of the equation by tan 51.</s>
+        <s start_time ="00:04:59.620" end_time="00:05:03.110">Tan 51 is just a number, so I
+                    can do that without any problems.</s>
+        <s start_time ="00:05:04.600" end_time="00:05:08.990">And so, this gives me 𝑑 is
+                    equal to 100 over tan 51.</s>
+      </p>
+      <p>
+        <s start_time ="00:05:10.650" end_time="00:05:13.970">Now, at this point, I’m gonna
+                    reach for my calculator in order to evaluate that.</s>
+        <s start_time ="00:05:14.280" end_time="00:05:20.420">And as that 51 was measured in
+                    degrees, I need to make sure my calculator is in degree mode for this
+                    question.</s>
+        <s start_time ="00:05:22.030" end_time="00:05:25.930">So, evaluating that gives me
+                    80.9784 for 𝑑.</s>
+        <s start_time ="00:05:26.150" end_time="00:05:28.390">I haven’t been told how to
+                    round my answer.</s>
+        <s start_time ="00:05:28.670" end_time="00:05:31.140">So, in this case, I’m gonna
+                    round it to the nearest metre.</s>
+        <s start_time ="00:05:32.520" end_time="00:05:38.460">So, this tells me that the
+                    distance between the boat and the base of the cliff is 81 metres to the nearest
+                    metre.</s>
+      </p>
+      <p>
+        <s start_time ="00:05:40.620" end_time="00:05:44.020">So, really important to draw a
+                    diagram if you haven’t been given one.</s>
+        <s start_time ="00:05:44.350" end_time="00:05:49.000">Read the information in the
+                    question carefully and make sure you put it onto the diagram properly.</s>
+        <s start_time ="00:05:49.510" end_time="00:05:56.050">Recalling the tangent ratio and
+                    then solving the resulting equation in order to work out the length of the side
+                    we’re looking for.</s>
+      </p>
+    </question>
+    <p>
+      <s start_time ="00:05:58.630" end_time="00:06:00.490">Okay, the second question we’re
+                going to look at.</s>
+    </p>
+    <question id="383178370323" media_identifier="706103248382">
+      <publication_date>2020-07-14</publication_date>
+      <question_title>Finding the Angle of Elevation</question_title>
+      <question_seo_meta_description>Jess stands 40 m from a building 25 m high. What is the angle of elevation from Jess to the top of the building?</question_seo_meta_description>
+      <p>
+        <s start_time ="00:06:01.000" end_time="00:06:05.110">Jess stands 40 metres from a
+                    building 25 metres high.</s>
+        <s start_time ="00:06:05.530" end_time="00:06:09.350">What is the angle of elevation
+                    from Jess to the top of the building?</s>
+      </p>
+      <p>
+        <s start_time ="00:06:10.930" end_time="00:06:15.610">So, as I suggested before, a
+                    diagram would be a really good place to start with this question.</s>
+        <s start_time ="00:06:17.110" end_time="00:06:19.640">So, this time, I’ve just
+                    represented Jess by a dot.</s>
+        <s start_time ="00:06:19.740" end_time="00:06:21.780">We haven’t been told anything
+                    about her height.</s>
+        <s start_time ="00:06:21.780" end_time="00:06:23.610">So, we’re not taking that into
+                    account.</s>
+        <s start_time ="00:06:23.870" end_time="00:06:27.330">She’s 40 metres from the
+                    building, which is 25 metres high.</s>
+        <s start_time ="00:06:27.520" end_time="00:06:33.990">And we are making the
+                    reasonable assumption here that the building is at a right angle to the floor,
+                    which is horizontal.</s>
+        <s start_time ="00:06:35.540" end_time="00:06:40.040">So, we’re looking to calculate
+                    the angle of elevation as Jess looks up at the top of the building.</s>
+        <s start_time ="00:06:40.260" end_time="00:06:42.960">So, it’s this angle that I’ve
+                    marked as 𝜃 on the diagram.</s>
+      </p>
+      <p>
+        <s start_time ="00:06:44.960" end_time="00:06:50.640">So, as before, it’s a
+                    trigonometry problem, so always sensible to label the three sides of the
+                    triangle first.</s>
+        <s start_time ="00:06:50.920" end_time="00:07:01.320">So, the hypotenuse, the longest
+                    side here, the opposite which is the side opposite that angle 𝜃, and then the
+                    adjacent which is between 𝜃 and the right angle.</s>
+        <s start_time ="00:07:03.020" end_time="00:07:06.020">The two sides we’ve been given
+                    are the opposite and the adjacent.</s>
+        <s start_time ="00:07:06.210" end_time="00:07:08.790">So, we’re going to be using
+                    that tangent ratio again.</s>
+        <s start_time ="00:07:08.790" end_time="00:07:10.590">So, let’s write down its
+                    definition.</s>
+        <s start_time ="00:07:11.950" end_time="00:07:15.730">So, tan of 𝜃 is equal to the
+                    opposite divided by the adjacent.</s>
+      </p>
+      <p>
+        <s start_time ="00:07:16.590" end_time="00:07:19.020">So, what I’m gonna do is I’m
+                    gonna write this ratio down.</s>
+        <s start_time ="00:07:19.200" end_time="00:07:25.310">But I’m gonna replace the
+                    opposite and the adjacent with their values in this question, so 25 and 40.</s>
+        <s start_time ="00:07:27.070" end_time="00:07:30.290">So, I have tan of 𝜃 is equal
+                    to 25 over 40.</s>
+        <s start_time ="00:07:31.070" end_time="00:07:36.270">Now, that does actually
+                    simplify as I can divide both parts of this ratio through by five.</s>
+        <s start_time ="00:07:37.860" end_time="00:07:40.940">So, if I wanted to, I could
+                    simplify it to five over eight.</s>
+        <s start_time ="00:07:42.560" end_time="00:07:49.440">Now, as we’re looking to
+                    calculate an angle this time rather than a side, we need to use that inverse tan
+                    function in order to do this.</s>
+      </p>
+      <p>
+        <s start_time ="00:07:50.720" end_time="00:07:54.370">So, I have that 𝜃 is equal to
+                    tan inverse of five over eight.</s>
+        <s start_time ="00:07:54.510" end_time="00:07:58.120">And at this point, I’m gonna
+                    reach for my calculator to evaluate that.</s>
+        <s start_time ="00:07:59.750" end_time="00:08:04.090">So, this tells me that 𝜃 is
+                    equal to 32.00538.</s>
+        <s start_time ="00:08:04.310" end_time="00:08:12.740">And if I round that to the
+                    nearest degree then, I have my answer to this question, which is that the angle
+                    of elevation is 32 degrees.</s>
+        <s start_time ="00:08:14.600" end_time="00:08:22.810">So, as before, start with a
+                    diagram, identify the sides of the right-angled triangle, and then use the tan
+                    ratio in order to find this missing angle.</s>
+      </p>
+    </question>
+    <question id="" media_identifier="" pause_reason="not_suitable">
+      <publication_date />
+      <question_title />
+      <question_seo_meta_description />
+      <p>
+        <s start_time ="00:08:25.110" end_time="00:08:30.770">Okay, the final question that
+                    we’re going to look at says, Sue stands four and a half metres away from a
+                    statue.</s>
+        <s start_time ="00:08:31.390" end_time="00:08:35.720">The angle of elevation from Sue
+                    to the base of the statue is 18 degrees.</s>
+        <s start_time ="00:08:36.160" end_time="00:08:40.440">The angle of elevation from Sue
+                    to the top of the statue is 49 degrees.</s>
+        <s start_time ="00:08:40.840" end_time="00:08:43.340">We are asked to work out how
+                    tall the statue is.</s>
+      </p>
+      <p>
+        <s start_time ="00:08:44.950" end_time="00:08:48.380">So, just think about the
+                    information in that question carefully for a moment.</s>
+        <s start_time ="00:08:48.700" end_time="00:08:50.720">We’re given two angles of
+                    elevation.</s>
+        <s start_time ="00:08:50.930" end_time="00:08:56.640">And one of those is to the base
+                    of the statue, which means this statue isn’t flat on the floor with Sue.</s>
+        <s start_time ="00:08:56.780" end_time="00:08:58.410">It’s above her in some way.</s>
+        <s start_time ="00:08:58.710" end_time="00:09:01.460">So, we need to take that into
+                    account when we draw our diagram.</s>
+        <s start_time ="00:09:02.820" end_time="00:09:04.710">So, the situation looks
+                    something like this.</s>
+        <s start_time ="00:09:04.710" end_time="00:09:09.170">We have Sue standing on the
+                    ground and she’s looking up towards the statue.</s>
+        <s start_time ="00:09:09.750" end_time="00:09:11.990">I’ll draw in the horizontal for
+                    the ground as well.</s>
+      </p>
+      <p>
+        <s start_time ="00:09:13.840" end_time="00:09:16.280">So, now let’s add in the
+                    information that we know.</s>
+        <s start_time ="00:09:16.620" end_time="00:09:18.730">Sue is standing four and a half
+                    metres away.</s>
+        <s start_time ="00:09:18.730" end_time="00:09:23.410">So, the horizontal distance
+                    here is four and a half metres.</s>
+        <s start_time ="00:09:24.260" end_time="00:09:26.340">We’re also given two angles of
+                    elevation.</s>
+        <s start_time ="00:09:26.590" end_time="00:09:30.470">The angle of elevation from Sue
+                    to the base is 18 degrees.</s>
+        <s start_time ="00:09:30.500" end_time="00:09:31.950">So, that’s this angle here.</s>
+        <s start_time ="00:09:33.000" end_time="00:09:37.000">And the angle of elevation from
+                    Sue to the top is 49 degrees.</s>
+        <s start_time ="00:09:37.190" end_time="00:09:40.630">So, that’s this whole angle
+                    here, measured from the horizontal.</s>
+        <s start_time ="00:09:42.150" end_time="00:09:44.970">And what we’re looking to work
+                    out is the height of the statue.</s>
+        <s start_time ="00:09:45.190" end_time="00:09:51.230">So, we’re looking to work out
+                    this distance here, which I’ll refer to as 𝑥 metres.</s>
+      </p>
+      <p>
+        <s start_time ="00:09:53.630" end_time="00:09:57.140">Now, that length 𝑥 is not
+                    actually in a right-angled triangle.</s>
+        <s start_time ="00:09:57.460" end_time="00:10:01.090">And we need right-angled
+                    triangles in order to do this type of trigonometry.</s>
+        <s start_time ="00:10:01.470" end_time="00:10:05.700">So, it’s going to be a
+                    two-stage process in order to work out this length 𝑥.</s>
+        <s start_time ="00:10:06.970" end_time="00:10:09.160">There are two right-angled
+                    triangles in the diagram.</s>
+        <s start_time ="00:10:09.380" end_time="00:10:14.560">So, what I’m going to do is
+                    draw them out separately so that we can visualize the problem a little more
+                    easily.</s>
+      </p>
+      <p>
+        <s start_time ="00:10:16.160" end_time="00:10:18.470">So, here are those two
+                    right-angled triangles.</s>
+        <s start_time ="00:10:18.620" end_time="00:10:20.500">And let’s just match them up
+                    with the diagram.</s>
+        <s start_time ="00:10:20.860" end_time="00:10:27.390">This length here, which I’m
+                    going to call 𝑦, is this length here in the original diagram.</s>
+        <s start_time ="00:10:27.440" end_time="00:10:30.260">So, that’s the smaller
+                    right-angled triangle at the bottom.</s>
+        <s start_time ="00:10:32.000" end_time="00:10:40.550">This length here in the larger
+                    triangle, so this one here which I’m going to call 𝑧, this is this total length
+                    here in the diagram.</s>
+        <s start_time ="00:10:42.190" end_time="00:10:45.110">So perhaps, you can see now
+                    what my strategy is going to be.</s>
+        <s start_time ="00:10:45.450" end_time="00:10:48.870">I’m going to use these two
+                    right-angled triangles to calculate 𝑦 and 𝑧.</s>
+        <s start_time ="00:10:48.870" end_time="00:10:54.890">And then looking at the
+                    diagram, you can see that 𝑥 will be the difference between these two
+                    values.</s>
+        <s start_time ="00:10:54.920" end_time="00:10:58.340">So, 𝑥 will be 𝑧 subtract
+                    𝑦.</s>
+      </p>
+      <p>
+        <s start_time ="00:11:00.200" end_time="00:11:09.580">So first of all, in each of
+                    these triangles, I’m gonna label the three sides, the hypotenuse, the opposite,
+                    and the adjacent relative to these angles of 18 and 49 degrees.</s>
+        <s start_time ="00:11:11.240" end_time="00:11:17.300">So, in both cases, we know the
+                    adjacent and we want to work out the opposite, which means I’m gonna be using
+                    the tan ratio.</s>
+        <s start_time ="00:11:18.000" end_time="00:11:20.560">So, I’ll recall the definition
+                    of the tangent ratio.</s>
+        <s start_time ="00:11:21.630" end_time="00:11:27.040">And remember, it’s this, that
+                    tan of 𝜃 the angle is equal to the opposite divided by the adjacent.</s>
+      </p>
+      <p>
+        <s start_time ="00:11:28.430" end_time="00:11:29.840">So, I’m going to apply this
+                    twice.</s>
+        <s start_time ="00:11:29.840" end_time="00:11:37.310">Starting with the smaller
+                    triangle then, I’m gonna replace 𝜃 with 18 degrees and I’m gonna replace the
+                    adjacent with 4.5.</s>
+        <s start_time ="00:11:38.890" end_time="00:11:42.800">So, I have tan of 18 is equal
+                    to 𝑦 over 4.5.</s>
+        <s start_time ="00:11:43.810" end_time="00:11:51.210">The first step to solving this
+                    equation then is I need to multiply both sides of the equation by 4.5 because
+                    that’s currently in the denominator.</s>
+        <s start_time ="00:11:52.780" end_time="00:11:56.000">So, this gives me that 𝑦 is
+                    equal to 4.5 tan 18.</s>
+        <s start_time ="00:11:56.140" end_time="00:11:59.260">And I’ve just written the two
+                    sides of the equation the other way round there.</s>
+        <s start_time ="00:12:00.860" end_time="00:12:04.770">Now, if I evaluate that on my
+                    calculator, it’s a value of 1.46.</s>
+        <s start_time ="00:12:04.950" end_time="00:12:09.810">But I’m actually gonna keep it
+                    exact for now cause I need to use 𝑦 again later in the question.</s>
+        <s start_time ="00:12:09.970" end_time="00:12:15.070">And if I keep it like this,
+                    then it will be an exact value and I won’t introduce any rounding errors.</s>
+      </p>
+      <p>
+        <s start_time ="00:12:16.730" end_time="00:12:18.420">So, now, I look at the second
+                    triangle.</s>
+        <s start_time ="00:12:18.520" end_time="00:12:22.900">And again, I want to write out
+                    the tangent ratio but filling in the information I know.</s>
+        <s start_time ="00:12:22.970" end_time="00:12:28.520">So, 𝜃 is going to be replaced
+                    with 49 and adjacent is again going to be replaced with 4.5.</s>
+        <s start_time ="00:12:30.150" end_time="00:12:33.530">So, I have tan of 49 is equal
+                    to 𝑧 over 4.5.</s>
+        <s start_time ="00:12:34.360" end_time="00:12:39.570">As in the previous triangle, I
+                    now need to multiply both sides of this equation by 4.5.</s>
+        <s start_time ="00:12:40.870" end_time="00:12:44.380">And so, I have that 𝑧 is equal
+                    to 4.5 tan 49.</s>
+        <s start_time ="00:12:45.010" end_time="00:12:49.060">Now, again, if I were to
+                    evaluate that, it’s a value of about 5.18.</s>
+        <s start_time ="00:12:49.310" end_time="00:12:50.940">But I’m gonna keep it like this
+                    for now.</s>
+      </p>
+      <p>
+        <s start_time ="00:12:52.610" end_time="00:12:57.210">Right, the final step is I
+                    wanted to work out the height of this statue, which was 𝑥.</s>
+        <s start_time ="00:12:57.210" end_time="00:13:01.930">And remember we said that in
+                    order to do that, I would need to do 𝑧 minus 𝑦.</s>
+        <s start_time ="00:13:03.900" end_time="00:13:09.280">So, I have 𝑥 is equal to 4.5
+                    tan 49 minus 4.5 tan 18.</s>
+        <s start_time ="00:13:09.370" end_time="00:13:13.330">And this is the first stage,
+                    where I’m gonna use my calculator to evaluate that.</s>
+        <s start_time ="00:13:14.690" end_time="00:13:18.160">So, this tells me that 𝑥 is
+                    equal to 3.7145.</s>
+        <s start_time ="00:13:18.590" end_time="00:13:20.970">Now, this answer is in
+                    metres.</s>
+        <s start_time ="00:13:21.110" end_time="00:13:24.820">So, if I round it to the
+                    nearest hundredth, that would be the nearest centimetre.</s>
+        <s start_time ="00:13:26.140" end_time="00:13:30.810">So, this tells me that the
+                    height of the statue then is 3.71 metres.</s>
+      </p>
+      <p>
+        <s start_time ="00:13:32.660" end_time="00:13:36.950">So, in this question, getting a
+                    diagram set up correctly at the beginning was really important.</s>
+        <s start_time ="00:13:37.160" end_time="00:13:41.260">Don’t assume that the statue is
+                    standing on the same flat ground as Sue.</s>
+        <s start_time ="00:13:41.260" end_time="00:13:45.060">We had to read the question
+                    carefully and deduce it is actually above her.</s>
+      </p>
+    </question>
+    <p>
+      <s start_time ="00:13:46.990" end_time="00:13:50.550">In summary then, we’ve defined what
+                angles of elevation and depression are.</s>
+      <s start_time ="00:13:50.690" end_time="00:14:01.840">And we’ve seen how to use the
+                tangent ratio in order to answer questions involving calculating angle of elevation
+                or depression or calculating a missing length from a worded description.</s>
+    </p>
+  </transcript>
+</video>

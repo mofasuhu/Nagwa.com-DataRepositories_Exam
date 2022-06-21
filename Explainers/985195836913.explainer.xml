@@ -1,0 +1,894 @@
+﻿<explainer id="985195836913" country="zz" currency="none" calendar="none" 
+  unit_system="none" language="en"  dialect="american" publication_date="2020-09-21T10:20:02">
+  
+  <title>&#119899;th Roots: Integers</title>
+  <seo_meta_description>In this explainer, we will learn how to work out 
+    &#119899;th roots of integers, where &#119899; is a positive integer greater than or 
+    equal to 2.</seo_meta_description>
+  
+  <source_id>853160946083</source_id>
+  <developer_name/>
+  <developer_email>anita.piatek@nagwa.com</developer_email>
+  
+ <dictionary>
+    <item>
+      <from>@n</from>
+      <to>n</to>
+    </item>
+   <item>
+     <from>@x</from>
+     <to>x</to>
+   </item>
+   <item>
+     <from>@y</from>
+     <to>y</to>
+   </item>
+   <item>
+     <from>@z</from>
+     <to>z</to>
+   </item>
+   <item>
+     <from>@r</from>
+     <to>r</to>
+   </item>
+   <item symbol="false">
+     <from>@so</from>
+     <to>so</to>
+   </item>
+   <item symbol="false">
+     <from>@and</from>
+     <to>and</to>
+   </item>
+   <item symbol="false">
+     <from>@wemusthave</from>
+     <to>we must have</to>
+   </item>
+      </dictionary>
+  
+  <body>
+   
+    <p>In this explainer, we will learn how to work out <latex>$@n$</latex>th roots of 
+      integers, where <latex>$@n$</latex> is a positive integer greater than 
+      or equal to 2.</p>
+    
+    <p>The <latex>$@n$</latex>th root of a number is the inverse operation to 
+      raising a number to the <latex>$@n$</latex>th exponent, so we will first review 
+      how we find different exponents of a number.</p>
+	
+	  <p>We can recall that a number with an exponent of 1 equals the number itself;
+	    for example, 
+	    <latex>
+	    \begin{align*}
+	    5^1=5.
+	    \end{align*}
+	    </latex>
+	  </p>
+	
+	  <p>A number with an exponent of 2 would be that number multiplied by itself; 
+	    for example,
+	    <latex>
+	\begin{align*}
+	    5^2 &amp;= 5 \times 5\\
+	        &amp;= 25.
+	\end{align*}
+	    </latex>
+	  </p>
+    
+	  <p>Taking the square root of a number is the inverse operation to raising a 
+	    number to the second exponent. We can define the square root of a number using 
+	    the radical symbol <latex>$\left(\sqrt{}\right)$</latex>.</p>
+	  
+    <sidebar type="definition">
+      <title>Definition: The Square Root of a Number</title>
+      <p>A square root of a number <latex>$@x$</latex> is a number 
+        <latex>$@y$</latex>, such that <latex>$@y^2 = @x$</latex>. The positive square 
+        root of <latex>$@x$</latex> is written as 
+        <latex>
+          \begin{align*}
+        \sqrt{@x} = @y.
+        \end{align*}
+        </latex>
+      </p>
+    </sidebar>
+    
+	 <p>When we consider the square root function, <latex>$\sqrt{@x}=@y$</latex>, 
+	   this function takes a positive input <latex>$@x$</latex> and returns the positive 
+	   <latex>$@y$</latex>-value that would be squared to obtain <latex>$@x$</latex>. 
+	   For example, 
+	   <latex>
+	     \begin{align*}
+	     \sqrt{25}=5.
+	     \end{align*}
+	   </latex>
+	 </p>
+	
+	 <p>However, it is important to remember that we could also square the value 
+	   <latex>$-5$</latex> to give 25, as
+	   <latex>
+	     \begin{align*}
+	     -5 \times -5 =25.
+	     \end{align*}
+	   </latex>
+	 </p>
+	
+	<p>Unless otherwise directed, we usually just consider the positive value of the root. 
+	  When we need to consider both the positive and negative square root values, we can 
+	  indicate this by using the <latex>$\pm$</latex> symbol. For example,
+	  <latex>
+	    \begin{align*}
+	    \pm \sqrt{25} = \pm 5.
+	    \end{align*}
+	  </latex>
+	</p>
+	
+	<p>We can now investigate what happens when the exponent of a number is an integer 
+	  greater than 2.</p>
+	
+	 <p>We could write that 
+	   <latex>
+	\begin{align*}
+	    5^3 &amp;= 5 \times 5 \times 5\\
+	       &amp;= 125.
+	\end{align*}
+	   </latex>
+	 </p>
+    
+	 <p>And, an exponent of 4 would give
+	   <latex>
+	\begin{align*}
+	    5^4 &amp;= 5 \times 5 \times 5 \times 5\\
+	       &amp;= 625.
+	\end{align*}
+	   </latex>
+	 </p>
+    
+    
+    <p>The inverse operations to both of these are the <latex>$@n$</latex>th roots, 
+      where <latex>$@n$</latex> represents the value of the exponent.</p>
+    
+    <p>Since 
+      <latex>
+        \begin{align*}
+        5^3=125,
+        \end{align*}
+      </latex>
+    then the third root of 125 will be a number that is cubed to give 125, 
+    which we know is 5. We can write this as
+      <latex>
+        \begin{align*}
+        \sqrt[3]{125}=5.
+        \end{align*}
+      </latex>
+    </p>
+    
+    <p>For our value, <latex>$5^4$</latex>, with an exponent of 4, since
+      <latex>
+        \begin{align*}
+        5^4=125,
+        \end{align*}
+      </latex>
+     the 4th root of 125 can be found by
+      <latex>
+        \begin{align*}
+        \sqrt[4]{125}=5.
+        \end{align*}
+      </latex>
+    </p>
+    
+    <p>Note that the radical symbol <latex>$\left(\sqrt{}\right)$</latex> is also used 
+      for <latex>$@n$</latex>th roots, and the degree of the radical symbol is the 
+      value of <latex>$@n$</latex>. When the square root is being found, we do not 
+      need to write the degree, 2, with the radical symbol. We can define 
+      the <latex>$@n$</latex>th root as follows.</p>
+    
+    <sidebar type="definition">
+      <title>Definition: &#119899;th Root of a Number</title>
+      <p>An <latex>$@n$</latex>th root, <latex>$@r$</latex>, of a quantity 
+        <latex>$@z$</latex> is a value such that
+        <latex>
+          \begin{align*}
+          @z = @r^@n.
+          \end{align*}
+        </latex>
+      </p>
+      
+       <p>It is, therefore, the inverse function to raising a number to the 
+         <latex>$@n$</latex>th exponent. The <latex>$@n$</latex>th root is denoted
+         <latex>
+           \begin{align*}
+           @r = \sqrt[@n]{@z}.
+           \end{align*}
+         </latex>
+       </p>
+    </sidebar>
+  
+	 <p>The 2nd root is usually called the square root. The 3rd root is often called 
+	   the cube root. After that, the roots are simply the <latex>$@n$</latex>th root, 
+	   for example, the 5th root and the 9th root.</p>
+	
+	 <p>It is often useful to make a note of some of the first few exponents 
+	   of 2, 3, and 4 in order to help us more quickly find the <latex>$@n$</latex>th 
+	   roots of these values.</p>
+    
+    <sidebar type="definition">
+      <title>The First Five Exponents of 2, 3, and 4</title>
+      <p>
+        <latex>
+          \begin{align*}
+          \begin{nagwaCancelArray}{cccc}
+          2^1=2	 &amp; \qquad 3^1=3  \qquad &amp; 4^1=4\\
+          2^2=4	&amp; \qquad 3^2=9 \qquad &amp; 4^2=16\\
+          2^3=8	&amp; \qquad 3^3=27 \qquad  &amp; 4^3=64\\
+          2^4=16 &amp;\qquad  3^4=81 \qquad  &amp; 4^4=256\\
+          2^5=32 &amp; \qquad 3^5=243 \qquad &amp; 4^5=1024
+          \end{nagwaCancelArray}
+          \end{align*}
+        </latex>
+      </p>
+    </sidebar>
+	
+	 <p>Learning these powers will allow for faster recall and is particularly useful 
+	   for finding <latex>$@n$</latex>th roots. For example, to find  
+	   <latex>$\sqrt[5]{243}$</latex>, we can use the fact that 
+	   <latex>$3^5=243$</latex> to give the evaluation that 
+	   <latex>$\sqrt[5]{243}=3$</latex>.</p>
+	
+	  <p>We can now look at some example questions where we find different 
+	    <latex>$@n$</latex>th roots.</p>
+  
+    <example>
+      <title>Evaluating a Square Root</title>
+      <question id="570193975828" instance_number="1">
+        <mcq>
+          <stem>
+            <p>Evaluate <latex>$\sqrt{4}$</latex>.</p>
+          </stem>
+        </mcq>
+      </question>
+      <answer>
+        <p>We can remember that when finding the square root, we do not need to 
+          write the value 2 within the square root. For example, 
+          <latex>$\sqrt{4}$</latex> is equivalent to 
+          <latex>$\sqrt[2]{4}$</latex>. So, if we denote the root as <latex>$@r$</latex>, 
+          then 
+          <latex>
+            \begin{align*}
+            \sqrt[2]{4} = @r,
+            \end{align*}
+          </latex> 
+          which means that
+          <latex>
+            \begin{align*}
+            @r \times @r = @r^2 = 4.
+            \end{align*}
+          </latex>
+        </p>
+        
+        <p>So, for which positive value of <latex>$@r$</latex> will this hold true? 
+          We remember that
+          <latex>
+            \begin{align*}
+            2 \times 2 = 4.
+            \end{align*}
+          </latex>
+        </p>
+        
+       <p>Therefore, 
+         <latex>
+           \begin{align*}
+           \sqrt{4}=2.
+           \end{align*}
+         </latex>
+        </p>
+      </answer>
+    </example>
+  
+	  <p>We will now see how the fourth root of a value can be evaluated.</p>
+	
+	
+    <example>
+      <title>Evaluating a Fourth Root</title>
+      <question id="946123413979" instance_number="1">
+        <mcq>
+          <stem>
+            <p>Evaluate <latex>$\sqrt[4]{81}$</latex>.</p>
+          </stem>
+        </mcq>
+      </question>
+      <answer>
+        <p>The <latex>$@n$</latex>th root, <latex>$@r$</latex>, of a quantity 
+          <latex>$@z$</latex> is a value such that
+          <latex>
+            \begin{align*}
+             @z = @r^@n.
+            \end{align*}
+          </latex>
+        </p>
+        
+         <p>It is, therefore, the inverse function to raising a number to the 
+           <latex>$@n$</latex>th exponent. The <latex>$@n$</latex>th root is denoted
+           <latex>
+             \begin{align*}
+             @r = \sqrt[@n]{@z}.
+             \end{align*}
+           </latex>
+         </p>
+        
+         <p>Here, we are asked to find <latex>$\sqrt[4]{81}$</latex>; therefore, 
+           we need to find the positive value of <latex>$@r$</latex> such that
+           <latex>
+             \begin{align*}
+             81 = @r^4.
+             \end{align*}
+           </latex>
+         </p>
+        
+          <p>We recall that
+            <latex>
+          \begin{align*}
+          3^4 &amp;=3 \times 3 \times 3 \times 3 \\
+          &amp;= 81.
+          \end{align*}
+          </latex>
+          </p>
+        
+          <p>Therefore, <latex>$@r=3$</latex>, and we can write
+            <latex>
+              \begin{align*}
+              \sqrt[4]{81}=3.
+              \end{align*}
+            </latex>
+            </p>
+      </answer>
+    </example>
+  
+	<p>In the following example, we will find an unknown value whose square root 
+	  is equal to the cube root of another number.</p>
+    
+    <example>
+      <title>Equating Cube Roots and Square Roots</title>
+      <question id="679106595071" instance_number="1">
+        <mcq>
+          <stem>
+            <p>Complete the following: <latex>$\sqrt[3]{27}
+              =\sqrt{\nagwaTextBlank}$</latex>.</p>
+          </stem>
+        </mcq>
+      </question>
+      <answer>
+        <p>We can evaluate the left side of this equation first, <latex>$\sqrt[3]{27}$</latex>.
+          An <latex>$@n$</latex>th root, <latex>$@r$</latex>, of a quantity 
+          <latex>$@z$</latex> is a value such that
+          <latex>
+            \begin{align*}
+            @z = @r^@n.
+            \end{align*}
+          </latex>
+        </p>
+        
+          <p>It is the inverse function to raising a number to the <latex>$@n$</latex>th 
+            exponent. The <latex>$@n$</latex>th root is denoted
+            <latex>
+              \begin{align*}
+              @r = \sqrt[@n]{@z}.
+              \end{align*}
+            </latex>
+          </p>
+        
+          <p>In this case, the value of <latex>$@n=3$</latex> as we are finding the 
+            3rd root. To find the value of <latex>$@r$</latex>, where 
+            <latex>$@r = \sqrt[3]{27}$</latex>, this is equivalent to the value 
+            <latex>$@r$</latex> such that
+            <latex>
+              \begin{align*}
+              27 = @r^3.
+              \end{align*}
+            </latex>
+          </p>
+        
+          <p>As we know that 
+            <latex>
+              \begin{align*}
+              27=3^3,
+              \end{align*}
+            </latex>
+           we can also say that
+            <latex>
+              \begin{align*}
+              \sqrt[3]{27}=3.
+              \end{align*}
+            </latex>
+          </p>
+        
+          <p>It is important to note that the missing value in the question is not 
+            simply 3. Instead, both sides of the equation must equal 3:
+            <latex>
+              \begin{align*}
+              \underbrace{\sqrt[3]{27}}_{3} 
+              = \underbrace{\sqrt{\nagwaTextBlank}}_{3}.
+              \end{align*}
+            </latex>
+          </p>
+        
+          <p>For the right-hand side of this equation to be equal to 3, 
+            we need to find the missing value such that 
+            <latex>
+              \begin{align*}
+              \sqrt{\nagwaTextBlank}=3.
+              \end{align*}
+            </latex>
+          </p>
+        
+          <p>We recall that 
+            <latex>
+              \begin{align*}
+              3 \times 3 = 9.
+              \end{align*}
+            </latex>
+          </p>
+        
+          <p>Therefore,
+            <latex>
+              \begin{align*}
+              \sqrt{9}=3.
+              \end{align*}
+            </latex>
+          </p>
+        
+          <p>Hence, the missing value is 9, and the completed equation is
+            <latex>
+              \begin{align*}
+              \sqrt[3]{27}=\sqrt{9}.
+              \end{align*}
+            </latex>
+            </p>
+      </answer>
+    </example>
+    
+	 <p>In the next two examples, we will see how a number of different roots can 
+	   be evaluated within one equation.</p>
+    
+    <example>
+      <title>Finding an Unknown Variable Using &#119899;th Roots</title>
+      <question id="620130796210" instance_number="1">
+        <mcq>
+          <stem>
+            <p>Given that <latex>$@x=\sqrt[5]{32}-\sqrt[4]{625}+\sqrt{64}$</latex>, 
+              find <latex>$@x$</latex>.</p>
+          </stem>
+        </mcq>
+      </question>
+      <answer>
+        <p>In order to find the value of <latex>$@x$</latex>, we will need to 
+          evaluate the <latex>$@n$</latex>th roots within this equation.</p>
+        
+          <p>An <latex>$@n$</latex>th root, <latex>$@r$</latex>, of a quantity 
+            <latex>$@z$</latex> is a value such that
+            <latex>
+              \begin{align*}
+              @z = @r^@n.
+              \end{align*}
+            </latex>
+          </p>
+        
+          <p>It is the inverse function to raising a number to the <latex>$@n$</latex>th 
+            exponent. The <latex>$@n$</latex>th root is denoted 
+            <latex>
+              \begin{align*}
+              @r=\sqrt[@n]{@z}.
+              \end{align*}
+            </latex>
+          </p>
+        
+          <p>Beginning with the first term on the right side of this equation, 
+            <latex>$\sqrt[5]{32}$</latex>, we can write 
+            <latex>$@r=\sqrt[@n]{@z}$</latex> as <latex>$@r = \sqrt[5]{32}$</latex>. 
+            Then, we find the positive value of <latex>$@r$</latex> such that 
+            <latex>$32=@r^5$</latex>. If using a trial and improvement solution, 
+            as 32 is a relatively low value, it would be sensible to begin with 
+            a low value of <latex>$@r$</latex>. We remember that any integer exponent 
+            of 1 will simply be 1; that is, <latex>$1^@x=1$</latex>; 
+            so we could use 2 as the first trial for <latex>$@r$</latex>.</p>
+          
+           <p>Since
+             <latex>
+               \begin{align*}
+               2 \times 2 \times 2 \times 2 \times 2 = 32,
+               \end{align*}
+             </latex>
+             therefore
+             <latex>
+               \begin{align*}
+               2^5 = 32.
+               \end{align*}
+             </latex>
+           </p>
+        
+          <p>This means that the 5th root of 32 is 2, so we can write 
+            <latex>
+              \begin{align*}
+              \sqrt[5]{32}=2.
+              \end{align*}
+            </latex>
+          </p>
+        
+          <p>We can apply the same method to find the value of the next term, 
+            <latex>$\sqrt[4]{625}$</latex>. We will need to find the positive value 
+            of <latex>$@r$</latex> such that 
+            <latex>
+              \begin{align*}
+              625=@r^4.
+              \end{align*}
+            </latex>
+          </p>
+        
+          <p>For a trial and improvement solution, we can additionally apply a bit of 
+            logic. An even number raised to any positive integer exponent will 
+            always be even. As 625 is an odd number, this means that the value of 
+            <latex>$@r$</latex> must also be an odd number.</p>
+        
+          <p>We can establish that
+            <latex>
+              \begin{align*}
+              3^4=81, \quad \text{@so } @r \neq 3.
+              \end{align*}
+            </latex>
+          </p>
+        
+          <p>Next, we can trial the next odd value, <latex>$@r=5$</latex>. This gives us
+            <latex>
+              \begin{align*}
+              5^4=625, \quad \text{@so } @r = 5.
+              \end{align*}
+            </latex>
+          </p>
+        
+          <p>Therefore, 
+            <latex>
+              \begin{align*}
+              \sqrt[4]{625}=5.
+              \end{align*}
+            </latex>
+          </p>
+        
+          <p>For the final term, <latex>$\sqrt{64}$</latex>, we can recall that since
+            <latex>
+              \begin{align*}
+              8 \times 8 = 64,
+              \end{align*}
+            </latex>
+           we can write that
+            <latex>
+              \begin{align*}
+              \sqrt{64}=8.
+              \end{align*}
+            </latex>
+          </p>
+        
+          <p>We can now substitute the values <latex>$\sqrt[5]{32}=2$</latex>, 
+            <latex>$\sqrt[4]{625}=5$</latex>, and <latex>$\sqrt{64}=8$</latex> 
+            into the equation to find the value of <latex>$@x$</latex>, noting that 
+            the term <latex>$\sqrt[4]{625}$</latex> is being subtracted:
+          <latex>
+          \begin{align*}
+          @x &amp;=\sqrt[5]{32}-\sqrt[4]{625}+\sqrt{64}\\
+          @x &amp;= 2 - 5 + 8.
+          \end{align*}
+          </latex>
+          </p>
+        
+          <p>Simplifying this expression, we notice that there are terms that must be 
+            added and subtracted. We apply the order of operations to simplify 
+            this expression, giving us
+            <latex>
+              \begin{align*}
+              @x=5.
+              \end{align*}
+            </latex>
+            </p>
+      </answer>
+    </example>
+    
+	
+	<p>We will now consider finding the <latex>$@n$</latex>th roots of negative values.</p>
+	
+	<p>For example, is there a real value <latex>$@x$</latex> for which 
+	  <latex>
+	    \begin{align*}
+	    \sqrt{-9} = @x?
+	    \end{align*}
+	  </latex>
+	</p>
+    
+	<p>We know that we can square a positive and negative value in the following example:
+	  <latex>
+	    \begin{align*}
+	    3^2 = 9  \quad \text{@and}  \quad (-3)^2=9.
+	    \end{align*}
+	  </latex>
+	</p>
+    
+	<p>However, both of these give a result of 9, not <latex>$-9$</latex>. 
+	  So, neither 3 nor <latex>$-3$</latex> is a solution to <latex>$\sqrt{-9}$</latex>.</p>
+	
+	<p>Is there a real value <latex>$@r$</latex> for which 
+	  <latex>$@r^2=-9$</latex>?</p>
+	
+	<p>If <latex>$@r$</latex> is a positive value, then <latex>$@r^2 = @r \times @r$</latex> 
+	  would be a positive multiplied by a positive, giving a positive value. 
+	  Thus <latex>$@r^2 &gt; 0$</latex>, and not <latex>$-9$</latex>.</p>
+    
+	 <p>If <latex>$@r$</latex> is a negative value, then <latex>$@r^2 = @r \times @r$</latex> 
+	   would be a negative multiplied by a negative, also giving a positive value, 
+	   and not <latex>$-9$</latex>.</p> 
+	
+	<p>Thus, there is no real value of <latex>$@x$</latex> for which 
+	  <latex>$@x^2=-9$</latex>, and no real solution for <latex>$\sqrt{-9}$</latex>. 
+	  In general, there is no real solution for the square root of any negative number.</p>
+    
+	 <p>We can also extend this to any positive, even value of <latex>$@n$</latex> in 
+	   the <latex>$@n$</latex>th root of a negative number.</p>
+	
+	  <p>We consider that
+	  <latex>
+    \begin{align*}
+        3^4 &amp;=3 \times 3 \times 3 \times 3\\
+            &amp;= 81,
+    \end{align*}
+	  </latex>
+	and 
+	<latex>
+	 \begin{align*}
+        \left(-3\right)^4 &amp;=
+        \underbrace{-3 \times -3}_{9} \times \underbrace{-3 \times -3}_{9}\\
+            &amp;= 81.
+    \end{align*}
+	</latex>
+	  </p>
+    
+    <p>Therefore, if we consider the 4th root of <latex>$-81$</latex>, is it possible 
+      to have a real value <latex>$@x$</latex> for which 
+      <latex>
+        \begin{align*}
+        @x^4=-81 \quad \text{@and} \quad \sqrt[4]{-81}=@x?
+        \end{align*}
+      </latex>
+    </p>
+    
+    <p>The answer is no, as the only two potential solutions, <latex>$@x=3$</latex> and
+      <latex>$@x=-3$</latex>, both give an answer of positive 81 when 
+      raised to the 4th exponent.</p>
+    
+    <p>Next, we can examine the situations where there are <latex>$@n$</latex>th roots 
+      of negative numbers.</p>
+    
+    <p>For example, are there any real values of <latex>$@x$</latex> for which 
+      <latex>
+        \begin{align*}
+        @x=\sqrt[3]{-8}?
+        \end{align*}
+      </latex>
+    </p>
+    
+    <p>We can calculate that
+      <latex>
+    \begin{align*}
+        (-2)^3 &amp;= -2 \times -2 \times -2\\
+            &amp;= -8.
+    \end{align*}
+      </latex>
+    </p>
+    
+    <p>Therefore, 
+      <latex>
+        \begin{align*}
+        \sqrt[3]{-8}=-2.
+        \end{align*}
+      </latex>
+    </p>
+    
+    <p>Taking a different calculation, as we can evaluate 
+      <latex>
+        \begin{align*}
+        \left(-3\right)^5=-243,
+        \end{align*}
+      </latex>
+      we know that
+      <latex>
+        \begin{align*}
+        \sqrt[5]{-243}=-3.
+        \end{align*}
+      </latex>
+    </p>
+    
+    <p>In both cases above, we found a real solution for the root of a negative number, 
+      when the roots were 3 and 5. In general, we can find a real solution for the 
+      <latex>$@n$</latex>th root of a negative number when <latex>$@n$</latex> 
+      is a positive, odd integer.</p>
+    
+     <p>We can summarize the results in the table below.</p>
+    
+    <p>For the equation <latex>$@z=@r^@n$</latex>,</p>
+    
+      <table>
+        <tr>
+        <th></th>
+          <th><latex>$@z &gt; 0$</latex></th>
+          <th><latex>$@z &lt; 0$</latex></th>
+      </tr>
+        <tr>
+          <th><latex>$@n$</latex> is an even positive integer</th>
+          <td>Two real roots, <latex>$\pm \sqrt[@n]{@z}$</latex></td>
+          <td>No real roots</td>
+        </tr>
+        <tr>
+          <th><latex>$@n$</latex> is an odd positive integer</th>
+          <td colspan="2">One real root, <latex>$\sqrt[@n]{@z}$</latex></td>
+        </tr>
+      </table>
+    
+    <p>We will see how to apply this in our next example.</p>
+    
+    
+    <example>
+      <title>Finding an Unknown Variable Using &#119899;th Roots</title>
+      <question id="183196531910" instance_number="1">
+        <mcq>
+          <stem>
+            <p>Given that <latex>$@x=\sqrt[6]{64}+\sqrt{81}+\sqrt[3]{-27}
+              -\sqrt[4]{16}$</latex>, find <latex>$@x$</latex>.</p>
+          </stem>
+        </mcq>
+      </question>
+      <answer>
+        <p>To find the value of <latex>$@x$</latex>, we will need to evaluate the 
+          <latex>$@n$</latex>th roots within this equation.</p>
+        
+         <p>An <latex>$@n$</latex>th root, <latex>$@r$</latex>, of a quantity 
+           <latex>$@z$</latex> is a value such that
+           <latex>
+             \begin{align*}
+             @z = @r^@n.
+             \end{align*}
+           </latex>
+         </p> 
+           
+          <p>It is the inverse function to raising a number to the <latex>$@n$</latex>th 
+            exponent. The <latex>$@n$</latex>th root is denoted
+            <latex>
+              \begin{align*}
+              @r=\sqrt[@n]{@z}.
+              \end{align*}
+            </latex>
+          </p>
+        
+          <p>Taking the terms on the left side of the equation, we can evaluate 
+            <latex>$\sqrt[6]{64}$</latex> by considering which positive 
+            value of <latex>$@r$</latex> would give
+            <latex>
+              \begin{align*}
+              64=@r^6.
+              \end{align*}
+            </latex>
+          </p>
+        
+          <p>As 
+            <latex>
+              \begin{align*}
+              2^6=64, \quad \text{@wemusthave } @r=2,
+              \end{align*}
+            </latex>
+          and, as such,
+            <latex>
+              \begin{align*}
+              \sqrt[6]{64}=2.
+              \end{align*}
+            </latex>
+          </p>
+        
+          <p>Since 
+            <latex>
+              \begin{align*}
+              81 = 9 \times 9,
+              \end{align*}
+            </latex>
+            we can conclude that
+            <latex>
+              \begin{align*}
+              \sqrt{81}=9.
+              \end{align*}
+            </latex>
+          </p>
+        
+          <p>We then need to evaluate <latex>$\sqrt[3]{-27}$</latex>. Note that
+            when finding <latex>$@n$</latex>th roots of a value, 
+            when <latex>$@n$</latex> is an even number, we cannot find a real solution 
+            to an <latex>$@n$</latex>th root of a negative number. For example, 
+            we may recall that we cannot find a real solution for the square root of 
+            a negative number. However, when the value of <latex>$@n$</latex> is odd, 
+            we can find a real solution to an <latex>$@n$</latex>th root of a 
+            negative number.</p>
+        
+           <p>Since we have
+             <latex>
+               \begin{align*}
+               3 \times 3 \times 3 = 3^3 = 27,
+               \end{align*}
+             </latex>
+           we know that 
+             <latex>
+               \begin{align*}
+               -3 \times -3 \times -3 = (-3)^3 = -27.
+               \end{align*}
+             </latex>
+           </p>
+        
+          <p>Therefore, 
+            <latex>
+              \begin{align*}
+              \sqrt[3]{-27} = -3.
+              \end{align*}
+            </latex>
+          </p>
+        
+          <p>The final term to evaluate is <latex>$\sqrt[4]{16}$</latex>. 
+            So, which positive value of <latex>$@r$</latex> solves the 
+            equation <latex>$@r^4=16$</latex>?</p>
+        
+           <p>We can write that 
+             <latex>
+               \begin{align*}
+               2^4=16.
+               \end{align*}
+             </latex>
+           </p>
+        
+           <p>Therefore, 
+             <latex>
+               \begin{align*}
+               \sqrt[4]{16}=2.
+               \end{align*}
+             </latex>
+           </p>
+        
+          <p>We can now solve the equation 
+            <latex>
+              \begin{align*}
+              @x = \sqrt[6]{64}+\sqrt{81}+\sqrt[3]{-27}-\sqrt[4]{16},
+              \end{align*}
+            </latex> 
+           by using the values <latex>$\sqrt[6]{64}=2$</latex>, 
+            <latex>$\sqrt{81}=9$</latex>, <latex>$\sqrt[3]{-27} = -3$</latex>, 
+            and <latex>$\sqrt[4]{16}=2$</latex>. Substituting these values 
+            for the terms, and then simplifying, gives
+            <latex>
+          \begin{align*}
+          @x &amp;= \sqrt[6]{64}+\sqrt{81}+\sqrt[3]{-27}-\sqrt[4]{16}\\
+          @x &amp;= 2 + 9 + (-3) - 2\\
+          @x &amp;= 6.
+          \end{align*}
+          </latex>
+          </p>
+        
+        <p>The solution for the value of <latex>$@x$</latex> is 6.</p>
+      </answer>
+    </example>
+    
+    <sidebar type="definition">
+      <title>Key Points</title>
+      <ul>
+      <li>The <latex>$@n$</latex>th root of a value is denoted 
+        <latex>$@r=\sqrt[@n]{@z}$</latex>. It is the inverse operation to raising 
+        a number to the <latex>$@n$</latex>th exponent, and we can consider this 
+        as finding the value <latex>$@r$</latex>, such that <latex>$@z=@r^@n$</latex>.
+      </li>
+      <li>We can find a real solution to the <latex>$@n$</latex>th root of a negative 
+        number when <latex>$@n$</latex> is odd.
+      </li>
+      <li>We cannot find a real solution to the <latex>$@n$</latex>th root of 
+        a negative number when <latex>$@n$</latex> is even.
+      </li>
+      </ul>
+    </sidebar>
+  </body>
+</explainer>

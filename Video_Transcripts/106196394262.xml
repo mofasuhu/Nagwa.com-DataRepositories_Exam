@@ -1,0 +1,334 @@
+﻿<video video_id="106196394262">
+    <video_creator video_creator_id="580178428347">
+        <first_name>Rhodri</first_name>
+        <last_name>Jones</last_name>
+        <email>rhodri.jones@nagwa.com</email>
+    </video_creator>
+    <video_type>Lesson</video_type>
+    <subject>Mathematics</subject>
+    <publication_date>2019-12-31</publication_date>
+    <duration>914141.00</duration>
+    <language>
+        <source>en</source>
+    </language>
+    <title>Areas of Circular Segments</title>
+    <seo_meta_description>In this video, we will learn how to find the area of a circular segment.</seo_meta_description>
+    <transcript>
+        <p>
+            <s start_time ="00:00:01.870" end_time="00:00:06.570">In this video, we will learn how to
+                find the area of a circular segment.</s>
+            <s start_time ="00:00:07.590" end_time="00:00:11.600">We will begin by looking at the
+                definition of a circular segment.</s>
+            <s start_time ="00:00:12.620" end_time="00:00:21.500">We will then identify formulas that
+                can be used to calculate the area of a circular segment and then use these to solve
+                some problems.</s>
+        </p>
+        <question id="603176259486" media_identifier="785109671394">
+            <publication_date>2020-01-22</publication_date>
+            <question_title>The Definition of a Circular Segment</question_title>
+            <question_seo_meta_description>What is the definition of a circular segment? [A] A region of a circle bounded by an arc and a chord passing through the end points of the arc. [B] A region of a circle bounded by two radii and an arc. [C] A region of a circle bounded by a chord and a central angle subtended by that arc. [D] A region of a circle bounded between two chords and two arcs. [E] An arc which is half of the  circumference.</question_seo_meta_description>
+            <p>
+                <s start_time ="00:00:23.580" end_time="00:00:26.910">What is the definition of a
+                    circular segment?</s>
+                <s start_time ="00:00:28.440" end_time="00:00:35.560">Is it (A) a region of a circle
+                    bounded by an arc and a chord passing through the end points of the arc?</s>
+                <s start_time ="00:00:36.430" end_time="00:00:41.140">(B) A region of a circle
+                    bounded by two radii and an arc.</s>
+                <s start_time ="00:00:42.210" end_time="00:00:49.230">(C) A region of a circle
+                    bounded by a chord and a central angle subtended by that arc.</s>
+                <s start_time ="00:00:50.470" end_time="00:00:55.560">(D) A region of a circle
+                    bounded between two chords and two arcs.</s>
+                <s start_time ="00:00:55.980" end_time="00:01:00.000">Or (E) an arc which is half of
+                    the circumference.</s>
+            </p>
+            <p>
+                <s start_time ="00:01:01.200" end_time="00:01:05.150">The circle shown has been split
+                    into two segments.</s>
+                <s start_time ="00:01:06.300" end_time="00:01:10.140">The smaller part of the circle
+                    is known as the minor segment.</s>
+                <s start_time ="00:01:11.340" end_time="00:01:14.670">The larger part is known as the
+                    major segment.</s>
+                <s start_time ="00:01:16.210" end_time="00:01:19.600">Both of these segments are
+                    bounded by an arc.</s>
+                <s start_time ="00:01:20.860" end_time="00:01:23.600">They are also bounded by a
+                    common chord.</s>
+                <s start_time ="00:01:24.860" end_time="00:01:28.340">This means that the correct
+                    definition is option (A).</s>
+                <s start_time ="00:01:29.720" end_time="00:01:38.440">A circular segment is a region
+                    of a circle bounded by an arc and a chord passing through the end points of the
+                    arc.</s>
+                <s start_time ="00:01:39.690" end_time="00:01:45.820">In our diagram, we have a minor
+                    segment in orange and a major segment in pink.</s>
+            </p>
+        </question>
+        <p>
+            <s start_time ="00:01:48.400" end_time="00:01:54.050">We will now look at the formulas
+                that can be used to calculate the area of a segment.</s>
+        </p>
+        <question id="284152170652" media_identifier="">
+            <publication_date>2020-01-22</publication_date>
+            <question_title>Identifying the Area of a Circular Segment given Its Radius and Central Angle</question_title>
+            <question_seo_meta_description>Which formula can be used to find the area of a circular segment, given radius 𝑟 and a central angle 𝜃?</question_seo_meta_description>
+            <p>
+                <s start_time ="00:01:57.160" end_time="00:02:06.180">Which formula can be used to
+                    find the area of a circular segment, given radius 𝑟 and a central angle 𝜃?</s>
+            </p>
+            <p>
+                <s start_time ="00:02:08.050" end_time="00:02:14.360">We recall that any circle can
+                    be split into a minor and major segment as shown.</s>
+                <s start_time ="00:02:16.050" end_time="00:02:22.020">We’re also told that the radius
+                    of the circle is 𝑟 and the central angle is 𝜃.</s>
+                <s start_time ="00:02:23.810" end_time="00:02:40.320">If we label the two points at
+                    the end of the chord 𝐴𝐵 and the center of the circle 𝑂, then the area of the
+                    segment will be equal to the area of the sector 𝐴𝑂𝐵 minus the area of
+                    triangle 𝐴𝑂𝐵.</s>
+                <s start_time ="00:02:41.770" end_time="00:02:48.460">It is important to note at this
+                    point that our angle 𝜃 might be given in degrees or in radians.</s>
+                <s start_time ="00:02:49.500" end_time="00:02:53.220">180 degrees is equal to 𝜋
+                    radians.</s>
+                <s start_time ="00:02:53.660" end_time="00:03:02.450">We know that a circle has a
+                    total of 360 degrees, which means it will have a total of two 𝜋 radians.</s>
+                <s start_time ="00:03:03.830" end_time="00:03:15.580">As a result, the area of a
+                    circular segment can be calculated using two linked formulas, one for degrees
+                    and one when the angle is in radians.</s>
+            </p>
+            <p>
+                <s start_time ="00:03:17.150" end_time="00:03:27.010">When our angle was measured in
+                    degrees, the area of a sector is equal to 𝜃 out of 360 multiplied by 𝜋𝑟
+                    squared.</s>
+                <s start_time ="00:03:28.370" end_time="00:03:34.050">As already mentioned, 360
+                    degrees is equal to two 𝜋 radians.</s>
+                <s start_time ="00:03:34.820" end_time="00:03:43.730">This means that the area of a
+                    sector when 𝜃 is in radians is 𝜃 over two 𝜋 multiplied by 𝜋𝑟 squared.</s>
+                <s start_time ="00:03:44.830" end_time="00:03:47.070">In this case, the 𝜋s
+                    cancel.</s>
+                <s start_time ="00:03:48.070" end_time="00:03:56.790">We are left with 𝜃 over two
+                    multiplied by 𝑟 squared, which is often written as a half 𝑟 squared 𝜃.</s>
+            </p>
+            <p>
+                <s start_time ="00:03:58.790" end_time="00:04:07.400">As we’ve worked out a formula
+                    for the area of a sector in degrees and radians, we will now look at the area of
+                    a triangle.</s>
+                <s start_time ="00:04:08.450" end_time="00:04:16.960">The area of any triangle can be
+                    calculated using the formula a half of 𝑎𝑏 multiplied by sin 𝐶.</s>
+                <s start_time ="00:04:18.560" end_time="00:04:24.920">In our diagram, we can see that
+                    the lengths 𝑎 and 𝑏 are both equal to the radius or 𝑟.</s>
+                <s start_time ="00:04:25.420" end_time="00:04:27.980">The angle 𝐶 is equal to
+                    𝜃.</s>
+                <s start_time ="00:04:28.600" end_time="00:04:38.750">Therefore, the area of a
+                    triangle inside a circle can be calculated using the formula half 𝑟 squared
+                    multiplied by sin 𝜃.</s>
+                <s start_time ="00:04:39.800" end_time="00:04:47.080">We will now clear some space to
+                    work out the formula that can be used to find the area of a circular
+                    segment.</s>
+            </p>
+            <p>
+                <s start_time ="00:04:48.520" end_time="00:04:52.900">Let’s consider when 𝜃 is
+                    measured in radians first.</s>
+                <s start_time ="00:04:53.890" end_time="00:05:02.510">The area of the sector is a
+                    half 𝑟 squared 𝜃, and the area of the triangle is a half 𝑟 squared sin
+                    𝜃.</s>
+                <s start_time ="00:05:03.920" end_time="00:05:09.320">We can factor out a half 𝑟
+                    squared as this is common in both terms.</s>
+                <s start_time ="00:05:10.360" end_time="00:05:16.180">Inside the parentheses or
+                    bracket, we’re left with 𝜃 minus sin 𝜃.</s>
+                <s start_time ="00:05:17.810" end_time="00:05:30.570">When the central angle 𝜃 is
+                    given in radians, then the area of the circular segment can be calculated by
+                    multiplying a half 𝑟 squared by 𝜃 minus sin 𝜃.</s>
+                <s start_time ="00:05:33.040" end_time="00:05:47.310">If the central angle is given
+                    in degrees, then our formula is equal to 𝜃 over 360 multiplied by 𝜋𝑟 squared
+                    minus a half 𝑟 squared sin 𝜃.</s>
+            </p>
+            <p>
+                <s start_time ="00:05:48.530" end_time="00:06:00.160">Whilst the 𝑟 squared is common
+                    in both terms, we tend not to factor it out here but instead calculate the area
+                    of the sector and area of triangle separately.</s>
+                <s start_time ="00:06:01.160" end_time="00:06:06.660">We then subtract our two
+                    answers to calculate the area of the circular segment.</s>
+                <s start_time ="00:06:08.860" end_time="00:06:13.870">Either one of these formulas
+                    can be used depending on the context of the question.</s>
+            </p>
+        </question>
+        <p>
+            <s start_time ="00:06:15.160" end_time="00:06:21.420">We will now use these to find the
+                area of a segment given different properties of a circle.</s>
+        </p>
+        <question id="763181762193" >
+            <publication_date>2020-01-22</publication_date>
+            <question_title>Finding the Area of a Segment given the Area of the Circle and the Segment's Central Angle</question_title>
+            <question_seo_meta_description>The area of a circle is 227 cm² and the central angle of a segment is 120°. Find the area of the segment giving the answer to two decimal places.</question_seo_meta_description>
+        <p>
+            <s start_time ="00:06:24.600" end_time="00:06:34.360">The area of a circle is 227 square
+                centimeters and the central angle of a segment is 120 degrees.</s>
+            <s start_time ="00:06:35.300" end_time="00:06:41.010">Find the area of the segment,
+                giving the answer to two decimal places.</s>
+        </p>
+        <p>
+            <s start_time ="00:06:43.070" end_time="00:06:48.900">We’re told in the question that the
+                central angle of a segment is 120 degrees.</s>
+            <s start_time ="00:06:49.180" end_time="00:06:52.770">And we need to calculate the area
+                of this segment.</s>
+            <s start_time ="00:06:54.890" end_time="00:07:06.020">When the angle of a segment is
+                given in degrees, we can calculate the angle of this segment by subtracting the area
+                of the triangle from the area of the sector.</s>
+            <s start_time ="00:07:07.430" end_time="00:07:14.310">The area of the sector is equal to
+                𝜃 over 360 multiplied by 𝜋𝑟 squared.</s>
+            <s start_time ="00:07:15.520" end_time="00:07:21.170">The area of the triangle is equal
+                to a half 𝑟 squared multiplied by sin 𝜃.</s>
+            <s start_time ="00:07:23.020" end_time="00:07:29.940">We are told in the question that
+                the area of the circle is equal to 227 square centimeters.</s>
+            <s start_time ="00:07:31.040" end_time="00:07:35.260">This means that 𝜋𝑟 squared equals
+                227.</s>
+            <s start_time ="00:07:36.600" end_time="00:07:44.170">Dividing both sides of this
+                equation by 𝜋 gives us 𝑟 squared is equal to 227 over 𝜋.</s>
+        </p>
+        <p>
+            <s start_time ="00:07:46.000" end_time="00:07:49.920">We can now substitute these into
+                both of our formulas.</s>
+            <s start_time ="00:07:51.500" end_time="00:07:59.490">The area of the sector is equal to
+                120 over 360 multiplied by 227.</s>
+            <s start_time ="00:08:00.670" end_time="00:08:09.950">This can be simplified to one-third
+                multiplied by 227 or 227 over three.</s>
+            <s start_time ="00:08:11.640" end_time="00:08:22.000">The area of the triangle can be
+                calculated by multiplying a half by 227 over 𝜋 by sin of 120 degrees.</s>
+            <s start_time ="00:08:23.170" end_time="00:08:27.820">Sin of 120 degrees is equal to root
+                three over two.</s>
+            <s start_time ="00:08:29.060" end_time="00:08:43.160">The area of the segment can
+                therefore be calculated by subtracting a half multiplied by 227 over 𝜋 multiplied
+                by root three over two from 227 over three.</s>
+            <s start_time ="00:08:44.860" end_time="00:08:52.240">Typing this into the calculator
+                gives us 44.37875 and so on.</s>
+            <s start_time ="00:08:53.730" end_time="00:08:59.880">As we need to round our answer to
+                two decimal places, the key or deciding number is the eight.</s>
+            <s start_time ="00:09:01.140" end_time="00:09:05.210">This means that we round up to
+                44.38.</s>
+            <s start_time ="00:09:06.360" end_time="00:09:12.180">The area of the segment is 44.38
+                square centimeters.</s>
+        </p>
+        <p>
+            <s start_time ="00:09:14.590" end_time="00:09:25.960">As this is the area of the minor
+                segment, we could calculate the area of the major segment by subtracting this answer
+                from 227 square centimeters.</s>
+        </p>
+        </question>
+        <p>
+            <s start_time ="00:09:29.030" end_time="00:09:33.790">We will now look at another
+                question where we are given the radius and the chord.</s>
+        </p>
+        <question id="130175278563" media_identifier="329193812910">
+            <publication_date>2020-01-22</publication_date>
+            <question_title>Finding the Area of a Circular Segment</question_title>
+            <question_seo_meta_description>A circle has a radius of 10 cm. A chord of length 14 cm is drawn. Find the area of the major segment, giving the answer to the nearest square centimeter.</question_seo_meta_description>
+        <p>
+            <s start_time ="00:09:36.610" end_time="00:09:40.130">A circle has a radius of 10
+                centimeters.</s>
+            <s start_time ="00:09:40.710" end_time="00:09:44.060">A chord of length 14 centimeters is
+                drawn.</s>
+            <s start_time ="00:09:45.050" end_time="00:09:51.330">Find the area of the major segment,
+                giving the answer to the nearest square centimeter.</s>
+        </p>
+        <p>
+            <s start_time ="00:09:53.400" end_time="00:09:57.730">We are told that the circle has a
+                radius of 10 centimeters.</s>
+            <s start_time ="00:09:58.920" end_time="00:10:03.130">A chord of length 14 centimeters is
+                drawn on the circle.</s>
+            <s start_time ="00:10:04.740" end_time="00:10:17.740">If we let the two ends of the chord
+                be points 𝐴 and 𝐵 and the center point 𝑂, then the area of the minor segment is
+                equal to the area of the sector minus the area of the triangle.</s>
+            <s start_time ="00:10:19.130" end_time="00:10:24.890">In order to calculate both of
+                these, we firstly need to work out the central angle 𝜃.</s>
+            <s start_time ="00:10:26.330" end_time="00:10:29.690">This can be done in either radians
+                or degrees.</s>
+            <s start_time ="00:10:31.050" end_time="00:10:33.460">In this question, we will use
+                radians.</s>
+            <s start_time ="00:10:33.660" end_time="00:10:37.520">So, it is important that our
+                calculator is in the correct mode.</s>
+            <s start_time ="00:10:38.860" end_time="00:10:44.710">The area of a sector, when 𝜃 is in
+                radians, is equal to a half 𝑟 squared 𝜃.</s>
+            <s start_time ="00:10:45.260" end_time="00:10:50.230">And the area of a triangle is equal
+                to a half 𝑟 squared sin 𝜃.</s>
+            <s start_time ="00:10:51.400" end_time="00:11:01.340">This can be simplified by
+                factoring, giving us the area of the segment equal to a half 𝑟 squared multiplied
+                by 𝜃 minus sin 𝜃.</s>
+        </p>
+        <p>
+            <s start_time ="00:11:02.930" end_time="00:11:09.300">We can now calculate the angle 𝜃
+                by using right-angle trigonometry or the cosine rule.</s>
+            <s start_time ="00:11:10.870" end_time="00:11:17.110">In order to calculate the angle in
+                any triangle using the cosine rule, we use the following formula.</s>
+            <s start_time ="00:11:17.790" end_time="00:11:33.820">Cos of 𝐴 is equal to 𝑏 squared
+                plus 𝑐 squared minus 𝑎 squared divided by two 𝑏𝑐, where 𝑎, 𝑏, and 𝑐 are the
+                three lengths of the triangle and 𝐴 is the one opposite the angle we’re trying to
+                work out.</s>
+            <s start_time ="00:11:34.710" end_time="00:11:47.170">Substituting in our values gives us
+                cos of 𝜃 equals 10 squared plus 10 squared minus 14 squared over two multiplied by
+                10 multiplied by 10.</s>
+            <s start_time ="00:11:48.380" end_time="00:11:52.590">This simplifies to cos of 𝜃 equals
+                one fiftieth.</s>
+            <s start_time ="00:11:53.950" end_time="00:12:01.810">Ensuring that our calculator is in
+                radian mode, 𝜃 is equal to the inverse cos of one fiftieth.</s>
+            <s start_time ="00:12:02.760" end_time="00:12:09.960">This is equal to 1.55079 and so on
+                radians.</s>
+        </p>
+        <p>
+            <s start_time ="00:12:11.350" end_time="00:12:16.910">We can now substitute this value
+                into our formula for the area of a segment.</s>
+            <s start_time ="00:12:18.100" end_time="00:12:25.230">The area of the minor segment is
+                equal to 27.5497 and so on.</s>
+            <s start_time ="00:12:26.550" end_time="00:12:30.140">We have been asked to calculate the
+                area of the major segment.</s>
+            <s start_time ="00:12:30.620" end_time="00:12:35.810">This is the area of the whole
+                circle minus the area of the minor segment.</s>
+            <s start_time ="00:12:36.990" end_time="00:12:40.300">The area of a circle is equal to
+                𝜋𝑟 squared.</s>
+            <s start_time ="00:12:41.240" end_time="00:12:47.000">As our radius is equal to 10
+                centimeters, the area is equal to 100𝜋.</s>
+            <s start_time ="00:12:48.110" end_time="00:12:54.570">We need to subtract 27.5497 and so
+                on from this.</s>
+            <s start_time ="00:12:55.620" end_time="00:13:01.820">This is equal to 286.6095 and so
+                on.</s>
+            <s start_time ="00:13:03.470" end_time="00:13:07.340">We’re asked to round our answer to
+                the nearest square centimeter.</s>
+            <s start_time ="00:13:08.520" end_time="00:13:11.990">The deciding number is the six in
+                the tenths column.</s>
+            <s start_time ="00:13:12.260" end_time="00:13:17.010">So, we round up to 287 square
+                centimeters.</s>
+            <s start_time ="00:13:18.020" end_time="00:13:21.510">This is the area of the major
+                segment in the circle.</s>
+        </p>
+        </question>
+        <p>
+            <s start_time ="00:13:24.900" end_time="00:13:28.340">We will now summarize the key
+                points from this video.</s>
+            <s start_time ="00:13:30.510" end_time="00:13:37.720">A segment is a region bounded by an
+                arc and a chord passing through the end points of the arc.</s>
+            <s start_time ="00:13:38.670" end_time="00:13:46.580">Drawing a chord on any circle
+                splits it into two segments, a minor segment and a major segment.</s>
+            <s start_time ="00:13:48.150" end_time="00:13:53.810">As suggested by the name, the major
+                segment is the larger of the two parts.</s>
+            <s start_time ="00:13:54.940" end_time="00:14:04.640">The area of the minor segment,
+                shown in orange on the diagram, is equal to the area of the pink sector minus the
+                area of the blue triangle.</s>
+            <s start_time ="00:14:05.680" end_time="00:14:14.600">In order to calculate these areas,
+                we need the angle 𝜃 in either radians or degrees and the length of the radius
+                𝑟.</s>
+        </p>
+        <p>
+            <s start_time ="00:14:16.280" end_time="00:14:20.870">When dealing in degrees, we tend to
+                calculate the two areas separately.</s>
+            <s start_time ="00:14:21.360" end_time="00:14:27.890">The area of the sector is equal to
+                𝜃 over 360 multiplied by 𝜋𝑟 squared.</s>
+            <s start_time ="00:14:28.270" end_time="00:14:34.510">And the area of the triangle is
+                equal to a half 𝑟 squared multiplied by sin 𝜃.</s>
+            <s start_time ="00:14:35.470" end_time="00:14:39.290">When dealing with radians, we can
+                simplify by factoring.</s>
+            <s start_time ="00:14:39.780" end_time="00:14:48.810">The area of the segment when 𝜃 is
+                in radians is a half 𝑟 squared multiplied by 𝜃 minus sin 𝜃.</s>
+            <s start_time ="00:14:49.940" end_time="00:15:04.340">In any question, we can convert
+                from one angle measurement to the other using the fact that 180 degrees is equal to
+                𝜋 radians and, therefore, 360 degrees is equal to two 𝜋 radians.</s>
+            <s start_time ="00:15:05.270" end_time="00:15:11.480">In some questions, we might need to
+                use trigonometry to find out the angle 𝜃 first.</s>
+        </p>
+    </transcript>
+</video>

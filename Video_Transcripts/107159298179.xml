@@ -1,0 +1,455 @@
+﻿<video video_id="107159298179">
+    <video_creator video_creator_id="959157375383">
+        <first_name>Kathryn</first_name>
+        <last_name>Kingham</last_name>
+        <email>kathryn.kingham@nagwa.com</email>
+    </video_creator>
+    <video_type>Lesson</video_type>
+    <subject>Mathematics</subject>
+    <publication_date>2019-12-16</publication_date>
+    <duration>957922.00</duration>
+    <language>
+        <source>en</source>
+    </language>
+    <title>Compound Events</title>
+    <seo_meta_description>In this video, we will learn how to find and interpret the probability of
+        compound events.</seo_meta_description>
+    <transcript>
+        <p>
+            <s start_time="00:00:00.850" end_time="00:00:07.680">In this video, we will learn how to
+                find and interpret the probability of compound events.</s>
+            <s start_time="00:00:08.310" end_time="00:00:12.940">We’ll consider both independent and
+                dependent compound events.</s>
+        </p>
+        <p>
+            <s start_time="00:00:13.500" end_time="00:00:23.930">When we consider the probability of
+                a simple event, that’s the probability of a single event that is not dependent on
+                any other event.</s>
+            <s start_time="00:00:24.840" end_time="00:00:28.190">For example, a coin toss is a
+                simple event.</s>
+            <s start_time="00:00:28.740" end_time="00:00:34.320">It’s a single event that results in
+                one of two outcomes, heads or tails.</s>
+        </p>
+        <p>
+            <s start_time="00:00:34.990" end_time="00:00:44.360">We remember that the probability of
+                event A is all the ways event A can happen over all of the possible outcomes.</s>
+            <s start_time="00:00:45.120" end_time="00:00:53.520">For a simple event, such as a coin
+                flip, we find the probability of getting heads is one over two.</s>
+            <s start_time="00:00:53.710" end_time="00:00:58.330">There’s one way the coin will be
+                heads out of the two possible options.</s>
+            <s start_time="00:00:59.240" end_time="00:01:09.310">But if we flip the coin twice, it
+                no longer meets the definition for a simple event, as it’s not a single event.</s>
+            <s start_time="00:01:10.110" end_time="00:01:15.340">By tossing the coin twice, we’ve
+                moved from a simple event to a compound event.</s>
+        </p>
+        <p>
+            <s start_time="00:01:16.670" end_time="00:01:21.380">And now, we want to know how would
+                we go about finding the probability of a compound event.</s>
+            <s start_time="00:01:22.210" end_time="00:01:30.570">The probability of a compound event
+                is still equal to the number of successful outcomes over all possible outcomes.</s>
+            <s start_time="00:01:30.990" end_time="00:01:34.050">But it takes a few additional steps
+                to calculate it.</s>
+            <s start_time="00:01:34.720" end_time="00:01:39.430">Let’s look at an example of finding
+                the probability in a compound event.</s>
+        </p>
+        <p>
+            <s start_time="00:01:40.460" end_time="00:01:45.840">If we throw a coin twice, what is
+                the probability of getting heads both times?</s>
+        </p>
+        <p>
+            <s start_time="00:01:46.310" end_time="00:01:51.960">We remember that probability is the
+                number of successful outcomes over all possible outcomes.</s>
+            <s start_time="00:01:52.330" end_time="00:01:54.310">The coin is tossed twice.</s>
+            <s start_time="00:01:54.630" end_time="00:01:59.080">We can use a tree diagram to show
+                all possible outcomes.</s>
+            <s start_time="00:01:59.650" end_time="00:02:03.860">In the first toss, you have a
+                possible outcome of heads or tails.</s>
+            <s start_time="00:02:04.330" end_time="00:02:08.210">The probability of getting heads on
+                the first toss is one-half.</s>
+            <s start_time="00:02:08.440" end_time="00:02:11.900">And the probability of getting
+                tails on the first toss is one-half.</s>
+        </p>
+        <p>
+            <s start_time="00:02:12.210" end_time="00:02:15.840">And now, we need to consider two
+                different situations.</s>
+            <s start_time="00:02:16.370" end_time="00:02:20.980">We consider the second toss if the
+                first toss was heads.</s>
+            <s start_time="00:02:21.700" end_time="00:02:31.670">While the second toss can still
+                only be heads or tails, the probability that it is heads is one-half and the
+                probability that it’s tails is again one-half.</s>
+            <s start_time="00:02:31.990" end_time="00:02:37.960">And now, we consider if the first
+                toss was tails, the second toss could be heads or tails.</s>
+            <s start_time="00:02:38.720" end_time="00:02:42.040">And each of those options has a
+                probability of one-half.</s>
+        </p>
+        <p>
+            <s start_time="00:02:42.370" end_time="00:02:52.630">Using the tree diagram, we can see
+                all possible outcomes, heads, heads; heads, tails; tails, heads; or tails,
+                tails.</s>
+            <s start_time="00:02:52.990" end_time="00:02:56.530">We want to know the probability of
+                getting heads both times.</s>
+            <s start_time="00:02:56.900" end_time="00:03:01.230">And that happens once out of the
+                four possible outcomes.</s>
+            <s start_time="00:03:01.830" end_time="00:03:09.840">We can see that the probability of
+                getting heads the first time was one-half and the probability of getting heads the
+                second time was one-half.</s>
+        </p>
+        <p>
+            <s start_time="00:03:10.520" end_time="00:03:23.660">What’s happening here is that to
+                find the probability we get heads both times, we take the probability that we got
+                heads the first time and then we multiplied it by the probability that we got heads
+                the second time.</s>
+            <s start_time="00:03:24.150" end_time="00:03:27.770">One-fourth is equal to one-half
+                times one-half.</s>
+            <s start_time="00:03:28.380" end_time="00:03:31.950">We remember that we can also write
+                probability as a decimal.</s>
+            <s start_time="00:03:32.500" end_time="00:03:40.420">So, the probability if we threw a
+                coin twice of getting heads both times is one-fourth, or 0.25.</s>
+        </p>
+        <p>
+            <s start_time="00:03:41.870" end_time="00:03:45.580">Here’s another example of simple
+                compound event probability.</s>
+        </p>
+        <question id="724198105635" media_identifier="358107276187">
+            <publication_date>2020-07-06</publication_date>
+            <question_title>Determining the Probability of Compound Events Involving
+                Spinners</question_title>
+            <question_seo_meta_description>If these two spinners are spun, what is the probability
+                that the sum of the numbers the arrows land on is a multiple of
+                5?</question_seo_meta_description>
+
+            <p>
+                <s start_time="00:03:46.370" end_time="00:03:53.970">If these two spinners are spun,
+                    what is the probability that the sum of the numbers the arrows land on is a
+                    multiple of five?</s>
+            </p>
+            <p>
+                <s start_time="00:03:54.710" end_time="00:04:05.100">To find this probability, we’ll
+                    need to consider spinning the first spinner event one and spinning the second
+                    spinner event two, making this a compound event.</s>
+                <s start_time="00:04:05.510" end_time="00:04:14.940">If we want to know the
+                    probability that the sum of the spinners is a multiple of five, we need the
+                    multiple of five outcomes over the total outcomes.</s>
+                <s start_time="00:04:15.400" end_time="00:04:17.860">There are a few methods we
+                    could use.</s>
+                <s start_time="00:04:18.490" end_time="00:04:23.220">We could create a tree diagram
+                    for spinner one and spinner two.</s>
+                <s start_time="00:04:24.240" end_time="00:04:31.210">However, because we need to sum
+                    the results of spinner one and spinner two, a table is probably a better
+                    choice.</s>
+            </p>
+            <p>
+                <s start_time="00:04:31.630" end_time="00:04:41.610">In the first row and the first
+                    column, we would add if spinner one landed on one and spinner two landed on two,
+                    this sum would be three.</s>
+                <s start_time="00:04:41.940" end_time="00:04:46.510">And then, we’ll consider as
+                    spinner one landed on one and spinner two landed on four.</s>
+                <s start_time="00:04:46.970" end_time="00:04:48.140">This sum would be five.</s>
+                <s start_time="00:04:48.540" end_time="00:04:51.530">We fill in the rest of our
+                    table with the correct sums.</s>
+                <s start_time="00:04:51.790" end_time="00:04:54.850">In the table, we have all
+                    possible outcomes.</s>
+                <s start_time="00:04:55.300" end_time="00:04:59.270">And we can circle the ones that
+                    are multiples of five.</s>
+            </p>
+            <p>
+                <s start_time="00:05:01.530" end_time="00:05:08.490">We’ve identified five of the
+                    results that are multiples of five out of the 21 possibilities.</s>
+                <s start_time="00:05:08.860" end_time="00:05:14.440">The probability that the sum of
+                    the spinners is a multiple of five is five over 21.</s>
+                <s start_time="00:05:14.890" end_time="00:05:20.470">The fraction can’t be reduced
+                    any further, so five over 21 is the final answer.</s>
+            </p>
+        </question>
+        <p>
+            <s start_time="00:05:21.780" end_time="00:05:28.070">Before we move on and look at other
+                examples, we need to look a little bit more closely at compound events.</s>
+            <s start_time="00:05:28.450" end_time="00:05:31.520">There are two types of compound
+                events.</s>
+            <s start_time="00:05:31.850" end_time="00:05:38.990">We have compound events that are
+                independent from one another and compound events that are dependent on one
+                another.</s>
+            <s start_time="00:05:39.680" end_time="00:05:45.580">So far, in our previous examples,
+                we’ve only been considering independent events.</s>
+        </p>
+        <p>
+            <s start_time="00:05:46.160" end_time="00:05:49.430">Tossing a coin multiple times is
+                independent.</s>
+            <s start_time="00:05:50.330" end_time="00:05:56.610">When we flip a coin, what happens
+                the first time does not affect what happens the second time.</s>
+            <s start_time="00:05:57.260" end_time="00:06:05.060">Whether we threw heads or tails on
+                the first throw makes no difference to the probability of what will happen on the
+                second throw.</s>
+            <s start_time="00:06:05.550" end_time="00:06:07.720">The same thing is true for
+                spinners.</s>
+            <s start_time="00:06:08.000" end_time="00:06:15.580">The first spinner — or in fact, the
+                first spin — has no bearing on what the next ones will be.</s>
+        </p>
+        <p>
+            <s start_time="00:06:16.270" end_time="00:06:30.410">On the other hand, if we have a bag
+                full of marbles and we find the probability of removing a yellow ball and we do not
+                replace it, we are changing the number of outcomes for the second event.</s>
+            <s start_time="00:06:30.740" end_time="00:06:39.540">If we were looking for the
+                probability of yellow first and green second, we first find the probability of
+                selecting a yellow ball.</s>
+            <s start_time="00:06:40.080" end_time="00:06:49.260">And then, we need to calculate the
+                probability that we would select a green given that the yellow has already been
+                removed.</s>
+        </p>
+        <p>
+            <s start_time="00:06:50.010" end_time="00:07:01.700">If we have two events A and B, if
+                the fact of A occurring does not affect the probability of B occurring, the events
+                are independent.</s>
+            <s start_time="00:07:02.260" end_time="00:07:11.350">And in that case, we say the
+                probability of A and B occurring is the probability of A times the probability of
+                B.</s>
+            <s start_time="00:07:12.300" end_time="00:07:20.600">The compound events are dependent
+                if the fact of A occurring does affect the probability of B occurring.</s>
+            <s start_time="00:07:21.440" end_time="00:07:31.800">And in that case, the probability
+                of A and B is equal to the probability of A times the probability of B given A.</s>
+        </p>
+        <p>
+            <s start_time="00:07:33.780" end_time="00:07:41.450">Let’s consider how we find the
+                probability of two events happening if we already know that they are independent
+                events.</s>
+        </p>
+        <question media_identifier="792149261438" pause_reason="not_suitable">
+            <publication_date>2020-07-06</publication_date>
+            <question_title>Finding the Probability of Independent Events Occuring
+                Together</question_title>
+            <question_seo_meta_description>A and B are independent events, where 𝑃(A) = 1/3 and
+                𝑃(B) = 2/5. What is the probability that the two events A and B both
+                occur?</question_seo_meta_description>
+
+            <p>
+                <s start_time="00:07:42.180" end_time="00:07:50.750">A and B are independent events,
+                    where the probability of A is one-third and the probability of B is
+                    two-fifths.</s>
+                <s start_time="00:07:51.360" end_time="00:07:55.840">What is the probability that
+                    the two events A and B both occur?</s>
+            </p>
+            <p>
+                <s start_time="00:07:56.560" end_time="00:08:04.790">We know that these are
+                    independent events, which means that event A occurring does not affect the
+                    probability of B.</s>
+                <s start_time="00:08:05.270" end_time="00:08:13.020">And we can say that the
+                    probability of A and B both occurring is the probability of A times the
+                    probability of B.</s>
+                <s start_time="00:08:13.370" end_time="00:08:18.370">The probability of A and B is
+                    equal to one-third times two-fifths.</s>
+                <s start_time="00:08:18.910" end_time="00:08:23.790">We multiply the numerators and
+                    then multiply the denominators to get two fifteenths.</s>
+                <s start_time="00:08:24.120" end_time="00:08:26.200">And we can’t simplify that any
+                    further.</s>
+                <s start_time="00:08:26.230" end_time="00:08:28.050">So, that is the final
+                    answer.</s>
+                <s start_time="00:08:28.200" end_time="00:08:33.400">The probability that the two
+                    events A and B both occur are two fifteenths.</s>
+            </p>
+        </question>
+        <p>
+            <s start_time="00:08:34.490" end_time="00:08:42.280">This question was really
+                straightforward because we were told that the events were independent and we were
+                given both of their probabilities.</s>
+            <s start_time="00:08:42.770" end_time="00:08:44.810">It won’t always be this
+                straightforward.</s>
+            <s start_time="00:08:44.810" end_time="00:08:50.440">And in many cases, we’ll need to
+                determine whether or not the events are, in fact, independent.</s>
+            <s start_time="00:08:51.070" end_time="00:08:56.590">This is one of the times when we’ll
+                have to decide if these events are independent or dependent.</s>
+        </p>
+        <question id="712102842807" media_identifier="460156024398" pause_reason="not_suitable">
+            <publication_date>2020-07-06</publication_date>
+            <question_title>Finding the Probability of Selection without
+                Replacement</question_title>
+            <question_seo_meta_description>A bag contains 8 red balls, 7 green balls, 12 blue balls,
+                15 orange balls, and 7 yellow balls. If two balls are drawn consecutively without
+                replacement, what is the probability that the first ball is red and the second ball
+                is blue?</question_seo_meta_description>
+
+            <p>
+                <s start_time="00:08:57.710" end_time="00:09:05.510">A bag contains eight red balls,
+                    seven green balls, 12 blue balls, 15 orange balls, and seven yellow balls.</s>
+                <s start_time="00:09:06.050" end_time="00:09:14.910">If two balls are drawn
+                    consecutively without replacement, what is the probability that the first ball
+                    is red and the second ball is blue?</s>
+            </p>
+            <p>
+                <s start_time="00:09:15.700" end_time="00:09:23.100">We should notice that we are
+                    considering two different events, which means these are compound events.</s>
+                <s start_time="00:09:23.410" end_time="00:09:27.530">And as we’re drawing balls out
+                    of the bag, we are not replacing them.</s>
+                <s start_time="00:09:28.220" end_time="00:09:35.640">This means the first thing that
+                    happens will affect the probability of the second outcome.</s>
+                <s start_time="00:09:36.180" end_time="00:09:40.880">And that tells us that these
+                    are compound dependent events.</s>
+                <s start_time="00:09:41.280" end_time="00:09:55.790">When we’re looking for the
+                    probability of compound dependent events, it will be equal to the probability of
+                    event A times the probability of event B given that event A does occur.</s>
+            </p>
+            <p>
+                <s start_time="00:09:56.240" end_time="00:10:00.730">In this case, we want the
+                    probability of drawing red and then blue.</s>
+                <s start_time="00:10:01.310" end_time="00:10:07.290">We know probability is equal to
+                    the successful outcomes over all possible outcomes.</s>
+                <s start_time="00:10:07.920" end_time="00:10:13.490">And we first need to find the
+                    probability that we choose red on the first draw.</s>
+                <s start_time="00:10:13.920" end_time="00:10:16.840">When we began, there are eight
+                    red balls.</s>
+                <s start_time="00:10:17.420" end_time="00:10:27.360">At the beginning before we
+                    draw, there are a total of seven plus seven plus eight plus 12 plus 15 balls in
+                    the bag, for a total of 49.</s>
+                <s start_time="00:10:27.730" end_time="00:10:33.090">On the first draw, the
+                    probability of drawing red is equal to eight over 49.</s>
+            </p>
+            <p>
+                <s start_time="00:10:33.600" end_time="00:10:40.080">Now, if we drew a red on the
+                    first draw, there would be 48 remaining balls.</s>
+                <s start_time="00:10:40.490" end_time="00:10:44.320">And out of those 48 balls, 12
+                    of them are blue.</s>
+                <s start_time="00:10:45.390" end_time="00:10:52.450">The probability of drawing red
+                    and then blue would be eight over 49 times 12 over 48.</s>
+                <s start_time="00:10:52.800" end_time="00:10:55.570">We can reduce these fractions
+                    before we multiply.</s>
+                <s start_time="00:10:55.950" end_time="00:10:59.080">12 over 48 simplifies to
+                    one-fourth.</s>
+                <s start_time="00:10:59.750" end_time="00:11:03.510">And eight over four simplifies
+                    to two over one.</s>
+                <s start_time="00:11:04.250" end_time="00:11:14.560">So, the probability of
+                    selecting red and then blue is equal to two over 49, which can’t be simplified
+                    any further.</s>
+                <s start_time="00:11:14.790" end_time="00:11:18.160">So, it’s the final answer, two
+                    forty-ninths.</s>
+            </p>
+        </question>
+        <p>
+            <s start_time="00:11:21.260" end_time="00:11:27.160">We’ll now look at another example
+                where we’re not told if the events are independent or dependent.</s>
+        </p>
+        <question id="476105108043" media_identifier="274189803101" pause_reason="not_suitable">
+            <publication_date>2020-07-06</publication_date>
+            <question_title>Finding the Probability of the Intersection of Independent Events in a
+                Real Context</question_title>
+            <question_seo_meta_description>A meteorite lands at random in a field containing a lot
+                of sheep. Considering the size of the meteorite, the size of the field, and the
+                amount of space taken up by the sheep, the probability that some of the sheep are
+                harmed in the incident is 1/35. Nearby, a panel falls off a helicopter and into a
+                field of cows. The panel is quite large and the field is fairly full of cows. So,
+                the probability of some cows being harmed is 1/3. What is the probability that no
+                animals were injured in the two incidents?</question_seo_meta_description>
+
+            <p>
+                <s start_time="00:11:28.080" end_time="00:11:31.820">A meteorite lands at random in
+                    a field containing a lot of sheep.</s>
+                <s start_time="00:11:32.640" end_time="00:11:43.510">Considering the size of the
+                    meteorite, the size of the field, and the amount of space taken up by the sheep,
+                    the probability that some of the sheep are harmed in the incident is one out of
+                    35.</s>
+                <s start_time="00:11:44.230" end_time="00:11:48.340">Nearby, a panel falls off a
+                    helicopter and into a field of cows.</s>
+                <s start_time="00:11:48.720" end_time="00:11:52.550">The panel is quite large and
+                    the field is fairly full of cows.</s>
+                <s start_time="00:11:53.070" end_time="00:11:56.280">So, the probability of some
+                    cows being harmed is one-third.</s>
+                <s start_time="00:11:56.910" end_time="00:12:01.080">What is the probability that no
+                    animals were injured in the two incidents?</s>
+            </p>
+            <p>
+                <s start_time="00:12:01.570" end_time="00:12:03.620">We’re interested in
+                    probability.</s>
+                <s start_time="00:12:03.940" end_time="00:12:05.630">And there were two
+                    incidents.</s>
+                <s start_time="00:12:06.100" end_time="00:12:09.790">So, we know that the
+                    probability will be dealing with compound events.</s>
+                <s start_time="00:12:10.290" end_time="00:12:18.810">If we consider the two events,
+                    a meteorite strike and a helicopter panel strike, are these two events
+                    independent or dependent?</s>
+                <s start_time="00:12:19.350" end_time="00:12:25.150">Does the fact of the first
+                    event affect the probability of the second event?</s>
+                <s start_time="00:12:26.020" end_time="00:12:31.510">If a sheep is harmed, does that
+                    change the likelihood that a cow will be harmed?</s>
+            </p>
+            <p>
+                <s start_time="00:12:32.040" end_time="00:12:41.430">Since the fact of the first
+                    event does not affect the probability of the second event, we can say that these
+                    compound events are independent.</s>
+                <s start_time="00:12:41.870" end_time="00:12:52.330">Since we’re dealing with
+                    compound independent events, the probability that event A and B both occur is
+                    the probability of A times the probability of B.</s>
+            </p>
+            <p>
+                <s start_time="00:12:52.710" end_time="00:12:57.600">We’re interested in the
+                    probability that the sheep are safe and the cows are safe.</s>
+                <s start_time="00:12:58.100" end_time="00:13:03.760">We have to be careful here
+                    because we were only given the probability that a sheep is injured.</s>
+                <s start_time="00:13:04.210" end_time="00:13:11.790">To find the probability that
+                    the sheep are safe, we can take the probability that the sheep are injured and
+                    subtract it from one.</s>
+                <s start_time="00:13:12.330" end_time="00:13:20.550">If there is a one out of 35
+                    chance that the sheep are injured, there’s a 34 out of 35 chance that they are
+                    safe.</s>
+                <s start_time="00:13:21.370" end_time="00:13:25.770">And so, we can take that
+                    information in and plug it into our formula.</s>
+                <s start_time="00:13:25.950" end_time="00:13:30.110">The probability that the sheep
+                    are safe is 34 out of 35.</s>
+            </p>
+            <p>
+                <s start_time="00:13:30.740" end_time="00:13:33.500">We need to follow the same
+                    process for the cows.</s>
+                <s start_time="00:13:33.950" end_time="00:13:40.150">The probability that the cows
+                    are safe is one minus one-third, which equals two-thirds.</s>
+                <s start_time="00:13:40.370" end_time="00:13:43.040">And we can plug that in for
+                    event B.</s>
+                <s start_time="00:13:43.340" end_time="00:13:52.850">The probability that the sheep
+                    and the cows are all safe will be equal to the probability that the sheep are
+                    safe times the probability that the cows are safe.</s>
+                <s start_time="00:13:53.250" end_time="00:13:59.670">34 over 35 times two-thirds and
+                    then we get 68 over 105.</s>
+                <s start_time="00:14:00.180" end_time="00:14:07.080">The probability that no animals
+                    were injured in the two incidents is 68 out of 105.</s>
+                <s start_time="00:14:07.810" end_time="00:14:11.520">This fraction cannot be
+                    reduced, so it’s in its final form.</s>
+            </p>
+        </question>
+        <p>
+            <s start_time="00:14:15.800" end_time="00:14:17.730">At this point, we should note
+                something.</s>
+            <s start_time="00:14:18.460" end_time="00:14:25.150">Probabilities with compound events
+                are probabilities that are dealing with more than one simple event.</s>
+            <s start_time="00:14:25.670" end_time="00:14:30.130">And that means we can have more
+                than two events we’re considering.</s>
+            <s start_time="00:14:30.530" end_time="00:14:34.710">You could have a coin flipped three
+                times or 15 times.</s>
+            <s start_time="00:14:35.040" end_time="00:14:37.540">This would be an independent
+                event.</s>
+            <s start_time="00:14:38.200" end_time="00:14:45.790">And so, to find the probability of
+                independent events where they’re more than two events, we follow the same
+                procedure.</s>
+            <s start_time="00:14:46.080" end_time="00:14:53.130">We would multiply the probability
+                of event A by the probability of event B by the probability of event C.</s>
+        </p>
+        <p>
+            <s start_time="00:14:53.780" end_time="00:14:58.720">Dependent events would follow the
+                same procedure, but we would need to be a bit more careful.</s>
+            <s start_time="00:14:59.220" end_time="00:15:10.360">To find the probability of three
+                dependent events, A and B and C, we would find the probability of A times the
+                probability of B given A.</s>
+            <s start_time="00:15:10.650" end_time="00:15:16.840">And then, we would have to multiply
+                that by the probability of C given both A and B.</s>
+        </p>
+        <p>
+            <s start_time="00:15:17.750" end_time="00:15:19.440">Let’s summarize what we’ve
+                learned.</s>
+            <s start_time="00:15:20.560" end_time="00:15:25.780">Compound probability is concerned
+                with the probability of more than one event occurring.</s>
+            <s start_time="00:15:26.320" end_time="00:15:29.890">Compound events may be independent
+                or dependent.</s>
+            <s start_time="00:15:30.390" end_time="00:15:39.290">For independent compound events,
+                the probability of A and B is equal to the probability of A times the probability of
+                B.</s>
+            <s start_time="00:15:39.690" end_time="00:15:52.730">To calculate the probability of
+                dependent compound events, we say the probability of A and B is equal to the
+                probability of A times the probability of B given A.</s>
+        </p>
+    </transcript>
+</video>
